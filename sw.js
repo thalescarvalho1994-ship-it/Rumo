@@ -1,5 +1,5 @@
 /* RUMO: guarda o app para abrir sem internet. Dados do Supabase não passam por aqui. */
-const V = 'rumo-v9';
+const V = 'rumo-v10';
 const BASE = ['./', 'index.html', 'shim.js', 'manifest.webmanifest', 'icons/logo.png', 'icons/icon-180.png', 'icons/icon-192.png', 'icons/icon-512.png',
   'content/plano.json', 'content/q_AN.json', 'content/q_COM.json', 'content/q_LEG.json', 'content/q_MAN.json', 'content/q_NAR.json',
   'content/fc_AN.json', 'content/fc_COM.json', 'content/fc_ING.json', 'content/fc_LEG.json', 'content/fc_MAN.json', 'content/fc_NAR.json'];

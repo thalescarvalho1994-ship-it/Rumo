@@ -25,7 +25,7 @@
   --warn:#FFD166;--warn-bg:rgba(255,209,102,.10);--warn-line:rgba(255,209,102,.35);
   --glowB:0 0 0 1px rgba(0,194,255,.35),0 0 18px rgba(0,194,255,.25);
   --glowG:0 0 14px rgba(57,255,136,.45);
-  --MAN:#FF4D5E;--MAN-t:#FF7A86;--NAR:#2EE87A;--NAR-t:#5CF59A;--LEG:#FFD23F;--LEG-t:#FFE07A;--ING:#A3B3C7;--ING-t:#C5D1DF;
+  --MAN:#FF4D5E;--MAN-t:#FF7A86;--NAR:#2EE87A;--NAR-t:#5CF59A;--LEG:#FFD23F;--LEG-t:#FFE07A;--ING:#A3B3C7;--ING-t:#C5D1DF;--REV:#FF5FB0;--REV-t:#FF93C9;
   --AN:#3D8BFF;--AN-t:#8DB8FF;--MET:#19D3E6;--MET-t:#6BE6F2;--COM:#FF8A3D;--COM-t:#FFB27F;--CG:#A26BFF;--CG-t:#C6A6FF;
   --r:16px;--safe-b:env(safe-area-inset-bottom,0px);--safe-t:env(safe-area-inset-top,0px);
   color-scheme:dark;
@@ -35,7 +35,7 @@
   --ink:#071A33;--ink2:#17345C;--muted:#4E6385;--neonB:#0090C8;--neonG:#0F9D58;--action:#006FA8;--action-ink:#FFFFFF;
   --late:#C62839;--late-bg:#FDECEE;--ok:#0F8A4A;--ok-bg:#E6F6EC;--warn:#8A6100;--warn-bg:#FFF6DD;--warn-line:#EBCF84;
   --glowB:0 1px 2px rgba(7,26,51,.08),0 3px 10px rgba(7,26,51,.06);--glowG:none;
-  --MAN-t:#B91C1C;--NAR-t:#15803D;--LEG-t:#854D0E;--ING-t:#4B5563;--AN-t:#1D4ED8;--MET-t:#0E7490;--COM-t:#C2410C;--CG-t:#6D28D9;
+  --MAN-t:#B91C1C;--NAR-t:#15803D;--LEG-t:#854D0E;--ING-t:#4B5563;--REV-t:#BE185D;--AN-t:#1D4ED8;--MET-t:#0E7490;--COM-t:#C2410C;--CG-t:#6D28D9;
   color-scheme:light;
 }
 *{box-sizing:border-box}
@@ -367,7 +367,7 @@ function sessoes(){
     return {...s,ordem:i,dataOrig:addDays(s.data,off),data,semana:semanaDe(addDays(s.data,off)),puxada:ag.puxadas?.[s.id]||null};});
 }
 const titulo=s=>s.tipo==='ingles'?('Inglês · '+(s.termo||'E1')):s.tipo==='bloco'?(unidade(s.unidade)?.titulo||s.unidade):s.titulo;
-const codigoSess=s=>s.tipo==='bloco'?`${s.unidade} · ${s.n}/${s.de}`:s.tipo==='ingles'?`+1 h · inglês e revisão · ${s.ligaUnidade||''}`:s.id;
+const codigoSess=s=>s.tipo==='bloco'?`${s.unidade} · ${s.n}/${s.de}`:s.tipo==='ingles'?`Inglês 30' · ${s.ligaUnidade||''}`:s.tipo==='rev30'?`Revisão 30'`:s.id;
 const stRec=s=>uget('blocos',{}).status?.[s.id];
 const partesFeitas=s=>uget('blocos',{}).partes?.[s.id]||{};
 const parteFeita=(s,k)=>stRec(s)?.s==='concluido'||!!partesFeitas(s)[k];
@@ -385,8 +385,9 @@ function diaDaTarefa(s){ const r=stRec(s); if(r?.s==='concluido') return r.dia||
   const pf=Object.values(partesFeitas(s)).map(x=>x.dia).filter(Boolean).sort(); if(pf.length){const u=pf[pf.length-1];return u<todayISO()?todayISO():u;}
   const d0=s.puxada||s.data; return d0<todayISO()?todayISO():d0; }
 function tarefasDoDia(dia,all){ const l=all.filter(s=>diaDaTarefa(s)===dia&&statusOf(s)!=='atrasado'); const out=[];
-  l.filter(s=>s.tipo!=='ingles').forEach(s=>{out.push(s); l.filter(e=>e.tipo==='ingles'&&e.liga===s.id).forEach(e=>out.push(e));});
-  l.filter(e=>e.tipo==='ingles'&&!out.includes(e)).forEach(e=>out.push(e)); return out; }
+  const anexo=x=>x.tipo==='ingles'||x.tipo==='rev30';
+  l.filter(s=>!anexo(s)).forEach(s=>{out.push(s); ['ingles','rev30'].forEach(tp=>l.filter(e=>e.tipo===tp&&e.liga===s.id).forEach(e=>out.push(e)));});
+  l.filter(e=>anexo(e)&&!out.includes(e)).forEach(e=>out.push(e)); return out; }
 const feitoH=s=>{if(done(s))return s.horas;if(!s.partes)return 0;const tot=s.partes.reduce((a,p)=>a+p.min,0)||1;return s.horas*s.partes.filter(p=>partesFeitas(s)[p.k]).reduce((a,p)=>a+p.min,0)/tot;};
 const horas=xs=>({total:xs.reduce((a,s)=>a+s.horas,0),feito:xs.reduce((a,s)=>a+feitoH(s),0)});
 function proximaParaAdiantar(dia,all){
@@ -427,7 +428,7 @@ function revisoesHoje(){
   const hoje=todayISO(), lib=unidadesLiberadas();
   const novosHoje=logs('revisoes-').filter(r=>r.dia===hoje&&r.rep===0&&r.nota!==1).length;
   const lim=Math.max(0,(settings().novosDia||20)-novosHoje);
-  const prio=new Set(((sessoes().find(s=>s.tipo==='ingles'&&s.data===hoje)||{}).rev30||'').match(/[A-Z]{2,3}-\d{2}/g)||[]);
+  const prio=new Set(((sessoes().find(s=>s.tipo==='rev30'&&s.data===hoje)||{}).rev30||'').match(/[A-Z]{2,3}-\d{2}/g)||[]);
   const due=[],novos=[];let bloqueados=0;
   for(const c of allCards()){ if(ui.fcDeck!=='todos'&&c.disc!==ui.fcDeck) continue; const s=srsOf(c);
     if(!s){ if(cartaoLiberado(c,lib)) novos.push(c); else bloqueados++; } else if(s.venc<=hoje) due.push(c); }
@@ -504,14 +505,14 @@ function taskCard(s){
   const st=statusOf(s);
   if(s.partes&&s.partes.length){
     const nf=s.partes.filter(p=>parteFeita(s,p.k)).length;
-    return `<div class="card task tparts ${s.tipo==='ingles'?'sub':''} ${st==='atrasado'||st==='vencida'?'isLate':''} ${st==='concluido'?'isDone':''}"><div class="bar" style="background:var(--${s.disc})"></div><div style="flex:1;min-width:0">
+    return `<div class="card task tparts ${st==='atrasado'||st==='vencida'?'isLate':''} ${st==='concluido'?'isDone':''}"><div class="bar" style="background:var(--${s.disc})"></div><div style="flex:1;min-width:0">
      <button class="body" data-act="open" data-id="${esc(s.id)}"><span class="code mono" style="color:var(--${s.disc}-t)">${esc(codigoSess(s))}</span>
      <span class="title">${esc(titulo(s))}</span>
      <span class="meta">${ic('clock','style="width:14px;height:14px"')} ${hfmt(s.horas)} · ${nf}/${s.partes.length} partes ${pill(st,s)} ${st==='atrasado'?`<span>era da semana de ${ddmm(weekStart(s.data))}</span>`:''}</span></button>
      ${s.partes.map((p,i)=>{const f=parteFeita(s,p.k);return `<div class="prow ${f?'pdone':''}"><div class="ptxt"><b>${i+1}. ${esc(p.t)}</b>${p.ref?`<span>${esc(p.ref)}</span>`:''}<span class="pmin">${esc(p.nota||(p.min+' min'))}</span></div>
        <button class="check" role="checkbox" aria-checked="${f}" aria-label="Concluir parte ${i+1}" data-act="tpart" data-id="${esc(s.id)}" data-p="${esc(p.k)}"><span>${f?ic('check'):''}</span></button></div>`;}).join('')}</div></div>`;
   }
-  return `<div class="card task ${s.tipo==='ingles'?'sub':''} ${st==='atrasado'||st==='vencida'?'isLate':''} ${st==='concluido'?'isDone':''}"><div class="bar" style="background:var(--${s.disc})"></div>
+  return `<div class="card task ${st==='atrasado'||st==='vencida'?'isLate':''} ${st==='concluido'?'isDone':''}"><div class="bar" style="background:var(--${s.disc})"></div>
    <button class="body" data-act="open" data-id="${esc(s.id)}"><span class="code mono" style="color:var(--${s.disc}-t)">${esc(codigoSess(s))}</span>
    <span class="title">${esc(titulo(s))}</span>
    <span class="meta">${ic('clock','style="width:14px;height:14px"')} ${hfmt(s.horas)} ${pill(st,s)} ${st==='atrasado'?`<span>era da semana de ${ddmm(weekStart(s.data))}</span>`:''}</span></button>
@@ -525,11 +526,12 @@ function semanaPorDia(lista){
   const mark=s=>done(s)?ic('circle-check','style="width:17px;height:17px;color:var(--ok);flex:none"'):['atrasado','vencida'].includes(statusOf(s))?ic('circle-alert','style="width:17px;height:17px;color:var(--late);flex:none"'):'';
   const dias=[...new Set(lista.map(s=>s.data))].sort();
   return dias.map(d=>{
-    const doDia=lista.filter(s=>s.data===d), principais=doDia.filter(s=>s.tipo!=='ingles'), en=doDia.filter(s=>s.tipo==='ingles');
+    const doDia=lista.filter(s=>s.data===d), principais=doDia.filter(s=>s.tipo!=='ingles'&&s.tipo!=='rev30'), en=doDia.filter(s=>s.tipo==='ingles'||s.tipo==='rev30');
     const fer=C.plano?.meta?.feriados?.[addDays(d,-offset())];
     const linhaP=s=>`<button class="wline" data-act="open" data-id="${esc(s.id)}"><span class="dot" style="background:var(--${s.disc})"></span><span class="c"><b class="mono" style="font-size:12px;color:var(--${s.disc}-t)">${esc(s.tipo==='bloco'?s.unidade+' '+s.n+'/'+s.de:discNome(s.disc))}</b> ${esc(titulo(s))}</span>${mark(s)}</button>`;
     const linhaE=e=>{const voc=(e.vocab||[]).slice(0,3).map(v=>v.en).join(', ');
-      return `<button class="wline en" data-act="open" data-id="${esc(e.id)}"><span class="c">+ <b>Inglês de ${esc(discNome(e.ligaDisc||'ING'))}</b>: ${esc(e.termo)}${voc?` · <i>${esc(voc)}</i>`:''}<br>+ Revisão 30'${e.rev30&&/[A-Z]{2,3}-\d{2}/.test(e.rev30)?': '+esc((e.rev30.match(/de (.+)\.$/)||[,''])[1]):''}</span>${mark(e)}</button>`;};
+      if(e.tipo==='rev30') return `<button class="wline en" data-act="open" data-id="${esc(e.id)}"><span class="dot" style="background:var(--REV);margin-top:4px"></span><span class="c"><b>Revisão 30'</b>: ${esc((e.revUnidades||[]).join(' e ')||'—')}</span>${mark(e)}</button>`;
+      return `<button class="wline en" data-act="open" data-id="${esc(e.id)}"><span class="dot" style="background:var(--ING);margin-top:4px"></span><span class="c"><b>Inglês 30'</b>: ${esc(e.termo)}${voc?` · <i>${esc(voc)}</i>`:''}</span>${mark(e)}</button>`;};
     const corpo=principais.map(s=>linhaP(s)+en.filter(e=>e.liga===s.id).map(linhaE).join('')).join('')+en.filter(e=>!principais.some(s=>s.id===e.liga)).map(linhaE).join('');
     return `<div class="wday"><div class="dh">${dn[dow(d)]} ${ddmm(d)}${fer?`<span class="fer">⚑ ${esc(fer)}</span>`:''}</div>${corpo}</div>`;}).join('');
 }
@@ -732,7 +734,7 @@ function sheetSess(id){
   const n=uget('blocos',{}).notas?.[id]||{},u=s.unidade?unidade(s.unidade):null,st=statusOf(s),isB=s.tipo==='bloco';
   const qs=u?allQ().filter(q=>q.unidade===u.codigo):[],fcs=u?allCards().filter(c=>c.unidade===u.codigo):[];
   const ab=uget('aberturas',{}).itens?.[id], gen=ui.gen[id];
-  const revCodes=(s.rev30||'').match(/[A-Z]{2,3}-\d{2}/g)||[];
+  const revCodes=s.revUnidades||(s.rev30||'').match(/[A-Z]{2,3}-\d{2}/g)||[];
   const revAb=revCodes.map(cod=>{const ss=sessoes().filter(x=>x.unidade===cod&&uget('aberturas',{}).itens?.[x.id]);return ss.length?ss[ss.length-1]:null;}).filter(Boolean);
   ui.notaCode=id;
   openSheet(`<span class="mono" style="font-size:13px;font-weight:600;color:var(--${s.disc}-t)">${esc(codigoSess(s))} · ${esc(discNome(s.disc))}</span>
@@ -742,7 +744,8 @@ function sheetSess(id){
    ${s.tipo==='ingles'?`${s.liga?`<p style="font-size:13px;color:var(--muted);margin:10px 0 0">Ligado a <button class="linkbtn" data-act="open" data-id="${esc(s.liga)}">${esc(s.liga.replace('.',' sessão '))}</button> — a matéria do dia.</p>`:''}
    <h4>Inglês 30' · termo do dia</h4>${engBloco(s)}<ul><li>${esc(s.ref)}</li></ul>
    ${(s.vocab||[]).length?`<h4>Inglês de ${esc(discNome(s.ligaDisc))} (aparece no texto de hoje)</h4>${vocabHTML(s.vocab)}`:''}
-   <h4>Revisão 30'</h4><ul><li>${esc(s.rev30||'')}</li></ul>${revAb.length?`<div class="btns" style="margin-top:8px">${revAb.map(x=>`<button class="btn" data-act="open" data-id="${esc(x.id)}">${ic('file-text')}Abertura de ${esc(codigoSess(x))}</button>`).join('')}</div>`:(revCodes.length?'<p style="font-size:12.5px;color:var(--muted)">As perguntas de abertura aparecem aqui depois que você gerá-las nas sessões.</p>':'')}`:''}
+   `:''}
+   ${s.tipo==='rev30'?`<h4>O que fazer</h4><ul><li>${esc(s.rev30||'')}</li></ul><div class="btns" style="margin-top:8px"><button class="btn" data-act="gotab" data-v="flash">${ic('layers')}Cartões para hoje</button></div>${revAb.length?`<div class="btns" style="margin-top:8px">${revAb.map(x=>`<button class="btn" data-act="open" data-id="${esc(x.id)}">${ic('file-text')}Abertura de ${esc(codigoSess(x))}</button>`).join('')}</div>`:(revCodes.length?'<p style="font-size:12.5px;color:var(--muted)">As perguntas de abertura aparecem aqui depois que você gerá-las nas sessões.</p>':'')}`:''}
    ${s.partes?`<h4>Partes</h4><div class="card" style="padding:0;overflow:hidden">${s.partes.map((p,i)=>{const f=parteFeita(s,p.k);return `<div class="prow ${f?'pdone':''}" style="${i?'':'border-top:0'}"><div class="ptxt"><b>${i+1}. ${esc(p.t)}</b>${p.ref?`<span>${esc(p.ref)}</span>`:''}<span class="pmin">${esc(p.nota||(p.min+' min'))}</span></div><button class="check" role="checkbox" aria-checked="${f}" data-act="tpart" data-id="${esc(id)}" data-p="${esc(p.k)}"><span>${f?ic('check'):''}</span></button></div>`;}).join('')}</div>`:''}
    ${isB?`<h4>Leitura desta sessão</h4><ul><li>${esc(s.ref)}</li></ul><h4>Foco</h4><ul><li>${esc(u.foco)}</li></ul>
    ${(s.vocab||[]).length?`<h4>Inglês desta matéria</h4>${vocabHTML(s.vocab)}`:''}
