@@ -375,16 +375,17 @@ const parteFeita=(s,k)=>stRec(s)?.s==='concluido'||!!partesFeitas(s)[k];
 function statusOf(s){
   const st=stRec(s)?.s;
   if(st==='concluido') return 'concluido';
-  if(s.partes&&s.partes.some(p=>partesFeitas(s)[p.k])) return 'andamento';
+  if(s.partes&&s.partes.some(p=>partesFeitas(s)[p.k])) return (s.puxada||s.data)<todayISO()?'vencida':'andamento';
   if(st==='andamento') return 'andamento';
-  if(addDays(weekStart(s.data),6)<todayISO()) return 'atrasado';   // só atrasa quando a semana fecha
+  if(addDays(weekStart(s.data),6)<todayISO()) return 'atrasado';   // semana fechada
+  if((s.puxada||s.data)<todayISO()) return 'vencida';               // dia passou sem fazer: vem para hoje com selo
   return 'pendente';
 }
 const done=s=>statusOf(s)==='concluido';
 function diaDaTarefa(s){ const r=stRec(s); if(r?.s==='concluido') return r.dia||r.em.slice(0,10);
-  const pf=Object.values(partesFeitas(s)).map(x=>x.dia).filter(Boolean).sort(); if(pf.length) return pf[pf.length-1];
-  if(s.puxada) return s.puxada<todayISO()?todayISO():s.puxada; return s.data; }
-function tarefasDoDia(dia,all){ const l=all.filter(s=>diaDaTarefa(s)===dia); const out=[];
+  const pf=Object.values(partesFeitas(s)).map(x=>x.dia).filter(Boolean).sort(); if(pf.length){const u=pf[pf.length-1];return u<todayISO()?todayISO():u;}
+  const d0=s.puxada||s.data; return d0<todayISO()?todayISO():d0; }
+function tarefasDoDia(dia,all){ const l=all.filter(s=>diaDaTarefa(s)===dia&&statusOf(s)!=='atrasado'); const out=[];
   l.filter(s=>s.tipo!=='ingles').forEach(s=>{out.push(s); l.filter(e=>e.tipo==='ingles'&&e.liga===s.id).forEach(e=>out.push(e));});
   l.filter(e=>e.tipo==='ingles'&&!out.includes(e)).forEach(e=>out.push(e)); return out; }
 const feitoH=s=>{if(done(s))return s.horas;if(!s.partes)return 0;const tot=s.partes.reduce((a,p)=>a+p.min,0)||1;return s.horas*s.partes.filter(p=>partesFeitas(s)[p.k]).reduce((a,p)=>a+p.min,0)/tot;};
@@ -498,20 +499,20 @@ function lembraBarcos(){document.querySelectorAll('.river').forEach(r=>{const b=
 function pill(st,s){
   const adi=s&&s.puxada&&!done(s)?'<span class="pill adi">adiantada</span>':(s&&done(s)&&diaDaTarefa(s)<s.data?'<span class="pill adi">adiantada</span>':'');
   const miss=s&&s.unidade&&unidade(s.unidade)?.material==='falta'?'<span class="pill miss">✖ material</span>':'';
-  return ({concluido:'<span class="pill done">Concluída</span>',andamento:'<span class="pill estudo">Estudando</span>',atrasado:'<span class="pill late">Atrasada</span>',pendente:'<span class="pill">Pendente</span>'}[st])+adi+miss;
+  return ({concluido:'<span class="pill done">Concluída</span>',andamento:'<span class="pill estudo">Estudando</span>',atrasado:'<span class="pill late">Atrasada</span>',vencida:`<span class="pill late">Atrasada · era de ${s?ddmm(s.puxada||s.data):''}</span>`,pendente:'<span class="pill">Pendente</span>'}[st])+adi+miss;
 }
 function taskCard(s){
   const st=statusOf(s);
   if(s.partes&&s.partes.length){
     const nf=s.partes.filter(p=>parteFeita(s,p.k)).length;
-    return `<div class="card task tparts ${s.tipo==='ingles'?'sub':''} ${st==='atrasado'?'isLate':''} ${st==='concluido'?'isDone':''}"><div class="bar" style="background:var(--${s.disc})"></div><div style="flex:1;min-width:0">
+    return `<div class="card task tparts ${s.tipo==='ingles'?'sub':''} ${st==='atrasado'||st==='vencida'?'isLate':''} ${st==='concluido'?'isDone':''}"><div class="bar" style="background:var(--${s.disc})"></div><div style="flex:1;min-width:0">
      <button class="body" data-act="open" data-id="${esc(s.id)}"><span class="code mono" style="color:var(--${s.disc}-t)">${esc(codigoSess(s))}</span>
      <span class="title">${esc(titulo(s))}</span>
      <span class="meta">${ic('clock','style="width:14px;height:14px"')} ${hfmt(s.horas)} · ${nf}/${s.partes.length} partes ${pill(st,s)} ${st==='atrasado'?`<span>era da semana de ${ddmm(weekStart(s.data))}</span>`:''}</span></button>
      ${s.partes.map((p,i)=>{const f=parteFeita(s,p.k);return `<div class="prow ${f?'pdone':''}"><div class="ptxt"><b>${i+1}. ${esc(p.t)}</b>${p.ref?`<span>${esc(p.ref)}</span>`:''}<span class="pmin">${esc(p.nota||(p.min+' min'))}</span></div>
        <button class="check" role="checkbox" aria-checked="${f}" aria-label="Concluir parte ${i+1}" data-act="tpart" data-id="${esc(s.id)}" data-p="${esc(p.k)}"><span>${f?ic('check'):''}</span></button></div>`;}).join('')}</div></div>`;
   }
-  return `<div class="card task ${s.tipo==='ingles'?'sub':''} ${st==='atrasado'?'isLate':''} ${st==='concluido'?'isDone':''}"><div class="bar" style="background:var(--${s.disc})"></div>
+  return `<div class="card task ${s.tipo==='ingles'?'sub':''} ${st==='atrasado'||st==='vencida'?'isLate':''} ${st==='concluido'?'isDone':''}"><div class="bar" style="background:var(--${s.disc})"></div>
    <button class="body" data-act="open" data-id="${esc(s.id)}"><span class="code mono" style="color:var(--${s.disc}-t)">${esc(codigoSess(s))}</span>
    <span class="title">${esc(titulo(s))}</span>
    <span class="meta">${ic('clock','style="width:14px;height:14px"')} ${hfmt(s.horas)} ${pill(st,s)} ${st==='atrasado'?`<span>era da semana de ${ddmm(weekStart(s.data))}</span>`:''}</span></button>
@@ -522,7 +523,7 @@ function taskCard(s){
 /* semana organizada por dia: matéria do dia + inglês ligado a ela + revisão */
 function semanaPorDia(lista){
   const dn=['Domingo','Segunda','Terça','Quarta','Quinta','Sexta','Sábado'];
-  const mark=s=>done(s)?ic('circle-check','style="width:17px;height:17px;color:var(--ok);flex:none"'):statusOf(s)==='atrasado'?ic('circle-alert','style="width:17px;height:17px;color:var(--late);flex:none"'):'';
+  const mark=s=>done(s)?ic('circle-check','style="width:17px;height:17px;color:var(--ok);flex:none"'):['atrasado','vencida'].includes(statusOf(s))?ic('circle-alert','style="width:17px;height:17px;color:var(--late);flex:none"'):'';
   const dias=[...new Set(lista.map(s=>s.data))].sort();
   return dias.map(d=>{
     const doDia=lista.filter(s=>s.data===d), principais=doDia.filter(s=>s.tipo!=='ingles'), en=doDia.filter(s=>s.tipo==='ingles');
@@ -597,7 +598,7 @@ function viewAssuntos(){
      <span class="n"><b>${esc(discNome(d))}</b><span>${ss.length?`${ss.filter(done).length}/${ss.length} sessões no mês 1 · ${pct}%`:'Nada no mês 1'}</span><span class="prog"><i style="width:${pct}%;background:var(--${d})"></i></span></span>${ic('chevron-right','class="chev"')}</button>`;
     if(open){ for(const u of us){ const su=shown.filter(s=>s.unidade===u.codigo); if(!su.length) continue; const ud=ss.filter(s=>s.unidade===u.codigo);
         h+=`<div class="mod"><button class="dhead" data-act="unit" data-v="${u.codigo}" style="padding-left:22px"><span class="n"><b class="mono" style="font-size:13px">${u.codigo} · ${esc(u.titulo)}</b><span>Nível ${u.nivel} · ${u.idioma} · ${ud.filter(done).length}/${ud.length} · material: ${{ok:'no projeto',arq:'com você',falta:'✖ falta'}[u.material]}</span></span>${ic('info','style="width:18px;height:18px;color:var(--muted)"')}</button>
-        ${su.map(s=>`<button class="blk" data-act="open" data-id="${s.id}"><span class="code mono" style="color:var(--${d}-t)">${s.n}/${s.de} · ${ddmm(s.data)}</span><span class="t">${esc(s.ref)}</span>${done(s)?ic('circle-check','style="width:18px;height:18px;color:var(--ok)"'):statusOf(s)==='atrasado'?ic('circle-alert','style="width:18px;height:18px;color:var(--late)"'):''}</button>`).join('')}</div>`; }
+        ${su.map(s=>`<button class="blk" data-act="open" data-id="${s.id}"><span class="code mono" style="color:var(--${d}-t)">${s.n}/${s.de} · ${ddmm(s.data)}</span><span class="t">${esc(s.ref)}</span>${done(s)?ic('circle-check','style="width:18px;height:18px;color:var(--ok)"'):['atrasado','vencida'].includes(statusOf(s))?ic('circle-alert','style="width:18px;height:18px;color:var(--late)"'):''}</button>`).join('')}</div>`; }
       if(!shown.length) h+=`<div class="empty-state" style="padding:14px">Nenhuma sessão desta disciplina no mês 1.</div>`; }
     h+='</section>'; }
   return h;
