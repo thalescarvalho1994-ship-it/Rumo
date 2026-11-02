@@ -366,8 +366,8 @@ function sessoes(){
     const data=hist.length?hist[hist.length-1].para:addDays(s.data,off);
     return {...s,ordem:i,dataOrig:addDays(s.data,off),data,semana:semanaDe(addDays(s.data,off)),puxada:ag.puxadas?.[s.id]||null};});
 }
-const titulo=s=>s.tipo==='ingles'?('Inglês · '+(s.termo||'E1')):s.tipo==='bloco'?(unidade(s.unidade)?.titulo||s.unidade):s.titulo;
-const codigoSess=s=>s.tipo==='bloco'?`${s.unidade} · ${s.n}/${s.de}`:s.tipo==='ingles'?`Inglês 30' · ${s.ligaUnidade||''}`:s.tipo==='rev30'?`Revisão 30'`:s.id;
+const titulo=s=>s.tipo==='ingles'?(s.aula?(s.aula.cod.startsWith('G1 ◆')?'Inglês · '+s.aula.tema:`Inglês · ${s.aula.cod} ${s.aula.tema}`):'Inglês · '+(s.termo||'E1')):s.tipo==='bloco'?(unidade(s.unidade)?.titulo||s.unidade):s.titulo;
+const codigoSess=s=>s.tipo==='bloco'?`${s.unidade} · ${s.n}/${s.de}`:s.tipo==='ingles'?`Inglês 30' · ${s.e1&&s.e1.en?s.e1.en+' · ':''}${s.ligaUnidade||''}`:s.tipo==='rev30'?`Revisão 30'`:s.id;
 const stRec=s=>uget('blocos',{}).status?.[s.id];
 const partesFeitas=s=>uget('blocos',{}).partes?.[s.id]||{};
 const parteFeita=(s,k)=>stRec(s)?.s==='concluido'||!!partesFeitas(s)[k];
@@ -531,7 +531,7 @@ function semanaPorDia(lista){
     const linhaP=s=>`<button class="wline" data-act="open" data-id="${esc(s.id)}"><span class="dot" style="background:var(--${s.disc})"></span><span class="c"><b class="mono" style="font-size:12px;color:var(--${s.disc}-t)">${esc(s.tipo==='bloco'?s.unidade+' '+s.n+'/'+s.de:discNome(s.disc))}</b> ${esc(titulo(s))}</span>${mark(s)}</button>`;
     const linhaE=e=>{const voc=(e.vocab||[]).slice(0,3).map(v=>v.en).join(', ');
       if(e.tipo==='rev30') return `<button class="wline en" data-act="open" data-id="${esc(e.id)}"><span class="dot" style="background:var(--REV);margin-top:4px"></span><span class="c"><b>Revisão 30'</b>: ${esc((e.revUnidades||[]).join(' e ')||'—')}</span>${mark(e)}</button>`;
-      return `<button class="wline en" data-act="open" data-id="${esc(e.id)}"><span class="dot" style="background:var(--ING);margin-top:4px"></span><span class="c"><b>Inglês 30'</b>: ${esc(e.termo)}${voc?` · <i>${esc(voc)}</i>`:''}</span>${mark(e)}</button>`;};
+      return `<button class="wline en" data-act="open" data-id="${esc(e.id)}"><span class="dot" style="background:var(--ING);margin-top:4px"></span><span class="c"><b>Inglês 30'</b>: ${esc(e.aula?(e.aula.cod.startsWith('G1 ◆')?e.aula.tema:e.aula.cod+' '+e.aula.tema):e.termo)}${e.e1&&e.e1.en?` · ${esc(e.e1.en)}`:''}${voc?` · <i>${esc(voc)}</i>`:''}</span>${mark(e)}</button>`;};
     const corpo=principais.map(s=>linhaP(s)+en.filter(e=>e.liga===s.id).map(linhaE).join('')).join('')+en.filter(e=>!principais.some(s=>s.id===e.liga)).map(linhaE).join('');
     return `<div class="wday"><div class="dh">${dn[dow(d)]} ${ddmm(d)}${fer?`<span class="fer">⚑ ${esc(fer)}</span>`:''}</div>${corpo}</div>`;}).join('');
 }
@@ -742,7 +742,9 @@ function sheetSess(id){
    <div class="btns" style="margin-top:12px">${st!=='concluido'?`<button class="btn go block" data-act="estudar" data-id="${esc(id)}">${ic('play')}Estudar agora</button>`:''}${s.puxada?`<button class="btn" data-act="devolver" data-id="${esc(id)}">${ic('undo-2')}Devolver ao dia sugerido</button>`:(st!=='concluido'&&s.data!==todayISO()?`<button class="btn" data-act="puxar" data-id="${esc(id)}">${ic('fast-forward')}Fazer hoje</button>`:'')}</div>
    ${u&&u.material==='falta'?`<div class="note" style="margin-top:12px">✖ <b>Falta o material desta sessão.</b> ${esc(s.ref)}. Sem ele, use as questões e os cartões já cadastrados da unidade.</div>`:''}
    ${s.tipo==='ingles'?`${s.liga?`<p style="font-size:13px;color:var(--muted);margin:10px 0 0">Ligado a <button class="linkbtn" data-act="open" data-id="${esc(s.liga)}">${esc(s.liga.replace('.',' sessão '))}</button> — a matéria do dia.</p>`:''}
-   <h4>Inglês 30' · termo do dia</h4>${engBloco(s)}<ul><li>${esc(s.ref)}</li></ul>
+   ${s.objetivo?`<h4>Objetivo da aula</h4><ul><li>${esc(s.objetivo)}</li></ul><h4>Roteiro (30 min)</h4><ul>${(s.roteiro||[]).map(r=>`<li>${esc(r)}</li>`).join('')}</ul>`:`<h4>O que fazer</h4><ul><li>${esc(s.ref)}</li></ul>`}
+   <div class="btns" style="margin-top:8px"><button class="btn pri" data-act="copiarAula" data-id="${esc(id)}">${ic('copy')}Copiar pedido da aula para o Claude</button></div>
+   ${s.e1&&(s.e1.en||s.e1.revisao)?`<h4>Termo do dia (E1)</h4>${engBloco(s)}${s.objetivo?`<ul><li>${esc(s.ref)}</li></ul>`:''}`:''}
    ${(s.vocab||[]).length?`<h4>Inglês de ${esc(discNome(s.ligaDisc))} (aparece no texto de hoje)</h4>${vocabHTML(s.vocab)}`:''}
    `:''}
    ${s.tipo==='rev30'?`<h4>O que fazer</h4><ul><li>${esc(s.rev30||'')}</li></ul><div class="btns" style="margin-top:8px"><button class="btn" data-act="gotab" data-v="flash">${ic('layers')}Cartões para hoje</button></div>${revAb.length?`<div class="btns" style="margin-top:8px">${revAb.map(x=>`<button class="btn" data-act="open" data-id="${esc(x.id)}">${ic('file-text')}Abertura de ${esc(codigoSess(x))}</button>`).join('')}</div>`:(revCodes.length?'<p style="font-size:12.5px;color:var(--muted)">As perguntas de abertura aparecem aqui depois que você gerá-las nas sessões.</p>':'')}`:''}
@@ -763,6 +765,22 @@ function sheetSess(id){
    <h4>Dúvidas e dificuldades</h4><textarea id="duv" rows="2" placeholder="O que ficou difícil">${esc(n.duvidas)}</textarea>
    <div class="btns" style="margin-top:14px"><button class="btn pri block" data-act="toggle" data-id="${esc(id)}" data-close="1">${st==='concluido'?'Reabrir':'Marcar concluída'}</button></div>`);
 }
+function promptAula(id){
+  const s=sessoes().find(x=>x.id===id),liga=s.liga?sessoes().find(x=>x.id===s.liga):null,u=liga?unidade(liga.unidade):null;
+  const voc=(s.vocab||[]).map(v=>`- ${v.en} = ${v.pt} [${v.fonte}]`).join('\n');
+  if(!s.objetivo) return `Plano de inglês PSCPP 2027 (meu nível: A2). Hoje é dia de ${s.aula?.tema||s.termo}. ${s.ref}
+Monte a atividade de 30 min seguindo o plano anual de inglês do projeto. Explique em português primeiro. Gabarito no fim.`;
+  return `Aula de inglês ${s.aula.cod} do meu plano anual (PSCPP 2027, nível atual A2). Responda em português do Brasil, explicando primeiro em português.
+Tema de gramática: ${s.aula.tema}.
+Termo E1 do dia: ${s.e1?.en||'—'} = ${s.e1?.pt||''}${s.e1?.exemplo&&s.e1.exemplo!=='—'?` (frase do material: "${s.e1.exemplo}" — ${s.e1.fonte})`:''}.
+Matéria do dia: ${u?u.codigo+' — '+u.titulo:'—'}${liga?' ('+liga.ref+')':''}.
+Vocabulário em inglês da matéria (conferido no material):
+${voc||'(sem termos no app — use termos ligados ao tema da matéria)'}
+Monte a aula de 30 min neste formato:
+1. 10 min de gramática: explicação curta em português, exemplos náuticos e 5 a 8 exercícios.
+2. 10 min de vocabulário: o termo E1 e os termos acima, com tradução, pronúncia aproximada e uma frase.
+3. 10 min de aplicação: texto de 60 a 100 palavras sobre a matéria do dia, usando a gramática da aula, com 3 perguntas e um pedido de 1 frase minha.
+Gabarito no fim. Não invente dado técnico fora do material; se usar conhecimento geral, marque "(conferir)".`;}
 function promptAbertura(id){
   const s=sessoes().find(x=>x.id===id),u=unidade(s.unidade);
   const fcs=allCards().filter(c=>c.unidade===u.codigo).slice(0,25).map(c=>`- ${c.frente}: ${c.verso} [${c.fonte}]`).join('\n');
@@ -872,6 +890,7 @@ document.addEventListener('click',async e=>{
    case 'open': sheetSess(id); break;
    case 'unit': sheetUnit(v); break;
    case 'gerar': if(sample) gerarAbertura(id); break;
+   case 'copiarAula': {const p=promptAula(id);try{await navigator.clipboard.writeText(p);toast('Pedido copiado — cole no Claude');}catch(err){const ta=document.createElement('textarea');ta.value=p;document.body.appendChild(ta);ta.select();try{document.execCommand('copy');toast('Pedido copiado — cole no Claude');}catch(e2){toast('Não consegui copiar');}ta.remove();}break;}
    case 'copiarPrompt': {const p=promptAbertura(id);try{await navigator.clipboard.writeText(p);toast('Pedido copiado — cole no Claude');}catch(err){const ta=document.createElement('textarea');ta.value=p;document.body.appendChild(ta);ta.select();try{document.execCommand('copy');toast('Pedido copiado — cole no Claude');}catch(e2){toast('Não consegui copiar');}ta.remove();}break;}
    case 'salvarAb': {const t=($('#abCola')?.value||'').trim();if(!t){toast('Cole a resposta primeiro');break;}await usave('aberturas',{itens:{[id]:{texto:t,em:new Date().toISOString()}}});toast('Abertura salva');sheetSess(id);break;}
    case 'importar': $('#impFile')?.click(); break;
