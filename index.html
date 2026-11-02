@@ -50,8 +50,9 @@ button:disabled{opacity:.45;cursor:default}
 #scroller{flex:1;overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;-webkit-overflow-scrolling:touch}
 main{padding:10px 16px 24px;max-width:760px;margin:0 auto;width:100%}
 .rail{display:none}
-html.gapb{--safe-b:0px}html.gapb,html.gapb body{background:var(--card)}
-nav.tabs{flex:none;background:color-mix(in srgb,var(--card) 92%,transparent);backdrop-filter:blur(10px);border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(5,1fr);padding:4px 4px max(6px,var(--safe-b))}
+html.gapb{--safe-b:0px}
+#scroller{padding-bottom:var(--safe-b)}
+nav.tabs{display:none!important;flex:none;background:color-mix(in srgb,var(--card) 92%,transparent);backdrop-filter:blur(10px);border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(5,1fr);padding:4px 4px max(6px,var(--safe-b))}
 nav.tabs button{background:none;border:0;display:flex;flex-direction:column;align-items:center;gap:3px;font-size:11px;font-weight:600;color:var(--muted);min-height:52px;justify-content:center;border-radius:12px}
 nav.tabs button svg{width:23px;height:23px}
 nav.tabs button[aria-current="page"]{color:var(--neonB)}
@@ -74,6 +75,14 @@ header.top .sub{font-size:13px;color:var(--muted)}
 .logo{height:40px;width:auto;display:block;margin-bottom:4px}
 @media (min-width:900px){.logo{display:none}}
 .hbtns{display:flex;gap:8px;flex:none}
+header.top{position:relative}
+.menubtn{border-color:var(--neonB);color:var(--neonB)}
+.menupop{position:absolute;right:16px;z-index:30;margin-top:-6px;min-width:210px;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:6px;box-shadow:0 14px 40px rgba(0,0,0,.45);display:flex;flex-direction:column;gap:2px}
+.menupop button{display:flex;align-items:center;gap:12px;padding:12px 14px;border:0;border-radius:11px;background:none;color:var(--ink);font:inherit;font-size:15px;font-weight:600;text-align:left}
+.menupop button svg{width:20px;height:20px;color:var(--muted)}
+.menupop button[aria-current="page"]{background:var(--card2);color:var(--neonB)}.menupop button[aria-current="page"] svg{color:var(--neonB)}
+main{position:relative}
+@media (min-width:900px){.menubtn,.menupop{display:none!important}}
 .iconbtn{width:44px;height:44px;border-radius:12px;border:1px solid var(--line);background:var(--card);display:grid;place-items:center;color:var(--ink)}
 .iconbtn svg{width:20px;height:20px}
 .note{font-size:12.5px;background:var(--warn-bg);border:1px solid var(--warn-line);border-radius:12px;padding:9px 11px;margin-bottom:12px;line-height:1.45}
@@ -374,7 +383,7 @@ function statusOf(s){
 const done=s=>statusOf(s)==='concluido';
 function diaDaTarefa(s){ const r=stRec(s); if(r?.s==='concluido') return r.dia||r.em.slice(0,10);
   const pf=Object.values(partesFeitas(s)).map(x=>x.dia).filter(Boolean).sort(); if(pf.length) return pf[pf.length-1];
-  if(s.puxada) return s.puxada; return s.data; }
+  if(s.puxada) return s.puxada<todayISO()?todayISO():s.puxada; return s.data; }
 function tarefasDoDia(dia,all){ const l=all.filter(s=>diaDaTarefa(s)===dia); const out=[];
   l.filter(s=>s.tipo!=='ingles').forEach(s=>{out.push(s); l.filter(e=>e.tipo==='ingles'&&e.liga===s.id).forEach(e=>out.push(e));});
   l.filter(e=>e.tipo==='ingles'&&!out.includes(e)).forEach(e=>out.push(e)); return out; }
@@ -460,7 +469,8 @@ function toast(m){const t=$('#toast');t.textContent=m;t.classList.add('on');clea
 const navHTML=()=>TABS.map(([k,l,i])=>`<button data-tab="${k}" ${tab===k?'aria-current="page"':''}>${ic(i)}<span>${l}</span></button>`).join('');
 function header(title,sub,extra='',withLogo=false){
   return `<header class="top"><div class="t">${withLogo?`<img class="logo" src="${LOGO}" alt="RUMO">`:''}<div class="sub">${sub}</div><h1>${title}</h1></div>
-  <div class="hbtns">${extra}<button class="iconbtn" data-act="settings" aria-label="Configurações">${ic('settings')}</button></div></header>
+  <div class="hbtns">${extra}<button class="iconbtn" data-act="settings" aria-label="Configurações">${ic('settings')}</button><button class="iconbtn menubtn" data-act="menu" aria-label="Menu" aria-expanded="${ui.menu?'true':'false'}"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button></div></header>
+  ${ui.menu?`<div class="menupop" role="menu">${TABS.map(([k,l,i])=>`<button role="menuitem" data-tab="${k}" ${tab===k?'aria-current="page"':''}>${ic(i)}<span>${l}</span></button>`).join('')}</div>`:''}
   ${dbOk?'':'<div class="note"><b>Sem banco nesta visualização.</b> Abra o RUMO pelo link do claude.ai para salvar e sincronizar.</div>'}`;
 }
 /* navio cargueiro (porta-contêineres), proa para a direita */
@@ -798,7 +808,7 @@ function sheetSettings(){const s=settings();
   <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px"><label class="f">Pomodoro — foco (min)<input type="number" id="cfPe" min="5" max="120" value="${s.pomEstudo}"></label><label class="f">Descanso (min)<input type="number" id="cfPd" min="1" max="60" value="${s.pomDescanso}"></label></div>
   <label class="f">Cartões novos por dia<input type="number" id="cfNovos" min="0" max="200" value="${s.novosDia}"></label>
   <label class="f">Tema<select id="cfTema"><option value="">Noite náutica (padrão)</option><option value="light">Claro</option></select></label>
-  <h4>Dados</h4><div class="btns"><button class="btn" data-act="export">${ic('download')}Exportar backup (JSON)</button><button class="btn" onclick="window.rumoSair&&confirm('Sair da conta neste aparelho?')&&rumoSair()">Sair da conta</button><button class="btn" data-act="importar">${ic('upload')}Importar backup</button><input type="file" id="impFile" accept="application/json,.json" hidden></div>
+  <h4>Dados</h4><div class="btns"><button class="btn" data-act="export">${ic('download')}Exportar backup (JSON)</button><button class="btn danger" data-act="zerar">Zerar progresso</button><button class="btn" onclick="window.rumoSair&&confirm('Sair da conta neste aparelho?')&&rumoSair()">Sair da conta</button><button class="btn" data-act="importar">${ic('upload')}Importar backup</button><input type="file" id="impFile" accept="application/json,.json" hidden></div>
   <p style="font-size:12px;color:var(--muted)">Conteúdo: ${esc(C.plano?.meta?.titulo||'')} · versão ${esc(C.plano?.meta?.versao||'')}.</p>
   <button class="btn pri" style="width:100%;margin-top:8px" data-act="saveCfg">Salvar</button>`);$('#cfTema').value=s.tema==='light'?'light':'';}
 function sheetDeck(d){const cs=allCards().filter(c=>c.disc===d),lib=unidadesLiberadas();
@@ -830,10 +840,14 @@ function reopenIfSess(id){ if($('#sheet').classList.contains('open')&&ui.notaCod
 /* ---------- ações ---------- */
 document.addEventListener('click',async e=>{
   const t=e.target.closest('[data-tab],[data-act]'); if(!t) return;
-  if(t.dataset.tab){tab=t.dataset.tab;ui.qOnly=null;toTop();render();return;}
+  if(t.dataset.tab){tab=t.dataset.tab;ui.qOnly=null;ui.menu=false;toTop();render();return;}
   const a=t.dataset.act,v=t.dataset.v,id=t.dataset.id;
   switch(a){
    case 'dia': ui.dia=v==='0'?null:addDays(ui.dia||todayISO(),+v); if(ui.dia===todayISO())ui.dia=null; render(); break;
+   case 'menu': ui.menu=!ui.menu; render(true); break;
+   case 'zerar': {if(!confirm('Apagar todo o seu progresso (tarefas, respostas, cartões, cronômetro, anotações) e começar do zero? As configurações ficam.'))break;
+     for(const k of Object.keys(U)){if(k==='settings')continue;delete U[k];if(dbOk){const ref=db.doc(`data/users/${uid}/${k}`);try{ref.delete?await ref.delete():await ref.set({});}catch(e){try{await ref.set({});}catch(e2){}}}}
+     for(const k in BOATX)delete BOATX[k];closeSheet();tab='hoje';ui.dia=null;toTop();render();toast('Progresso zerado. Bons estudos!');break;}
    case 'togsem': ui.semanaAberta=!ui.semanaAberta; render(true); break;
    case 'tpart': {const s=sessoes().find(x=>x.id===id),k=t.dataset.p,em=new Date().toISOString();if(!s)break;
      const conc=stRec(s)?.s==='concluido';const pf={...partesFeitas(s)};
@@ -927,6 +941,7 @@ async function writeFc(disc,cards){C.fc[disc]=cards;render(true);if(!dbOk)return
 document.addEventListener('input',e=>{if(e.target.id==='nota'||e.target.id==='duv'){const c=ui.notaCode;clearTimeout(window._nt);
   const field=e.target.id==='nota'?'texto':'duvidas',val=e.target.value;window._nt=setTimeout(()=>usave('blocos',{notas:{[c]:{[field]:val,em:new Date().toISOString()}}}),600);}});
 $('#scrim').onclick=closeSheet;
+document.addEventListener('click',e=>{if(ui.menu&&!e.target.closest('.menupop,.menubtn')){ui.menu=false;render(true);}},true);
 document.addEventListener('change',async e=>{if(e.target.id!=='impFile'||!e.target.files[0])return;
   try{const j=JSON.parse(await e.target.files[0].text());const u=j.usuario||j;let n=0;
     for(const [k,v] of Object.entries(u)){if(!v||typeof v!=='object')continue;U[k]=structuredClone(v);n++;if(dbOk){try{await db.doc(`data/users/${uid}/${k}`).set(v);}catch(err){}}}
