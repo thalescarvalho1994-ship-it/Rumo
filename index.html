@@ -50,9 +50,10 @@ button:disabled{opacity:.45;cursor:default}
 #scroller{flex:1;overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;-webkit-overflow-scrolling:touch}
 main{padding:10px 16px 24px;max-width:760px;margin:0 auto;width:100%}
 .rail{display:none}
-nav.tabs{flex:none;background:color-mix(in srgb,var(--card) 92%,transparent);backdrop-filter:blur(10px);border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(5,1fr);padding:8px 4px max(10px,var(--safe-b))}
-nav.tabs button{background:none;border:0;display:flex;flex-direction:column;align-items:center;gap:3px;font-size:12px;font-weight:600;color:var(--muted);min-height:58px;justify-content:center;border-radius:12px}
-nav.tabs button svg{width:25px;height:25px}
+html.gapb{--safe-b:0px}html.gapb,html.gapb body{background:var(--card)}
+nav.tabs{flex:none;background:color-mix(in srgb,var(--card) 92%,transparent);backdrop-filter:blur(10px);border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(5,1fr);padding:4px 4px max(6px,var(--safe-b))}
+nav.tabs button{background:none;border:0;display:flex;flex-direction:column;align-items:center;gap:3px;font-size:11px;font-weight:600;color:var(--muted);min-height:52px;justify-content:center;border-radius:12px}
+nav.tabs button svg{width:23px;height:23px}
 nav.tabs button[aria-current="page"]{color:var(--neonB)}
 nav.tabs button[aria-current="page"] svg{filter:drop-shadow(0 0 6px rgba(0,194,255,.7))}
 @media (min-width:900px){
@@ -138,7 +139,7 @@ header.top .sub{font-size:13px;color:var(--muted)}
 .pill{font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;border:1px solid var(--line);white-space:nowrap}
 .pill.late{color:var(--late);border-color:var(--late);background:var(--late-bg)}
 .pill.done{color:var(--ok);border-color:var(--ok);background:var(--ok-bg)}
-.pill.prog{color:var(--neonB);border-color:var(--neonB)}
+.pill.estudo{color:var(--neonB);border-color:var(--neonB)}
 .pill.adi{color:var(--warn);border-color:var(--warn-line);background:var(--warn-bg)}
 .pill.miss{color:var(--late);border-color:var(--late)}
 .check{width:54px;flex:none;border:0;border-left:1px solid var(--line2);background:none;display:grid;place-items:center;color:var(--ink)}
@@ -147,6 +148,11 @@ header.top .sub{font-size:13px;color:var(--muted)}
 .check svg{width:16px;height:16px}
 .task.isLate{border-color:var(--late)}
 .task.isDone{opacity:.72}
+.task.tparts .body{padding-bottom:6px}
+.prow{display:flex;align-items:stretch;border-top:1px solid var(--line2)}
+.prow .ptxt{flex:1;min-width:0;padding:9px 12px;display:flex;flex-direction:column;gap:2px;font-size:13.5px;line-height:1.35}
+.prow .ptxt b{font-weight:600}.prow .ptxt span{font-size:12px;color:var(--muted)}.prow .ptxt .pmin{color:var(--neonB)}
+.prow.pdone .ptxt b{text-decoration:line-through;color:var(--muted)}
 .task.sub{margin-left:18px;position:relative}.task.sub::before{content:"";position:absolute;left:-12px;top:-8px;bottom:50%;width:10px;border-left:2px solid var(--line2);border-bottom:2px solid var(--line2);border-bottom-left-radius:8px}
 .task.sub .title{font-size:14px}
 .wday{border-top:1px solid var(--line2);padding:8px 12px 10px}.wday:first-child{border-top:0}
@@ -355,19 +361,25 @@ function sessoes(){
 const titulo=s=>s.tipo==='ingles'?('Inglês · '+(s.termo||'E1')):s.tipo==='bloco'?(unidade(s.unidade)?.titulo||s.unidade):s.titulo;
 const codigoSess=s=>s.tipo==='bloco'?`${s.unidade} · ${s.n}/${s.de}`:s.tipo==='ingles'?`+1 h · inglês e revisão · ${s.ligaUnidade||''}`:s.id;
 const stRec=s=>uget('blocos',{}).status?.[s.id];
+const partesFeitas=s=>uget('blocos',{}).partes?.[s.id]||{};
+const parteFeita=(s,k)=>stRec(s)?.s==='concluido'||!!partesFeitas(s)[k];
 function statusOf(s){
   const st=stRec(s)?.s;
   if(st==='concluido') return 'concluido';
+  if(s.partes&&s.partes.some(p=>partesFeitas(s)[p.k])) return 'andamento';
   if(st==='andamento') return 'andamento';
   if(addDays(weekStart(s.data),6)<todayISO()) return 'atrasado';   // só atrasa quando a semana fecha
   return 'pendente';
 }
 const done=s=>statusOf(s)==='concluido';
-function diaDaTarefa(s){ const r=stRec(s); if(r?.s==='concluido') return r.dia||r.em.slice(0,10); if(s.puxada) return s.puxada; return s.data; }
+function diaDaTarefa(s){ const r=stRec(s); if(r?.s==='concluido') return r.dia||r.em.slice(0,10);
+  const pf=Object.values(partesFeitas(s)).map(x=>x.dia).filter(Boolean).sort(); if(pf.length) return pf[pf.length-1];
+  if(s.puxada) return s.puxada; return s.data; }
 function tarefasDoDia(dia,all){ const l=all.filter(s=>diaDaTarefa(s)===dia); const out=[];
   l.filter(s=>s.tipo!=='ingles').forEach(s=>{out.push(s); l.filter(e=>e.tipo==='ingles'&&e.liga===s.id).forEach(e=>out.push(e));});
   l.filter(e=>e.tipo==='ingles'&&!out.includes(e)).forEach(e=>out.push(e)); return out; }
-const horas=xs=>({total:xs.reduce((a,s)=>a+s.horas,0),feito:xs.filter(done).reduce((a,s)=>a+s.horas,0)});
+const feitoH=s=>{if(done(s))return s.horas;if(!s.partes)return 0;const tot=s.partes.reduce((a,p)=>a+p.min,0)||1;return s.horas*s.partes.filter(p=>partesFeitas(s)[p.k]).reduce((a,p)=>a+p.min,0)/tot;};
+const horas=xs=>({total:xs.reduce((a,s)=>a+s.horas,0),feito:xs.reduce((a,s)=>a+feitoH(s),0)});
 function proximaParaAdiantar(dia,all){
   const hoje=new Set(tarefasDoDia(dia,all).map(s=>s.id));
   return all.filter(s=>!done(s)&&!hoje.has(s.id)&&(s.tipo==='bloco'||s.tipo==='ingles')&&s.data>dia)
@@ -476,10 +488,19 @@ function lembraBarcos(){document.querySelectorAll('.river').forEach(r=>{const b=
 function pill(st,s){
   const adi=s&&s.puxada&&!done(s)?'<span class="pill adi">adiantada</span>':(s&&done(s)&&diaDaTarefa(s)<s.data?'<span class="pill adi">adiantada</span>':'');
   const miss=s&&s.unidade&&unidade(s.unidade)?.material==='falta'?'<span class="pill miss">✖ material</span>':'';
-  return ({concluido:'<span class="pill done">Concluída</span>',andamento:'<span class="pill prog">Estudando</span>',atrasado:'<span class="pill late">Atrasada</span>',pendente:'<span class="pill">Pendente</span>'}[st])+adi+miss;
+  return ({concluido:'<span class="pill done">Concluída</span>',andamento:'<span class="pill estudo">Estudando</span>',atrasado:'<span class="pill late">Atrasada</span>',pendente:'<span class="pill">Pendente</span>'}[st])+adi+miss;
 }
 function taskCard(s){
   const st=statusOf(s);
+  if(s.partes&&s.partes.length){
+    const nf=s.partes.filter(p=>parteFeita(s,p.k)).length;
+    return `<div class="card task tparts ${s.tipo==='ingles'?'sub':''} ${st==='atrasado'?'isLate':''} ${st==='concluido'?'isDone':''}"><div class="bar" style="background:var(--${s.disc})"></div><div style="flex:1;min-width:0">
+     <button class="body" data-act="open" data-id="${esc(s.id)}"><span class="code mono" style="color:var(--${s.disc}-t)">${esc(codigoSess(s))}</span>
+     <span class="title">${esc(titulo(s))}</span>
+     <span class="meta">${ic('clock','style="width:14px;height:14px"')} ${hfmt(s.horas)} · ${nf}/${s.partes.length} partes ${pill(st,s)} ${st==='atrasado'?`<span>era da semana de ${ddmm(weekStart(s.data))}</span>`:''}</span></button>
+     ${s.partes.map((p,i)=>{const f=parteFeita(s,p.k);return `<div class="prow ${f?'pdone':''}"><div class="ptxt"><b>${i+1}. ${esc(p.t)}</b>${p.ref?`<span>${esc(p.ref)}</span>`:''}<span class="pmin">${esc(p.nota||(p.min+' min'))}</span></div>
+       <button class="check" role="checkbox" aria-checked="${f}" aria-label="Concluir parte ${i+1}" data-act="tpart" data-id="${esc(s.id)}" data-p="${esc(p.k)}"><span>${f?ic('check'):''}</span></button></div>`;}).join('')}</div></div>`;
+  }
   return `<div class="card task ${s.tipo==='ingles'?'sub':''} ${st==='atrasado'?'isLate':''} ${st==='concluido'?'isDone':''}"><div class="bar" style="background:var(--${s.disc})"></div>
    <button class="body" data-act="open" data-id="${esc(s.id)}"><span class="code mono" style="color:var(--${s.disc}-t)">${esc(codigoSess(s))}</span>
    <span class="title">${esc(titulo(s))}</span>
@@ -712,6 +733,7 @@ function sheetSess(id){
    <h4>Inglês 30' · termo do dia</h4>${engBloco(s)}<ul><li>${esc(s.ref)}</li></ul>
    ${(s.vocab||[]).length?`<h4>Inglês de ${esc(discNome(s.ligaDisc))} (aparece no texto de hoje)</h4>${vocabHTML(s.vocab)}`:''}
    <h4>Revisão 30'</h4><ul><li>${esc(s.rev30||'')}</li></ul>${revAb.length?`<div class="btns" style="margin-top:8px">${revAb.map(x=>`<button class="btn" data-act="open" data-id="${esc(x.id)}">${ic('file-text')}Abertura de ${esc(codigoSess(x))}</button>`).join('')}</div>`:(revCodes.length?'<p style="font-size:12.5px;color:var(--muted)">As perguntas de abertura aparecem aqui depois que você gerá-las nas sessões.</p>':'')}`:''}
+   ${s.partes?`<h4>Partes</h4><div class="card" style="padding:0;overflow:hidden">${s.partes.map((p,i)=>{const f=parteFeita(s,p.k);return `<div class="prow ${f?'pdone':''}" style="${i?'':'border-top:0'}"><div class="ptxt"><b>${i+1}. ${esc(p.t)}</b>${p.ref?`<span>${esc(p.ref)}</span>`:''}<span class="pmin">${esc(p.nota||(p.min+' min'))}</span></div><button class="check" role="checkbox" aria-checked="${f}" data-act="tpart" data-id="${esc(id)}" data-p="${esc(p.k)}"><span>${f?ic('check'):''}</span></button></div>`;}).join('')}</div>`:''}
    ${isB?`<h4>Leitura desta sessão</h4><ul><li>${esc(s.ref)}</li></ul><h4>Foco</h4><ul><li>${esc(u.foco)}</li></ul>
    ${(s.vocab||[]).length?`<h4>Inglês desta matéria</h4>${vocabHTML(s.vocab)}`:''}
    <h4>Unidade</h4><ul><li>Anexo ${esc(u.anexo)} · nível ${u.nivel} · ${u.idioma}</li><li>Material: ${{ok:'texto no projeto',pdf:'PDF enviado no chat (fora do projeto)',arq:'arquivo com você (fora do projeto)',falta:'falta conseguir'}[u.material]}</li>${u.caiu?`<li>Já caiu: ${esc(u.caiu)}</li>`:''}</ul>
@@ -813,8 +835,17 @@ document.addEventListener('click',async e=>{
   switch(a){
    case 'dia': ui.dia=v==='0'?null:addDays(ui.dia||todayISO(),+v); if(ui.dia===todayISO())ui.dia=null; render(); break;
    case 'togsem': ui.semanaAberta=!ui.semanaAberta; render(true); break;
+   case 'tpart': {const s=sessoes().find(x=>x.id===id),k=t.dataset.p,em=new Date().toISOString();if(!s)break;
+     const conc=stRec(s)?.s==='concluido';const pf={...partesFeitas(s)};
+     if(conc){s.partes.forEach(p=>pf[p.k]={em,dia:stRec(s).dia||todayISO()});}
+     const agora=!(conc||pf[k]);
+     if(agora)pf[k]={em,dia:todayISO()};else delete pf[k];
+     const todas=s.partes.every(p=>pf[p.k]);
+     const patchP={};s.partes.forEach(p=>{patchP[p.k]=pf[p.k]?pf[p.k]:{__delete__:true};});
+     await usave('blocos',{partes:{[id]:patchP},status:{[id]:todas?{s:'concluido',em,dia:todayISO()}:(Object.keys(pf).length?{s:'andamento',em}:{__delete__:true})}});
+     render(true); reopenIfSess(id); toast(todas?'Sessão concluída':agora?'Parte concluída':'Parte reaberta'); break;}
    case 'toggle': {const cur=stRec({id})?.s==='concluido';
-     await usave('blocos',{status:{[id]:cur?{__delete__:true}:{s:'concluido',em:new Date().toISOString(),dia:todayISO()}}});
+     await usave('blocos',{status:{[id]:cur?{__delete__:true}:{s:'concluido',em:new Date().toISOString(),dia:todayISO()}},partes:cur?{[id]:{__delete__:true}}:{}});
      if(t.dataset.close)closeSheet(); render(true); toast(cur?'Tarefa reaberta':'Tarefa concluída'); break;}
    case 'estudar': await usave('blocos',{status:{[id]:{s:'andamento',em:new Date().toISOString()}}});
      if(timer().estado==='rodando') await usave('timer',{tarefa:id}); else await startTimer(id);
@@ -911,6 +942,12 @@ setInterval(async()=>{
     c.textContent=fmtClock(left);} else c.textContent=fmtClock(elapsed());
 },500);
 
+/* iPhone (app instalado): se o sistema reservar uma faixa abaixo do app, a barra das abas não soma a área segura de novo */
+function ajustaTela(){try{const st=matchMedia('(display-mode: standalone)').matches||navigator.standalone;
+  const sh=innerWidth>innerHeight?Math.min(screen.width,screen.height):Math.max(screen.width,screen.height);
+  const sT=parseFloat(getComputedStyle(document.querySelector('.app')).paddingTop)||0;
+  document.documentElement.classList.toggle('gapb',!!st&&sh-innerHeight>20&&sT>0);}catch(e){}}
+window.addEventListener('resize',ajustaTela);ajustaTela();
 /* ---------- inicialização ---------- */
 async function init(){
   const cl=window.claude;
