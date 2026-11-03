@@ -421,7 +421,7 @@ function unidadesLiberadas(){
 }
 function cartaoLiberado(c,lib){
   if(c.unidade!=='ING-E1') return lib.set.has(c.unidade);
-  const m=/^E1-(\d+)/.exec(c.id); if(m) return +m[1]<=lib.e1;   // termos do E1 entram um por dia
+  const m=/E1-(\d+)/.exec(c.id); if(m) return +m[1]<=lib.e1;   // termos do E1 entram um por dia
   return lib.e1>=12;                                             // vocabulário extra: depois dos 12 termos
 }
 function revisoesHoje(){
@@ -985,16 +985,26 @@ function ajustaTela(){try{const st=matchMedia('(display-mode: standalone)').matc
   const sT=parseFloat(getComputedStyle(document.querySelector('.app')).paddingTop)||0;
   document.documentElement.classList.toggle('gapb',!!st&&sh-innerHeight>20&&sT>0);}catch(e){}}
 window.addEventListener('resize',ajustaTela);ajustaTela();
+/* cartões refeitos (fcVersao nova): zera a revisão espaçada uma vez */
+let uCarregado=false,fcMigrado=false;
+async function migraFc(){
+  if(fcMigrado||!uCarregado||!C.plano||!dbOk) return;
+  const v=C.plano.meta?.fcVersao||1; if((uget('settings',{}).fcVersao||1)>=v){fcMigrado=true;return;}
+  fcMigrado=true;
+  for(const k of Object.keys(U)){ if(!/^(srs-|revisoes-)/.test(k)) continue; delete U[k];
+    const ref=db.doc(`data/users/${uid}/${k}`); try{ref.delete?await ref.delete():await ref.set({});}catch(e){try{await ref.set({});}catch(e2){}} }
+  await usave('settings',{fcVersao:v}); toast('Flashcards novos carregados — revisão zerada');
+}
 /* ---------- inicialização ---------- */
 async function init(){
   const cl=window.claude;
   const [dbx,user,dl,sm]=cl&&cl.use?await Promise.all([cl.use('db'),cl.use('user'),cl.use('downloads'),cl.use('sample')]):[null,null,null,null];
   db=dbx;downloads=dl;sample=sm;uid=user?await user.id():null;canEdit=user?await user.canEdit():false;dbOk=!!(db&&uid);ready=true;
   if(!db){render();return;}
-  db.collection('content').onSnapshot(s=>{s.docs.forEach(d=>{if(d.id==='plano')C.plano=d.data();});render(true);},err=>toast('Erro ao ler o conteúdo: '+err.code));
+  db.collection('content').onSnapshot(s=>{s.docs.forEach(d=>{if(d.id==='plano')C.plano=d.data();});migraFc();render(true);},err=>toast('Erro ao ler o conteúdo: '+err.code));
   db.collection('content_q').onSnapshot(s=>{C.q={};s.docs.forEach(d=>C.q[d.id]=d.data().itens||[]);render(true);});
   db.collection('content_fc').onSnapshot(s=>{C.fc={};s.docs.forEach(d=>C.fc[d.id]=d.data().cards||[]);render(true);});
-  if(uid)db.collection(`data/users/${uid}`).onSnapshot(s=>{s.docs.forEach(d=>{U[d.id]=structuredClone(d.data());});render(true);},err=>toast('Erro ao ler seus dados: '+err.code));
+  if(uid)db.collection(`data/users/${uid}`).onSnapshot(s=>{s.docs.forEach(d=>{U[d.id]=structuredClone(d.data());});uCarregado=true;migraFc();render(true);},err=>toast('Erro ao ler seus dados: '+err.code));
 }
 init();
 </script>
