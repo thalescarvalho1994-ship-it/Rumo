@@ -148,6 +148,11 @@ main{position:relative}
 .pill{font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px;border:1px solid var(--line);white-space:nowrap}
 .pill.late{color:var(--late);border-color:var(--late);background:var(--late-bg)}
 .pill.done{color:var(--ok);border-color:var(--ok);background:var(--ok-bg)}
+.pill.rec{color:var(--warn);border-color:var(--warn-line);background:var(--warn-bg);display:inline-flex;align-items:center;gap:3px}.pill.rec svg{width:12px;height:12px}
+.recbtn{position:absolute;top:8px;right:8px;width:34px;height:34px;border-radius:50%;border:1.5px solid var(--warn-line);background:transparent;color:var(--warn);display:grid;place-items:center;z-index:2}
+.recbtn[aria-pressed="true"]{background:var(--warn);color:#1a1300;border-color:var(--warn)}
+.task{position:relative}.task.tparts .body{padding-right:48px}
+.task.isRec{border-color:var(--warn-line)}
 .pill.estudo{color:var(--neonB);border-color:var(--neonB)}
 .pill.adi{color:var(--warn);border-color:var(--warn-line);background:var(--warn-bg)}
 .pill.miss{color:var(--late);border-color:var(--late)}
@@ -370,6 +375,9 @@ const titulo=s=>s.tipo==='ingles'?(s.aula?(s.aula.cod.startsWith('G1 ◆')?'Ingl
 const codigoSess=s=>s.tipo==='bloco'?`${s.unidade} · ${s.n}/${s.de}`:s.tipo==='ingles'?`Inglês 30' · ${s.e1&&s.e1.en?s.e1.en+' · ':''}${s.ligaUnidade||''}`:s.tipo==='rev30'?`Revisão 30'`:s.id;
 const stRec=s=>uget('blocos',{}).status?.[s.id];
 const partesFeitas=s=>uget('blocos',{}).partes?.[s.id]||{};
+const recRec=s=>uget('blocos',{}).recuperar?.[s.id];
+const aRecuperar=s=>{const r=recRec(s);return !!r&&!r.ok;};
+const QSVG='<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2.6-3 4.5"/><path d="M12 18h.01"/></svg>';
 const parteFeita=(s,k)=>stRec(s)?.s==='concluido'||!!partesFeitas(s)[k];
 function statusOf(s){
   const st=stRec(s)?.s;
@@ -497,22 +505,29 @@ function placeBoats(){document.querySelectorAll('.river').forEach(r=>{const b=r.
 /* guarda a posição VISÍVEL do navio antes de redesenhar, para ele continuar a viagem de onde está */
 function lembraBarcos(){document.querySelectorAll('.river').forEach(r=>{const b=r.querySelector('.boat');if(b)BOATX[b.dataset.k]=b.getBoundingClientRect().left-r.getBoundingClientRect().left;});}
 function pill(st,s){
+  if(s&&aRecuperar(s)) return `<span class="pill rec">${QSVG} Recuperar</span>`;
+  if(s&&recRec(s)?.ok&&st==='concluido') return '<span class="pill done">Recuperada</span>';
   const adi=s&&s.puxada&&!done(s)?'<span class="pill adi">adiantada</span>':(s&&done(s)&&diaDaTarefa(s)<s.data?'<span class="pill adi">adiantada</span>':'');
   const miss=s&&s.unidade&&unidade(s.unidade)?.material==='falta'?'<span class="pill miss">✖ material</span>':'';
   return ({concluido:'<span class="pill done">Concluída</span>',andamento:'<span class="pill estudo">Estudando</span>',atrasado:'<span class="pill late">Atrasada</span>',vencida:`<span class="pill late">Atrasada · era de ${s?ddmm(s.puxada||s.data):''}</span>`,pendente:'<span class="pill">Pendente</span>'}[st])+adi+miss;
 }
+const recBtn=s=>!['bloco','revisao'].includes(s.tipo)?'':`<button class="recbtn" data-act="recup" data-id="${esc(s.id)}" aria-pressed="${aRecuperar(s)}" aria-label="${aRecuperar(s)?'Tirar da recuperação':'Fiz, mas preciso recuperar'}" title="Fiz, mas preciso recuperar">${QSVG}</button>`;
+function recCard(s){return `<div class="card task isRec"><div class="bar" style="background:var(--${s.disc})"></div>
+   <button class="body" data-act="open" data-id="${esc(s.id)}"><span class="code mono" style="color:var(--${s.disc}-t)">${esc(codigoSess(s))} · de ${ddmm(recRec(s).dia||s.data)}</span><span class="title">${esc(titulo(s))}</span>
+   <span class="meta">${s.partes?esc(s.partes.map((p,i)=>(i+1)+'. '+p.t).join(' | ')):esc(s.ref||'')}</span></button>
+   <button class="check" data-act="recok" data-id="${esc(s.id)}" aria-label="Recuperação feita" style="color:var(--warn)"><span style="border-color:var(--warn)">${QSVG}</span></button></div>`;}
 function taskCard(s){
   const st=statusOf(s);
   if(s.partes&&s.partes.length){
     const nf=s.partes.filter(p=>parteFeita(s,p.k)).length;
-    return `<div class="card task tparts ${st==='atrasado'||st==='vencida'?'isLate':''} ${st==='concluido'?'isDone':''}"><div class="bar" style="background:var(--${s.disc})"></div><div style="flex:1;min-width:0">
+    return `<div class="card task tparts ${st==='atrasado'||st==='vencida'?'isLate':''} ${st==='concluido'&&!aRecuperar(s)?'isDone':''} ${aRecuperar(s)?'isRec':''}"><div class="bar" style="background:var(--${s.disc})"></div>${recBtn(s)}<div style="flex:1;min-width:0">
      <button class="body" data-act="open" data-id="${esc(s.id)}"><span class="code mono" style="color:var(--${s.disc}-t)">${esc(codigoSess(s))}</span>
      <span class="title">${esc(titulo(s))}</span>
      <span class="meta">${ic('clock','style="width:14px;height:14px"')} ${hfmt(s.horas)} · ${nf}/${s.partes.length} partes ${pill(st,s)} ${st==='atrasado'?`<span>era da semana de ${ddmm(weekStart(s.data))}</span>`:''}</span></button>
      ${s.partes.map((p,i)=>{const f=parteFeita(s,p.k);return `<div class="prow ${f?'pdone':''}"><div class="ptxt"><b>${i+1}. ${esc(p.t)}</b>${p.ref?`<span>${esc(p.ref)}</span>`:''}<span class="pmin">${esc(p.nota||(p.min+' min'))}</span></div>
        <button class="check" role="checkbox" aria-checked="${f}" aria-label="Concluir parte ${i+1}" data-act="tpart" data-id="${esc(s.id)}" data-p="${esc(p.k)}"><span>${f?ic('check'):''}</span></button></div>`;}).join('')}</div></div>`;
   }
-  return `<div class="card task ${st==='atrasado'||st==='vencida'?'isLate':''} ${st==='concluido'?'isDone':''}"><div class="bar" style="background:var(--${s.disc})"></div>
+  return `<div class="card task ${st==='atrasado'||st==='vencida'?'isLate':''} ${st==='concluido'&&!aRecuperar(s)?'isDone':''} ${aRecuperar(s)?'isRec':''}"><div class="bar" style="background:var(--${s.disc})"></div>
    <button class="body" data-act="open" data-id="${esc(s.id)}"><span class="code mono" style="color:var(--${s.disc}-t)">${esc(codigoSess(s))}</span>
    <span class="title">${esc(titulo(s))}</span>
    <span class="meta">${ic('clock','style="width:14px;height:14px"')} ${hfmt(s.horas)} ${pill(st,s)} ${st==='atrasado'?`<span>era da semana de ${ddmm(weekStart(s.data))}</span>`:''}</span></button>
@@ -523,7 +538,7 @@ function taskCard(s){
 /* semana organizada por dia: matéria do dia + inglês ligado a ela + revisão */
 function semanaPorDia(lista){
   const dn=['Domingo','Segunda','Terça','Quarta','Quinta','Sexta','Sábado'];
-  const mark=s=>done(s)?ic('circle-check','style="width:17px;height:17px;color:var(--ok);flex:none"'):['atrasado','vencida'].includes(statusOf(s))?ic('circle-alert','style="width:17px;height:17px;color:var(--late);flex:none"'):'';
+  const mark=s=>aRecuperar(s)?`<span style="color:var(--warn);flex:none;display:grid">${QSVG}</span>`:done(s)?ic('circle-check','style="width:17px;height:17px;color:var(--ok);flex:none"'):['atrasado','vencida'].includes(statusOf(s))?ic('circle-alert','style="width:17px;height:17px;color:var(--late);flex:none"'):'';
   const dias=[...new Set(lista.map(s=>s.data))].sort();
   return dias.map(d=>{
     const doDia=lista.filter(s=>s.data===d), principais=doDia.filter(s=>s.tipo!=='ingles'&&s.tipo!=='rev30'), en=doDia.filter(s=>s.tipo==='ingles'||s.tipo==='rev30');
@@ -548,6 +563,7 @@ function viewHoje(){
   const doDia=tarefasDoDia(dia,all);
   const semAtual=Math.max(1,semanaDe(dia)); const daSemana=all.filter(s=>s.semana===semAtual);
   const late=all.filter(s=>statusOf(s)==='atrasado').sort((a,b)=>a.data<b.data?-1:1);
+  const recs=all.filter(aRecuperar).sort((a,b)=>a.data<b.data?-1:1);
   const t=timer(),run=t.estado==='rodando',paused=t.estado==='pausado',pomo=t.modo==='pomodoro';
   const target=(t.fase==='descanso'?settings().pomDescanso:settings().pomEstudo)*60000;
   const outro=run&&t.disp&&t.disp!==DEVICE, due=fila().length;
@@ -572,6 +588,7 @@ function viewHoje(){
      ${run||paused?`<button class="btn danger" data-act="tstop">${ic('square')}Finalizar</button>`:''}</div>
     <div class="chips3"><div class="stat"><b>${fmtHM(liquidoDia(hoje))}</b><span>líquido hoje</span></div><div class="stat"><b>${fmtHM(liquidoSemana(hoje))}</b><span>na semana · meta ${metaH} h</span></div><div class="stat"><b>${due}</b><span>cartões hoje</span></div></div>
    </section></div>
+  ${recs.length?`<div class="sec"><h2 style="color:var(--warn)">Para recuperar (${recs.length})</h2><span style="font-size:12px;color:var(--muted)">no seu tempo livre</span></div><div class="list">${recs.map(recCard).join('')}</div>`:''}
   ${late.length?`<div class="sec"><h2 style="color:var(--late)">Atrasadas (${late.length})</h2><button class="act" data-act="redist">Propor redistribuição</button></div><div class="list">${late.map(taskCard).join('')}</div>`:''}
   <div class="sec"><h2>${dia===hoje?'Hoje':'Neste dia'}</h2></div>
   <div class="list">${doDia.length?doDia.map(taskCard).join(''):`<div class="card empty-state">${ic('anchor')}<br>${emptyDia}.</div>`}
@@ -739,6 +756,8 @@ function sheetSess(id){
   ui.notaCode=id;
   openSheet(`<span class="mono" style="font-size:13px;font-weight:600;color:var(--${s.disc}-t)">${esc(codigoSess(s))} · ${esc(discNome(s.disc))}</span>
    <h3 id="sheetTitle">${esc(titulo(s))}</h3><div style="font-size:13px;color:var(--muted);display:flex;gap:6px;flex-wrap:wrap;align-items:center">Sugerida para ${ddmm(s.data)}${s.dataOrig!==s.data?` (remarcada de ${ddmm(s.dataOrig)})`:''} · semana ${s.semana} · ${hfmt(s.horas)} ${pill(st,s)}</div>
+   ${aRecuperar(s)?`<div class="note" style="margin-top:12px;border-color:var(--warn-line);background:var(--warn-bg)">${QSVG} <b>Marcada para recuperação</b> em ${ddmm(recRec(s).dia)}. Revise no seu tempo livre e toque em “Recuperação feita”.</div>`:''}
+   <div class="btns" style="margin-top:8px">${aRecuperar(s)?`<button class="btn" data-act="recok" data-id="${esc(id)}" style="color:var(--warn);border-color:var(--warn-line)">${QSVG} Recuperação feita</button>`:''}<button class="btn" data-act="recup" data-id="${esc(id)}">${QSVG} ${aRecuperar(s)?'Tirar da recuperação':'Fiz, mas preciso recuperar'}</button></div>
    <div class="btns" style="margin-top:12px">${st!=='concluido'?`<button class="btn go block" data-act="estudar" data-id="${esc(id)}">${ic('play')}Estudar agora</button>`:''}${s.puxada?`<button class="btn" data-act="devolver" data-id="${esc(id)}">${ic('undo-2')}Devolver ao dia sugerido</button>`:(st!=='concluido'&&s.data!==todayISO()?`<button class="btn" data-act="puxar" data-id="${esc(id)}">${ic('fast-forward')}Fazer hoje</button>`:'')}</div>
    ${u&&u.material==='falta'?`<div class="note" style="margin-top:12px">✖ <b>Falta o material desta sessão.</b> ${esc(s.ref)}. Sem ele, use as questões e os cartões já cadastrados da unidade.</div>`:''}
    ${s.tipo==='ingles'?`${s.liga?`<p style="font-size:13px;color:var(--muted);margin:10px 0 0">Ligado a <button class="linkbtn" data-act="open" data-id="${esc(s.liga)}">${esc(s.liga.replace('.',' sessão '))}</button> — a matéria do dia.</p>`:''}
@@ -877,10 +896,16 @@ document.addEventListener('click',async e=>{
      if(agora)pf[k]={em,dia:todayISO()};else delete pf[k];
      const todas=s.partes.every(p=>pf[p.k]);
      const patchP={};s.partes.forEach(p=>{patchP[p.k]=pf[p.k]?pf[p.k]:{__delete__:true};});
-     await usave('blocos',{partes:{[id]:patchP},status:{[id]:todas?{s:'concluido',em,dia:todayISO()}:(Object.keys(pf).length?{s:'andamento',em}:{__delete__:true})}});
+     await usave('blocos',{partes:{[id]:patchP},recuperar:todas?{}:{[id]:{__delete__:true}},status:{[id]:todas?{s:'concluido',em,dia:todayISO()}:(Object.keys(pf).length?{s:'andamento',em}:{__delete__:true})}});
      render(true); reopenIfSess(id); toast(todas?'Sessão concluída':agora?'Parte concluída':'Parte reaberta'); break;}
+   case 'recup': {const s=sessoes().find(x=>x.id===id);if(!s)break;const em=new Date().toISOString();
+     if(aRecuperar(s)){await usave('blocos',{recuperar:{[id]:{__delete__:true}}});render(true);reopenIfSess(id);toast('Tirada da recuperação');break;}
+     const patch={recuperar:{[id]:{em,dia:todayISO()}},status:{[id]:{s:'concluido',em,dia:todayISO()}}};
+     if(s.partes){patch.partes={[id]:{}};s.partes.forEach(p=>{patch.partes[id][p.k]=partesFeitas(s)[p.k]||{em,dia:todayISO()};});}
+     await usave('blocos',patch);render(true);reopenIfSess(id);toast('Feita e marcada para recuperação');break;}
+   case 'recok': {await usave('blocos',{recuperar:{[id]:{ok:true,okEm:new Date().toISOString()}}});render(true);reopenIfSess(id);toast('Recuperação concluída');break;}
    case 'toggle': {const cur=stRec({id})?.s==='concluido';
-     await usave('blocos',{status:{[id]:cur?{__delete__:true}:{s:'concluido',em:new Date().toISOString(),dia:todayISO()}},partes:cur?{[id]:{__delete__:true}}:{}});
+     await usave('blocos',{status:{[id]:cur?{__delete__:true}:{s:'concluido',em:new Date().toISOString(),dia:todayISO()}},partes:cur?{[id]:{__delete__:true}}:{},recuperar:cur?{[id]:{__delete__:true}}:{}});
      if(t.dataset.close)closeSheet(); render(true); toast(cur?'Tarefa reaberta':'Tarefa concluída'); break;}
    case 'estudar': await usave('blocos',{status:{[id]:{s:'andamento',em:new Date().toISOString()}}});
      if(timer().estado==='rodando') await usave('timer',{tarefa:id}); else await startTimer(id);
