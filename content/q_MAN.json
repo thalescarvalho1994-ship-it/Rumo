@@ -1,1 +1,1532 @@
-{"itens": [{"id": "P2011-01", "unidade": "MAN-03", "disc": "MAN", "prova": "PSCPP 2011 · Amarela · Q1 · 1,2 pt", "dif": "difícil", "enunciado": "De acordo com o “Principles of Naval Architecture” (SNAME, 3ª ed.), analise:\nI) A manobra “Dieudonné Spiral” identifica as características de estabilidade direcional de um navio.\nII) A manobra “Pull out” provê indicações das qualidades de um navio em realizar uma curva de giro.\nIII) A manobra “Kempf Overshoot” provê indicações da habilidade de um leme em controlar um navio.\nIV) A manobra “Turning” identifica as características de estabilidade direcional de um navio.\nV) A manobra “Bech Reverse Spiral” identifica, principalmente, as características de estabilidade direcional.", "alts": {"A": "Apenas I e III são verdadeiras.", "B": "Apenas I, II e V são verdadeiras.", "C": "Apenas II e III são verdadeiras.", "D": "Apenas I, III e V são verdadeiras.", "E": "Apenas IV e V são verdadeiras."}, "correta": "D", "coment": {"A": "Esquece V (espiral reversa de Bech também mede estabilidade direcional).", "B": "II é falsa: o pull-out indica estabilidade direcional, não a qualidade de giro.", "C": "II é falsa e I/V ficaram de fora.", "D": "Gabarito oficial.", "E": "IV é falsa: a curva de giro mede a capacidade de girar (turning ability)."}, "atencao": "A fonte (PNA vol. III) não está no projeto. Comentário baseado no gabarito oficial.", "fonte": "Lewis, PNA vol. III, Cap. IX (fora do projeto) — gabarito oficial 2011", "origem": "prova"}, {"id": "P2012-10", "unidade": "MAN-03", "disc": "MAN", "prova": "PSCPP 2012 · Rosa · Q10 · 1,3 pt", "dif": "média", "enunciado": "A estabilidade direcional afeta o governo do navio e a variação da razão de guinada com o leme a meio. De acordo com o “Shiphandling for the Mariner” (MacElrevey, 4ª ed.), assinale a alternativa INCORRETA sobre a estabilidade direcional:", "alts": {"A": "Diminui quando o coeficiente de bloco aumenta.", "B": "Diminui quando a boca aumenta para um determinado comprimento (a razão comprimento/boca diminui).", "C": "Aumenta quando a folga abaixo da quilha diminui.", "D": "Torna-se mais positiva quando o comprimento aumenta.", "E": "Torna-se mais positiva quando o arrasto diminui."}, "correta": "E", "coment": {"A": "Correta: casco mais cheio é menos estável direcionalmente.", "B": "Correta.", "C": "Correta: em águas rasas o navio fica mais estável direcionalmente (e mais difícil de girar).", "D": "Correta.", "E": "INCORRETA (gabarito): pelo livro, a estabilidade direcional \"becomes more positive as drag increases\" (fica mais positiva quando o trim pela popa — drag — aumenta)."}, "fonte": "MacElrevey, Shiphandling for the Mariner, 5ª ed., Cap. 1 Arrival, p. 20 (PDF 35) — lista dos 6 fatores da estabilidade direcional", "origem": "prova"}, {"id": "I-MAN01-01", "unidade": "MAN-01", "disc": "MAN", "dif": "fácil", "enunciado": "No sistema de eixos fixo ao navio adotado por Santos (convenção SNAME), os eixos x, y e z são positivos, respectivamente, para:", "alts": {"A": "Vante, bombordo e para cima.", "B": "Ré, boreste e para baixo.", "C": "Vante, boreste e para baixo (em direção à quilha).", "D": "Vante, boreste e para cima.", "E": "Norte, leste e para baixo."}, "correta": "C", "coment": {"A": "y é positivo para BORESTE e z para BAIXO.", "B": "x é positivo para VANTE.", "C": "Correta: x no plano de simetria positivo para vante; y perpendicular ao plano de simetria, positivo para boreste; z vertical, positivo para baixo, em direção à quilha.", "D": "z é positivo para BAIXO, em direção à quilha.", "E": "Norte-leste-baixo é o referencial INERCIAL NED, não o fixo ao navio."}, "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 2, 2.1, p. 21 (PDF 14)", "origem": "inedita"}, {"id": "I-MAN01-02", "unidade": "MAN-01", "disc": "MAN", "dif": "fácil", "enunciado": "Na equação de movimento em seis graus de liberdade, os momentos K, M e N (convenção SNAME) correspondem, respectivamente, às rotações:", "alts": {"A": "Yaw, pitch e roll.", "B": "Surge, sway e heave.", "C": "Pitch, roll e yaw.", "D": "Roll, pitch e yaw.", "E": "Roll, yaw e pitch."}, "correta": "D", "coment": {"A": "Ordem invertida: N é yaw e K é roll.", "B": "Surge, sway e heave são as TRANSLAÇÕES (forças X, Y, Z), não os momentos.", "C": "K é roll (eixo x) e M é pitch (eixo y).", "D": "Correta: K = roll (em torno de x), M = pitch (em torno de y), N = yaw (em torno de z).", "E": "M é pitch e N é yaw."}, "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 2, 2.4.2.2 e 2.6, p. 28 e 33 (PDF 21, 26)", "origem": "inedita"}, {"id": "I-MAN01-03", "unidade": "MAN-01", "disc": "MAN", "dif": "fácil", "enunciado": "Segundo Santos, a equação de movimento do navio no plano horizontal fica reduzida a três graus de liberdade. São eles:", "alts": {"A": "Surge, heave e pitch.", "B": "Sway, roll e yaw.", "C": "Heave, pitch e roll.", "D": "Surge, sway e roll.", "E": "Surge, sway e yaw."}, "correta": "E", "coment": {"A": "Heave e pitch são movimentos do plano vertical.", "B": "Roll não entra na equação de 3 graus no plano horizontal.", "C": "São justamente os movimentos fora do plano horizontal.", "D": "Roll fica de fora; o terceiro grau é yaw.", "E": "Correta: no plano horizontal restam surge (X), sway (Y) e yaw (N) (seções 2.7 e 2.8)."}, "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 2, 2.7–2.8, p. 33 (PDF 26)", "origem": "inedita"}, {"id": "I-MAN01-04", "unidade": "MAN-01", "disc": "MAN", "dif": "média", "enunciado": "Sobre os referenciais usados por Santos para a equação de movimento, analise:\nI) Referencial inercial é aquele em que as leis de Newton são válidas.\nII) Um referencial que se move com velocidade constante em relação a um referencial inercial também é inercial.\nIII) No sistema NED, o eixo z é positivo para cima.\nIV) Quando o navio rotaciona, os eixos fixos a ele também se movem, o que complica o cálculo da variação da quantidade de movimento.\nEstão corretas:", "alts": {"A": "Apenas I, II e IV.", "B": "Apenas I e III.", "C": "Apenas II e III.", "D": "Apenas I, III e IV.", "E": "I, II, III e IV."}, "correta": "A", "coment": {"A": "Correta: I, II e IV estão no texto (2.1). III é falsa: no NED o z é \"down\", para baixo.", "B": "III é falsa e faltam II e IV.", "C": "III é falsa; I também é verdadeira.", "D": "III é falsa (z para baixo).", "E": "III é falsa."}, "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 2, 2.1–2.2, p. 22 (PDF 15)", "origem": "inedita"}, {"id": "I-MAN01-05", "unidade": "MAN-01", "disc": "MAN", "dif": "média", "enunciado": "Ao montar a equação de movimento, Santos considera a massa do navio constante durante a manobra porque:", "alts": {"A": "A massa adicional anula a variação de massa do navio.", "B": "Na maioria dos navios mercantes a taxa de variação de massa pelo consumo de combustível é desprezível.", "C": "O navio é tratado como partícula sem dimensões.", "D": "A segunda lei de Newton só vale para massa constante no referencial NED.", "E": "A variação de massa é compensada pelo lastro automático."}, "correta": "B", "coment": {"A": "Massa adicional é termo hidrodinâmico de aceleração (Cap. 3), não compensa consumo de combustível.", "B": "Correta: a variação de massa por consumo de combustível é negligenciada, e a massa é tomada como constante durante a manobra (2.4.1).", "C": "O navio é tratado como CORPO RÍGIDO; a ideia de \"uma grande partícula\" vale só para o movimento de translação com a massa no CG.", "D": "O texto não afirma isso; a constância da massa é uma simplificação.", "E": "O livro não menciona lastro automático."}, "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 2, 2.4.1, p. 25 (PDF 18)", "origem": "inedita"}, {"id": "I-MAN01-06", "unidade": "MAN-01", "disc": "MAN", "dif": "média", "enunciado": "Na equação das forças X, Y e Z, os termos (wq − vr), (ur − wp) e (vp − uq) representam:", "alts": {"A": "Acelerações translacionais.", "B": "Forças de massa adicional.", "C": "Acelerações centrípetas.", "D": "Forças de Coriolis da origem fora do CG.", "E": "Acelerações angulares."}, "correta": "C", "coment": {"A": "As translacionais são u̇, v̇, ẇ.", "B": "Massa adicional é assunto do Cap. 3 (derivadas hidrodinâmicas).", "C": "Correta: o texto chama esses termos de acelerações centrípetas.", "D": "Coriolis aparece na seção da origem fora do CG (2.4.4), com outros termos.", "E": "As acelerações angulares são ṗ, q̇, ṙ."}, "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 2, 2.4.2.1, p. 26 (PDF 19)", "origem": "inedita"}, {"id": "I-MAN01-07", "unidade": "MAN-01", "disc": "MAN", "dif": "difícil", "enunciado": "Quando a origem do sistema fixo ao navio não coincide com o centro de gravidade G, as equações de força ganham termos que multiplicam xG, yG e zG. Segundo Santos, esses termos adicionais com ω × (ω × RG):", "alts": {"A": "Representam a força de sustentação do casco.", "B": "Desaparecem sempre que o navio guina.", "C": "Representam o empuxo atuando no centro de carena.", "D": "Representam forças centrífugas, que só existem porque o centro de referência é não inercial.", "E": "São as forças ambientais de vento e corrente."}, "correta": "D", "coment": {"A": "Sustentação é força hidrodinâmica (Cap. 3), não termo inercial.", "B": "Elas aparecem justamente quando há rotação (ω ≠ 0).", "C": "Empuxo é força hidrostática; não é o que esses termos representam.", "D": "Correta: são forças centrífugas, perpendiculares ao eixo de rotação, de G para a origem O, existentes porque a referência é não inercial (2.4.3).", "E": "Forças ambientais são outra categoria de forças externas."}, "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 2, 2.4.3, p. 29 (PDF 22)", "origem": "inedita"}, {"id": "I-MAN01-08", "unidade": "MAN-01", "disc": "MAN", "dif": "média", "enunciado": "Por que, segundo Santos, dois dos três eixos do sistema fixo ao navio devem estar no plano de simetria (plano da linha central)?", "alts": {"A": "Porque o referencial NED exige isso.", "B": "Para que o eixo z coincida com o eixo do hélice.", "C": "Porque o centro de gravidade está sempre na linha d'água.", "D": "Para eliminar o grau de liberdade de heave.", "E": "Para aproveitar a simetria boreste-bombordo e simplificar as expressões das forças hidrodinâmicas."}, "correta": "E", "coment": {"A": "NED é o referencial inercial; não é ele que impõe essa escolha.", "B": "O texto não liga os eixos ao eixo do hélice.", "C": "O livro não afirma isso.", "D": "A escolha dos eixos não elimina graus de liberdade.", "E": "Correta: a escolha tira proveito do plano de simetria; as expressões das forças ficam mais fáceis e as equações são simplificadas."}, "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 2, 2.1, p. 21 (PDF 14)", "origem": "inedita"}, {"id": "I-MAN02-01", "unidade": "MAN-02", "disc": "MAN", "dif": "fácil", "enunciado": "Para Santos, ao aplicar o conceito de derivadas hidrodinâmicas, deve-se ter sempre em mente que:", "alts": {"A": "O casco é uma asa em movimento com ângulo de ataque (ângulo de deriva), e o leme é o seu flape.", "B": "O leme é a asa principal e o casco é um corpo sem sustentação.", "C": "O casco só gera arrasto, nunca sustentação.", "D": "O navio deve ser tratado como uma esfera em fluido ideal.", "E": "As forças do casco são desprezíveis diante das forças do leme."}, "correta": "A", "coment": {"A": "Correta: é o fundamento declarado no início do Cap. 3.", "B": "É o contrário: casco = asa, leme = flape.", "C": "O casco gera sustentação (teoria da circulação, 3.2.2).", "D": "A esfera é justamente o corpo que NÃO gera momento de Munk.", "E": "As forças do casco são muito maiores que as do leme."}, "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 3, 3.1, p. 35 (PDF 28)", "origem": "inedita"}, {"id": "I-MAN02-02", "unidade": "MAN-02", "disc": "MAN", "dif": "média", "enunciado": "Considerando a superfície livre como base plana (teoria do corpo duplo), o casco de um navio passa a ter razão de aspecto efetiva igual a:", "alts": {"A": "O calado dividido pelo comprimento.", "B": "Duas vezes o calado dividido pelo comprimento.", "C": "A boca dividida pelo comprimento.", "D": "O comprimento dividido pelo calado.", "E": "Duas vezes a boca dividida pelo calado."}, "correta": "B", "coment": {"A": "T/L seria sem o espelhamento do corpo duplo.", "B": "Correta: com o corpo duplo, a razão de aspecto efetiva vale 2T/L.", "C": "B/L é a razão de espessura em relação à corda, não a razão de aspecto.", "D": "É o inverso; daria valor muito alto.", "E": "Não é a definição do livro."}, "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 3, 3.2, p. 36 (PDF 29)", "origem": "inedita"}, {"id": "I-MAN02-03", "unidade": "MAN-02", "disc": "MAN", "dif": "média", "enunciado": "Segundo Santos, para avaliar as forças de arrasto do casco como asa, a influência da irradiação de ondas pode ser desprezada e a superfície livre tratada como base plana sólida (groundboard) quando:", "alts": {"A": "O número de Froude é superior a 0,5.", "B": "O ângulo de deriva passa de 25°.", "C": "O número de Froude é inferior a 0,25.", "D": "O navio está em águas rasas.", "E": "O leme está a mais de 15°."}, "correta": "C", "coment": {"A": "É o contrário: vale para Froude BAIXO.", "B": "Deriva acima de 25° é a condição do arrasto cruzado (3.8), outra coisa.", "C": "Correta: abaixo de Fn 0,25 a irradiação de ondas é desprezível.", "D": "O texto não liga essa hipótese a águas rasas.", "E": "Ângulo de leme não é o critério."}, "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 3, 3.2, p. 36 (PDF 29)", "origem": "inedita"}, {"id": "I-MAN02-04", "unidade": "MAN-02", "disc": "MAN", "dif": "média", "enunciado": "Sobre o momento de Munk, segundo Santos, é INCORRETO afirmar:", "alts": {"A": "Surge num corpo tridimensional alongado com ângulo de ataque, em fluido ideal.", "B": "É composto de forças iguais e opostas, sem força resultante no corpo.", "C": "Qualquer forma tridimensional que não seja uma esfera gera esse momento em meio invíscido.", "D": "É um momento estabilizador, que reduz o ângulo de deriva.", "E": "Desempenha papel importante em todo movimento de guinada do navio."}, "correta": "D", "coment": {"A": "Verdadeira: definição do texto.", "B": "Verdadeira: momento puro, força resultante nula.", "C": "Verdadeira: só a esfera não gera.", "D": "Correta (é a INCORRETA): o momento de Munk é SEMPRE DESESTABILIZADOR e tende a AUMENTAR o ângulo de deriva.", "E": "Verdadeira: o texto diz isso em 3.3."}, "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 3, 3.2.3 e 3.3, p. 39–42 (PDF 32–35)", "origem": "inedita"}, {"id": "I-MAN02-05", "unidade": "MAN-02", "disc": "MAN", "dif": "média", "enunciado": "Segundo Santos, “é um erro comum pensar que o momento gerado pela força do leme guina um navio”. Isso porque:", "alts": {"A": "O leme não gera força alguma quando o navio está em movimento.", "B": "A guinada é causada apenas pelo hélice.", "C": "O leme tem área maior que a do casco.", "D": "O momento do leme é sempre maior que o do casco, mas atua com atraso.", "E": "O leme induz no casco um pequeno ângulo de deriva; é a hidrodinâmica do escoamento no casco que faz o navio guinar."}, "correta": "E", "coment": {"A": "O leme gera força de controle (sustentação no flape).", "B": "O texto não atribui a guinada ao hélice.", "C": "O leme tem cerca de 1% da área do casco.", "D": "As forças do casco são muito maiores que as do leme.", "E": "Correta: o efeito do leme na guinada é indireto; ele é um flape que orienta o casco num ângulo de ataque."}, "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 3, 3.3, p. 41 (PDF 34)", "origem": "inedita"}, {"id": "I-MAN02-06", "unidade": "MAN-02", "disc": "MAN", "dif": "média", "enunciado": "A área perfilada do leme, comparada com a área do casco, é em geral cerca de:", "alts": {"A": "1%.", "B": "10%.", "C": "25%.", "D": "50%.", "E": "Igual à do casco."}, "correta": "A", "coment": {"A": "Correta: os lemes têm apenas cerca de 1% da área do casco.", "B": "Muito acima do valor do livro.", "C": "Muito acima do valor do livro.", "D": "Muito acima do valor do livro.", "E": "Sem base no texto."}, "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 3, p. 39 e 42 (PDF 32, 35)", "origem": "inedita"}, {"id": "I-MAN02-07", "unidade": "MAN-02", "disc": "MAN", "dif": "média", "enunciado": "Quando o navio começa a guinar depois de carregado o leme, o ângulo de ataque do leme:", "alts": {"A": "Aumenta, porque o casco passa a ajudar o leme.", "B": "Diminui, porque o ângulo de deriva do casco aumenta.", "C": "Fica constante até o fim da guinada.", "D": "Inverte de sinal imediatamente.", "E": "Passa a ser igual ao ângulo de leme."}, "correta": "B", "coment": {"A": "É o contrário.", "B": "Correta: α = δ − βr + ε; com o navio guinando, o ângulo de ataque do leme diminui — mais uma prova de que o leme é força de controle.", "C": "Ele varia com a deriva.", "D": "O texto não diz isso.", "E": "O ângulo de ataque desconta a deriva no leme."}, "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 3, 3.2.5 e 3.3, p. 41–42 (PDF 34–35)", "origem": "inedita"}, {"id": "I-MAN02-08", "unidade": "MAN-02", "disc": "MAN", "dif": "média", "enunciado": "Segundo Santos, a trajetória do navio passa a ser um círculo de giro constante quando:", "alts": {"A": "O leme volta a zero.", "B": "A velocidade lateral fica igual à longitudinal.", "C": "O momento de Munk, o momento da força de sustentação, o momento do leme e os momentos de amortecimento viscoso entram em equilíbrio.", "D": "O momento de Munk se anula.", "E": "O ângulo de deriva chega a 25°."}, "correta": "C", "coment": {"A": "Com o leme a zero o navio não se mantém em giro constante (caso estável).", "B": "Não é a condição do texto.", "C": "Correta: equilíbrio desses momentos → razão de guinada constante.", "D": "Munk atua durante toda a guinada.", "E": "25° é o limiar do arrasto cruzado, não do giro constante."}, "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 3, 3.3, p. 42 (PDF 35)", "origem": "inedita"}, {"id": "I-MAN02-09", "unidade": "MAN-02", "disc": "MAN", "dif": "difícil", "enunciado": "Para simplificar a expansão em série de Taylor das forças hidrodinâmicas, Santos adota hipóteses. Analise:\nI) A dependência da força em relação à aceleração é linear.\nII) Não há acoplamento entre velocidades e acelerações.\nIII) O casco é uma asa de baixa razão de aspecto com simetria boreste-bombordo.\nIV) O navio é simétrico em relação ao plano transversal de meio-navio (proa igual à popa).\nSão hipóteses adotadas pelo autor:", "alts": {"A": "Apenas I e II.", "B": "Apenas III e IV.", "C": "Apenas I, II e IV.", "D": "Apenas I, II e III.", "E": "I, II, III e IV."}, "correta": "D", "coment": {"A": "Falta III (simetria boreste-bombordo).", "B": "Faltam I e II; IV não é hipótese.", "C": "IV não é hipótese; falta III.", "D": "Correta: são as três hipóteses de 3.4.1. IV não é hipótese: o livro diz que a maioria dos navios NÃO é simétrica no plano yz, por isso os termos cruzados de N não se anulam.", "E": "IV não é hipótese."}, "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 3, 3.4.1 e 3.4.3, p. 44 e 48 (PDF 37, 41)", "origem": "inedita"}, {"id": "I-MAN02-10", "unidade": "MAN-02", "disc": "MAN", "dif": "difícil", "enunciado": "Pela simetria boreste-bombordo, a força hidrodinâmica longitudinal X e a força lateral Y, em função da velocidade lateral v, são, respectivamente:", "alts": {"A": "Função ímpar e função par.", "B": "Ambas funções pares.", "C": "Ambas funções ímpares.", "D": "Ambas independentes de v.", "E": "Função par e função ímpar."}, "correta": "E", "coment": {"A": "Invertido.", "B": "Y é ímpar.", "C": "X é par.", "D": "Ambas dependem de v.", "E": "Correta: X(v) = X(−v) (par); Y e N trocam de sinal com v (ímpares)."}, "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 3, 3.4.1–3.4.3, p. 45–48 (PDF 38–41)", "origem": "inedita"}, {"id": "I-MAN02-11", "unidade": "MAN-02", "disc": "MAN", "dif": "média", "enunciado": "Sobre a massa adicional, segundo Santos, é correto afirmar:", "alts": {"A": "A força necessária para acelerar um corpo num fluido é sempre maior que a massa do corpo vezes a aceleração; essa força nasce da aceleração do corpo e sempre se opõe ao movimento.", "B": "É a massa de água que o navio efetivamente carrega consigo de forma permanente.", "C": "Só existe quando o navio navega com velocidade constante.", "D": "Depende principalmente da viscosidade da água.", "E": "Só aparece em águas rasas."}, "correta": "A", "coment": {"A": "Correta: é a definição precisa dada no texto (termo Xu̇).", "B": "O livro diz que a ideia de água \"arrastada\" deve ser interpretada como força que nasce da aceleração.", "C": "Nasce da ACELERAÇÃO.", "D": "No Cap. 4 o livro diz que esses coeficientes não dependem da viscosidade (reação potencial).", "E": "Não há essa restrição."}, "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 3, 3.5.1, p. 48 (PDF 41)", "origem": "inedita"}, {"id": "I-MAN02-12", "unidade": "MAN-02", "disc": "MAN", "dif": "média", "enunciado": "O princípio do arrasto cruzado (cross flow) é aplicado à manobra do navio quando:", "alts": {"A": "O navio navega a toda força em linha reta.", "B": "A velocidade lateral é próxima da longitudinal e o ângulo de deriva é alto, geralmente maior que 25°.", "C": "O ângulo de deriva é menor que 5°.", "D": "O número de Froude passa de 0,3.", "E": "O leme está a meio."}, "correta": "B", "coment": {"A": "Em linha reta e velocidade alta predomina a sustentação, não o arrasto cruzado.", "B": "Correta: é a condição dada em 3.8 (e, em 3.2.4, navio parado ou muito lento).", "C": "Pequena deriva é o domínio da sustentação.", "D": "Não é o critério do texto.", "E": "Sem relação."}, "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 3, 3.2.4 e 3.8, p. 40 e 53 (PDF 33, 46)", "origem": "inedita"}, {"id": "I-MAN02-13", "unidade": "MAN-02", "disc": "MAN", "dif": "difícil", "enunciado": "Associe o pesquisador à contribuição citada por Santos:\n1) Weinblum  2) Abkowitz  3) Obokata  4) Norrbin\n( ) Expansões em série de Taylor nos seis graus de liberdade (1964, MIT)\n( ) Modelo com derivadas hidrodinâmicas para manobra do navio (1937, Alemanha)\n( ) Navio como asa de baixa razão de aspecto (anos 1980)\n( ) Teoria do \"quadrado absoluto\" (1970)\nA sequência correta é:", "alts": {"A": "2, 1, 3, 4", "B": "1, 2, 3, 4", "C": "2, 1, 4, 3", "D": "3, 1, 2, 4", "E": "1, 3, 2, 4"}, "correta": "A", "coment": {"A": "Correta: Abkowitz (1964), Weinblum (1937), Obokata (anos 1980), Norrbin (1970).", "B": "Troca Abkowitz e Weinblum.", "C": "Troca Obokata e Norrbin.", "D": "Obokata não é o da série de Taylor de 1964.", "E": "Sequência sem base no texto."}, "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 3, 3.1 e 3.8, p. 35 e 53 (PDF 28, 46)", "origem": "inedita"}, {"id": "I-MAN02-14", "unidade": "MAN-02", "disc": "MAN", "dif": "média", "enunciado": "Segundo Santos, o arrasto do casco pode ser decomposto em três elementos:", "alts": {"A": "Resistência de ondas, resistência do ar e resistência do leme.", "B": "Massa adicional, momento de Munk e sustentação.", "C": "Resistência friccional, amortecimento potencial (arrasto de forma) e arrasto por descolamento de vórtices.", "D": "Arrasto induzido, empuxo e peso.", "E": "Resistência friccional, sustentação e momento de Munk."}, "correta": "C", "coment": {"A": "Não é a decomposição do livro.", "B": "Esses não são componentes do arrasto.", "C": "Correta: são os três elementos listados em 3.2.", "D": "Empuxo e peso são forças hidrostáticas/gravitacionais.", "E": "Sustentação e Munk não são componentes do arrasto."}, "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 3, 3.2, p. 36 (PDF 29)", "origem": "inedita"}, {"id": "I-MAN03-01", "unidade": "MAN-03", "disc": "MAN", "dif": "média", "enunciado": "A classificação de estabilidade de movimento de Arentzen e Mandel (1961), adotada por Santos, NÃO inclui:", "alts": {"A": "Estabilidade em linha reta.", "B": "Estabilidade direcional com índices reais.", "C": "Estabilidade direcional com índices complexos.", "D": "Estabilidade estática transversal (GM).", "E": "Estabilidade posicional."}, "correta": "D", "coment": {"A": "Faz parte.", "B": "Faz parte.", "C": "Faz parte.", "D": "Correta (não faz parte): GM é estabilidade hidrostática, assunto de Arte Naval, não de estabilidade de MOVIMENTO.", "E": "Faz parte."}, "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 4, 4.2, p. 57 (PDF 49)", "origem": "inedita"}, {"id": "I-MAN03-02", "unidade": "MAN-03", "disc": "MAN", "dif": "média", "enunciado": "Segundo Santos, um navio autopropelido, com propulsão de popa, em mar aberto e com controles fixos, pode ter apenas:", "alts": {"A": "Estabilidade posicional.", "B": "Estabilidade direcional com índices reais.", "C": "Estabilidade direcional com índices complexos.", "D": "Todas as estabilidades, desde que o leme esteja a meio.", "E": "Estabilidade em linha reta."}, "correta": "E", "coment": {"A": "Posicional exige no mínimo três atuadores (posicionamento dinâmico).", "B": "Direcional exige controle atuando.", "C": "Direcional exige controle atuando.", "D": "Não; só a estabilidade em linha reta.", "E": "Correta: com controles fixos, a única estabilidade possível é em linha reta."}, "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 4, 4.3, p. 61 (PDF 53)", "origem": "inedita"}, {"id": "I-MAN03-03", "unidade": "MAN-03", "disc": "MAN", "dif": "média", "enunciado": "Para que um navio tenha estabilidade de movimento posicional (típica do posicionamento dinâmico), o número de atuadores de controle deve ser:", "alts": {"A": "No mínimo igual a três, e maior ou igual ao número de graus de liberdade a controlar.", "B": "Exatamente um (o leme).", "C": "No mínimo dois.", "D": "Igual ao número de hélices.", "E": "Qualquer, desde que haja piloto automático."}, "correta": "A", "coment": {"A": "Correta: leme, bow-thruster, stern-thruster, azimutal etc. — no mínimo três.", "B": "Um atuador não basta.", "C": "Dois não bastam para três graus de liberdade.", "D": "Sem base no texto.", "E": "Sem base no texto."}, "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 4, 4.2.5, p. 60 (PDF 52)", "origem": "inedita"}, {"id": "I-MAN03-04", "unidade": "MAN-03", "disc": "MAN", "dif": "média", "enunciado": "A diferença entre estabilidade direcional com índices reais e com índices complexos é que, na de índices reais:", "alts": {"A": "O navio dispensa qualquer atuador.", "B": "A trajetória não oscila durante a ação corretiva, que vem de um atuador como o propulsor azimutal, e não do leme.", "C": "A trajetória oscila mais que na de índices complexos.", "D": "O navio mantém a posição em relação a um referencial inercial.", "E": "Só existe com controles fixos."}, "correta": "B", "coment": {"A": "Há ação corretiva de controle.", "B": "Correta: é a diferença dada no texto.", "C": "É o contrário: a de índices reais NÃO oscila.", "D": "Isso é estabilidade posicional.", "E": "Direcional é com controles móveis."}, "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 4, 4.2.3–4.2.4, p. 58–59 (PDF 50–51)", "origem": "inedita"}, {"id": "I-MAN03-05", "unidade": "MAN-03", "disc": "MAN", "dif": "fácil", "enunciado": "Um navio que, após cessar uma perturbação, mantém sua trajetória SEM intervenção do timoneiro tem estabilidade:", "alts": {"A": "Com controles móveis.", "B": "Posicional.", "C": "Com controles fixos.", "D": "Estática.", "E": "Neutra."}, "correta": "C", "coment": {"A": "Controles móveis = com ação do leme/timoneiro.", "B": "Posicional exige atuadores (DP).", "C": "Correta: definição em 4.1.", "D": "Não é o termo usado para estabilidade de movimento.", "E": "Sem base no texto."}, "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 4, 4.1, p. 57 (PDF 49)", "origem": "inedita"}, {"id": "I-MAN03-06", "unidade": "MAN-03", "disc": "MAN", "dif": "média", "enunciado": "Sobre a instabilidade em linha reta, Santos afirma que:", "alts": {"A": "É sempre falha de projeto e deve ser eliminada.", "B": "Só ocorre em navios com dois hélices.", "C": "Desaparece quando o navio reduz a velocidade.", "D": "Pode não ser falha de projeto; muitos navios mercantes de grande porte precisam dessa característica para manobrar.", "E": "Impede o navio de fazer a curva espiral."}, "correta": "D", "coment": {"A": "O livro diz o contrário.", "B": "Sem base no texto.", "C": "O livro diz que estabilidade exige velocidade avante SUFICIENTE.", "D": "Correta: frase do texto em 4.6.", "E": "Sem base no texto."}, "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 4, 4.6, p. 66 (PDF 58)", "origem": "inedita"}, {"id": "I-MAN03-07", "unidade": "MAN-03", "disc": "MAN", "dif": "difícil", "enunciado": "Na análise linear de estabilidade em linha reta, os coeficientes A e B da equação característica são sempre positivos. Por isso, a condição de estabilidade fica restrita a:", "alts": {"A": "C < 0.", "B": "A = B.", "C": "B > A.", "D": "Índices de estabilidade positivos.", "E": "C > 0, sendo C o discriminante da estabilidade dinâmica, muito dependente de Nv' (ligada ao momento de Munk)."}, "correta": "E", "coment": {"A": "Com C negativo o navio é instável.", "B": "Sem base no texto.", "C": "Sem base no texto.", "D": "Os índices (autovalores) devem ser NEGATIVOS para haver estabilidade.", "E": "Correta: C > 0; C depende muito do sinal e da magnitude de Nv'."}, "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 4, 4.6–4.7.3, p. 65 e 69 (PDF 57, 61)", "origem": "inedita"}, {"id": "I-MAN03-08", "unidade": "MAN-03", "disc": "MAN", "dif": "média", "enunciado": "Com o leme na condição neutra (controles fixos), o que gera a força hidrodinâmica que estabiliza o navio em linha reta, segundo Santos?", "alts": {"A": "O arrasto gerado pela forma da popa — a \"empenagem\" do navio.", "B": "O momento de Munk.", "C": "O bulbo de proa.", "D": "A massa adicional em sway.", "E": "O efeito evolutivo do hélice."}, "correta": "A", "coment": {"A": "Correta: o arrasto da popa funciona como a empenagem de um avião.", "B": "Munk é DESESTABILIZADOR.", "C": "O texto não cita bulbo.", "D": "Massa adicional não é o atuador estabilizador citado.", "E": "O texto não cita efeito do hélice aqui."}, "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 4, intro e 4.3, p. 57 e 61 (PDF 49, 53)", "origem": "inedita"}, {"id": "I-MAN03-09", "unidade": "MAN-03", "disc": "MAN", "dif": "média", "enunciado": "Segundo Santos, uma condição necessária para o navio ter estabilidade em linha reta, muitas vezes esquecida, é:", "alts": {"A": "Estar com trim pela proa.", "B": "Possuir suficiente velocidade avante.", "C": "Ter o leme sempre carregado alguns graus.", "D": "Navegar em águas rasas.", "E": "Ter GM negativo."}, "correta": "B", "coment": {"A": "Sem base no texto desta seção.", "B": "Correta: como Xu' é sempre negativa, a condição é ter movimento avante suficiente (4.6.1).", "C": "Com leme carregado não se trata de controles fixos.", "D": "Sem base no texto.", "E": "GM negativo é instabilidade estática, outro assunto."}, "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 4, 4.6.1, p. 65 (PDF 57)", "origem": "inedita"}]}
+{
+ "itens": [
+  {
+   "id": "P2011-01",
+   "unidade": "MAN-03",
+   "disc": "MAN",
+   "prova": "PSCPP 2011 · Amarela · Q1 · 1,2 pt",
+   "dif": "difícil",
+   "enunciado": "De acordo com o “Principles of Naval Architecture” (SNAME, 3ª ed.), analise:\nI) A manobra “Dieudonné Spiral” identifica as características de estabilidade direcional de um navio.\nII) A manobra “Pull out” provê indicações das qualidades de um navio em realizar uma curva de giro.\nIII) A manobra “Kempf Overshoot” provê indicações da habilidade de um leme em controlar um navio.\nIV) A manobra “Turning” identifica as características de estabilidade direcional de um navio.\nV) A manobra “Bech Reverse Spiral” identifica, principalmente, as características de estabilidade direcional.",
+   "alts": {
+    "A": "Apenas I e III são verdadeiras.",
+    "B": "Apenas I, II e V são verdadeiras.",
+    "C": "Apenas II e III são verdadeiras.",
+    "D": "Apenas I, III e V são verdadeiras.",
+    "E": "Apenas IV e V são verdadeiras."
+   },
+   "correta": "D",
+   "coment": {
+    "A": "Esquece V (espiral reversa de Bech também mede estabilidade direcional).",
+    "B": "II é falsa: o pull-out indica estabilidade direcional, não a qualidade de giro.",
+    "C": "II é falsa e I/V ficaram de fora.",
+    "D": "Gabarito oficial.",
+    "E": "IV é falsa: a curva de giro mede a capacidade de girar (turning ability)."
+   },
+   "atencao": "A fonte (PNA vol. III) não está no projeto. Comentário baseado no gabarito oficial.",
+   "fonte": "Lewis, PNA vol. III, Cap. IX (fora do projeto) — gabarito oficial 2011",
+   "origem": "prova",
+   "s": "MAN-03.1"
+  },
+  {
+   "id": "P2012-10",
+   "unidade": "MAN-03",
+   "disc": "MAN",
+   "prova": "PSCPP 2012 · Rosa · Q10 · 1,3 pt",
+   "dif": "média",
+   "enunciado": "A estabilidade direcional afeta o governo do navio e a variação da razão de guinada com o leme a meio. De acordo com o “Shiphandling for the Mariner” (MacElrevey, 4ª ed.), assinale a alternativa INCORRETA sobre a estabilidade direcional:",
+   "alts": {
+    "A": "Diminui quando o coeficiente de bloco aumenta.",
+    "B": "Diminui quando a boca aumenta para um determinado comprimento (a razão comprimento/boca diminui).",
+    "C": "Aumenta quando a folga abaixo da quilha diminui.",
+    "D": "Torna-se mais positiva quando o comprimento aumenta.",
+    "E": "Torna-se mais positiva quando o arrasto diminui."
+   },
+   "correta": "E",
+   "coment": {
+    "A": "Correta: casco mais cheio é menos estável direcionalmente.",
+    "B": "Correta.",
+    "C": "Correta: em águas rasas o navio fica mais estável direcionalmente (e mais difícil de girar).",
+    "D": "Correta.",
+    "E": "INCORRETA (gabarito): pelo livro, a estabilidade direcional \"becomes more positive as drag increases\" (fica mais positiva quando o trim pela popa — drag — aumenta)."
+   },
+   "fonte": "MacElrevey, Shiphandling for the Mariner, 5ª ed., Cap. 1 Arrival, p. 20 (PDF 35) — lista dos 6 fatores da estabilidade direcional",
+   "origem": "prova",
+   "s": "MAN-03.1"
+  },
+  {
+   "id": "I-MAN01-01",
+   "unidade": "MAN-01",
+   "disc": "MAN",
+   "dif": "fácil",
+   "enunciado": "No sistema de eixos fixo ao navio adotado por Santos (convenção SNAME), os eixos x, y e z são positivos, respectivamente, para:",
+   "alts": {
+    "A": "Vante, bombordo e para cima.",
+    "B": "Ré, boreste e para baixo.",
+    "C": "Vante, boreste e para baixo (em direção à quilha).",
+    "D": "Vante, boreste e para cima.",
+    "E": "Norte, leste e para baixo."
+   },
+   "correta": "C",
+   "coment": {
+    "A": "y é positivo para BORESTE e z para BAIXO.",
+    "B": "x é positivo para VANTE.",
+    "C": "Correta: x no plano de simetria positivo para vante; y perpendicular ao plano de simetria, positivo para boreste; z vertical, positivo para baixo, em direção à quilha.",
+    "D": "z é positivo para BAIXO, em direção à quilha.",
+    "E": "Norte-leste-baixo é o referencial INERCIAL NED, não o fixo ao navio."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 2, 2.1, p. 21 (PDF 14)",
+   "origem": "inedita",
+   "s": "MAN-01.2"
+  },
+  {
+   "id": "I-MAN01-02",
+   "unidade": "MAN-01",
+   "disc": "MAN",
+   "dif": "fácil",
+   "enunciado": "Na equação de movimento em seis graus de liberdade, os momentos K, M e N (convenção SNAME) correspondem, respectivamente, às rotações:",
+   "alts": {
+    "A": "Yaw, pitch e roll.",
+    "B": "Surge, sway e heave.",
+    "C": "Pitch, roll e yaw.",
+    "D": "Roll, pitch e yaw.",
+    "E": "Roll, yaw e pitch."
+   },
+   "correta": "D",
+   "coment": {
+    "A": "Ordem invertida: N é yaw e K é roll.",
+    "B": "Surge, sway e heave são as TRANSLAÇÕES (forças X, Y, Z), não os momentos.",
+    "C": "K é roll (eixo x) e M é pitch (eixo y).",
+    "D": "Correta: K = roll (em torno de x), M = pitch (em torno de y), N = yaw (em torno de z).",
+    "E": "M é pitch e N é yaw."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 2, 2.4.2.2 e 2.6, p. 28 e 33 (PDF 21, 26)",
+   "origem": "inedita",
+   "s": "MAN-01.2"
+  },
+  {
+   "id": "I-MAN01-03",
+   "unidade": "MAN-01",
+   "disc": "MAN",
+   "dif": "fácil",
+   "enunciado": "Segundo Santos, a equação de movimento do navio no plano horizontal fica reduzida a três graus de liberdade. São eles:",
+   "alts": {
+    "A": "Surge, heave e pitch.",
+    "B": "Sway, roll e yaw.",
+    "C": "Heave, pitch e roll.",
+    "D": "Surge, sway e roll.",
+    "E": "Surge, sway e yaw."
+   },
+   "correta": "E",
+   "coment": {
+    "A": "Heave e pitch são movimentos do plano vertical.",
+    "B": "Roll não entra na equação de 3 graus no plano horizontal.",
+    "C": "São justamente os movimentos fora do plano horizontal.",
+    "D": "Roll fica de fora; o terceiro grau é yaw.",
+    "E": "Correta: no plano horizontal restam surge (X), sway (Y) e yaw (N) (seções 2.7 e 2.8)."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 2, 2.7–2.8, p. 33 (PDF 26)",
+   "origem": "inedita",
+   "s": "MAN-01.2"
+  },
+  {
+   "id": "I-MAN01-04",
+   "unidade": "MAN-01",
+   "disc": "MAN",
+   "dif": "média",
+   "enunciado": "Sobre os referenciais usados por Santos para a equação de movimento, analise:\nI) Referencial inercial é aquele em que as leis de Newton são válidas.\nII) Um referencial que se move com velocidade constante em relação a um referencial inercial também é inercial.\nIII) No sistema NED, o eixo z é positivo para cima.\nIV) Quando o navio rotaciona, os eixos fixos a ele também se movem, o que complica o cálculo da variação da quantidade de movimento.\nEstão corretas:",
+   "alts": {
+    "A": "Apenas I, II e IV.",
+    "B": "Apenas I e III.",
+    "C": "Apenas II e III.",
+    "D": "Apenas I, III e IV.",
+    "E": "I, II, III e IV."
+   },
+   "correta": "A",
+   "coment": {
+    "A": "Correta: I, II e IV estão no texto (2.1). III é falsa: no NED o z é \"down\", para baixo.",
+    "B": "III é falsa e faltam II e IV.",
+    "C": "III é falsa; I também é verdadeira.",
+    "D": "III é falsa (z para baixo).",
+    "E": "III é falsa."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 2, 2.1–2.2, p. 22 (PDF 15)",
+   "origem": "inedita",
+   "s": "MAN-01.2"
+  },
+  {
+   "id": "I-MAN01-05",
+   "unidade": "MAN-01",
+   "disc": "MAN",
+   "dif": "média",
+   "enunciado": "Ao montar a equação de movimento, Santos considera a massa do navio constante durante a manobra porque:",
+   "alts": {
+    "A": "A massa adicional anula a variação de massa do navio.",
+    "B": "Na maioria dos navios mercantes a taxa de variação de massa pelo consumo de combustível é desprezível.",
+    "C": "O navio é tratado como partícula sem dimensões.",
+    "D": "A segunda lei de Newton só vale para massa constante no referencial NED.",
+    "E": "A variação de massa é compensada pelo lastro automático."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Massa adicional é termo hidrodinâmico de aceleração (Cap. 3), não compensa consumo de combustível.",
+    "B": "Correta: a variação de massa por consumo de combustível é negligenciada, e a massa é tomada como constante durante a manobra (2.4.1).",
+    "C": "O navio é tratado como CORPO RÍGIDO; a ideia de \"uma grande partícula\" vale só para o movimento de translação com a massa no CG.",
+    "D": "O texto não afirma isso; a constância da massa é uma simplificação.",
+    "E": "O livro não menciona lastro automático."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 2, 2.4.1, p. 25 (PDF 18)",
+   "origem": "inedita",
+   "s": "MAN-01.2"
+  },
+  {
+   "id": "I-MAN01-06",
+   "unidade": "MAN-01",
+   "disc": "MAN",
+   "dif": "média",
+   "enunciado": "Na equação das forças X, Y e Z, os termos (wq − vr), (ur − wp) e (vp − uq) representam:",
+   "alts": {
+    "A": "Acelerações translacionais.",
+    "B": "Forças de massa adicional.",
+    "C": "Acelerações centrípetas.",
+    "D": "Forças de Coriolis da origem fora do CG.",
+    "E": "Acelerações angulares."
+   },
+   "correta": "C",
+   "coment": {
+    "A": "As translacionais são u̇, v̇, ẇ.",
+    "B": "Massa adicional é assunto do Cap. 3 (derivadas hidrodinâmicas).",
+    "C": "Correta: o texto chama esses termos de acelerações centrípetas.",
+    "D": "Coriolis aparece na seção da origem fora do CG (2.4.4), com outros termos.",
+    "E": "As acelerações angulares são ṗ, q̇, ṙ."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 2, 2.4.2.1, p. 26 (PDF 19)",
+   "origem": "inedita",
+   "s": "MAN-01.2"
+  },
+  {
+   "id": "I-MAN01-07",
+   "unidade": "MAN-01",
+   "disc": "MAN",
+   "dif": "difícil",
+   "enunciado": "Quando a origem do sistema fixo ao navio não coincide com o centro de gravidade G, as equações de força ganham termos que multiplicam xG, yG e zG. Segundo Santos, esses termos adicionais com ω × (ω × RG):",
+   "alts": {
+    "A": "Representam a força de sustentação do casco.",
+    "B": "Desaparecem sempre que o navio guina.",
+    "C": "Representam o empuxo atuando no centro de carena.",
+    "D": "Representam forças centrífugas, que só existem porque o centro de referência é não inercial.",
+    "E": "São as forças ambientais de vento e corrente."
+   },
+   "correta": "D",
+   "coment": {
+    "A": "Sustentação é força hidrodinâmica (Cap. 3), não termo inercial.",
+    "B": "Elas aparecem justamente quando há rotação (ω ≠ 0).",
+    "C": "Empuxo é força hidrostática; não é o que esses termos representam.",
+    "D": "Correta: são forças centrífugas, perpendiculares ao eixo de rotação, de G para a origem O, existentes porque a referência é não inercial (2.4.3).",
+    "E": "Forças ambientais são outra categoria de forças externas."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 2, 2.4.3, p. 29 (PDF 22)",
+   "origem": "inedita",
+   "s": "MAN-01.2"
+  },
+  {
+   "id": "I-MAN01-08",
+   "unidade": "MAN-01",
+   "disc": "MAN",
+   "dif": "média",
+   "enunciado": "Por que, segundo Santos, dois dos três eixos do sistema fixo ao navio devem estar no plano de simetria (plano da linha central)?",
+   "alts": {
+    "A": "Porque o referencial NED exige isso.",
+    "B": "Para que o eixo z coincida com o eixo do hélice.",
+    "C": "Porque o centro de gravidade está sempre na linha d'água.",
+    "D": "Para eliminar o grau de liberdade de heave.",
+    "E": "Para aproveitar a simetria boreste-bombordo e simplificar as expressões das forças hidrodinâmicas."
+   },
+   "correta": "E",
+   "coment": {
+    "A": "NED é o referencial inercial; não é ele que impõe essa escolha.",
+    "B": "O texto não liga os eixos ao eixo do hélice.",
+    "C": "O livro não afirma isso.",
+    "D": "A escolha dos eixos não elimina graus de liberdade.",
+    "E": "Correta: a escolha tira proveito do plano de simetria; as expressões das forças ficam mais fáceis e as equações são simplificadas."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 2, 2.1, p. 21 (PDF 14)",
+   "origem": "inedita",
+   "s": "MAN-01.2"
+  },
+  {
+   "id": "I-MAN02-01",
+   "unidade": "MAN-02",
+   "disc": "MAN",
+   "dif": "fácil",
+   "enunciado": "Para Santos, ao aplicar o conceito de derivadas hidrodinâmicas, deve-se ter sempre em mente que:",
+   "alts": {
+    "A": "O casco é uma asa em movimento com ângulo de ataque (ângulo de deriva), e o leme é o seu flape.",
+    "B": "O leme é a asa principal e o casco é um corpo sem sustentação.",
+    "C": "O casco só gera arrasto, nunca sustentação.",
+    "D": "O navio deve ser tratado como uma esfera em fluido ideal.",
+    "E": "As forças do casco são desprezíveis diante das forças do leme."
+   },
+   "correta": "A",
+   "coment": {
+    "A": "Correta: é o fundamento declarado no início do Cap. 3.",
+    "B": "É o contrário: casco = asa, leme = flape.",
+    "C": "O casco gera sustentação (teoria da circulação, 3.2.2).",
+    "D": "A esfera é justamente o corpo que NÃO gera momento de Munk.",
+    "E": "As forças do casco são muito maiores que as do leme."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 3, 3.1, p. 35 (PDF 28)",
+   "origem": "inedita",
+   "s": "MAN-02.3"
+  },
+  {
+   "id": "I-MAN02-02",
+   "unidade": "MAN-02",
+   "disc": "MAN",
+   "dif": "média",
+   "enunciado": "Considerando a superfície livre como base plana (teoria do corpo duplo), o casco de um navio passa a ter razão de aspecto efetiva igual a:",
+   "alts": {
+    "A": "O calado dividido pelo comprimento.",
+    "B": "Duas vezes o calado dividido pelo comprimento.",
+    "C": "A boca dividida pelo comprimento.",
+    "D": "O comprimento dividido pelo calado.",
+    "E": "Duas vezes a boca dividida pelo calado."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "T/L seria sem o espelhamento do corpo duplo.",
+    "B": "Correta: com o corpo duplo, a razão de aspecto efetiva vale 2T/L.",
+    "C": "B/L é a razão de espessura em relação à corda, não a razão de aspecto.",
+    "D": "É o inverso; daria valor muito alto.",
+    "E": "Não é a definição do livro."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 3, 3.2, p. 36 (PDF 29)",
+   "origem": "inedita",
+   "s": "MAN-02.3"
+  },
+  {
+   "id": "I-MAN02-03",
+   "unidade": "MAN-02",
+   "disc": "MAN",
+   "dif": "média",
+   "enunciado": "Segundo Santos, para avaliar as forças de arrasto do casco como asa, a influência da irradiação de ondas pode ser desprezada e a superfície livre tratada como base plana sólida (groundboard) quando:",
+   "alts": {
+    "A": "O número de Froude é superior a 0,5.",
+    "B": "O ângulo de deriva passa de 25°.",
+    "C": "O número de Froude é inferior a 0,25.",
+    "D": "O navio está em águas rasas.",
+    "E": "O leme está a mais de 15°."
+   },
+   "correta": "C",
+   "coment": {
+    "A": "É o contrário: vale para Froude BAIXO.",
+    "B": "Deriva acima de 25° é a condição do arrasto cruzado (3.8), outra coisa.",
+    "C": "Correta: abaixo de Fn 0,25 a irradiação de ondas é desprezível.",
+    "D": "O texto não liga essa hipótese a águas rasas.",
+    "E": "Ângulo de leme não é o critério."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 3, 3.2, p. 36 (PDF 29)",
+   "origem": "inedita",
+   "s": "MAN-02.3"
+  },
+  {
+   "id": "I-MAN02-04",
+   "unidade": "MAN-02",
+   "disc": "MAN",
+   "dif": "média",
+   "enunciado": "Sobre o momento de Munk, segundo Santos, é INCORRETO afirmar:",
+   "alts": {
+    "A": "Surge num corpo tridimensional alongado com ângulo de ataque, em fluido ideal.",
+    "B": "É composto de forças iguais e opostas, sem força resultante no corpo.",
+    "C": "Qualquer forma tridimensional que não seja uma esfera gera esse momento em meio invíscido.",
+    "D": "É um momento estabilizador, que reduz o ângulo de deriva.",
+    "E": "Desempenha papel importante em todo movimento de guinada do navio."
+   },
+   "correta": "D",
+   "coment": {
+    "A": "Verdadeira: definição do texto.",
+    "B": "Verdadeira: momento puro, força resultante nula.",
+    "C": "Verdadeira: só a esfera não gera.",
+    "D": "Correta (é a INCORRETA): o momento de Munk é SEMPRE DESESTABILIZADOR e tende a AUMENTAR o ângulo de deriva.",
+    "E": "Verdadeira: o texto diz isso em 3.3."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 3, 3.2.3 e 3.3, p. 39–42 (PDF 32–35)",
+   "origem": "inedita",
+   "s": "MAN-02.3"
+  },
+  {
+   "id": "I-MAN02-05",
+   "unidade": "MAN-02",
+   "disc": "MAN",
+   "dif": "média",
+   "enunciado": "Segundo Santos, “é um erro comum pensar que o momento gerado pela força do leme guina um navio”. Isso porque:",
+   "alts": {
+    "A": "O leme não gera força alguma quando o navio está em movimento.",
+    "B": "A guinada é causada apenas pelo hélice.",
+    "C": "O leme tem área maior que a do casco.",
+    "D": "O momento do leme é sempre maior que o do casco, mas atua com atraso.",
+    "E": "O leme induz no casco um pequeno ângulo de deriva; é a hidrodinâmica do escoamento no casco que faz o navio guinar."
+   },
+   "correta": "E",
+   "coment": {
+    "A": "O leme gera força de controle (sustentação no flape).",
+    "B": "O texto não atribui a guinada ao hélice.",
+    "C": "O leme tem cerca de 1% da área do casco.",
+    "D": "As forças do casco são muito maiores que as do leme.",
+    "E": "Correta: o efeito do leme na guinada é indireto; ele é um flape que orienta o casco num ângulo de ataque."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 3, 3.3, p. 41 (PDF 34)",
+   "origem": "inedita",
+   "s": "MAN-02.3"
+  },
+  {
+   "id": "I-MAN02-06",
+   "unidade": "MAN-02",
+   "disc": "MAN",
+   "dif": "média",
+   "enunciado": "A área perfilada do leme, comparada com a área do casco, é em geral cerca de:",
+   "alts": {
+    "A": "1%.",
+    "B": "10%.",
+    "C": "25%.",
+    "D": "50%.",
+    "E": "Igual à do casco."
+   },
+   "correta": "A",
+   "coment": {
+    "A": "Correta: os lemes têm apenas cerca de 1% da área do casco.",
+    "B": "Muito acima do valor do livro.",
+    "C": "Muito acima do valor do livro.",
+    "D": "Muito acima do valor do livro.",
+    "E": "Sem base no texto."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 3, p. 39 e 42 (PDF 32, 35)",
+   "origem": "inedita",
+   "s": "MAN-02.3"
+  },
+  {
+   "id": "I-MAN02-07",
+   "unidade": "MAN-02",
+   "disc": "MAN",
+   "dif": "média",
+   "enunciado": "Quando o navio começa a guinar depois de carregado o leme, o ângulo de ataque do leme:",
+   "alts": {
+    "A": "Aumenta, porque o casco passa a ajudar o leme.",
+    "B": "Diminui, porque o ângulo de deriva do casco aumenta.",
+    "C": "Fica constante até o fim da guinada.",
+    "D": "Inverte de sinal imediatamente.",
+    "E": "Passa a ser igual ao ângulo de leme."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "É o contrário.",
+    "B": "Correta: α = δ − βr + ε; com o navio guinando, o ângulo de ataque do leme diminui — mais uma prova de que o leme é força de controle.",
+    "C": "Ele varia com a deriva.",
+    "D": "O texto não diz isso.",
+    "E": "O ângulo de ataque desconta a deriva no leme."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 3, 3.2.5 e 3.3, p. 41–42 (PDF 34–35)",
+   "origem": "inedita",
+   "s": "MAN-02.3"
+  },
+  {
+   "id": "I-MAN02-08",
+   "unidade": "MAN-02",
+   "disc": "MAN",
+   "dif": "média",
+   "enunciado": "Segundo Santos, a trajetória do navio passa a ser um círculo de giro constante quando:",
+   "alts": {
+    "A": "O leme volta a zero.",
+    "B": "A velocidade lateral fica igual à longitudinal.",
+    "C": "O momento de Munk, o momento da força de sustentação, o momento do leme e os momentos de amortecimento viscoso entram em equilíbrio.",
+    "D": "O momento de Munk se anula.",
+    "E": "O ângulo de deriva chega a 25°."
+   },
+   "correta": "C",
+   "coment": {
+    "A": "Com o leme a zero o navio não se mantém em giro constante (caso estável).",
+    "B": "Não é a condição do texto.",
+    "C": "Correta: equilíbrio desses momentos → razão de guinada constante.",
+    "D": "Munk atua durante toda a guinada.",
+    "E": "25° é o limiar do arrasto cruzado, não do giro constante."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 3, 3.3, p. 42 (PDF 35)",
+   "origem": "inedita",
+   "s": "MAN-02.3"
+  },
+  {
+   "id": "I-MAN02-09",
+   "unidade": "MAN-02",
+   "disc": "MAN",
+   "dif": "difícil",
+   "enunciado": "Para simplificar a expansão em série de Taylor das forças hidrodinâmicas, Santos adota hipóteses. Analise:\nI) A dependência da força em relação à aceleração é linear.\nII) Não há acoplamento entre velocidades e acelerações.\nIII) O casco é uma asa de baixa razão de aspecto com simetria boreste-bombordo.\nIV) O navio é simétrico em relação ao plano transversal de meio-navio (proa igual à popa).\nSão hipóteses adotadas pelo autor:",
+   "alts": {
+    "A": "Apenas I e II.",
+    "B": "Apenas III e IV.",
+    "C": "Apenas I, II e IV.",
+    "D": "Apenas I, II e III.",
+    "E": "I, II, III e IV."
+   },
+   "correta": "D",
+   "coment": {
+    "A": "Falta III (simetria boreste-bombordo).",
+    "B": "Faltam I e II; IV não é hipótese.",
+    "C": "IV não é hipótese; falta III.",
+    "D": "Correta: são as três hipóteses de 3.4.1. IV não é hipótese: o livro diz que a maioria dos navios NÃO é simétrica no plano yz, por isso os termos cruzados de N não se anulam.",
+    "E": "IV não é hipótese."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 3, 3.4.1 e 3.4.3, p. 44 e 48 (PDF 37, 41)",
+   "origem": "inedita",
+   "s": "MAN-02.3"
+  },
+  {
+   "id": "I-MAN02-10",
+   "unidade": "MAN-02",
+   "disc": "MAN",
+   "dif": "difícil",
+   "enunciado": "Pela simetria boreste-bombordo, a força hidrodinâmica longitudinal X e a força lateral Y, em função da velocidade lateral v, são, respectivamente:",
+   "alts": {
+    "A": "Função ímpar e função par.",
+    "B": "Ambas funções pares.",
+    "C": "Ambas funções ímpares.",
+    "D": "Ambas independentes de v.",
+    "E": "Função par e função ímpar."
+   },
+   "correta": "E",
+   "coment": {
+    "A": "Invertido.",
+    "B": "Y é ímpar.",
+    "C": "X é par.",
+    "D": "Ambas dependem de v.",
+    "E": "Correta: X(v) = X(−v) (par); Y e N trocam de sinal com v (ímpares)."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 3, 3.4.1–3.4.3, p. 45–48 (PDF 38–41)",
+   "origem": "inedita",
+   "s": "MAN-02.3"
+  },
+  {
+   "id": "I-MAN02-11",
+   "unidade": "MAN-02",
+   "disc": "MAN",
+   "dif": "média",
+   "enunciado": "Sobre a massa adicional, segundo Santos, é correto afirmar:",
+   "alts": {
+    "A": "A força necessária para acelerar um corpo num fluido é sempre maior que a massa do corpo vezes a aceleração; essa força nasce da aceleração do corpo e sempre se opõe ao movimento.",
+    "B": "É a massa de água que o navio efetivamente carrega consigo de forma permanente.",
+    "C": "Só existe quando o navio navega com velocidade constante.",
+    "D": "Depende principalmente da viscosidade da água.",
+    "E": "Só aparece em águas rasas."
+   },
+   "correta": "A",
+   "coment": {
+    "A": "Correta: é a definição precisa dada no texto (termo Xu̇).",
+    "B": "O livro diz que a ideia de água \"arrastada\" deve ser interpretada como força que nasce da aceleração.",
+    "C": "Nasce da ACELERAÇÃO.",
+    "D": "No Cap. 4 o livro diz que esses coeficientes não dependem da viscosidade (reação potencial).",
+    "E": "Não há essa restrição."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 3, 3.5.1, p. 48 (PDF 41)",
+   "origem": "inedita",
+   "s": "MAN-02.3"
+  },
+  {
+   "id": "I-MAN02-12",
+   "unidade": "MAN-02",
+   "disc": "MAN",
+   "dif": "média",
+   "enunciado": "O princípio do arrasto cruzado (cross flow) é aplicado à manobra do navio quando:",
+   "alts": {
+    "A": "O navio navega a toda força em linha reta.",
+    "B": "A velocidade lateral é próxima da longitudinal e o ângulo de deriva é alto, geralmente maior que 25°.",
+    "C": "O ângulo de deriva é menor que 5°.",
+    "D": "O número de Froude passa de 0,3.",
+    "E": "O leme está a meio."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Em linha reta e velocidade alta predomina a sustentação, não o arrasto cruzado.",
+    "B": "Correta: é a condição dada em 3.8 (e, em 3.2.4, navio parado ou muito lento).",
+    "C": "Pequena deriva é o domínio da sustentação.",
+    "D": "Não é o critério do texto.",
+    "E": "Sem relação."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 3, 3.2.4 e 3.8, p. 40 e 53 (PDF 33, 46)",
+   "origem": "inedita",
+   "s": "MAN-02.3"
+  },
+  {
+   "id": "I-MAN02-13",
+   "unidade": "MAN-02",
+   "disc": "MAN",
+   "dif": "difícil",
+   "enunciado": "Associe o pesquisador à contribuição citada por Santos:\n1) Weinblum  2) Abkowitz  3) Obokata  4) Norrbin\n( ) Expansões em série de Taylor nos seis graus de liberdade (1964, MIT)\n( ) Modelo com derivadas hidrodinâmicas para manobra do navio (1937, Alemanha)\n( ) Navio como asa de baixa razão de aspecto (anos 1980)\n( ) Teoria do \"quadrado absoluto\" (1970)\nA sequência correta é:",
+   "alts": {
+    "A": "2, 1, 3, 4",
+    "B": "1, 2, 3, 4",
+    "C": "2, 1, 4, 3",
+    "D": "3, 1, 2, 4",
+    "E": "1, 3, 2, 4"
+   },
+   "correta": "A",
+   "coment": {
+    "A": "Correta: Abkowitz (1964), Weinblum (1937), Obokata (anos 1980), Norrbin (1970).",
+    "B": "Troca Abkowitz e Weinblum.",
+    "C": "Troca Obokata e Norrbin.",
+    "D": "Obokata não é o da série de Taylor de 1964.",
+    "E": "Sequência sem base no texto."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 3, 3.1 e 3.8, p. 35 e 53 (PDF 28, 46)",
+   "origem": "inedita",
+   "s": "MAN-02.3"
+  },
+  {
+   "id": "I-MAN02-14",
+   "unidade": "MAN-02",
+   "disc": "MAN",
+   "dif": "média",
+   "enunciado": "Segundo Santos, o arrasto do casco pode ser decomposto em três elementos:",
+   "alts": {
+    "A": "Resistência de ondas, resistência do ar e resistência do leme.",
+    "B": "Massa adicional, momento de Munk e sustentação.",
+    "C": "Resistência friccional, amortecimento potencial (arrasto de forma) e arrasto por descolamento de vórtices.",
+    "D": "Arrasto induzido, empuxo e peso.",
+    "E": "Resistência friccional, sustentação e momento de Munk."
+   },
+   "correta": "C",
+   "coment": {
+    "A": "Não é a decomposição do livro.",
+    "B": "Esses não são componentes do arrasto.",
+    "C": "Correta: são os três elementos listados em 3.2.",
+    "D": "Empuxo e peso são forças hidrostáticas/gravitacionais.",
+    "E": "Sustentação e Munk não são componentes do arrasto."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 3, 3.2, p. 36 (PDF 29)",
+   "origem": "inedita",
+   "s": "MAN-02.3"
+  },
+  {
+   "id": "I-MAN03-01",
+   "unidade": "MAN-03",
+   "disc": "MAN",
+   "dif": "média",
+   "enunciado": "A classificação de estabilidade de movimento de Arentzen e Mandel (1961), adotada por Santos, NÃO inclui:",
+   "alts": {
+    "A": "Estabilidade em linha reta.",
+    "B": "Estabilidade direcional com índices reais.",
+    "C": "Estabilidade direcional com índices complexos.",
+    "D": "Estabilidade estática transversal (GM).",
+    "E": "Estabilidade posicional."
+   },
+   "correta": "D",
+   "coment": {
+    "A": "Faz parte.",
+    "B": "Faz parte.",
+    "C": "Faz parte.",
+    "D": "Correta (não faz parte): GM é estabilidade hidrostática, assunto de Arte Naval, não de estabilidade de MOVIMENTO.",
+    "E": "Faz parte."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 4, 4.2, p. 57 (PDF 49)",
+   "origem": "inedita",
+   "s": "MAN-03.1"
+  },
+  {
+   "id": "I-MAN03-02",
+   "unidade": "MAN-03",
+   "disc": "MAN",
+   "dif": "média",
+   "enunciado": "Segundo Santos, um navio autopropelido, com propulsão de popa, em mar aberto e com controles fixos, pode ter apenas:",
+   "alts": {
+    "A": "Estabilidade posicional.",
+    "B": "Estabilidade direcional com índices reais.",
+    "C": "Estabilidade direcional com índices complexos.",
+    "D": "Todas as estabilidades, desde que o leme esteja a meio.",
+    "E": "Estabilidade em linha reta."
+   },
+   "correta": "E",
+   "coment": {
+    "A": "Posicional exige no mínimo três atuadores (posicionamento dinâmico).",
+    "B": "Direcional exige controle atuando.",
+    "C": "Direcional exige controle atuando.",
+    "D": "Não; só a estabilidade em linha reta.",
+    "E": "Correta: com controles fixos, a única estabilidade possível é em linha reta."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 4, 4.3, p. 61 (PDF 53)",
+   "origem": "inedita",
+   "s": "MAN-03.1"
+  },
+  {
+   "id": "I-MAN03-03",
+   "unidade": "MAN-03",
+   "disc": "MAN",
+   "dif": "média",
+   "enunciado": "Para que um navio tenha estabilidade de movimento posicional (típica do posicionamento dinâmico), o número de atuadores de controle deve ser:",
+   "alts": {
+    "A": "No mínimo igual a três, e maior ou igual ao número de graus de liberdade a controlar.",
+    "B": "Exatamente um (o leme).",
+    "C": "No mínimo dois.",
+    "D": "Igual ao número de hélices.",
+    "E": "Qualquer, desde que haja piloto automático."
+   },
+   "correta": "A",
+   "coment": {
+    "A": "Correta: leme, bow-thruster, stern-thruster, azimutal etc. — no mínimo três.",
+    "B": "Um atuador não basta.",
+    "C": "Dois não bastam para três graus de liberdade.",
+    "D": "Sem base no texto.",
+    "E": "Sem base no texto."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 4, 4.2.5, p. 60 (PDF 52)",
+   "origem": "inedita",
+   "s": "MAN-03.1"
+  },
+  {
+   "id": "I-MAN03-04",
+   "unidade": "MAN-03",
+   "disc": "MAN",
+   "dif": "média",
+   "enunciado": "A diferença entre estabilidade direcional com índices reais e com índices complexos é que, na de índices reais:",
+   "alts": {
+    "A": "O navio dispensa qualquer atuador.",
+    "B": "A trajetória não oscila durante a ação corretiva, que vem de um atuador como o propulsor azimutal, e não do leme.",
+    "C": "A trajetória oscila mais que na de índices complexos.",
+    "D": "O navio mantém a posição em relação a um referencial inercial.",
+    "E": "Só existe com controles fixos."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Há ação corretiva de controle.",
+    "B": "Correta: é a diferença dada no texto.",
+    "C": "É o contrário: a de índices reais NÃO oscila.",
+    "D": "Isso é estabilidade posicional.",
+    "E": "Direcional é com controles móveis."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 4, 4.2.3–4.2.4, p. 58–59 (PDF 50–51)",
+   "origem": "inedita",
+   "s": "MAN-03.1"
+  },
+  {
+   "id": "I-MAN03-05",
+   "unidade": "MAN-03",
+   "disc": "MAN",
+   "dif": "fácil",
+   "enunciado": "Um navio que, após cessar uma perturbação, mantém sua trajetória SEM intervenção do timoneiro tem estabilidade:",
+   "alts": {
+    "A": "Com controles móveis.",
+    "B": "Posicional.",
+    "C": "Com controles fixos.",
+    "D": "Estática.",
+    "E": "Neutra."
+   },
+   "correta": "C",
+   "coment": {
+    "A": "Controles móveis = com ação do leme/timoneiro.",
+    "B": "Posicional exige atuadores (DP).",
+    "C": "Correta: definição em 4.1.",
+    "D": "Não é o termo usado para estabilidade de movimento.",
+    "E": "Sem base no texto."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 4, 4.1, p. 57 (PDF 49)",
+   "origem": "inedita",
+   "s": "MAN-03.1"
+  },
+  {
+   "id": "I-MAN03-06",
+   "unidade": "MAN-03",
+   "disc": "MAN",
+   "dif": "média",
+   "enunciado": "Sobre a instabilidade em linha reta, Santos afirma que:",
+   "alts": {
+    "A": "É sempre falha de projeto e deve ser eliminada.",
+    "B": "Só ocorre em navios com dois hélices.",
+    "C": "Desaparece quando o navio reduz a velocidade.",
+    "D": "Pode não ser falha de projeto; muitos navios mercantes de grande porte precisam dessa característica para manobrar.",
+    "E": "Impede o navio de fazer a curva espiral."
+   },
+   "correta": "D",
+   "coment": {
+    "A": "O livro diz o contrário.",
+    "B": "Sem base no texto.",
+    "C": "O livro diz que estabilidade exige velocidade avante SUFICIENTE.",
+    "D": "Correta: frase do texto em 4.6.",
+    "E": "Sem base no texto."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 4, 4.6, p. 66 (PDF 58)",
+   "origem": "inedita",
+   "s": "MAN-03.1"
+  },
+  {
+   "id": "I-MAN03-07",
+   "unidade": "MAN-03",
+   "disc": "MAN",
+   "dif": "difícil",
+   "enunciado": "Na análise linear de estabilidade em linha reta, os coeficientes A e B da equação característica são sempre positivos. Por isso, a condição de estabilidade fica restrita a:",
+   "alts": {
+    "A": "C < 0.",
+    "B": "A = B.",
+    "C": "B > A.",
+    "D": "Índices de estabilidade positivos.",
+    "E": "C > 0, sendo C o discriminante da estabilidade dinâmica, muito dependente de Nv' (ligada ao momento de Munk)."
+   },
+   "correta": "E",
+   "coment": {
+    "A": "Com C negativo o navio é instável.",
+    "B": "Sem base no texto.",
+    "C": "Sem base no texto.",
+    "D": "Os índices (autovalores) devem ser NEGATIVOS para haver estabilidade.",
+    "E": "Correta: C > 0; C depende muito do sinal e da magnitude de Nv'."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 4, 4.6–4.7.3, p. 65 e 69 (PDF 57, 61)",
+   "origem": "inedita",
+   "s": "MAN-03.1"
+  },
+  {
+   "id": "I-MAN03-08",
+   "unidade": "MAN-03",
+   "disc": "MAN",
+   "dif": "média",
+   "enunciado": "Com o leme na condição neutra (controles fixos), o que gera a força hidrodinâmica que estabiliza o navio em linha reta, segundo Santos?",
+   "alts": {
+    "A": "O arrasto gerado pela forma da popa — a \"empenagem\" do navio.",
+    "B": "O momento de Munk.",
+    "C": "O bulbo de proa.",
+    "D": "A massa adicional em sway.",
+    "E": "O efeito evolutivo do hélice."
+   },
+   "correta": "A",
+   "coment": {
+    "A": "Correta: o arrasto da popa funciona como a empenagem de um avião.",
+    "B": "Munk é DESESTABILIZADOR.",
+    "C": "O texto não cita bulbo.",
+    "D": "Massa adicional não é o atuador estabilizador citado.",
+    "E": "O texto não cita efeito do hélice aqui."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 4, intro e 4.3, p. 57 e 61 (PDF 49, 53)",
+   "origem": "inedita",
+   "s": "MAN-03.1"
+  },
+  {
+   "id": "I-MAN03-09",
+   "unidade": "MAN-03",
+   "disc": "MAN",
+   "dif": "média",
+   "enunciado": "Segundo Santos, uma condição necessária para o navio ter estabilidade em linha reta, muitas vezes esquecida, é:",
+   "alts": {
+    "A": "Estar com trim pela proa.",
+    "B": "Possuir suficiente velocidade avante.",
+    "C": "Ter o leme sempre carregado alguns graus.",
+    "D": "Navegar em águas rasas.",
+    "E": "Ter GM negativo."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Sem base no texto desta seção.",
+    "B": "Correta: como Xu' é sempre negativa, a condição é ter movimento avante suficiente (4.6.1).",
+    "C": "Com leme carregado não se trata de controles fixos.",
+    "D": "Sem base no texto.",
+    "E": "GM negativo é instabilidade estática, outro assunto."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 4, 4.6.1, p. 65 (PDF 57)",
+   "origem": "inedita",
+   "s": "MAN-03.1"
+  },
+  {
+   "id": "S-MAN-01.1-01",
+   "unidade": "MAN-01",
+   "s": "MAN-01.1",
+   "disc": "MAN",
+   "dif": "fácil",
+   "enunciado": "Nos eixos fixos no navio adotados pela SNAME, o sentido positivo do eixo z é:",
+   "alts": {
+    "A": "Para cima, em direção ao convés.",
+    "B": "Para vante, ao longo da linha de centro.",
+    "C": "Para boreste, perpendicular ao plano de simetria.",
+    "D": "Para baixo, em direção à quilha.",
+    "E": "Para ré, ao longo da linha de centro."
+   },
+   "correta": "D",
+   "coment": {
+    "A": "Errado: o z positivo aponta para baixo, não para cima.",
+    "B": "Errado: para vante é o sentido positivo do eixo x.",
+    "C": "Errado: para boreste é o sentido positivo do eixo y.",
+    "D": "Correta: x para vante, y para boreste e z para baixo (em direção à quilha).",
+    "E": "Errado: o eixo x é positivo para vante, e não existe sentido positivo para ré."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 2",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-MAN-01.1-02",
+   "unidade": "MAN-01",
+   "s": "MAN-01.1",
+   "disc": "MAN",
+   "dif": "fácil",
+   "enunciado": "A rotação do navio em torno do eixo y (transversal) chama-se:",
+   "alts": {
+    "A": "Roll (balanço), com momento K.",
+    "B": "Yaw (guinada), com momento N.",
+    "C": "Sway (deriva), com momento Y.",
+    "D": "Heave (arfagem vertical), com momento Z.",
+    "E": "Pitch (cabeceio), com momento M."
+   },
+   "correta": "E",
+   "coment": {
+    "A": "Errado: roll é a rotação em torno do eixo x.",
+    "B": "Errado: yaw é a rotação em torno do eixo z.",
+    "C": "Errado: sway é translação ao longo de y, não rotação.",
+    "D": "Errado: heave é translação ao longo de z.",
+    "E": "Correta: pitch é a rotação em torno de y, associada ao momento M."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 2",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-MAN-01.1-03",
+   "unidade": "MAN-01",
+   "s": "MAN-01.1",
+   "disc": "MAN",
+   "dif": "média",
+   "enunciado": "Sobre referenciais na dinâmica do navio, é correto afirmar que:",
+   "alts": {
+    "A": "Um referencial solidário ao navio é sempre inercial.",
+    "B": "Referencial inercial é aquele em que valem as leis de Newton, e qualquer outro que se mova com velocidade constante em relação a ele também é inercial.",
+    "C": "O referencial NED tem x para leste, y para norte e z para cima.",
+    "D": "Um referencial que gira com o navio é inercial se a rotação for pequena.",
+    "E": "Só a Terra, considerada parada, constitui referencial inercial."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: o referencial do navio acelera e gira, logo em geral não é inercial.",
+    "B": "Correta: um referencial com velocidade constante em relação a um inercial também é inercial.",
+    "C": "Errado: no NED, x aponta para o norte, y para o leste e z para baixo (down).",
+    "D": "Errado: referencial que gira é não inercial, por menor que seja a rotação.",
+    "E": "Errado: qualquer referencial em movimento retilíneo uniforme em relação a um inercial também o é."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 2",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-MAN-01.1-04",
+   "unidade": "MAN-01",
+   "s": "MAN-01.1",
+   "disc": "MAN",
+   "dif": "média",
+   "enunciado": "No plano horizontal, o navio tem três graus de liberdade. Quais são, e quais as velocidades associadas?",
+   "alts": {
+    "A": "Roll, pitch e yaw; velocidades p, q e r.",
+    "B": "Surge, sway e yaw; velocidades u, v e r.",
+    "C": "Surge, heave e pitch; velocidades u, w e q.",
+    "D": "Sway, heave e roll; velocidades v, w e p.",
+    "E": "Surge, sway e heave; velocidades u, v e w."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: são os três movimentos de rotação, não o plano horizontal.",
+    "B": "Correta: surge (u), sway (v) e yaw (r).",
+    "C": "Errado: heave e pitch ocorrem no plano vertical.",
+    "D": "Errado: heave e roll não pertencem ao plano horizontal.",
+    "E": "Errado: heave é vertical; no plano horizontal entra o yaw, não o heave."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 2",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-MAN-01.2-01",
+   "unidade": "MAN-01",
+   "s": "MAN-01.2",
+   "disc": "MAN",
+   "dif": "fácil",
+   "enunciado": "Nas equações de movimento com origem no CG, no plano horizontal, o conjunto correto é:",
+   "alts": {
+    "A": "X = Δ(u̇ − vr); Y = Δ(v̇ + ur); N = Iz·ṙ.",
+    "B": "X = Δ(u̇ + vr); Y = Δ(v̇ − ur); N = Iz·ṙ.",
+    "C": "X = Δ·u̇; Y = Δ·v̇; N = Iz·r.",
+    "D": "X = Δ(u̇ − vr); Y = Δ(v̇ + ur); N = Ix·ṗ.",
+    "E": "X = Δ(u̇ + wq); Y = Δ(v̇ + wp); N = Iz·ṙ."
+   },
+   "correta": "A",
+   "coment": {
+    "A": "Correta: surge, sway e yaw com origem no CG têm essa forma.",
+    "B": "Errado: os sinais de vr e ur estão trocados.",
+    "C": "Errado: faltam os termos centrípetos vr e ur, e N depende da aceleração angular ṙ.",
+    "D": "Errado: o momento de yaw usa Iz e ṙ, não Ix e ṗ.",
+    "E": "Errado: os termos wq e wp envolvem heave e movimentos fora do plano horizontal."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 2",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-MAN-01.2-02",
+   "unidade": "MAN-01",
+   "s": "MAN-01.2",
+   "disc": "MAN",
+   "dif": "média",
+   "enunciado": "Com a origem dos eixos fora do CG, aparecem nas equações os termos ω×(ω×R_G) e (dω/dt)×R_G. Eles representam, respectivamente:",
+   "alts": {
+    "A": "Forças de Coriolis e forças de Euler.",
+    "B": "Forças de Euler e forças centrífugas.",
+    "C": "Forças centrífugas e forças de Euler.",
+    "D": "Forças hidrostáticas e forças de massa adicional.",
+    "E": "Forças de arrasto e forças de sustentação."
+   },
+   "correta": "C",
+   "coment": {
+    "A": "Errado: a força de Coriolis vem de R_O × v̇_G, outro termo.",
+    "B": "Errado: a ordem está invertida.",
+    "C": "Correta: ω×(ω×R_G) são forças centrífugas e (dω/dt)×R_G são forças de Euler; o referencial é não inercial.",
+    "D": "Errado: são termos inerciais, não hidrostáticos nem de massa adicional.",
+    "E": "Errado: são termos de inércia do corpo rígido, não forças hidrodinâmicas."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 2",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-MAN-01.2-03",
+   "unidade": "MAN-01",
+   "s": "MAN-01.2",
+   "disc": "MAN",
+   "dif": "média",
+   "enunciado": "Por que são nulos os produtos de inércia quando os eixos passam pelo CG e são paralelos aos principais de inércia?",
+   "alts": {
+    "A": "Porque o navio é simétrico em relação ao plano horizontal.",
+    "B": "Porque a massa do navio é constante durante a manobra.",
+    "C": "Porque o navio é tratado como um corpo rígido.",
+    "D": "Porque os eixos escolhidos são principais de inércia, e o tensor de inércia fica só com Ix, Iy e Iz.",
+    "E": "Porque o centro de carena coincide com o CG."
+   },
+   "correta": "D",
+   "coment": {
+    "A": "Errado: o casco não é simétrico em cima e embaixo, e esse não é o motivo.",
+    "B": "Errado: massa constante nada tem a ver com os produtos de inércia.",
+    "C": "Errado: ser corpo rígido não anula os produtos de inércia por si só.",
+    "D": "Correta: em eixos principais de inércia o tensor é diagonal.",
+    "E": "Errado: a posição do centro de carena não afeta o tensor de inércia."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 2",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-MAN-01.2-04",
+   "unidade": "MAN-01",
+   "s": "MAN-01.2",
+   "disc": "MAN",
+   "dif": "difícil",
+   "enunciado": "A massa do navio é tomada como constante nas equações de manobra porque:",
+   "alts": {
+    "A": "O navio é um corpo rígido e por isso não perde massa.",
+    "B": "A massa adicional compensa o consumo.",
+    "C": "A taxa de variação de massa por consumo de combustível é desprezível durante o tempo de uma manobra.",
+    "D": "O deslocamento é sempre constante em qualquer viagem.",
+    "E": "A segunda lei de Newton só vale para massa constante, então não há outra opção."
+   },
+   "correta": "C",
+   "coment": {
+    "A": "Errado: ser rígido refere-se à forma, não ao consumo de massa.",
+    "B": "Errado: massa adicional é um conceito hidrodinâmico e não compensa consumo.",
+    "C": "Correta: durante uma manobra a variação de massa é desprezível.",
+    "D": "Errado: o deslocamento varia ao longo da viagem; é desprezível apenas no tempo da manobra.",
+    "E": "Errado: é uma hipótese de simplificação justificada fisicamente, não imposição da lei."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 2",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-MAN-02.1-01",
+   "unidade": "MAN-02",
+   "s": "MAN-02.1",
+   "disc": "MAN",
+   "dif": "fácil",
+   "enunciado": "Na teoria de Santos para a manobrabilidade, o casco e o leme são tratados, respectivamente, como:",
+   "alts": {
+    "A": "Um corpo rombudo e um propulsor.",
+    "B": "Uma asa com ângulo de ataque (a deriva) e o seu flape.",
+    "C": "Um flape e uma asa.",
+    "D": "Um corpo de revolução e um estabilizador.",
+    "E": "Uma placa plana e um perfil simétrico independente."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: o casco é tratado como asa, não como corpo rombudo.",
+    "B": "Correta: o casco é uma asa em deriva e o leme é seu flape.",
+    "C": "Errado: a relação é inversa.",
+    "D": "Errado: não é o modelo adotado.",
+    "E": "Errado: o leme não é independente, ele é flape do casco."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 3",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-MAN-02.1-02",
+   "unidade": "MAN-02",
+   "s": "MAN-02.1",
+   "disc": "MAN",
+   "dif": "média",
+   "enunciado": "Pela teoria do corpo duplo, a razão de aspecto efetiva do casco (calado T, comprimento L) vale:",
+   "alts": {
+    "A": "T/L.",
+    "B": "L/T.",
+    "C": "2L/T.",
+    "D": "T/2L.",
+    "E": "2T/L."
+   },
+   "correta": "E",
+   "coment": {
+    "A": "Errado: falta o fator 2 da imagem espelhada.",
+    "B": "Errado: está invertida.",
+    "C": "Errado: invertida e com fator 2.",
+    "D": "Errado: o fator 2 multiplica o calado.",
+    "E": "Correta: AR efetiva = 2T/L; o corpo duplo é o casco mais sua imagem na superfície."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 3",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-MAN-02.1-03",
+   "unidade": "MAN-02",
+   "s": "MAN-02.1",
+   "disc": "MAN",
+   "dif": "média",
+   "enunciado": "O momento de Munk sobre um corpo alongado em ângulo de ataque num fluido ideal é:",
+   "alts": {
+    "A": "Estabilizador e produz força resultante lateral.",
+    "B": "Desestabilizador, pois tende a aumentar o ângulo de ataque, e é um momento puro, sem força resultante.",
+    "C": "Estabilizador, pois tende a alinhar o corpo ao escoamento.",
+    "D": "Nulo para qualquer forma, pelo paradoxo de d'Alembert.",
+    "E": "Desestabilizador, mas acompanhado de uma força resultante igual ao arrasto."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: ele é desestabilizador e não gera força resultante.",
+    "B": "Correta: forças iguais e opostas formam um momento puro que aumenta o ângulo de ataque.",
+    "C": "Errado: ele tende a aumentar, não a reduzir, o ângulo de ataque.",
+    "D": "Errado: o paradoxo prevê arrasto zero, mas não momento zero.",
+    "E": "Errado: não há força resultante, só o momento."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 3",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-MAN-02.1-04",
+   "unidade": "MAN-02",
+   "s": "MAN-02.1",
+   "disc": "MAN",
+   "dif": "média",
+   "enunciado": "Sobre o efeito do leme na guinada, segundo Santos:",
+   "alts": {
+    "A": "O leme produz a guinada diretamente, pela força que gera.",
+    "B": "O leme gera no casco um ângulo de deriva, e é a hidrodinâmica do casco que faz o navio guinar (efeito indireto).",
+    "C": "O leme só atua se o navio estiver com deriva zero.",
+    "D": "A área do leme é cerca de metade da do casco.",
+    "E": "Ao iniciar a guinada o ângulo de ataque do leme aumenta."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: o efeito é indireto.",
+    "B": "Correta: o leme é um flape que induz deriva; o casco é quem guina.",
+    "C": "Errado: a ação do leme induz a deriva justamente.",
+    "D": "Errado: a área do leme é cerca de 1% da do casco.",
+    "E": "Errado: com o aumento da deriva o ângulo de ataque do leme diminui."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 3",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-MAN-02.1-05",
+   "unidade": "MAN-02",
+   "s": "MAN-02.1",
+   "disc": "MAN",
+   "dif": "difícil",
+   "enunciado": "A irradiação de ondas pelo casco pode ser desprezada na manobra, tratando a superfície livre como base plana sólida, quando:",
+   "alts": {
+    "A": "Fn > 0,5.",
+    "B": "Fn < 0,25.",
+    "C": "Fn = 1,0.",
+    "D": "O ângulo de deriva é maior que 25°.",
+    "E": "O calado é menor que 5% do comprimento."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: Froude alto torna a resistência de ondas relevante.",
+    "B": "Correta: abaixo de Fn = 0,25 as ondas são desprezíveis e vale o modelo de corpo duplo.",
+    "C": "Errado: com Fn = 1 as ondas dominam.",
+    "D": "Errado: 25° é o limite para o arrasto cruzado, não para o Froude.",
+    "E": "Errado: não é critério de calado."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 3",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-MAN-02.2-01",
+   "unidade": "MAN-02",
+   "s": "MAN-02.2",
+   "disc": "MAN",
+   "dif": "média",
+   "enunciado": "Pela simetria BE-BB do casco, as forças hidrodinâmicas em função da velocidade lateral v se comportam assim:",
+   "alts": {
+    "A": "X, Y e N são funções pares de v.",
+    "B": "X é função ímpar de v; Y e N são funções pares.",
+    "C": "X é função par de v; Y e N são funções ímpares de v.",
+    "D": "X, Y e N são funções ímpares de v.",
+    "E": "Nenhuma tem paridade definida."
+   },
+   "correta": "C",
+   "coment": {
+    "A": "Errado: Y e N mudam de sinal com v.",
+    "B": "Errado: a paridade está trocada.",
+    "C": "Correta: a força longitudinal é igual para +β e −β; Y e N invertem de sinal.",
+    "D": "Errado: X não muda de sinal com v.",
+    "E": "Errado: a simetria define a paridade."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 3",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-MAN-02.2-02",
+   "unidade": "MAN-02",
+   "s": "MAN-02.2",
+   "disc": "MAN",
+   "dif": "média",
+   "enunciado": "A força de massa adicional, associada à aceleração do corpo no fluido:",
+   "alts": {
+    "A": "Sempre ajuda o movimento.",
+    "B": "Sempre se opõe ao movimento, e a soma da massa do navio com a massa adicional forma a massa virtual.",
+    "C": "Existe só em águas rasas.",
+    "D": "É nula nos navios com Fn < 0,3.",
+    "E": "Depende do quadrado da velocidade."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: ela se opõe ao movimento.",
+    "B": "Correta: massa do navio + massa adicional = massa virtual.",
+    "C": "Errado: existe em qualquer profundidade.",
+    "D": "Errado: não se anula por causa do Froude.",
+    "E": "Errado: depende da aceleração, não do quadrado da velocidade."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 3",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-MAN-02.2-03",
+   "unidade": "MAN-02",
+   "s": "MAN-02.2",
+   "disc": "MAN",
+   "dif": "média",
+   "enunciado": "A série de Taylor das forças hidrodinâmicas é truncada em qual ordem, para cascos com que número de Froude?",
+   "alts": {
+    "A": "Primeira ordem, Fn < 0,1.",
+    "B": "Segunda ordem, Fn < 0,2.",
+    "C": "Terceira ordem, Fn < 0,3.",
+    "D": "Quarta ordem, Fn < 0,4.",
+    "E": "Sem truncamento, para qualquer Fn."
+   },
+   "correta": "C",
+   "coment": {
+    "A": "Errado: a truncagem é na terceira ordem.",
+    "B": "Errado: não é essa a ordem.",
+    "C": "Correta: terceira ordem, suficiente para Fn < 0,3.",
+    "D": "Errado: não é essa a ordem.",
+    "E": "Errado: a série é sempre truncada."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 3",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-MAN-02.2-04",
+   "unidade": "MAN-02",
+   "s": "MAN-02.2",
+   "disc": "MAN",
+   "dif": "difícil",
+   "enunciado": "A derivada hidrodinâmica Y_v (força lateral devida à velocidade lateral) é:",
+   "alts": {
+    "A": "Sempre positiva, pois a sustentação ajuda a guinada.",
+    "B": "Sempre negativa: é amortecimento lateral por sustentação mais arrasto.",
+    "C": "Nula nos navios simétricos.",
+    "D": "Positiva para Fn alto.",
+    "E": "Igual à massa adicional Y_v̇."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: é um amortecimento, portanto negativa.",
+    "B": "Correta: Y_v = −|Y_β|, amortecimento sempre negativo.",
+    "C": "Errado: a simetria BE-BB não a anula.",
+    "D": "Errado: não depende de Froude desse modo.",
+    "E": "Errado: Y_v̇ é a massa adicional, outra derivada."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 3",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-MAN-02.3-01",
+   "unidade": "MAN-02",
+   "s": "MAN-02.3",
+   "disc": "MAN",
+   "dif": "média",
+   "enunciado": "A teoria do \"quadrado absoluto\" de Norrbin (1970) trata os termos de velocidade ao quadrado como:",
+   "alts": {
+    "A": "v², mantendo-os funções pares.",
+    "B": "O produto da velocidade pelo seu módulo (v|v|), para que fiquem funções ímpares.",
+    "C": "Termos desprezíveis.",
+    "D": "Raiz quadrada da velocidade.",
+    "E": "Termos lineares apenas."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: v² é par e não representa a inversão de sinal da força.",
+    "B": "Correta: v|v| mantém o sinal e torna o termo ímpar.",
+    "C": "Errado: não são desprezados.",
+    "D": "Errado: não há raiz quadrada.",
+    "E": "Errado: são mantidos como termos quadráticos."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 3",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-MAN-02.3-02",
+   "unidade": "MAN-02",
+   "s": "MAN-02.3",
+   "disc": "MAN",
+   "dif": "fácil",
+   "enunciado": "Quais manobras são chamadas \"definitivas\", por darem resultados quantitativos das características inerentes de manobrabilidade?",
+   "alts": {
+    "A": "Parada de emergência, crash stop e cabo de reboque.",
+    "B": "Curva espiral, zigue-zague e giro.",
+    "C": "Zigue-zague, parada e arrancada.",
+    "D": "Giro, ancoragem e atracação.",
+    "E": "Pull-out, crash stop e giro."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: não são as manobras definitivas.",
+    "B": "Correta: curva espiral, zigue-zague e giro.",
+    "C": "Errado: parada e arrancada não estão entre as definitivas.",
+    "D": "Errado: ancoragem e atracação são manobras de porto.",
+    "E": "Errado: o pull-out é complementar."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 3",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-MAN-02.3-03",
+   "unidade": "MAN-02",
+   "s": "MAN-02.3",
+   "disc": "MAN",
+   "dif": "média",
+   "enunciado": "O ângulo de deriva β de um navio com velocidades u (surge) e v (sway) é:",
+   "alts": {
+    "A": "β = arctan(u/v).",
+    "B": "β = arctan(v/u).",
+    "C": "β = u·v.",
+    "D": "β = v − u.",
+    "E": "β = arcsen(r/u)."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: a razão está invertida.",
+    "B": "Correta: β é o ângulo entre o vetor velocidade e o eixo longitudinal.",
+    "C": "Errado: não é produto.",
+    "D": "Errado: não é diferença.",
+    "E": "Errado: r é a razão de guinada."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 3",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-MAN-02.3-04",
+   "unidade": "MAN-02",
+   "s": "MAN-02.3",
+   "disc": "MAN",
+   "dif": "difícil",
+   "enunciado": "Na adimensionalização das derivadas, forças e momentos são divididos, respectivamente, por:",
+   "alts": {
+    "A": "½ρL²V² e ½ρL³V².",
+    "B": "½ρL³V² e ½ρL²V².",
+    "C": "ρL²V² e ρL³V.",
+    "D": "½ρL⁵ e ½ρL³.",
+    "E": "½ρL²V e ½ρL³V."
+   },
+   "correta": "A",
+   "coment": {
+    "A": "Correta: forças por ½ρL²V² e momentos por ½ρL³V²; massa por ½ρL³ e inércia por ½ρL⁵.",
+    "B": "Errado: ordem trocada.",
+    "C": "Errado: faltam o fator ½ e o V².",
+    "D": "Errado: são as divisões de massa e de inércia.",
+    "E": "Errado: falta o V²."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 3",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-MAN-03.1-01",
+   "unidade": "MAN-03",
+   "s": "MAN-03.1",
+   "disc": "MAN",
+   "dif": "fácil",
+   "enunciado": "Segundo Arentzen e Mandel (1961), a estabilidade de movimento do navio se classifica em:",
+   "alts": {
+    "A": "Estática, dinâmica e transversal.",
+    "B": "Em linha reta; direcional com índices reais; direcional com índices complexos; posicional.",
+    "C": "Inicial, final e residual.",
+    "D": "Longitudinal, transversal e vertical.",
+    "E": "Lateral, de rumo e de velocidade."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: é outra classificação.",
+    "B": "Correta: quatro tipos, em hierarquia ascendente.",
+    "C": "Errado: não é essa a classificação.",
+    "D": "Errado: refere-se à estabilidade da flutuação, não à de movimento.",
+    "E": "Errado: não é essa a classificação."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 4",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-MAN-03.1-02",
+   "unidade": "MAN-03",
+   "s": "MAN-03.1",
+   "disc": "MAN",
+   "dif": "média",
+   "enunciado": "Um navio com propulsão de popa, em mar aberto e com controles fixos, pode ter:",
+   "alts": {
+    "A": "Estabilidade posicional.",
+    "B": "Estabilidade direcional com índices complexos.",
+    "C": "Apenas estabilidade em linha reta.",
+    "D": "Todos os tipos de estabilidade.",
+    "E": "Nenhum tipo de estabilidade."
+   },
+   "correta": "C",
+   "coment": {
+    "A": "Errado: exige pelo menos três atuadores e controle.",
+    "B": "Errado: exige a ação do timoneiro ou do piloto automático.",
+    "C": "Correta: com controles fixos só é possível a estabilidade em linha reta.",
+    "D": "Errado: as demais exigem controle.",
+    "E": "Errado: pode ter estabilidade em linha reta."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 4",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-MAN-03.1-03",
+   "unidade": "MAN-03",
+   "s": "MAN-03.1",
+   "disc": "MAN",
+   "dif": "difícil",
+   "enunciado": "Com os coeficientes A e B sempre positivos no polinômio característico Aσ² + Bσ + C = 0, a condição de estabilidade em linha reta é:",
+   "alts": {
+    "A": "C < 0.",
+    "B": "C = 0.",
+    "C": "A < B.",
+    "D": "C > 0.",
+    "E": "B > C."
+   },
+   "correta": "D",
+   "coment": {
+    "A": "Errado: C negativo implica um autovalor positivo, ou seja, instabilidade.",
+    "B": "Errado: C = 0 é o limite de estabilidade.",
+    "C": "Errado: não é a condição.",
+    "D": "Correta: com A, B > 0, C > 0 faz ambos os σ negativos.",
+    "E": "Errado: não é a condição."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 4",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-MAN-03.1-04",
+   "unidade": "MAN-03",
+   "s": "MAN-03.1",
+   "disc": "MAN",
+   "dif": "média",
+   "enunciado": "Na curva espiral direta de Dieudonné, a presença de um loop de histerese indica que o navio é:",
+   "alts": {
+    "A": "Estável em linha reta.",
+    "B": "Instável em linha reta com controles fixos.",
+    "C": "Direcionalmente estável com índices reais.",
+    "D": "Posicionalmente estável.",
+    "E": "Estável, mas com excesso de leme."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: o loop indica o contrário.",
+    "B": "Correta: com o leme em zero o navio continua a guinar.",
+    "C": "Errado: não é o que a histerese mostra.",
+    "D": "Errado: não tem relação.",
+    "E": "Errado: a histerese não é sinal de estabilidade."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 4",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-MAN-03.1-05",
+   "unidade": "MAN-03",
+   "s": "MAN-03.1",
+   "disc": "MAN",
+   "dif": "média",
+   "enunciado": "Quanto ao trim, é correto afirmar que o trim pela popa:",
+   "alts": {
+    "A": "Piora a estabilidade em linha reta e diminui o diâmetro de giro.",
+    "B": "Melhora a estabilidade em linha reta e aumenta o diâmetro de giro.",
+    "C": "Não altera nenhuma delas.",
+    "D": "Melhora a estabilidade e diminui o diâmetro de giro.",
+    "E": "Só afeta a velocidade."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: é o trim pela proa que tem esses efeitos.",
+    "B": "Correta: pela popa, mais estável e com maior diâmetro de giro.",
+    "C": "Errado: altera ambas.",
+    "D": "Errado: o diâmetro de giro aumenta.",
+    "E": "Errado: afeta a manobrabilidade."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 4",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-MAN-03.1-06",
+   "unidade": "MAN-03",
+   "s": "MAN-03.1",
+   "disc": "MAN",
+   "dif": "difícil",
+   "enunciado": "A manobra pull-out (alívio do leme) permite concluir:",
+   "alts": {
+    "A": "O valor exato do índice de estabilidade.",
+    "B": "Apenas se o navio é estável ou não em linha reta.",
+    "C": "O diâmetro tático.",
+    "D": "O ângulo neutro de leme.",
+    "E": "A largura do loop de histerese."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: ela é qualitativa.",
+    "B": "Correta: só indica se é estável ou não; na espiral há as medidas numéricas.",
+    "C": "Errado: o diâmetro vem da curva de giro.",
+    "D": "Errado: vem da espiral.",
+    "E": "Errado: vem da espiral."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 4",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-MAN-03.1-07",
+   "unidade": "MAN-03",
+   "s": "MAN-03.1",
+   "disc": "MAN",
+   "dif": "difícil",
+   "enunciado": "A estabilidade posicional exige, no mínimo:",
+   "alts": {
+    "A": "Um atuador de controle.",
+    "B": "Dois atuadores, qualquer que seja o número de graus de liberdade.",
+    "C": "Três atuadores, e número maior ou igual ao de graus de liberdade a controlar.",
+    "D": "Apenas leme e hélice.",
+    "E": "Piloto automático."
+   },
+   "correta": "C",
+   "coment": {
+    "A": "Errado: é insuficiente.",
+    "B": "Errado: o número depende dos graus de liberdade e é no mínimo três.",
+    "C": "Correta: no mínimo três, e ≥ ao número de graus a controlar.",
+    "D": "Errado: com só esses dois não se controla a posição.",
+    "E": "Errado: piloto automático não é o requisito."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 4",
+   "origem": "inedita"
+  }
+ ]
+}

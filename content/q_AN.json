@@ -1,1 +1,1439 @@
-{"itens": [{"id": "P2012-01", "unidade": "AN-02", "disc": "AN", "prova": "PSCPP 2012 · Rosa · Q1 · 1,0 pt", "dif": "média", "enunciado": "De acordo com o contido no livro “Arte Naval” (Maurílio M. Fonseca – 7ª ed., 2005), analise as afirmativas e assinale a opção correta:\nI) Tosamento é a curvatura que apresenta a cinta de um navio quando projetada sobre um plano vertical longitudinal; ele determina a configuração do convés principal e do limite superior do costado.\nII) Comprimento de arqueação é a distância medida, paralelamente à linha-d’água projetada, entre os pontos mais salientes da roda de proa e do cadaste, nas partes imersas ou emersas; o gurupés, se existe, ou o leme, se eventualmente se estende para ré da popa, ou peças semelhantes, não são, geralmente, considerados.\nIII) Alquebramento é a curvatura da quilha, quando apresenta a convexidade para cima. Em geral ocorre como uma deformação permanente causada por fraqueza estrutural ou por avaria.\nIV) Pontal é a distância vertical, medida sobre o plano diametral e a meia-nau, entre a linha reta do vau do convés principal e a linha da base moldada.\nV) Comprimento de roda a roda é a distância entre as interseções do convés principal com a face de vante da roda de proa e com a face de ré do cadaste, ou com o eixo do leme, se o navio não tiver cadaste bem definido.", "alts": {"A": "Apenas I, III e IV são verdadeiras.", "B": "Apenas II e IV são verdadeiras.", "C": "Apenas I, II e V são verdadeiras.", "D": "Apenas II e V são verdadeiras.", "E": "Apenas I, II e IV são verdadeiras."}, "correta": "A", "coment": {"A": "Gabarito oficial. I e IV conferem com o livro; III estava assim na 7ª ed.", "B": "II está errada: o texto descreve o comprimento de roda a roda, não o de arqueação.", "C": "II e V trocam as definições de comprimento de arqueação e de roda a roda.", "D": "II e V estão invertidas entre si.", "E": "Inclui II, que é a definição de comprimento de roda a roda."}, "atencao": "Na 8ª ed. (2019), art. 2.35, o alquebramento aparece como deformação TEMPORÁRIA (convexidade para cima) e o tosamento (sagging) como a inversa. Confira a edição que o edital de 2027 indicar.", "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 2, arts. 2.34, 2.35, 2.54, 2.55 e 2.60, PDF 87–95", "origem": "prova"}, {"id": "P2012-02", "unidade": "AN-01", "disc": "AN", "prova": "PSCPP 2012 · Rosa · Q2 · 1,0 pt", "dif": "média", "enunciado": "De acordo com o “Arte Naval” (Fonseca, 7ª ed.), as vigas e chapas longitudinais contribuem, com o chapeamento exterior e o do convés resistente, para a resistência aos esforços longitudinais (por exemplo, quando passa o cavado ou a crista de uma vaga pelo meio do navio). Assinale a opção que contenha apenas vigas e chapas longitudinais.", "alts": {"A": "Cavernas, sicordas e vaus.", "B": "Cambotas, longarinas e hastilhas.", "C": "Vaus, cambotas e cavernas.", "D": "Sicordas, longarinas e trincaniz.", "E": "Quilha, vaus e hastilhas."}, "correta": "D", "coment": {"A": "Cavernas e vaus são peças transversais.", "B": "Cambotas e hastilhas são transversais.", "C": "Todas são transversais.", "D": "Gabarito oficial: sicordas, longarinas e trincaniz correm de proa a popa.", "E": "Vaus e hastilhas são transversais (a quilha é longitudinal)."}, "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 1, arts. 1.52–1.53 (vigas longitudinais e transversais), PDF 36–37", "origem": "prova"}, {"id": "P2011-08", "unidade": "AN-01", "disc": "AN", "prova": "PSCPP 2011 · Amarela · Q8 · 0,6 pt", "dif": "fácil", "enunciado": "De acordo com o “Arte Naval” (Fonseca, 7ª ed.), associe a coluna ALFA à coluna BRAVO:\nALFA: 1) Amura  2) Resbordo  3) Almeida  4) Enoras\nBRAVO (na ordem):\n( ) Aberturas geralmente circulares nos pavimentos, por onde enfurnam os mastros.\n( ) Partes curvas do costado, de um e de outro bordo, junto à popa.\n( ) O mesmo que bochecha.\n( ) Parte do costado na popa, logo abaixo do painel, que forma com ele um ângulo obtuso ou uma curvatura.\n( ) Interseção do convés resistente com o costado.\n( ) Primeira fiada de chapas do forro exterior do fundo, de um e de outro bordo da quilha.", "alts": {"A": "(–) (4) (3) (1) (–) (2)", "B": "(4) (–) (1) (3) (–) (2)", "C": "(2) (4) (–) (–) (3) (1)", "D": "(1) (3) (4) (–) (2) (–)", "E": "(3) (1) (–) (4) (2) (–)"}, "correta": "B", "coment": {"A": "Põe enoras nas alhetas e almeida como 'bochecha'.", "B": "Gabarito oficial: enoras, (alhetas), amura, almeida, (trincaniz), resbordo.", "C": "Resbordo não é abertura de mastro.", "D": "Amura não é abertura de mastro.", "E": "Almeida não é abertura de mastro."}, "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 1, arts. 1.20, 1.24, 1.27, 1.30 e 1.87, PDF 28–52", "origem": "prova"}, {"id": "P2008-65", "unidade": "AN-01", "disc": "AN", "prova": "PSCPP 2008 · Q65 · 1,0 pt", "dif": "difícil", "enunciado": "De acordo com o “Arte Naval” (Fonseca), correlacione a coluna A às definições da coluna B e assinale a opção correta. A sequência das opções segue a ordem dos itens da coluna B que têm par.\nA: I. golas  II. reclamos  III. sicordas  IV. carlingas  V. latas\nB:\n1 ( ) peças horizontais que se colocam no bico da proa, ou na popa, contornando-as por dentro, de BE a BB, para dar maior resistência a essas partes;\n2 ( ) golas metálicas colocadas no convés ou numa coberta, onde se apoia o pé de um mastro;\n3 ( ) vasos de madeira, em forma de tina ou de cilindro, com aberturas para ventilação, fixados no convés para acondicionar um cabo de manobra;\n4 ( ) cantoneiras, barras, ferros em meia-cana ou peças fundidas que contornam uma abertura qualquer para reforço local;\n5 ( ) vaus que não são contínuos de BB a BE, colocados na altura de uma enora ou de uma escotilha, entre os vaus propriamente ditos;\n6 ( ) peças de metal em forma de cruz, fixadas ao convés, para dar volta aos cabos, como nos cunhos;\n7 ( ) peças colocadas de proa a popa, num convés ou numa coberta, ligando os vaus entre si;\n8 ( ) recessos no costado, junto ao escovém, para alojar a cruz e os braços das âncoras tipo patente;\n9 ( ) peças de metal de forma curva, abertas na parte de cima, fixadas nos mastros ou em partes altas, servindo de guia aos cabos do aparelho;\n10 ( ) revestimento externo impermeável que também contribui para a resistência do casco aos esforços longitudinais.", "alts": {"A": "(I) (IV) (II) (III) (V)", "B": "(II) (I) (V) (IV) (III)", "C": "(IV) (II) (III) (V) (I)", "D": "(I) (IV) (III) (V) (II)", "E": "(IV) (I) (V) (III) (II)"}, "correta": "E", "coment": {"A": "Começa por golas (I) no item 2, mas a gola metálica onde se apoia o pé do mastro é a carlinga (IV).", "B": "Começa por reclamos (II) no item 2; reclamos são as peças curvas abertas em cima que guiam cabos (item 9).", "C": "Acerta a carlinga (IV) no item 2, mas põe reclamos (II) no item 4; quem contorna aberturas para reforço são as golas (I).", "D": "Começa por golas (I) no item 2; ali vai a carlinga (IV).", "E": "Gabarito oficial: item 2 carlinga (IV), item 4 golas (I), item 5 latas (V), item 7 sicordas (III), item 9 reclamos (II)."}, "atencao": "Itens 1, 3, 6, 8 e 10 são distratores sem par na coluna A.", "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 1, arts. 1.52e, 1.54f, 1.122 e 1.139, PDF 37–64", "origem": "prova"}, {"id": "P2006-57", "unidade": "AN-01", "disc": "AN", "prova": "PSCPP 2006 · Q57", "dif": "média", "enunciado": "Assinale a afirmativa correta, com relação à nomenclatura do navio, de acordo com o “Arte Naval” (Fonseca):", "alts": {"A": "Hastilhas – chapas colocadas verticalmente no fundo do navio, em cada caverna, aumentando a altura das cavernas na parte que se estende da quilha ao bojo.", "B": "Enoras – aberturas no convés por onde as amarras passam para o paiol.", "C": "Cinta – ferros perfilados, dispostos horizontalmente nas anteparas, a fim de reforçá-las.", "D": "Trincaniz – peças colocadas de proa a popa, na parte interna das cavernas, ligando-as entre si.", "E": "Buçardas – chapas que se colocam para encher os espaços vazios, entre duas chapas ou peças quaisquer."}, "correta": "A", "coment": {"A": "Gabarito oficial: hastilhas são chapas verticais transversais no fundo, em cada caverna, que aumentam a altura das cavernas da quilha ao bojo (art. 1.53d).", "B": "Isso são as gateiras (art. 1.88). Enoras são as aberturas por onde enfurnam os mastros (art. 1.87).", "C": "Vigas horizontais que reforçam anteparas são as travessas, hoje chamadas escoas (art. 1.54i).", "D": "Trincaniz é a fiada de chapa do convés resistente mais próxima ao costado, ligando os vaus entre si e às cavernas (art. 1.52d).", "E": "Chapas ou blocos que enchem espaços vazios são os calços (art. 1.54n). Buçardas são peças horizontais que contornam por dentro a proa ou a popa (art. 1.54g)."}, "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 1, arts. 1.52–1.54 e 1.87–1.88, PDF 36–52", "origem": "prova"}, {"id": "P2011-02", "unidade": "AN-02", "disc": "AN", "prova": "PSCPP 2011 · Amarela · Q2 · 0,5 pt", "dif": "fácil", "enunciado": "De acordo com o “Arte Naval” (Fonseca, 7ª ed.), para que um navio tenha equilíbrio estável é necessário que:", "alts": {"A": "O centro de gravidade (CG) esteja acima do metacentro (M).", "B": "O centro de gravidade (CG) esteja abaixo do metacentro (M).", "C": "O centro de gravidade (CG) esteja sobre o metacentro (M).", "D": "A reserva de flutuabilidade seja positiva, não importando a posição do CG em relação ao M.", "E": "O CG esteja sobre o M e a reserva de flutuabilidade seja positiva."}, "correta": "B", "coment": {"A": "CG acima de M = equilíbrio instável (GM negativo).", "B": "Gabarito oficial: GM positivo, G abaixo de M.", "C": "G sobre M = equilíbrio indiferente (GM nulo).", "D": "Reserva de flutuabilidade não garante estabilidade.", "E": "G sobre M é equilíbrio indiferente."}, "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 2, arts. 2.29 e 2.33 (metacentro e altura metacêntrica), PDF 85–87", "origem": "prova"}, {"id": "P2011-13", "unidade": "AN-02", "disc": "AN", "prova": "PSCPP 2011 · Amarela · Q13 · 1,0 pt", "dif": "média", "enunciado": "De acordo com o “Arte Naval” (Fonseca, 7ª ed.), analise as afirmativas:\nI) A reserva de flutuabilidade exprime-se em percentagem do volume deslocado.\nII) A reserva de flutuabilidade pode referir-se ao deslocamento, uma vez que é expressa em percentagem.\nIII) Nos navios mercantes, a borda-livre mínima é marcada no costado para determinar a reserva de flutuabilidade.\nIV) A borda-livre de um navio é, em geral, mínima na popa devido ao tosamento.", "alts": {"A": "Apenas I, II e IV são verdadeiras.", "B": "Apenas II e IV são verdadeiras.", "C": "Apenas I, III e IV são verdadeiras.", "D": "Apenas I, II e III são verdadeiras.", "E": "Apenas I e IV são verdadeiras."}, "correta": "D", "coment": {"A": "IV é falsa: a borda-livre é medida a meia-nau, onde em geral é mínima.", "B": "Deixa de fora I e III, que estão no texto do art. 2.27/2.28.", "C": "IV é falsa.", "D": "Gabarito oficial: I, II e III são transcrições dos arts. 2.27 e 2.28.", "E": "IV é falsa e II/III ficaram de fora."}, "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 2, arts. 2.27–2.28, PDF 84", "origem": "prova"}, {"id": "P2012-03", "unidade": "AN-02", "disc": "AN", "prova": "PSCPP 2012 · Rosa · Q3 · 1,3 pt", "dif": "média", "enunciado": "Um navio suspendeu de São Luís para Belém. Próximo à foz do Amazonas, ainda no mar, o prático embarcou. O navio estava com 2.500 t de deslocamento, calado médio de 6,8 m e 4 t/cm. Com densidade da água salgada 1,026 e da água doce 1,010, o calado médio ao iniciar a navegação no rio será de:", "alts": {"A": "6,4 m", "B": "6,7 m", "C": "6,8 m", "D": "6,9 m", "E": "7,2 m"}, "correta": "D", "coment": {"A": "O calado aumenta em água doce, não diminui.", "B": "Sentido errado da variação.", "C": "Ignora a mudança de densidade.", "D": "Gabarito oficial: Δ = 0,016 × 2.500 / 4 = 10 cm → 6,8 + 0,10 = 6,9 m.", "E": "Erro de unidade (40 cm)."}, "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 2, art. 2.89 (variação do calado da água salgada para a doce), PDF 118–119", "origem": "prova"}, {"id": "I-AN01-01", "unidade": "AN-01", "disc": "AN", "dif": "fácil", "enunciado": "De acordo com o “Arte Naval” (Fonseca), a parte do casco abaixo do plano de flutuação em plena carga, que fica total ou quase totalmente imersa, denomina-se:", "alts": {"A": "Obras vivas.", "B": "Obras mortas.", "C": "Zona de flutuação.", "D": "Bojo.", "E": "Costado."}, "correta": "A", "coment": {"A": "Correta: definição do art. 1.11. Carena é usada às vezes como sinônimo, mas é mais propriamente o invólucro do casco nas obras vivas.", "B": "Obras mortas ficam ACIMA do plano de flutuação em plena carga e estão sempre emersas (art. 1.12).", "C": "Zona de flutuação é a faixa entre a flutuação carregada e a leve (art. 2.5).", "D": "Bojo é a transição entre o fundo e o costado (art. 1.15).", "E": "Costado é a parte lateral entre o bojo e o convés mais elevado (art. 1.16)."}, "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 1, arts. 1.11–1.16, PDF 27", "origem": "inedita"}, {"id": "I-AN01-02", "unidade": "AN-01", "disc": "AN", "dif": "média", "enunciado": "De acordo com o “Arte Naval” (Fonseca), analise as afirmativas:\nI) Bochechas são as partes curvas do costado, de um e de outro bordo, junto à roda de proa.\nII) Amura é o mesmo que bochecha; é também uma direção qualquer entre a proa e o través.\nIII) Almeida é a parte superior do painel de popa.\nIV) Cintado é a fiada de chapas do costado no encontro com o convés resistente, contínua de proa a popa.\nV) Resbordo é a fiada de chapas do costado imediatamente abaixo do convés principal.", "alts": {"A": "Apenas I, II e III são verdadeiras.", "B": "Apenas I, II e IV são verdadeiras.", "C": "Apenas II, IV e V são verdadeiras.", "D": "Apenas I, III e V são verdadeiras.", "E": "Apenas III, IV e V são verdadeiras."}, "correta": "B", "coment": {"A": "III é falsa: a parte superior do painel de popa é a grinalda (art. 1.26). Almeida fica logo ABAIXO do painel (art. 1.27).", "B": "Correta: I (art. 1.19), II (art. 1.20) e IV (art. 1.29) conferem com o livro.", "C": "V é falsa: resbordo é a primeira fiada do forro exterior do FUNDO, junto à quilha (art. 1.30).", "D": "III e V são falsas.", "E": "III e V são falsas."}, "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 1, arts. 1.19–1.30, PDF 28–31", "origem": "inedita"}, {"id": "I-AN01-03", "unidade": "AN-01", "disc": "AN", "dif": "fácil", "enunciado": "Aberturas usualmente retangulares feitas na borda-falsa, com grade fixa ou portinhola que se abre de dentro para fora, para dar saída às grandes massas de água que embarcam no convés em mar grosso. Segundo o “Arte Naval”, trata-se de:", "alts": {"A": "Embornais.", "B": "Gateiras.", "C": "Saídas de água.", "D": "Vigias.", "E": "Escovéns."}, "correta": "C", "coment": {"A": "Embornais escoam água de baldeação ou chuva, junto à borda do convés (art. 1.90).", "B": "Gateiras são as aberturas no convés por onde as amarras passam para o paiol (art. 1.88).", "C": "Correta: saídas de água (freeing ports), art. 1.91. O livro alerta para não confundi-las com escovéns e embornais.", "D": "Vigias são aberturas no costado para luz e ventilação, não para escoar água do convés.", "E": "Escovém é o tubo por onde gurne a amarra do convés para o costado (art. 1.89)."}, "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 1, arts. 1.88–1.91, PDF 52", "origem": "inedita"}, {"id": "I-AN01-04", "unidade": "AN-01", "disc": "AN", "dif": "fácil", "enunciado": "Segundo o “Arte Naval”, as aberturas feitas no convés por onde as amarras passam para o paiol chamam-se:", "alts": {"A": "Enoras.", "B": "Embornais.", "C": "Bueiros.", "D": "Gateiras.", "E": "Portalós."}, "correta": "D", "coment": {"A": "Enoras são as aberturas geralmente circulares por onde enfurnam os mastros (art. 1.87). Erro que caiu como distrator em 2006 q57.", "B": "Embornais escoam água do convés (art. 1.90).", "C": "Bueiros são orifícios nas hastilhas ou longarinas para escoar água para o esgoto (art. 1.80).", "D": "Correta: art. 1.88 (spurling pipe).", "E": "Portaló é a abertura por onde o pessoal entra e sai do navio (art. 1.92)."}, "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 1, arts. 1.80–1.92, PDF 51–53", "origem": "inedita"}, {"id": "I-AN01-05", "unidade": "AN-01", "disc": "AN", "dif": "média", "enunciado": "Uma construção feita sobre o convés principal, cujas laterais distam do costado MAIS de 4% da boca do navio, destinada a camarotes, cozinha e outras dependências, chama-se, segundo o “Arte Naval”:", "alts": {"A": "Superestrutura.", "B": "Castelo de proa.", "C": "Poço.", "D": "Tombadilho.", "E": "Casaria."}, "correta": "E", "coment": {"A": "Superestrutura é quando as laterais distam do costado NÃO MAIS que 4% da boca (art. 1.37).", "B": "Castelo é a superestrutura na parte de proa (art. 1.38).", "C": "Poço é o espaço entre o castelo ou tombadilho e a superestrutura central (art. 1.41).", "D": "Tombadilho é a superestrutura na popa (art. 1.39).", "E": "Correta: acima de 4% da boca passa a ser casaria (deckhouse), art. 1.37."}, "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 1, arts. 1.37–1.41, PDF 32", "origem": "inedita"}, {"id": "I-AN01-06", "unidade": "AN-01", "disc": "AN", "dif": "fácil", "enunciado": "As bolinas (bilge keels), colocadas longitudinalmente na altura da curva do bojo, uma em cada bordo, servem principalmente para:", "alts": {"A": "Amortecer a amplitude dos balanços.", "B": "Aumentar a estabilidade de rumo em águas rasas.", "C": "Proteger o casco nas atracações.", "D": "Apoiar o navio sobre os picadeiros na docagem.", "E": "Reduzir a resistência friccional."}, "correta": "A", "coment": {"A": "Correta: art. 1.103. Em embarcações a vela, bolina é também a chapa sob a quilha que reduz inclinação e abatimento.", "B": "Estabilidade de curso é atribuída ao calcanhar (skeg), art. 1.31.", "C": "Proteção nas atracações é função do verdugo (art. 1.107).", "D": "Apoio em picadeiros: quilhas de docagem (art. 1.102) e calcanhar (art. 1.31).", "E": "Bolinas aumentam a superfície molhada; não reduzem a resistência."}, "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 1, arts. 1.31, 1.102–1.107, PDF 31 e 56–57", "origem": "inedita"}, {"id": "I-AN01-07", "unidade": "AN-01", "disc": "AN", "dif": "média", "enunciado": "Equipamento com tambores de formato especial (coroas de barbotim) montados num eixo HORIZONTAL, geralmente na proa, que serve para alar espias e suspender a amarra. Segundo o “Arte Naval”, é o:", "alts": {"A": "Cabrestante.", "B": "Molinete.", "C": "Mordente.", "D": "Abita.", "E": "Cabeço."}, "correta": "B", "coment": {"A": "Cabrestante tem tambor VERTICAL (art. 1.155).", "B": "Correta: molinete (windlass), art. 1.156.", "C": "Mordente é peça fixa no convés que aguenta a amarra mordendo um elo (art. 1.157).", "D": "Abita é cabeço singelo com tetas para dar volta redonda na espia (art. 1.159).", "E": "Cabeços são colunas duplas para dar volta às espias (art. 1.136)."}, "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 1, arts. 1.136 e 1.155–1.159, PDF 64–68", "origem": "inedita"}, {"id": "I-AN01-08", "unidade": "AN-01", "disc": "AN", "dif": "média", "enunciado": "O espaço limitado por anteparas, hastilhas ou longarinas estanques, próximas entre si, que serve de isolante entre tanques e compartimentos quando exigido por regras de segurança, denomina-se:", "alts": {"A": "Fundo duplo.", "B": "Túnel do eixo.", "C": "Coferdam.", "D": "Paiol da amarra.", "E": "Tanque profundo."}, "correta": "C", "coment": {"A": "Fundo duplo é a estrutura formada pelo fundo e pelo teto do fundo duplo (art. 1.59).", "B": "Túnel do eixo aloja a linha de eixo da praça de máquinas ao tubo telescópico (art. 1.65).", "C": "Correta: coferdam (cofferdam), art. 1.63.", "D": "Paiol da amarra fica na proa e recebe as amarras por gravidade (art. 1.68).", "E": "Tanques fundos (profundos) vão do fundo ou do teto do fundo duplo até o convés mais baixo (art. 1.62)."}, "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 1, arts. 1.59–1.68, PDF 46–49", "origem": "inedita"}, {"id": "I-AN01-09", "unidade": "AN-01", "disc": "AN", "dif": "difícil", "enunciado": "Sobre o calcanhar (skeg), segundo o “Arte Naval”, é correto afirmar que:", "alts": {"A": "É a fiada de chapas mais próxima da quilha.", "B": "É uma mudança brusca de direção da superfície do casco.", "C": "É peça reforçada no costado de rebocadores, para proteção nas atracações.", "D": "É parte saliente formada pelo pé de cadaste e pela extremidade posterior da quilha; dá maior estabilidade de curso e apoio para picadeiros a ré.", "E": "É o espaço onde trabalha o hélice, limitado pelos cadastes interior e exterior."}, "correta": "D", "coment": {"A": "Isso é o resbordo (art. 1.30).", "B": "Isso é a quina (art. 1.32).", "C": "Isso é o verdugo (art. 1.107).", "D": "Correta: art. 1.31. É comum em navios com leme compensado.", "E": "Isso é a clara do hélice (art. 1.81)."}, "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 1, arts. 1.30–1.32, 1.81 e 1.107, PDF 31, 51 e 57", "origem": "inedita"}, {"id": "I-AN02-01", "unidade": "AN-02", "disc": "AN", "dif": "média", "enunciado": "Um navio com deslocamento de 4.000 t, calado médio de 7,20 m na água salgada e 10 t/cm passa para a água doce. Usando as densidades 1,026 (salgada) e 1,010 (doce) do “Arte Naval”, o novo calado médio será, aproximadamente:", "alts": {"A": "7,14 m", "B": "7,20 m", "C": "7,26 m", "D": "7,34 m", "E": "7,84 m"}, "correta": "C", "coment": {"A": "O calado AUMENTA em água doce.", "B": "Ignora a mudança de densidade.", "C": "Correta: Δ = 0,016 × 4.000 / 10 = 6,4 cm → 7,20 + 0,064 ≈ 7,26 m (mesmo método da questão oficial 2012 q3).", "D": "Usou 0,035 em vez de 0,016.", "E": "Erro de unidade: tratou 64 cm."}, "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 2, art. 2.89, PDF 118–119", "origem": "inedita"}, {"id": "I-AN02-02", "unidade": "AN-02", "disc": "AN", "dif": "fácil", "enunciado": "Pela regra prática do “Arte Naval” para navios de formas ordinárias em plena carga, quanto aumenta o calado de um navio com 8 m de calado ao passar da água do mar para a água do rio?", "alts": {"A": "Cerca de 4,0 cm", "B": "Cerca de 6,5 cm", "C": "Cerca de 8,0 cm", "D": "Cerca de 10,4 cm", "E": "Cerca de 13,0 cm"}, "correta": "D", "coment": {"A": "Não corresponde à regra.", "B": "6,5 cm é o exemplo do livro para 5 m de calado.", "C": "Seria 1 cm por metro.", "D": "Correta: 1,3 cm por metro de calado → 8 × 1,3 = 10,4 cm.", "E": "Seria 1,3 cm por metro × 10."}, "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 2, art. 2.89, PDF 119", "origem": "inedita"}, {"id": "I-AN02-03", "unidade": "AN-02", "disc": "AN", "dif": "média", "enunciado": "Um navio com 18 t/cm descarrega 270 t de carga, com o centro de gravidade da carga na vertical do centro de flutuação. Segundo o “Arte Naval”, o que acontece com o calado?", "alts": {"A": "Diminui 15 cm só a vante.", "B": "Diminui 1,5 cm igualmente.", "C": "Aumenta 15 cm, por perda de flutuabilidade.", "D": "Não muda, pois o peso estava sobre o CF.", "E": "Diminui 15 cm a vante e a ré, sem alterar o trim."}, "correta": "E", "coment": {"A": "Peso sobre o CF faz variar AV e AR da mesma quantidade.", "B": "Erro de 10 vezes.", "C": "Retirar peso faz o navio EMERGIR.", "D": "Estar sobre o CF evita mudança de TRIM, não de calado.", "E": "Correta: 270 / 18 = 15 cm de emersão paralela; peso na vertical do CF não altera o compasso (art. 2.88)."}, "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 2, arts. 2.86 e 2.88, PDF 114–118", "origem": "inedita"}, {"id": "I-AN02-04", "unidade": "AN-02", "disc": "AN", "dif": "média", "enunciado": "Segundo o “Arte Naval”, a diferença entre o deslocamento máximo e o deslocamento mínimo de um navio, que representa o peso que ele é capaz de embarcar, chama-se:", "alts": {"A": "Expoente de carga (deadweight).", "B": "Arqueação bruta.", "C": "Porte útil (carga paga).", "D": "Deslocamento padrão.", "E": "Reserva de flutuabilidade."}, "correta": "A", "coment": {"A": "Correta: expoente de carga, peso morto ou deadweight (art. 2.76).", "B": "Arqueação bruta é valor adimensional proporcional ao volume interno; não é peso (art. 2.78).", "C": "Porte útil é só a parte do expoente de carga que é carga paga; varia com a duração da viagem (art. 2.77).", "D": "Deslocamento padrão é usado para comparar navios de guerra (art. 2.74).", "E": "Reserva de flutuabilidade é um volume, expresso em percentagem (art. 2.27)."}, "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 2, arts. 2.74–2.78, PDF 102–104", "origem": "inedita"}, {"id": "I-AN02-05", "unidade": "AN-02", "disc": "AN", "dif": "média", "enunciado": "A relação entre o volume deslocado e o volume de um sólido de comprimento igual ao do navio na flutuação e seção transversal igual à parte imersa da seção mestra, usada principalmente nos cálculos de resistência à propulsão, é o coeficiente:", "alts": {"A": "de bloco.", "B": "prismático (longitudinal).", "C": "da seção mestra.", "D": "da área de flutuação.", "E": "de finura da proa."}, "correta": "B", "coment": {"A": "O de bloco compara com o paralelepípedo L × B × C.", "B": "Correta: coeficiente prismático, cilíndrico ou longitudinal (art. 2.66b).", "C": "O da seção mestra compara a área imersa da seção a meia-nau com o retângulo circunscrito.", "D": "O da área de flutuação compara a área de flutuação com o retângulo que a circunscreve.", "E": "Não está entre os coeficientes de forma do livro."}, "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 2, art. 2.66, PDF 98–99", "origem": "inedita"}, {"id": "I-AN02-06", "unidade": "AN-02", "disc": "AN", "dif": "fácil", "enunciado": "Sobre a arqueação bruta (AB), segundo o “Arte Naval”, é correto afirmar:", "alts": {"A": "É expressa em toneladas métricas e mede o peso do navio leve.", "B": "É igual ao expoente de carga em água salgada.", "C": "É valor adimensional, proporcional ao volume interno, calculado pelo volume moldado de todos os espaços fechados.", "D": "Corresponde a 100 pés cúbicos por tonelada de peso.", "E": "Só se aplica a navios de guerra."}, "correta": "C", "coment": {"A": "Nem AB nem TAB são medidas de massa ou peso.", "B": "Expoente de carga é peso; AB é volume.", "C": "Correta: art. 2.78. É usada para regras de segurança e taxas.", "D": "100 pés cúbicos (2,83 m³) era a tonelada de arqueação da antiga TAB, uma medida de volume.", "E": "Aplica-se aos navios em geral (Convenção de 1969)."}, "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 2, arts. 2.78–2.79, PDF 104", "origem": "inedita"}, {"id": "I-AN02-07", "unidade": "AN-02", "disc": "AN", "dif": "média", "enunciado": "Segundo o “Arte Naval”, analise:\nI) Trim é a diferença entre os calados AV e AR.\nII) Navio apopado, ou derrabado, tem trim pela proa.\nIII) Banda é a inclinação para um dos bordos e é medida em graus.\nIV) Compassar é tirar o trim, trazendo o navio à flutuação direita no sentido longitudinal.", "alts": {"A": "Apenas I e II são verdadeiras.", "B": "Apenas II e III são verdadeiras.", "C": "Apenas I, II e IV são verdadeiras.", "D": "Apenas I, III e IV são verdadeiras.", "E": "Apenas III e IV são verdadeiras."}, "correta": "D", "coment": {"A": "II é falsa.", "B": "II é falsa; I e IV ficaram de fora.", "C": "II é falsa: apopado ou derrabado = trim pela POPA; abicado = trim pela proa.", "D": "Correta: I, III e IV conferem com o art. 2.82.", "E": "I também é verdadeira."}, "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 2, art. 2.82, PDF 107", "origem": "inedita"}, {"id": "I-AN02-08", "unidade": "AN-02", "disc": "AN", "dif": "difícil", "enunciado": "Sobre as perpendiculares, segundo o “Arte Naval”:", "alts": {"A": "A PP-AV passa pelo ponto mais saliente da roda de proa.", "B": "A PP-AR passa sempre pelo cadaste exterior.", "C": "As perpendiculares são paralelas à linha-d’água.", "D": "O comprimento entre perpendiculares é o maior comprimento do navio.", "E": "A PP-AV é a vertical tirada na interseção da linha-d’água no calado de projeto com o contorno da roda de proa; nos navios com leme e hélice no plano diametral, a PP-AR passa pelo centro da madre do leme."}, "correta": "E", "coment": {"A": "O ponto mais saliente da roda define o comprimento de roda a roda.", "B": "A PP-AR depende da forma da popa; com leme no plano diametral, passa pela madre do leme.", "C": "Elas são NORMAIS à linha-d’água (art. 2.47).", "D": "O maior comprimento é o de roda a roda (ou total).", "E": "Correta: arts. 2.48 e 2.49."}, "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 2, arts. 2.47–2.50 e 2.55, PDF 92–93", "origem": "inedita"}, {"id": "I-AN02-09", "unidade": "AN-02", "disc": "AN", "dif": "média", "enunciado": "Segundo o “Arte Naval”, a reserva de flutuabilidade:", "alts": {"A": "É o volume da parte do navio acima da água que pode ser tornada estanque; nos navios de guerra usuais varia de 50 a 75% do deslocamento normal.", "B": "É a altura entre a linha-d’água e o convés principal, medida a meia-nau.", "C": "É o peso máximo de carga paga.", "D": "Só existe em navios com fundo duplo.", "E": "É calculada pela distância GM."}, "correta": "A", "coment": {"A": "Correta: art. 2.27 (num submarino em deslocamento normal, cerca de 30%).", "B": "Essa altura é a borda-livre (art. 2.28).", "C": "Carga paga é o porte útil.", "D": "Não depende de fundo duplo.", "E": "GM é a altura metacêntrica, ligada à estabilidade."}, "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 2, arts. 2.27–2.28, PDF 84", "origem": "inedita"}]}
+{
+ "itens": [
+  {
+   "id": "P2012-01",
+   "unidade": "AN-02",
+   "disc": "AN",
+   "prova": "PSCPP 2012 · Rosa · Q1 · 1,0 pt",
+   "dif": "média",
+   "enunciado": "De acordo com o contido no livro “Arte Naval” (Maurílio M. Fonseca – 7ª ed., 2005), analise as afirmativas e assinale a opção correta:\nI) Tosamento é a curvatura que apresenta a cinta de um navio quando projetada sobre um plano vertical longitudinal; ele determina a configuração do convés principal e do limite superior do costado.\nII) Comprimento de arqueação é a distância medida, paralelamente à linha-d’água projetada, entre os pontos mais salientes da roda de proa e do cadaste, nas partes imersas ou emersas; o gurupés, se existe, ou o leme, se eventualmente se estende para ré da popa, ou peças semelhantes, não são, geralmente, considerados.\nIII) Alquebramento é a curvatura da quilha, quando apresenta a convexidade para cima. Em geral ocorre como uma deformação permanente causada por fraqueza estrutural ou por avaria.\nIV) Pontal é a distância vertical, medida sobre o plano diametral e a meia-nau, entre a linha reta do vau do convés principal e a linha da base moldada.\nV) Comprimento de roda a roda é a distância entre as interseções do convés principal com a face de vante da roda de proa e com a face de ré do cadaste, ou com o eixo do leme, se o navio não tiver cadaste bem definido.",
+   "alts": {
+    "A": "Apenas I, III e IV são verdadeiras.",
+    "B": "Apenas II e IV são verdadeiras.",
+    "C": "Apenas I, II e V são verdadeiras.",
+    "D": "Apenas II e V são verdadeiras.",
+    "E": "Apenas I, II e IV são verdadeiras."
+   },
+   "correta": "A",
+   "coment": {
+    "A": "Gabarito oficial. I e IV conferem com o livro; III estava assim na 7ª ed.",
+    "B": "II está errada: o texto descreve o comprimento de roda a roda, não o de arqueação.",
+    "C": "II e V trocam as definições de comprimento de arqueação e de roda a roda.",
+    "D": "II e V estão invertidas entre si.",
+    "E": "Inclui II, que é a definição de comprimento de roda a roda."
+   },
+   "atencao": "Na 8ª ed. (2019), art. 2.35, o alquebramento aparece como deformação TEMPORÁRIA (convexidade para cima) e o tosamento (sagging) como a inversa. Confira a edição que o edital de 2027 indicar.",
+   "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 2, arts. 2.34, 2.35, 2.54, 2.55 e 2.60, PDF 87–95",
+   "origem": "prova",
+   "s": "AN-02.3"
+  },
+  {
+   "id": "P2012-02",
+   "unidade": "AN-01",
+   "disc": "AN",
+   "prova": "PSCPP 2012 · Rosa · Q2 · 1,0 pt",
+   "dif": "média",
+   "enunciado": "De acordo com o “Arte Naval” (Fonseca, 7ª ed.), as vigas e chapas longitudinais contribuem, com o chapeamento exterior e o do convés resistente, para a resistência aos esforços longitudinais (por exemplo, quando passa o cavado ou a crista de uma vaga pelo meio do navio). Assinale a opção que contenha apenas vigas e chapas longitudinais.",
+   "alts": {
+    "A": "Cavernas, sicordas e vaus.",
+    "B": "Cambotas, longarinas e hastilhas.",
+    "C": "Vaus, cambotas e cavernas.",
+    "D": "Sicordas, longarinas e trincaniz.",
+    "E": "Quilha, vaus e hastilhas."
+   },
+   "correta": "D",
+   "coment": {
+    "A": "Cavernas e vaus são peças transversais.",
+    "B": "Cambotas e hastilhas são transversais.",
+    "C": "Todas são transversais.",
+    "D": "Gabarito oficial: sicordas, longarinas e trincaniz correm de proa a popa.",
+    "E": "Vaus e hastilhas são transversais (a quilha é longitudinal)."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 1, arts. 1.52–1.53 (vigas longitudinais e transversais), PDF 36–37",
+   "origem": "prova",
+   "s": "AN-01.2"
+  },
+  {
+   "id": "P2011-08",
+   "unidade": "AN-01",
+   "disc": "AN",
+   "prova": "PSCPP 2011 · Amarela · Q8 · 0,6 pt",
+   "dif": "fácil",
+   "enunciado": "De acordo com o “Arte Naval” (Fonseca, 7ª ed.), associe a coluna ALFA à coluna BRAVO:\nALFA: 1) Amura  2) Resbordo  3) Almeida  4) Enoras\nBRAVO (na ordem):\n( ) Aberturas geralmente circulares nos pavimentos, por onde enfurnam os mastros.\n( ) Partes curvas do costado, de um e de outro bordo, junto à popa.\n( ) O mesmo que bochecha.\n( ) Parte do costado na popa, logo abaixo do painel, que forma com ele um ângulo obtuso ou uma curvatura.\n( ) Interseção do convés resistente com o costado.\n( ) Primeira fiada de chapas do forro exterior do fundo, de um e de outro bordo da quilha.",
+   "alts": {
+    "A": "(–) (4) (3) (1) (–) (2)",
+    "B": "(4) (–) (1) (3) (–) (2)",
+    "C": "(2) (4) (–) (–) (3) (1)",
+    "D": "(1) (3) (4) (–) (2) (–)",
+    "E": "(3) (1) (–) (4) (2) (–)"
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Põe enoras nas alhetas e almeida como 'bochecha'.",
+    "B": "Gabarito oficial: enoras, (alhetas), amura, almeida, (trincaniz), resbordo.",
+    "C": "Resbordo não é abertura de mastro.",
+    "D": "Amura não é abertura de mastro.",
+    "E": "Almeida não é abertura de mastro."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 1, arts. 1.20, 1.24, 1.27, 1.30 e 1.87, PDF 28–52",
+   "origem": "prova",
+   "s": "AN-01.2"
+  },
+  {
+   "id": "P2008-65",
+   "unidade": "AN-01",
+   "disc": "AN",
+   "prova": "PSCPP 2008 · Q65 · 1,0 pt",
+   "dif": "difícil",
+   "enunciado": "De acordo com o “Arte Naval” (Fonseca), correlacione a coluna A às definições da coluna B e assinale a opção correta. A sequência das opções segue a ordem dos itens da coluna B que têm par.\nA: I. golas  II. reclamos  III. sicordas  IV. carlingas  V. latas\nB:\n1 ( ) peças horizontais que se colocam no bico da proa, ou na popa, contornando-as por dentro, de BE a BB, para dar maior resistência a essas partes;\n2 ( ) golas metálicas colocadas no convés ou numa coberta, onde se apoia o pé de um mastro;\n3 ( ) vasos de madeira, em forma de tina ou de cilindro, com aberturas para ventilação, fixados no convés para acondicionar um cabo de manobra;\n4 ( ) cantoneiras, barras, ferros em meia-cana ou peças fundidas que contornam uma abertura qualquer para reforço local;\n5 ( ) vaus que não são contínuos de BB a BE, colocados na altura de uma enora ou de uma escotilha, entre os vaus propriamente ditos;\n6 ( ) peças de metal em forma de cruz, fixadas ao convés, para dar volta aos cabos, como nos cunhos;\n7 ( ) peças colocadas de proa a popa, num convés ou numa coberta, ligando os vaus entre si;\n8 ( ) recessos no costado, junto ao escovém, para alojar a cruz e os braços das âncoras tipo patente;\n9 ( ) peças de metal de forma curva, abertas na parte de cima, fixadas nos mastros ou em partes altas, servindo de guia aos cabos do aparelho;\n10 ( ) revestimento externo impermeável que também contribui para a resistência do casco aos esforços longitudinais.",
+   "alts": {
+    "A": "(I) (IV) (II) (III) (V)",
+    "B": "(II) (I) (V) (IV) (III)",
+    "C": "(IV) (II) (III) (V) (I)",
+    "D": "(I) (IV) (III) (V) (II)",
+    "E": "(IV) (I) (V) (III) (II)"
+   },
+   "correta": "E",
+   "coment": {
+    "A": "Começa por golas (I) no item 2, mas a gola metálica onde se apoia o pé do mastro é a carlinga (IV).",
+    "B": "Começa por reclamos (II) no item 2; reclamos são as peças curvas abertas em cima que guiam cabos (item 9).",
+    "C": "Acerta a carlinga (IV) no item 2, mas põe reclamos (II) no item 4; quem contorna aberturas para reforço são as golas (I).",
+    "D": "Começa por golas (I) no item 2; ali vai a carlinga (IV).",
+    "E": "Gabarito oficial: item 2 carlinga (IV), item 4 golas (I), item 5 latas (V), item 7 sicordas (III), item 9 reclamos (II)."
+   },
+   "atencao": "Itens 1, 3, 6, 8 e 10 são distratores sem par na coluna A.",
+   "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 1, arts. 1.52e, 1.54f, 1.122 e 1.139, PDF 37–64",
+   "origem": "prova",
+   "s": "AN-01.2"
+  },
+  {
+   "id": "P2006-57",
+   "unidade": "AN-01",
+   "disc": "AN",
+   "prova": "PSCPP 2006 · Q57",
+   "dif": "média",
+   "enunciado": "Assinale a afirmativa correta, com relação à nomenclatura do navio, de acordo com o “Arte Naval” (Fonseca):",
+   "alts": {
+    "A": "Hastilhas – chapas colocadas verticalmente no fundo do navio, em cada caverna, aumentando a altura das cavernas na parte que se estende da quilha ao bojo.",
+    "B": "Enoras – aberturas no convés por onde as amarras passam para o paiol.",
+    "C": "Cinta – ferros perfilados, dispostos horizontalmente nas anteparas, a fim de reforçá-las.",
+    "D": "Trincaniz – peças colocadas de proa a popa, na parte interna das cavernas, ligando-as entre si.",
+    "E": "Buçardas – chapas que se colocam para encher os espaços vazios, entre duas chapas ou peças quaisquer."
+   },
+   "correta": "A",
+   "coment": {
+    "A": "Gabarito oficial: hastilhas são chapas verticais transversais no fundo, em cada caverna, que aumentam a altura das cavernas da quilha ao bojo (art. 1.53d).",
+    "B": "Isso são as gateiras (art. 1.88). Enoras são as aberturas por onde enfurnam os mastros (art. 1.87).",
+    "C": "Vigas horizontais que reforçam anteparas são as travessas, hoje chamadas escoas (art. 1.54i).",
+    "D": "Trincaniz é a fiada de chapa do convés resistente mais próxima ao costado, ligando os vaus entre si e às cavernas (art. 1.52d).",
+    "E": "Chapas ou blocos que enchem espaços vazios são os calços (art. 1.54n). Buçardas são peças horizontais que contornam por dentro a proa ou a popa (art. 1.54g)."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 1, arts. 1.52–1.54 e 1.87–1.88, PDF 36–52",
+   "origem": "prova",
+   "s": "AN-01.2"
+  },
+  {
+   "id": "P2011-02",
+   "unidade": "AN-02",
+   "disc": "AN",
+   "prova": "PSCPP 2011 · Amarela · Q2 · 0,5 pt",
+   "dif": "fácil",
+   "enunciado": "De acordo com o “Arte Naval” (Fonseca, 7ª ed.), para que um navio tenha equilíbrio estável é necessário que:",
+   "alts": {
+    "A": "O centro de gravidade (CG) esteja acima do metacentro (M).",
+    "B": "O centro de gravidade (CG) esteja abaixo do metacentro (M).",
+    "C": "O centro de gravidade (CG) esteja sobre o metacentro (M).",
+    "D": "A reserva de flutuabilidade seja positiva, não importando a posição do CG em relação ao M.",
+    "E": "O CG esteja sobre o M e a reserva de flutuabilidade seja positiva."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "CG acima de M = equilíbrio instável (GM negativo).",
+    "B": "Gabarito oficial: GM positivo, G abaixo de M.",
+    "C": "G sobre M = equilíbrio indiferente (GM nulo).",
+    "D": "Reserva de flutuabilidade não garante estabilidade.",
+    "E": "G sobre M é equilíbrio indiferente."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 2, arts. 2.29 e 2.33 (metacentro e altura metacêntrica), PDF 85–87",
+   "origem": "prova",
+   "s": "AN-02.3"
+  },
+  {
+   "id": "P2011-13",
+   "unidade": "AN-02",
+   "disc": "AN",
+   "prova": "PSCPP 2011 · Amarela · Q13 · 1,0 pt",
+   "dif": "média",
+   "enunciado": "De acordo com o “Arte Naval” (Fonseca, 7ª ed.), analise as afirmativas:\nI) A reserva de flutuabilidade exprime-se em percentagem do volume deslocado.\nII) A reserva de flutuabilidade pode referir-se ao deslocamento, uma vez que é expressa em percentagem.\nIII) Nos navios mercantes, a borda-livre mínima é marcada no costado para determinar a reserva de flutuabilidade.\nIV) A borda-livre de um navio é, em geral, mínima na popa devido ao tosamento.",
+   "alts": {
+    "A": "Apenas I, II e IV são verdadeiras.",
+    "B": "Apenas II e IV são verdadeiras.",
+    "C": "Apenas I, III e IV são verdadeiras.",
+    "D": "Apenas I, II e III são verdadeiras.",
+    "E": "Apenas I e IV são verdadeiras."
+   },
+   "correta": "D",
+   "coment": {
+    "A": "IV é falsa: a borda-livre é medida a meia-nau, onde em geral é mínima.",
+    "B": "Deixa de fora I e III, que estão no texto do art. 2.27/2.28.",
+    "C": "IV é falsa.",
+    "D": "Gabarito oficial: I, II e III são transcrições dos arts. 2.27 e 2.28.",
+    "E": "IV é falsa e II/III ficaram de fora."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 2, arts. 2.27–2.28, PDF 84",
+   "origem": "prova",
+   "s": "AN-02.3"
+  },
+  {
+   "id": "P2012-03",
+   "unidade": "AN-02",
+   "disc": "AN",
+   "prova": "PSCPP 2012 · Rosa · Q3 · 1,3 pt",
+   "dif": "média",
+   "enunciado": "Um navio suspendeu de São Luís para Belém. Próximo à foz do Amazonas, ainda no mar, o prático embarcou. O navio estava com 2.500 t de deslocamento, calado médio de 6,8 m e 4 t/cm. Com densidade da água salgada 1,026 e da água doce 1,010, o calado médio ao iniciar a navegação no rio será de:",
+   "alts": {
+    "A": "6,4 m",
+    "B": "6,7 m",
+    "C": "6,8 m",
+    "D": "6,9 m",
+    "E": "7,2 m"
+   },
+   "correta": "D",
+   "coment": {
+    "A": "O calado aumenta em água doce, não diminui.",
+    "B": "Sentido errado da variação.",
+    "C": "Ignora a mudança de densidade.",
+    "D": "Gabarito oficial: Δ = 0,016 × 2.500 / 4 = 10 cm → 6,8 + 0,10 = 6,9 m.",
+    "E": "Erro de unidade (40 cm)."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 2, art. 2.89 (variação do calado da água salgada para a doce), PDF 118–119",
+   "origem": "prova",
+   "s": "AN-02.3"
+  },
+  {
+   "id": "I-AN01-01",
+   "unidade": "AN-01",
+   "disc": "AN",
+   "dif": "fácil",
+   "enunciado": "De acordo com o “Arte Naval” (Fonseca), a parte do casco abaixo do plano de flutuação em plena carga, que fica total ou quase totalmente imersa, denomina-se:",
+   "alts": {
+    "A": "Obras vivas.",
+    "B": "Obras mortas.",
+    "C": "Zona de flutuação.",
+    "D": "Bojo.",
+    "E": "Costado."
+   },
+   "correta": "A",
+   "coment": {
+    "A": "Correta: definição do art. 1.11. Carena é usada às vezes como sinônimo, mas é mais propriamente o invólucro do casco nas obras vivas.",
+    "B": "Obras mortas ficam ACIMA do plano de flutuação em plena carga e estão sempre emersas (art. 1.12).",
+    "C": "Zona de flutuação é a faixa entre a flutuação carregada e a leve (art. 2.5).",
+    "D": "Bojo é a transição entre o fundo e o costado (art. 1.15).",
+    "E": "Costado é a parte lateral entre o bojo e o convés mais elevado (art. 1.16)."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 1, arts. 1.11–1.16, PDF 27",
+   "origem": "inedita",
+   "s": "AN-01.2"
+  },
+  {
+   "id": "I-AN01-02",
+   "unidade": "AN-01",
+   "disc": "AN",
+   "dif": "média",
+   "enunciado": "De acordo com o “Arte Naval” (Fonseca), analise as afirmativas:\nI) Bochechas são as partes curvas do costado, de um e de outro bordo, junto à roda de proa.\nII) Amura é o mesmo que bochecha; é também uma direção qualquer entre a proa e o través.\nIII) Almeida é a parte superior do painel de popa.\nIV) Cintado é a fiada de chapas do costado no encontro com o convés resistente, contínua de proa a popa.\nV) Resbordo é a fiada de chapas do costado imediatamente abaixo do convés principal.",
+   "alts": {
+    "A": "Apenas I, II e III são verdadeiras.",
+    "B": "Apenas I, II e IV são verdadeiras.",
+    "C": "Apenas II, IV e V são verdadeiras.",
+    "D": "Apenas I, III e V são verdadeiras.",
+    "E": "Apenas III, IV e V são verdadeiras."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "III é falsa: a parte superior do painel de popa é a grinalda (art. 1.26). Almeida fica logo ABAIXO do painel (art. 1.27).",
+    "B": "Correta: I (art. 1.19), II (art. 1.20) e IV (art. 1.29) conferem com o livro.",
+    "C": "V é falsa: resbordo é a primeira fiada do forro exterior do FUNDO, junto à quilha (art. 1.30).",
+    "D": "III e V são falsas.",
+    "E": "III e V são falsas."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 1, arts. 1.19–1.30, PDF 28–31",
+   "origem": "inedita",
+   "s": "AN-01.2"
+  },
+  {
+   "id": "I-AN01-03",
+   "unidade": "AN-01",
+   "disc": "AN",
+   "dif": "fácil",
+   "enunciado": "Aberturas usualmente retangulares feitas na borda-falsa, com grade fixa ou portinhola que se abre de dentro para fora, para dar saída às grandes massas de água que embarcam no convés em mar grosso. Segundo o “Arte Naval”, trata-se de:",
+   "alts": {
+    "A": "Embornais.",
+    "B": "Gateiras.",
+    "C": "Saídas de água.",
+    "D": "Vigias.",
+    "E": "Escovéns."
+   },
+   "correta": "C",
+   "coment": {
+    "A": "Embornais escoam água de baldeação ou chuva, junto à borda do convés (art. 1.90).",
+    "B": "Gateiras são as aberturas no convés por onde as amarras passam para o paiol (art. 1.88).",
+    "C": "Correta: saídas de água (freeing ports), art. 1.91. O livro alerta para não confundi-las com escovéns e embornais.",
+    "D": "Vigias são aberturas no costado para luz e ventilação, não para escoar água do convés.",
+    "E": "Escovém é o tubo por onde gurne a amarra do convés para o costado (art. 1.89)."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 1, arts. 1.88–1.91, PDF 52",
+   "origem": "inedita",
+   "s": "AN-01.2"
+  },
+  {
+   "id": "I-AN01-04",
+   "unidade": "AN-01",
+   "disc": "AN",
+   "dif": "fácil",
+   "enunciado": "Segundo o “Arte Naval”, as aberturas feitas no convés por onde as amarras passam para o paiol chamam-se:",
+   "alts": {
+    "A": "Enoras.",
+    "B": "Embornais.",
+    "C": "Bueiros.",
+    "D": "Gateiras.",
+    "E": "Portalós."
+   },
+   "correta": "D",
+   "coment": {
+    "A": "Enoras são as aberturas geralmente circulares por onde enfurnam os mastros (art. 1.87). Erro que caiu como distrator em 2006 q57.",
+    "B": "Embornais escoam água do convés (art. 1.90).",
+    "C": "Bueiros são orifícios nas hastilhas ou longarinas para escoar água para o esgoto (art. 1.80).",
+    "D": "Correta: art. 1.88 (spurling pipe).",
+    "E": "Portaló é a abertura por onde o pessoal entra e sai do navio (art. 1.92)."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 1, arts. 1.80–1.92, PDF 51–53",
+   "origem": "inedita",
+   "s": "AN-01.2"
+  },
+  {
+   "id": "I-AN01-05",
+   "unidade": "AN-01",
+   "disc": "AN",
+   "dif": "média",
+   "enunciado": "Uma construção feita sobre o convés principal, cujas laterais distam do costado MAIS de 4% da boca do navio, destinada a camarotes, cozinha e outras dependências, chama-se, segundo o “Arte Naval”:",
+   "alts": {
+    "A": "Superestrutura.",
+    "B": "Castelo de proa.",
+    "C": "Poço.",
+    "D": "Tombadilho.",
+    "E": "Casaria."
+   },
+   "correta": "E",
+   "coment": {
+    "A": "Superestrutura é quando as laterais distam do costado NÃO MAIS que 4% da boca (art. 1.37).",
+    "B": "Castelo é a superestrutura na parte de proa (art. 1.38).",
+    "C": "Poço é o espaço entre o castelo ou tombadilho e a superestrutura central (art. 1.41).",
+    "D": "Tombadilho é a superestrutura na popa (art. 1.39).",
+    "E": "Correta: acima de 4% da boca passa a ser casaria (deckhouse), art. 1.37."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 1, arts. 1.37–1.41, PDF 32",
+   "origem": "inedita",
+   "s": "AN-01.2"
+  },
+  {
+   "id": "I-AN01-06",
+   "unidade": "AN-01",
+   "disc": "AN",
+   "dif": "fácil",
+   "enunciado": "As bolinas (bilge keels), colocadas longitudinalmente na altura da curva do bojo, uma em cada bordo, servem principalmente para:",
+   "alts": {
+    "A": "Amortecer a amplitude dos balanços.",
+    "B": "Aumentar a estabilidade de rumo em águas rasas.",
+    "C": "Proteger o casco nas atracações.",
+    "D": "Apoiar o navio sobre os picadeiros na docagem.",
+    "E": "Reduzir a resistência friccional."
+   },
+   "correta": "A",
+   "coment": {
+    "A": "Correta: art. 1.103. Em embarcações a vela, bolina é também a chapa sob a quilha que reduz inclinação e abatimento.",
+    "B": "Estabilidade de curso é atribuída ao calcanhar (skeg), art. 1.31.",
+    "C": "Proteção nas atracações é função do verdugo (art. 1.107).",
+    "D": "Apoio em picadeiros: quilhas de docagem (art. 1.102) e calcanhar (art. 1.31).",
+    "E": "Bolinas aumentam a superfície molhada; não reduzem a resistência."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 1, arts. 1.31, 1.102–1.107, PDF 31 e 56–57",
+   "origem": "inedita",
+   "s": "AN-01.2"
+  },
+  {
+   "id": "I-AN01-07",
+   "unidade": "AN-01",
+   "disc": "AN",
+   "dif": "média",
+   "enunciado": "Equipamento com tambores de formato especial (coroas de barbotim) montados num eixo HORIZONTAL, geralmente na proa, que serve para alar espias e suspender a amarra. Segundo o “Arte Naval”, é o:",
+   "alts": {
+    "A": "Cabrestante.",
+    "B": "Molinete.",
+    "C": "Mordente.",
+    "D": "Abita.",
+    "E": "Cabeço."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Cabrestante tem tambor VERTICAL (art. 1.155).",
+    "B": "Correta: molinete (windlass), art. 1.156.",
+    "C": "Mordente é peça fixa no convés que aguenta a amarra mordendo um elo (art. 1.157).",
+    "D": "Abita é cabeço singelo com tetas para dar volta redonda na espia (art. 1.159).",
+    "E": "Cabeços são colunas duplas para dar volta às espias (art. 1.136)."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 1, arts. 1.136 e 1.155–1.159, PDF 64–68",
+   "origem": "inedita",
+   "s": "AN-01.2"
+  },
+  {
+   "id": "I-AN01-08",
+   "unidade": "AN-01",
+   "disc": "AN",
+   "dif": "média",
+   "enunciado": "O espaço limitado por anteparas, hastilhas ou longarinas estanques, próximas entre si, que serve de isolante entre tanques e compartimentos quando exigido por regras de segurança, denomina-se:",
+   "alts": {
+    "A": "Fundo duplo.",
+    "B": "Túnel do eixo.",
+    "C": "Coferdam.",
+    "D": "Paiol da amarra.",
+    "E": "Tanque profundo."
+   },
+   "correta": "C",
+   "coment": {
+    "A": "Fundo duplo é a estrutura formada pelo fundo e pelo teto do fundo duplo (art. 1.59).",
+    "B": "Túnel do eixo aloja a linha de eixo da praça de máquinas ao tubo telescópico (art. 1.65).",
+    "C": "Correta: coferdam (cofferdam), art. 1.63.",
+    "D": "Paiol da amarra fica na proa e recebe as amarras por gravidade (art. 1.68).",
+    "E": "Tanques fundos (profundos) vão do fundo ou do teto do fundo duplo até o convés mais baixo (art. 1.62)."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 1, arts. 1.59–1.68, PDF 46–49",
+   "origem": "inedita",
+   "s": "AN-01.2"
+  },
+  {
+   "id": "I-AN01-09",
+   "unidade": "AN-01",
+   "disc": "AN",
+   "dif": "difícil",
+   "enunciado": "Sobre o calcanhar (skeg), segundo o “Arte Naval”, é correto afirmar que:",
+   "alts": {
+    "A": "É a fiada de chapas mais próxima da quilha.",
+    "B": "É uma mudança brusca de direção da superfície do casco.",
+    "C": "É peça reforçada no costado de rebocadores, para proteção nas atracações.",
+    "D": "É parte saliente formada pelo pé de cadaste e pela extremidade posterior da quilha; dá maior estabilidade de curso e apoio para picadeiros a ré.",
+    "E": "É o espaço onde trabalha o hélice, limitado pelos cadastes interior e exterior."
+   },
+   "correta": "D",
+   "coment": {
+    "A": "Isso é o resbordo (art. 1.30).",
+    "B": "Isso é a quina (art. 1.32).",
+    "C": "Isso é o verdugo (art. 1.107).",
+    "D": "Correta: art. 1.31. É comum em navios com leme compensado.",
+    "E": "Isso é a clara do hélice (art. 1.81)."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 1, arts. 1.30–1.32, 1.81 e 1.107, PDF 31, 51 e 57",
+   "origem": "inedita",
+   "s": "AN-01.2"
+  },
+  {
+   "id": "I-AN02-01",
+   "unidade": "AN-02",
+   "disc": "AN",
+   "dif": "média",
+   "enunciado": "Um navio com deslocamento de 4.000 t, calado médio de 7,20 m na água salgada e 10 t/cm passa para a água doce. Usando as densidades 1,026 (salgada) e 1,010 (doce) do “Arte Naval”, o novo calado médio será, aproximadamente:",
+   "alts": {
+    "A": "7,14 m",
+    "B": "7,20 m",
+    "C": "7,26 m",
+    "D": "7,34 m",
+    "E": "7,84 m"
+   },
+   "correta": "C",
+   "coment": {
+    "A": "O calado AUMENTA em água doce.",
+    "B": "Ignora a mudança de densidade.",
+    "C": "Correta: Δ = 0,016 × 4.000 / 10 = 6,4 cm → 7,20 + 0,064 ≈ 7,26 m (mesmo método da questão oficial 2012 q3).",
+    "D": "Usou 0,035 em vez de 0,016.",
+    "E": "Erro de unidade: tratou 64 cm."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 2, art. 2.89, PDF 118–119",
+   "origem": "inedita",
+   "s": "AN-02.3"
+  },
+  {
+   "id": "I-AN02-02",
+   "unidade": "AN-02",
+   "disc": "AN",
+   "dif": "fácil",
+   "enunciado": "Pela regra prática do “Arte Naval” para navios de formas ordinárias em plena carga, quanto aumenta o calado de um navio com 8 m de calado ao passar da água do mar para a água do rio?",
+   "alts": {
+    "A": "Cerca de 4,0 cm",
+    "B": "Cerca de 6,5 cm",
+    "C": "Cerca de 8,0 cm",
+    "D": "Cerca de 10,4 cm",
+    "E": "Cerca de 13,0 cm"
+   },
+   "correta": "D",
+   "coment": {
+    "A": "Não corresponde à regra.",
+    "B": "6,5 cm é o exemplo do livro para 5 m de calado.",
+    "C": "Seria 1 cm por metro.",
+    "D": "Correta: 1,3 cm por metro de calado → 8 × 1,3 = 10,4 cm.",
+    "E": "Seria 1,3 cm por metro × 10."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 2, art. 2.89, PDF 119",
+   "origem": "inedita",
+   "s": "AN-02.3"
+  },
+  {
+   "id": "I-AN02-03",
+   "unidade": "AN-02",
+   "disc": "AN",
+   "dif": "média",
+   "enunciado": "Um navio com 18 t/cm descarrega 270 t de carga, com o centro de gravidade da carga na vertical do centro de flutuação. Segundo o “Arte Naval”, o que acontece com o calado?",
+   "alts": {
+    "A": "Diminui 15 cm só a vante.",
+    "B": "Diminui 1,5 cm igualmente.",
+    "C": "Aumenta 15 cm, por perda de flutuabilidade.",
+    "D": "Não muda, pois o peso estava sobre o CF.",
+    "E": "Diminui 15 cm a vante e a ré, sem alterar o trim."
+   },
+   "correta": "E",
+   "coment": {
+    "A": "Peso sobre o CF faz variar AV e AR da mesma quantidade.",
+    "B": "Erro de 10 vezes.",
+    "C": "Retirar peso faz o navio EMERGIR.",
+    "D": "Estar sobre o CF evita mudança de TRIM, não de calado.",
+    "E": "Correta: 270 / 18 = 15 cm de emersão paralela; peso na vertical do CF não altera o compasso (art. 2.88)."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 2, arts. 2.86 e 2.88, PDF 114–118",
+   "origem": "inedita",
+   "s": "AN-02.3"
+  },
+  {
+   "id": "I-AN02-04",
+   "unidade": "AN-02",
+   "disc": "AN",
+   "dif": "média",
+   "enunciado": "Segundo o “Arte Naval”, a diferença entre o deslocamento máximo e o deslocamento mínimo de um navio, que representa o peso que ele é capaz de embarcar, chama-se:",
+   "alts": {
+    "A": "Expoente de carga (deadweight).",
+    "B": "Arqueação bruta.",
+    "C": "Porte útil (carga paga).",
+    "D": "Deslocamento padrão.",
+    "E": "Reserva de flutuabilidade."
+   },
+   "correta": "A",
+   "coment": {
+    "A": "Correta: expoente de carga, peso morto ou deadweight (art. 2.76).",
+    "B": "Arqueação bruta é valor adimensional proporcional ao volume interno; não é peso (art. 2.78).",
+    "C": "Porte útil é só a parte do expoente de carga que é carga paga; varia com a duração da viagem (art. 2.77).",
+    "D": "Deslocamento padrão é usado para comparar navios de guerra (art. 2.74).",
+    "E": "Reserva de flutuabilidade é um volume, expresso em percentagem (art. 2.27)."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 2, arts. 2.74–2.78, PDF 102–104",
+   "origem": "inedita",
+   "s": "AN-02.3"
+  },
+  {
+   "id": "I-AN02-05",
+   "unidade": "AN-02",
+   "disc": "AN",
+   "dif": "média",
+   "enunciado": "A relação entre o volume deslocado e o volume de um sólido de comprimento igual ao do navio na flutuação e seção transversal igual à parte imersa da seção mestra, usada principalmente nos cálculos de resistência à propulsão, é o coeficiente:",
+   "alts": {
+    "A": "de bloco.",
+    "B": "prismático (longitudinal).",
+    "C": "da seção mestra.",
+    "D": "da área de flutuação.",
+    "E": "de finura da proa."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "O de bloco compara com o paralelepípedo L × B × C.",
+    "B": "Correta: coeficiente prismático, cilíndrico ou longitudinal (art. 2.66b).",
+    "C": "O da seção mestra compara a área imersa da seção a meia-nau com o retângulo circunscrito.",
+    "D": "O da área de flutuação compara a área de flutuação com o retângulo que a circunscreve.",
+    "E": "Não está entre os coeficientes de forma do livro."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 2, art. 2.66, PDF 98–99",
+   "origem": "inedita",
+   "s": "AN-02.3"
+  },
+  {
+   "id": "I-AN02-06",
+   "unidade": "AN-02",
+   "disc": "AN",
+   "dif": "fácil",
+   "enunciado": "Sobre a arqueação bruta (AB), segundo o “Arte Naval”, é correto afirmar:",
+   "alts": {
+    "A": "É expressa em toneladas métricas e mede o peso do navio leve.",
+    "B": "É igual ao expoente de carga em água salgada.",
+    "C": "É valor adimensional, proporcional ao volume interno, calculado pelo volume moldado de todos os espaços fechados.",
+    "D": "Corresponde a 100 pés cúbicos por tonelada de peso.",
+    "E": "Só se aplica a navios de guerra."
+   },
+   "correta": "C",
+   "coment": {
+    "A": "Nem AB nem TAB são medidas de massa ou peso.",
+    "B": "Expoente de carga é peso; AB é volume.",
+    "C": "Correta: art. 2.78. É usada para regras de segurança e taxas.",
+    "D": "100 pés cúbicos (2,83 m³) era a tonelada de arqueação da antiga TAB, uma medida de volume.",
+    "E": "Aplica-se aos navios em geral (Convenção de 1969)."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 2, arts. 2.78–2.79, PDF 104",
+   "origem": "inedita",
+   "s": "AN-02.3"
+  },
+  {
+   "id": "I-AN02-07",
+   "unidade": "AN-02",
+   "disc": "AN",
+   "dif": "média",
+   "enunciado": "Segundo o “Arte Naval”, analise:\nI) Trim é a diferença entre os calados AV e AR.\nII) Navio apopado, ou derrabado, tem trim pela proa.\nIII) Banda é a inclinação para um dos bordos e é medida em graus.\nIV) Compassar é tirar o trim, trazendo o navio à flutuação direita no sentido longitudinal.",
+   "alts": {
+    "A": "Apenas I e II são verdadeiras.",
+    "B": "Apenas II e III são verdadeiras.",
+    "C": "Apenas I, II e IV são verdadeiras.",
+    "D": "Apenas I, III e IV são verdadeiras.",
+    "E": "Apenas III e IV são verdadeiras."
+   },
+   "correta": "D",
+   "coment": {
+    "A": "II é falsa.",
+    "B": "II é falsa; I e IV ficaram de fora.",
+    "C": "II é falsa: apopado ou derrabado = trim pela POPA; abicado = trim pela proa.",
+    "D": "Correta: I, III e IV conferem com o art. 2.82.",
+    "E": "I também é verdadeira."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 2, art. 2.82, PDF 107",
+   "origem": "inedita",
+   "s": "AN-02.3"
+  },
+  {
+   "id": "I-AN02-08",
+   "unidade": "AN-02",
+   "disc": "AN",
+   "dif": "difícil",
+   "enunciado": "Sobre as perpendiculares, segundo o “Arte Naval”:",
+   "alts": {
+    "A": "A PP-AV passa pelo ponto mais saliente da roda de proa.",
+    "B": "A PP-AR passa sempre pelo cadaste exterior.",
+    "C": "As perpendiculares são paralelas à linha-d’água.",
+    "D": "O comprimento entre perpendiculares é o maior comprimento do navio.",
+    "E": "A PP-AV é a vertical tirada na interseção da linha-d’água no calado de projeto com o contorno da roda de proa; nos navios com leme e hélice no plano diametral, a PP-AR passa pelo centro da madre do leme."
+   },
+   "correta": "E",
+   "coment": {
+    "A": "O ponto mais saliente da roda define o comprimento de roda a roda.",
+    "B": "A PP-AR depende da forma da popa; com leme no plano diametral, passa pela madre do leme.",
+    "C": "Elas são NORMAIS à linha-d’água (art. 2.47).",
+    "D": "O maior comprimento é o de roda a roda (ou total).",
+    "E": "Correta: arts. 2.48 e 2.49."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 2, arts. 2.47–2.50 e 2.55, PDF 92–93",
+   "origem": "inedita",
+   "s": "AN-02.3"
+  },
+  {
+   "id": "I-AN02-09",
+   "unidade": "AN-02",
+   "disc": "AN",
+   "dif": "média",
+   "enunciado": "Segundo o “Arte Naval”, a reserva de flutuabilidade:",
+   "alts": {
+    "A": "É o volume da parte do navio acima da água que pode ser tornada estanque; nos navios de guerra usuais varia de 50 a 75% do deslocamento normal.",
+    "B": "É a altura entre a linha-d’água e o convés principal, medida a meia-nau.",
+    "C": "É o peso máximo de carga paga.",
+    "D": "Só existe em navios com fundo duplo.",
+    "E": "É calculada pela distância GM."
+   },
+   "correta": "A",
+   "coment": {
+    "A": "Correta: art. 2.27 (num submarino em deslocamento normal, cerca de 30%).",
+    "B": "Essa altura é a borda-livre (art. 2.28).",
+    "C": "Carga paga é o porte útil.",
+    "D": "Não depende de fundo duplo.",
+    "E": "GM é a altura metacêntrica, ligada à estabilidade."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, 8ª ed. (2019), Cap. 2, arts. 2.27–2.28, PDF 84",
+   "origem": "inedita",
+   "s": "AN-02.3"
+  },
+  {
+   "id": "S-AN-01.1-01",
+   "unidade": "AN-01",
+   "s": "AN-01.1",
+   "disc": "AN",
+   "dif": "fácil",
+   "enunciado": "A parte do casco que fica abaixo do plano de flutuação em plena carga chama-se:",
+   "alts": {
+    "A": "Obras mortas.",
+    "B": "Superestrutura.",
+    "C": "Obras vivas.",
+    "D": "Zona de flutuação.",
+    "E": "Casaria."
+   },
+   "correta": "C",
+   "coment": {
+    "A": "Errado: obras mortas ficam acima da flutuação em plena carga.",
+    "B": "Errado: a superestrutura fica sobre o convés.",
+    "C": "Correta: obras vivas (ou carena).",
+    "D": "Errado: zona de flutuação é a faixa entre a flutuação leve e a carregada.",
+    "E": "Errado: casaria é a construção sobre o convés."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, Cap. 1",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-AN-01.1-02",
+   "unidade": "AN-01",
+   "s": "AN-01.1",
+   "disc": "AN",
+   "dif": "fácil",
+   "enunciado": "As partes curvas do costado junto à proa e junto à popa, uma em cada bordo, chamam-se, respectivamente:",
+   "alts": {
+    "A": "Alhetas e bochechas.",
+    "B": "Bochechas e alhetas.",
+    "C": "Almeidas e bochechas.",
+    "D": "Amuras e alhetas.",
+    "E": "Cintados e alhetas."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: invertido.",
+    "B": "Correta: bochechas na proa e alhetas na popa.",
+    "C": "Errado: almeida é a parte curva do costado na popa, abaixo do painel de popa.",
+    "D": "Errado: amura, como direção, é entre a proa e o través.",
+    "E": "Errado: cintado é uma fiada de chapas."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, Cap. 1",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-AN-01.1-03",
+   "unidade": "AN-01",
+   "s": "AN-01.1",
+   "disc": "AN",
+   "dif": "média",
+   "enunciado": "Como se chama a fiada de chapas do costado que fica no encontro com o convés resistente, de proa a popa?",
+   "alts": {
+    "A": "Resbordo.",
+    "B": "Cintado.",
+    "C": "Trincaniz.",
+    "D": "Bolina.",
+    "E": "Calcanhar."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: o resbordo é a primeira fiada do fundo, junto à quilha.",
+    "B": "Correta: cintado (sheer strake).",
+    "C": "Errado: o trincaniz é peça longitudinal estrutural.",
+    "D": "Errado: bolina é chapa longitudinal contra o balanço.",
+    "E": "Errado: calcanhar é a saliência do pé de cadaste com a quilha."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, Cap. 1",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-AN-01.1-04",
+   "unidade": "AN-01",
+   "s": "AN-01.1",
+   "disc": "AN",
+   "dif": "média",
+   "enunciado": "O afastamento lateral das paredes da construção sobre o convés em relação ao costado define: até 4% da boca é _____; acima de 4% é _____.",
+   "alts": {
+    "A": "casaria; superestrutura.",
+    "B": "superestrutura; casaria (deckhouse).",
+    "C": "tombadilho; castelo.",
+    "D": "poço; tombadilho.",
+    "E": "castelo; casaria."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: invertido.",
+    "B": "Correta: até 4% da boca, superestrutura; acima, casaria (deckhouse).",
+    "C": "Errado: tombadilho e castelo são superestruturas de extremidade.",
+    "D": "Errado: poço é o espaço entre o castelo ou o tombadilho e a superestrutura central.",
+    "E": "Errado: castelo é a superestrutura de proa."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, Cap. 1",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-AN-01.1-05",
+   "unidade": "AN-01",
+   "s": "AN-01.1",
+   "disc": "AN",
+   "dif": "média",
+   "enunciado": "Assinale a opção que contém somente vigas TRANSVERSAIS do casco:",
+   "alts": {
+    "A": "Quilha vertical, sicordas e longarinas.",
+    "B": "Cavernas, vaus e hastilhas.",
+    "C": "Trincaniz, chapa quilha e longarinas.",
+    "D": "Quilha vertical e cavernas.",
+    "E": "Sicordas, hastilhas e vaus."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: são todas longitudinais.",
+    "B": "Correta: cavernas, vaus e hastilhas são transversais.",
+    "C": "Errado: são todas longitudinais.",
+    "D": "Errado: a quilha vertical é longitudinal.",
+    "E": "Errado: sicordas são longitudinais."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, Cap. 1",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-AN-01.2-01",
+   "unidade": "AN-01",
+   "s": "AN-01.2",
+   "disc": "AN",
+   "dif": "fácil",
+   "enunciado": "Os mastros enfurnam no convés pelas _____, e as amarras descem para o paiol pelas _____.",
+   "alts": {
+    "A": "gateiras; enoras.",
+    "B": "enoras; gateiras.",
+    "C": "escovéns; embornais.",
+    "D": "embornais; enoras.",
+    "E": "portalós; escovéns."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: invertido.",
+    "B": "Correta: enoras para os mastros e gateiras para as amarras.",
+    "C": "Errado: o escovém leva a amarra do convés ao costado; o embornal escoa água.",
+    "D": "Errado: o embornal escoa a água do convés.",
+    "E": "Errado: o portaló é passagem de pessoal."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, Cap. 1",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-AN-01.2-02",
+   "unidade": "AN-01",
+   "s": "AN-01.2",
+   "disc": "AN",
+   "dif": "média",
+   "enunciado": "Sobre o cabrestante e o molinete, é correto afirmar que:",
+   "alts": {
+    "A": "Ambos têm eixo horizontal.",
+    "B": "O cabrestante tem tambor de eixo vertical; o molinete tem eixo horizontal, com coroas de barbotim, e fica na proa.",
+    "C": "O cabrestante tem eixo horizontal; o molinete, vertical.",
+    "D": "Ambos têm eixo vertical.",
+    "E": "Cabrestante e molinete são o mesmo equipamento."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: o cabrestante é vertical.",
+    "B": "Correta: cabrestante vertical (capstan); molinete horizontal (windlass).",
+    "C": "Errado: invertido.",
+    "D": "Errado: o molinete é horizontal.",
+    "E": "Errado: são equipamentos distintos, que diferem na posição do eixo."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, Cap. 1",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-AN-01.2-03",
+   "unidade": "AN-01",
+   "s": "AN-01.2",
+   "disc": "AN",
+   "dif": "média",
+   "enunciado": "As bolinas (bilge keels) servem para:",
+   "alts": {
+    "A": "Aumentar a velocidade.",
+    "B": "Amortecer a amplitude dos balanços.",
+    "C": "Proteger o hélice.",
+    "D": "Sustentar o eixo propulsor.",
+    "E": "Aumentar o calado."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: não é a função.",
+    "B": "Correta: são chapas longitudinais na curva do bojo, uma por bordo.",
+    "C": "Errado: o hélice é protegido pela guarda do hélice.",
+    "D": "Errado: o eixo é sustentado pelos pés-de-galinha.",
+    "E": "Errado: não aumentam o calado."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, Cap. 1",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-AN-01.2-04",
+   "unidade": "AN-01",
+   "s": "AN-01.2",
+   "disc": "AN",
+   "dif": "média",
+   "enunciado": "Quanto ao alojamento de pessoas a bordo, segundo o Arte Naval:",
+   "alts": {
+    "A": "Camarote aloja de 1 a 4 pessoas; alojamento, mais de 4.",
+    "B": "Camarote aloja só 1 pessoa; alojamento, 2.",
+    "C": "Camarote e alojamento são sinônimos.",
+    "D": "Alojamento aloja até 4; camarote, mais de 4.",
+    "E": "Camarote aloja só o Comandante."
+   },
+   "correta": "A",
+   "coment": {
+    "A": "Correta: camarote de 1 a 4; alojamento, mais de 4.",
+    "B": "Errado: números incorretos.",
+    "C": "Errado: não são sinônimos.",
+    "D": "Errado: invertido.",
+    "E": "Errado: câmara é o compartimento do Comandante."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, Cap. 1",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-AN-01.2-05",
+   "unidade": "AN-01",
+   "s": "AN-01.2",
+   "disc": "AN",
+   "dif": "difícil",
+   "enunciado": "Os braços que sustentam a parte do eixo propulsor fora da carena, em navios de mais de um hélice, chamam-se:",
+   "alts": {
+    "A": "Bolinas.",
+    "B": "Pés-de-galinha (shaft brackets).",
+    "C": "Guarda do hélice.",
+    "D": "Tubo telescópico do eixo.",
+    "E": "Suplemento de válvula."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: bolinas amortecem o balanço.",
+    "B": "Correta: pés-de-galinha.",
+    "C": "Errado: a guarda do hélice protege o hélice nas atracações.",
+    "D": "Errado: o tubo telescópico é por onde o eixo atravessa o casco.",
+    "E": "Errado: o suplemento liga o orifício da carena à válvula de aspiração."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, Cap. 1",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-AN-01.2-06",
+   "unidade": "AN-01",
+   "s": "AN-01.2",
+   "disc": "AN",
+   "dif": "média",
+   "enunciado": "Sobre o zinco protetor:",
+   "alts": {
+    "A": "É peça de zinco fundido que reforça o casco.",
+    "B": "É peça de zinco laminado preso à carena ou ao tanque para proteger o aço da ação galvânica da água do mar.",
+    "C": "Substitui a pintura anticorrosiva.",
+    "D": "Serve para aumentar a estabilidade.",
+    "E": "É instalado só no hélice."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: é laminado e nunca fundido.",
+    "B": "Correta: protege contra a ação galvânica.",
+    "C": "Errado: não substitui a pintura.",
+    "D": "Errado: não tem relação com a estabilidade.",
+    "E": "Errado: é fixado na carena ou no tanque."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, Cap. 1",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-AN-02.1-01",
+   "unidade": "AN-02",
+   "s": "AN-02.1",
+   "disc": "AN",
+   "dif": "fácil",
+   "enunciado": "O Princípio de Arquimedes aplicado ao navio estabelece que o empuxo:",
+   "alts": {
+    "A": "É igual ao peso do navio multiplicado pelo calado.",
+    "B": "É igual ao peso do volume de líquido deslocado e se aplica no centro de carena, de baixo para cima.",
+    "C": "Se aplica no centro de gravidade.",
+    "D": "É nulo com o navio em repouso.",
+    "E": "Depende só da boca."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: não é essa a definição.",
+    "B": "Correta: empuxo = peso do líquido deslocado, aplicado no centro de carena.",
+    "C": "Errado: o peso é que se aplica em G.",
+    "D": "Errado: em repouso, empuxo e peso são iguais.",
+    "E": "Errado: depende do volume deslocado."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, Cap. 2",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-AN-02.1-02",
+   "unidade": "AN-02",
+   "s": "AN-02.1",
+   "disc": "AN",
+   "dif": "média",
+   "enunciado": "Sobre a reserva de flutuabilidade:",
+   "alts": {
+    "A": "É o volume abaixo da flutuação, em m³.",
+    "B": "É o volume acima da flutuação que pode ser tornado estanque, em porcentagem do volume deslocado, e nos navios de guerra é de 50% a 75%.",
+    "C": "Independe da borda-livre.",
+    "D": "É maior quanto menor a borda-livre.",
+    "E": "É nula nos navios mercantes."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: é o volume acima da flutuação.",
+    "B": "Correta: expressa em porcentagem do volume deslocado.",
+    "C": "Errado: é função da borda-livre.",
+    "D": "Errado: quanto menor a borda-livre, menor a reserva.",
+    "E": "Errado: existe em todos os navios."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, Cap. 2",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-AN-02.1-03",
+   "unidade": "AN-02",
+   "s": "AN-02.1",
+   "disc": "AN",
+   "dif": "média",
+   "enunciado": "Nas condições de equilíbrio do navio, se o centro de gravidade G está acima do metacentro M:",
+   "alts": {
+    "A": "O equilíbrio é estável.",
+    "B": "O equilíbrio é indiferente.",
+    "C": "O equilíbrio é instável.",
+    "D": "O navio está em flutuação direita.",
+    "E": "O GM é positivo."
+   },
+   "correta": "C",
+   "coment": {
+    "A": "Errado: o equilíbrio é estável quando G está abaixo de M.",
+    "B": "Errado: indiferente é G coincidente com M.",
+    "C": "Correta: G acima de M (GM negativo) é equilíbrio instável.",
+    "D": "Errado: a flutuação direita não depende disso.",
+    "E": "Errado: GM positivo é G abaixo de M."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, Cap. 2",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-AN-02.1-04",
+   "unidade": "AN-02",
+   "s": "AN-02.1",
+   "disc": "AN",
+   "dif": "média",
+   "enunciado": "O braço e o momento de endireitamento são dados por:",
+   "alts": {
+    "A": "GZ = GM·cos θ; ME = W·GZ.",
+    "B": "GZ = GM·sen θ; ME = W·GZ.",
+    "C": "GZ = GM/θ; ME = W/GZ.",
+    "D": "GZ = BM·sen θ; ME = GZ/W.",
+    "E": "GZ = GM·tan θ; ME = W+GZ."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: é seno, não cosseno.",
+    "B": "Correta: GZ = GM·sen θ e ME = W·GZ.",
+    "C": "Errado: relações incorretas.",
+    "D": "Errado: relações incorretas.",
+    "E": "Errado: relações incorretas."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, Cap. 2",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-AN-02.1-05",
+   "unidade": "AN-02",
+   "s": "AN-02.1",
+   "disc": "AN",
+   "dif": "média",
+   "enunciado": "A superfície molhada (wetted surface) é usada principalmente no cálculo da:",
+   "alts": {
+    "A": "Estabilidade transversal.",
+    "B": "Resistência de atrito.",
+    "C": "Reserva de flutuabilidade.",
+    "D": "Arqueação bruta.",
+    "E": "Borda-livre."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: não é o uso principal.",
+    "B": "Correta: serve ao cálculo da resistência de atrito.",
+    "C": "Errado: não é o uso principal.",
+    "D": "Errado: a arqueação usa volumes de espaços fechados.",
+    "E": "Errado: a borda-livre mede-se a meia-nau."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, Cap. 2",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-AN-02.2-01",
+   "unidade": "AN-02",
+   "s": "AN-02.2",
+   "disc": "AN",
+   "dif": "fácil",
+   "enunciado": "O coeficiente de bloco (CB) é dado por:",
+   "alts": {
+    "A": "Volume deslocado ÷ (L × B × C).",
+    "B": "Área da seção mestra ÷ área de flutuação.",
+    "C": "Volume deslocado ÷ (área da seção mestra × L).",
+    "D": "L ÷ B.",
+    "E": "Deslocamento ÷ arqueação."
+   },
+   "correta": "A",
+   "coment": {
+    "A": "Correta: CB = V/(L·B·C).",
+    "B": "Errado: não é o CB.",
+    "C": "Errado: é o coeficiente prismático.",
+    "D": "Errado: é uma relação de dimensões.",
+    "E": "Errado: não é o CB."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, Cap. 2",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-AN-02.2-02",
+   "unidade": "AN-02",
+   "s": "AN-02.2",
+   "disc": "AN",
+   "dif": "média",
+   "enunciado": "Faixas típicas das relações L/B, L/C e B/C são, respectivamente:",
+   "alts": {
+    "A": "4 a 10; 10 a 30; 1,8 a 4.",
+    "B": "10 a 30; 4 a 10; 1,8 a 4.",
+    "C": "1,8 a 4; 4 a 10; 10 a 30.",
+    "D": "4 a 10; 1,8 a 4; 10 a 30.",
+    "E": "2 a 5; 5 a 15; 1 a 2."
+   },
+   "correta": "A",
+   "coment": {
+    "A": "Correta: L/B 4–10, L/C 10–30, B/C 1,8–4.",
+    "B": "Errado: valores trocados.",
+    "C": "Errado: valores trocados.",
+    "D": "Errado: valores trocados.",
+    "E": "Errado: valores não conferem."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, Cap. 2",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-AN-02.2-03",
+   "unidade": "AN-02",
+   "s": "AN-02.2",
+   "disc": "AN",
+   "dif": "média",
+   "enunciado": "O expoente de carga (deadweight) é calculado como:",
+   "alts": {
+    "A": "Deslocamento máximo − deslocamento mínimo (leve).",
+    "B": "Deslocamento máximo + deslocamento leve.",
+    "C": "Arqueação bruta − arqueação líquida.",
+    "D": "Deslocamento normal − deslocamento padrão.",
+    "E": "Peso da carga paga apenas."
+   },
+   "correta": "A",
+   "coment": {
+    "A": "Correta: expoente de carga = máx − leve; a parte que é carga paga é o porte útil.",
+    "B": "Errado: não se soma.",
+    "C": "Errado: arqueação não é peso.",
+    "D": "Errado: não é a definição.",
+    "E": "Errado: a carga paga é o porte útil."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, Cap. 2",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-AN-02.2-04",
+   "unidade": "AN-02",
+   "s": "AN-02.2",
+   "disc": "AN",
+   "dif": "média",
+   "enunciado": "Sobre a arqueação bruta, é correto afirmar que:",
+   "alts": {
+    "A": "É expressa em toneladas de peso.",
+    "B": "É um valor adimensional, proporcional ao volume dos espaços fechados.",
+    "C": "Equivale ao deslocamento.",
+    "D": "É igual ao porte bruto.",
+    "E": "É medida em m³ de carga."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: não é peso.",
+    "B": "Correta: valor adimensional proporcional ao volume dos espaços fechados.",
+    "C": "Errado: arqueação não é deslocamento.",
+    "D": "Errado: porte bruto é peso.",
+    "E": "Errado: cubagem é a capacidade para carga."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, Cap. 2",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-AN-02.2-05",
+   "unidade": "AN-02",
+   "s": "AN-02.2",
+   "disc": "AN",
+   "dif": "difícil",
+   "enunciado": "A perpendicular a ré (PP-AR) de um navio de aço passa:",
+   "alts": {
+    "A": "Pela roda de proa.",
+    "B": "Pelo centro da madre do leme (leme no plano diametral).",
+    "C": "Pelo meio do comprimento.",
+    "D": "Pelo centro de gravidade.",
+    "E": "Pela interseção da linha d'água de projeto com a roda de proa."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: é a PP-AV que passa pela roda de proa.",
+    "B": "Correta: pelo centro da madre do leme.",
+    "C": "Errado: é a seção a meia-nau.",
+    "D": "Errado: não passa pelo CG.",
+    "E": "Errado: essa é a PP-AV."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, Cap. 2",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-AN-02.2-06",
+   "unidade": "AN-02",
+   "s": "AN-02.2",
+   "disc": "AN",
+   "dif": "média",
+   "enunciado": "Na escala de calado, os algarismos:",
+   "alts": {
+    "A": "Começam a contar na linha d'água de verão.",
+    "B": "Têm zero na linha do fundo da quilha, escrevem-se só os números pares e a marcação indica o calado quando a água toca o limbo inferior.",
+    "C": "Escrevem-se todos os números.",
+    "D": "São escritos só nas alhetas.",
+    "E": "São sempre brancos."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: o zero é na linha do fundo da quilha.",
+    "B": "Correta: zero no fundo da quilha, só números pares.",
+    "C": "Errado: só os pares.",
+    "D": "Errado: são na proa, popa e meia-nau.",
+    "E": "Errado: são brancos em casco escuro e pretos em casco claro."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, Cap. 2",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-AN-02.2-07",
+   "unidade": "AN-02",
+   "s": "AN-02.2",
+   "disc": "AN",
+   "dif": "difícil",
+   "enunciado": "No deslocamento padrão (standard) o navio:",
+   "alts": {
+    "A": "Está sem tripulação.",
+    "B": "Está completo com tripulação, armamento, munição, provisões e água potável, mas sem combustível e água de alimentação de caldeiras.",
+    "C": "Está com tanques cheios.",
+    "D": "É o deslocamento mínimo.",
+    "E": "É o deslocamento em plena carga."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: leva tripulação.",
+    "B": "Correta: sem combustível e sem água de alimentação das caldeiras.",
+    "C": "Errado: sem combustível.",
+    "D": "Errado: o mínimo é o deslocamento leve.",
+    "E": "Errado: plena carga inclui tudo atestado."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, Cap. 2",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-AN-02.3-01",
+   "unidade": "AN-02",
+   "s": "AN-02.3",
+   "disc": "AN",
+   "dif": "média",
+   "enunciado": "Ao passar da água salgada (1,026) para a doce (1,010), o aumento de calado, em cm, é aproximadamente:",
+   "alts": {
+    "A": "0,016 × W ÷ TPC.",
+    "B": "0,16 × W ÷ TPC.",
+    "C": "W ÷ (0,016 × TPC).",
+    "D": "0,16 ÷ (W × TPC).",
+    "E": "TPC ÷ (0,016 × W)."
+   },
+   "correta": "A",
+   "coment": {
+    "A": "Correta: variação = 0,016·W/TPC (W em toneladas, TPC em t/cm).",
+    "B": "Errado: o fator é 0,016.",
+    "C": "Errado: fórmula incorreta.",
+    "D": "Errado: fórmula incorreta.",
+    "E": "Errado: fórmula incorreta."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, Cap. 2",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-AN-02.3-02",
+   "unidade": "AN-02",
+   "s": "AN-02.3",
+   "disc": "AN",
+   "dif": "média",
+   "enunciado": "Um navio de deslocamento W = 2.000 t e TPC = 10 t/cm passa do mar para o rio. O calado aumenta de aproximadamente:",
+   "alts": {
+    "A": "1,6 cm.",
+    "B": "3,2 cm.",
+    "C": "5 cm.",
+    "D": "32 cm.",
+    "E": "0,32 cm."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: cálculo incorreto.",
+    "B": "Correta: 0,016 × 2.000 ÷ 10 = 3,2 cm.",
+    "C": "Errado: cálculo incorreto.",
+    "D": "Errado: ordem de grandeza incorreta.",
+    "E": "Errado: ordem de grandeza incorreta."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, Cap. 2",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-AN-02.3-03",
+   "unidade": "AN-02",
+   "s": "AN-02.3",
+   "disc": "AN",
+   "dif": "média",
+   "enunciado": "Se um peso é embarcado exatamente na vertical do centro de flutuação, o que ocorre?",
+   "alts": {
+    "A": "O navio apopa.",
+    "B": "O navio abica.",
+    "C": "Não há mudança de trim: os calados AV e AR variam igualmente (imersão paralela).",
+    "D": "O navio adorna.",
+    "E": "O calado não muda."
+   },
+   "correta": "C",
+   "coment": {
+    "A": "Errado: o trim não muda.",
+    "B": "Errado: o trim não muda.",
+    "C": "Correta: imersão paralela, variação = peso ÷ TPC.",
+    "D": "Errado: o peso está na linha de centro.",
+    "E": "Errado: o calado aumenta."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, Cap. 2",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-AN-02.3-04",
+   "unidade": "AN-02",
+   "s": "AN-02.3",
+   "disc": "AN",
+   "dif": "difícil",
+   "enunciado": "Um peso de 60 t é embarcado a 12 m à proa do centro de flutuação. Dados TPC = 30 t/cm e MT1cm = 120 t·m/cm, a variação de trim, em cm, é:",
+   "alts": {
+    "A": "2 cm.",
+    "B": "6 cm.",
+    "C": "12 cm.",
+    "D": "3 cm.",
+    "E": "0,5 cm."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: 2 cm é a imersão paralela (60 ÷ 30).",
+    "B": "Correta: momento = 60 × 12 = 720 t·m; trim = 720 ÷ 120 = 6 cm.",
+    "C": "Errado: cálculo incorreto.",
+    "D": "Errado: cálculo incorreto.",
+    "E": "Errado: cálculo incorreto."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, Cap. 2",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-AN-02.3-05",
+   "unidade": "AN-02",
+   "s": "AN-02.3",
+   "disc": "AN",
+   "dif": "média",
+   "enunciado": "Se o navio descarrega peso e o calado diminui 5 cm, com TPC = 16 t/cm, o peso descarregado foi de:",
+   "alts": {
+    "A": "3,2 t.",
+    "B": "21 t.",
+    "C": "80 t.",
+    "D": "8 t.",
+    "E": "160 t."
+   },
+   "correta": "C",
+   "coment": {
+    "A": "Errado: cálculo incorreto.",
+    "B": "Errado: cálculo incorreto.",
+    "C": "Correta: 16 × 5 = 80 t.",
+    "D": "Errado: cálculo incorreto.",
+    "E": "Errado: cálculo incorreto."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, Cap. 2",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-AN-02.3-06",
+   "unidade": "AN-02",
+   "s": "AN-02.3",
+   "disc": "AN",
+   "dif": "fácil",
+   "enunciado": "Um navio com trim pela proa é denominado:",
+   "alts": {
+    "A": "Apopado.",
+    "B": "Derrabado.",
+    "C": "Abicado.",
+    "D": "Aprumado.",
+    "E": "Compassado."
+   },
+   "correta": "C",
+   "coment": {
+    "A": "Errado: apopado é trim pela popa.",
+    "B": "Errado: derrabado é sinônimo de apopado.",
+    "C": "Correta: abicado = trim pela proa.",
+    "D": "Errado: aprumar é tirar a banda.",
+    "E": "Errado: compassar é tirar o trim."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, Cap. 2",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-AN-02.3-07",
+   "unidade": "AN-02",
+   "s": "AN-02.3",
+   "disc": "AN",
+   "dif": "média",
+   "enunciado": "A Convenção de Arqueação de 1969 (ICTM):",
+   "alts": {
+    "A": "Mantém a tonelagem de arqueação bruta antiga.",
+    "B": "Substituiu TAB/TAL por AB/AL e não se aplica a navios de guerra, navios com menos de 24 m e navios que naveguem só em águas interiores.",
+    "C": "Aplica-se a todos os navios, sem exceção.",
+    "D": "Foi adotada em 1994.",
+    "E": "Só vale para petroleiros."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: ela substituiu TAB/TAL.",
+    "B": "Correta: AB/AL substituem TAB/TAL, com exceções.",
+    "C": "Errado: há exceções.",
+    "D": "Errado: a AB substituiu a TAB a partir de 1994, mas a convenção é de 1969.",
+    "E": "Errado: vale para navios em geral."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, Cap. 2",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-AN-02.3-08",
+   "unidade": "AN-02",
+   "s": "AN-02.3",
+   "disc": "AN",
+   "dif": "média",
+   "enunciado": "Em relação ao trim, por que é preferível um navio apopado a um abicado?",
+   "alts": {
+    "A": "Porque o apopado tem mais velocidade sempre.",
+    "B": "Porque o abicado embarca mais água pela proa, prejudica a eficiência dos propulsores e é mais difícil de governar.",
+    "C": "Porque o apopado tem menos calado.",
+    "D": "Porque o abicado tem menor deslocamento.",
+    "E": "Não há preferência."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: não é regra.",
+    "B": "Correta: o abicado tem esses problemas.",
+    "C": "Errado: não é o motivo.",
+    "D": "Errado: o deslocamento não muda.",
+    "E": "Errado: há preferência por apopar levemente."
+   },
+   "fonte": "Fonseca, Arte Naval v.1, Cap. 2",
+   "origem": "inedita"
+  }
+ ]
+}

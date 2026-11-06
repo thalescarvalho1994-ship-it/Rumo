@@ -449,7 +449,7 @@ function cartaoLiberado(c,lib){
   if(/^U/.test(c.id)) return true;   // cartão criado por você: sempre liberado
   return c.s?lib.ses.has(c.s):lib.uni.has(c.unidade);   // c.s = sessão do cartão; sem ela, vale a unidade
 }
-const questaoLiberada=(q,lib)=>lib.uni.has(q.unidade);
+const questaoLiberada=(q,lib)=>q.s?lib.ses.has(q.s):lib.uni.has(q.unidade);   // q.s = sessão da questão; sem ela, vale a unidade
 function revisoesHoje(){
   const hoje=todayISO(), lib=liberadas(), now=Date.now();
   const prio=new Set(((sessoes().find(s=>s.tipo==='rev30'&&s.data===hoje)||{}).rev30||'').match(/[A-Z]{2,3}-\d{2}/g)||[]);

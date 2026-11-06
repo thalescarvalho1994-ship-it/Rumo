@@ -1,1 +1,981 @@
-{"itens": [{"id": "P2012-34", "unidade": "LEG-01", "disc": "LEG", "prova": "PSCPP 2012 · Rosa · Q34 · 1,3 pt", "dif": "difícil", "enunciado": "Com base na Portaria nº 156/MB/2004 (estrutura da Autoridade Marítima), analise:\nI) Compete ao DPC, como Representante da AM para o Meio Ambiente, comunicar ao órgão regulador da indústria do petróleo as irregularidades encontradas na fiscalização de embarcações e plataformas daquela indústria.\nII) Compete ao ComOpNav, como Representante da AM para a Segurança do Tráfego Aquaviário, promover a execução da inspeção naval.\nIII) Compete ao DGN determinar a elaboração e a edição de cartas e publicações náuticas sob responsabilidade do Brasil.\nIV) Compete aos Comandantes de Distritos Navais, como Representantes da AM para o Socorro e Salvamento, coordenar as ações de redução de danos de sinistros marítimos e fluviais e o salvamento de náufragos.\nV) Compete aos Comandantes de Distritos Navais promover a fiscalização dos procedimentos para a segurança do transporte aquaviário de material nuclear.", "alts": {"A": "Apenas I, II, IV e V são verdadeiras.", "B": "Apenas II, III e IV são verdadeiras.", "C": "Apenas I, IV e V são verdadeiras.", "D": "Apenas I, III e IV são verdadeiras.", "E": "Apenas III, IV e V são verdadeiras."}, "correta": "C", "coment": {"A": "II é falsa: a inspeção naval é promovida pelos Comandantes de Distritos Navais.", "B": "II e III são falsas (III é do DHN).", "C": "Gabarito oficial (pela Portaria 156).", "D": "III é falsa: cartas e publicações náuticas são do Diretor de Hidrografia e Navegação.", "E": "III é falsa."}, "atencao": "A Portaria 156/2004 foi REVOGADA pela Portaria 37/MB/MD/2022. Na Portaria 37, a comunicação ao órgão regulador do petróleo está no art. 9º §1º XVI (DPC, segurança da navegação), não no art. 11; e o item de material nuclear virou cooperação com o SIPRON (art. 8º §1º IV e art. 9º §3º IV). Estude pela Portaria 37.", "fonte": "Portaria 37/MB/MD/2022, arts. 8º–11 (PDF 4–11); LC 97, art. 17", "origem": "prova"}, {"id": "I-LEG01-01", "unidade": "LEG-01", "disc": "LEG", "dif": "fácil", "enunciado": "Pela Lei Complementar 97/1999, art. 17, parágrafo único, quem é designado “Autoridade Marítima” para tratar das atribuições subsidiárias particulares da Marinha?", "alts": {"A": "O Diretor de Portos e Costas.", "B": "O Ministro da Defesa.", "C": "O Comandante da Marinha.", "D": "O Chefe do Estado-Maior da Armada.", "E": "O Diretor-Geral de Navegação."}, "correta": "C", "coment": {"A": "O DPC é Representante da AM para assuntos específicos (Portaria 37).", "B": "O Ministro da Defesa não é a AM.", "C": "Correta: LC 97, art. 17, parágrafo único; repetido no art. 1º do anexo da Portaria 37.", "D": "O CEMA é o Assessor da AM (Portaria 37, arts. 4º e 6º).", "E": "O DGN é Representante da AM."}, "fonte": "LC 97/1999, art. 17 (PDF 6); Portaria 37/MB/MD/2022, Anexo, art. 1º (PDF 2)", "origem": "inedita"}, {"id": "I-LEG01-02", "unidade": "LEG-01", "disc": "LEG", "dif": "média", "enunciado": "Pela Portaria 37/MB/MD/2022, o Assessor da Autoridade Marítima é:", "alts": {"A": "O Diretor de Portos e Costas.", "B": "O Comandante de Operações Navais.", "C": "O Diretor de Hidrografia e Navegação.", "D": "O Chefe do Estado-Maior da Armada.", "E": "O Comandante do Distrito Naval da área."}, "correta": "D", "coment": {"A": "O DPC é Representante.", "B": "O ComOpNav é Representante (segurança da navegação aquaviária, SAR etc.).", "C": "O DHN é Representante.", "D": "Correta: art. 4º e art. 6º do Anexo.", "E": "Os Comandantes de Distrito são Representantes."}, "fonte": "Portaria 37/MB/MD/2022, Anexo, arts. 4º e 6º, PDF 3", "origem": "inedita"}, {"id": "I-LEG01-03", "unidade": "LEG-01", "disc": "LEG", "dif": "média", "enunciado": "Pela Portaria 37/MB/MD/2022, compete a qual autoridade estabelecer as zonas em que a utilização do serviço de praticagem é obrigatória e especificar as embarcações dispensadas?", "alts": {"A": "Comandante do Distrito Naval.", "B": "Diretor de Hidrografia e Navegação.", "C": "Capitão dos Portos.", "D": "Comandante de Operações Navais.", "E": "Diretor de Portos e Costas."}, "correta": "E", "coment": {"A": "Os Distritos promovem a inspeção naval e aplicam penalidades da LESTA.", "B": "O DHN cuida de cartas, avisos e auxílios à navegação.", "C": "O Capitão dos Portos é Agente da AM, não tem essa delegação aqui.", "D": "O ComOpNav cuida de SAR e salvamento.", "E": "Correta: art. 9º §1º II (Representante da AM para a segurança da navegação)."}, "fonte": "Portaria 37/MB/MD/2022, Anexo, art. 9º §1º II, PDF 6", "origem": "inedita"}, {"id": "I-LEG01-04", "unidade": "LEG-01", "disc": "LEG", "dif": "média", "enunciado": "Pela Portaria 37/MB/MD/2022, determinar a elaboração e a disseminação dos Avisos aos Navegantes e dos Boletins Meteorológicos relativos às áreas de responsabilidade do Brasil compete ao:", "alts": {"A": "Diretor de Hidrografia e Navegação.", "B": "Diretor de Portos e Costas.", "C": "Diretor-Geral de Navegação.", "D": "Comandante de Operações Navais.", "E": "Comandante do Distrito Naval."}, "correta": "A", "coment": {"A": "Correta: art. 9º §2º III (e V: cartas e publicações náuticas).", "B": "O DPC cuida de segurança da navegação, praticagem, EPM etc.", "C": "O DGN supervisiona e estabelece a política do EPM.", "D": "O ComOpNav cuida de SAR e salvamento.", "E": "Os Distritos executam inspeção e patrulha naval."}, "fonte": "Portaria 37/MB/MD/2022, Anexo, art. 9º §2º, PDF 8–9", "origem": "inedita"}, {"id": "I-LEG01-05", "unidade": "LEG-01", "disc": "LEG", "dif": "média", "enunciado": "Pela Portaria 37/MB/MD/2022, julgar em última instância os recursos sobre multas aplicadas por infração aos regulamentos e leis de segurança da navegação compete ao:", "alts": {"A": "Comandante da Marinha.", "B": "Diretor de Portos e Costas.", "C": "Tribunal Marítimo.", "D": "Comandante do Distrito Naval.", "E": "Capitão dos Portos."}, "correta": "B", "coment": {"A": "A Portaria delega essa competência.", "B": "Correta: art. 9º §1º XI. Para multas ambientais, também o DPC, pelo art. 11 §1º II.", "C": "A Portaria 37 não dá essa competência ao Tribunal Marítimo.", "D": "Os Distritos instauram e aplicam penalidades da LESTA (art. 9º §3º VII).", "E": "O Capitão dos Portos é Agente da AM."}, "fonte": "Portaria 37/MB/MD/2022, Anexo, arts. 9º §1º XI e 11 §1º II, PDF 8 e 11", "origem": "inedita"}, {"id": "I-LEG01-06", "unidade": "LEG-01", "disc": "LEG", "dif": "difícil", "enunciado": "Pela Portaria 37/MB/MD/2022, analise:\nI) Os titulares de outras OM que, por força das NORMAM, tenham atribuições nessa estrutura são designados Agentes da Autoridade Marítima.\nII) Os Representantes da AM para o Socorro e Salvamento são os Comandantes dos Distritos Navais.\nIII) Estabelecer a Política do Ensino Profissional Marítimo compete ao Diretor de Portos e Costas.\nIV) Instaurar procedimentos, lavrar autos de infração e aplicar as penalidades previstas na LESTA compete aos Comandantes dos Distritos Navais.", "alts": {"A": "Apenas I e II são verdadeiras.", "B": "Apenas II e III são verdadeiras.", "C": "Apenas I, II e IV são verdadeiras.", "D": "Apenas III e IV são verdadeiras.", "E": "Todas são verdadeiras."}, "correta": "C", "coment": {"A": "IV também é verdadeira.", "B": "III é falsa.", "C": "Correta: I (art. 5º), II (art. 10) e IV (art. 9º §3º VII).", "D": "III é falsa: a POLÍTICA do EPM é do Diretor-Geral de Navegação (art. 7º §1º II); o DPC baixa os ATOS do EPM e gere o fundo (art. 7º §2º).", "E": "III é falsa."}, "fonte": "Portaria 37/MB/MD/2022, Anexo, arts. 5º, 7º, 9º e 10, PDF 3–10", "origem": "inedita"}, {"id": "I-LEG02-01", "unidade": "LEG-02", "disc": "LEG", "dif": "fácil", "enunciado": "Pela LESTA, com a redação da Lei 14.813/2024, o serviço de praticagem compreende:", "alts": {"A": "Somente o prático.", "B": "O prático e a atalaia.", "C": "O prático, o rebocador e a lancha.", "D": "O prático, a lancha de prático e a atalaia.", "E": "O prático e o VTS."}, "correta": "D", "coment": {"A": "Incompleto.", "B": "Falta a lancha.", "C": "Rebocador não integra o serviço de praticagem.", "D": "Correta: art. 12-A (incluído pela Lei 14.813). A remuneração também compreende os três (art. 15-A).", "E": "VTS não integra o serviço."}, "fonte": "Lei 14.813/2024 (altera a LESTA), art. 2º (novos arts. 12-A e 15-A da LESTA), PDF 1–2", "origem": "inedita"}, {"id": "I-LEG02-02", "unidade": "LEG-02", "disc": "LEG", "dif": "média", "enunciado": "Pela LESTA (redação da Lei 14.813/2024), o serviço de praticagem é obrigatório em todas as zonas de praticagem para embarcações com arqueação bruta:", "alts": {"A": "Superior a 100.", "B": "Superior a 300.", "C": "Superior a 3.000, sem exceções.", "D": "De qualquer porte.", "E": "Superior a 500, salvo as hipóteses previstas pela AM e as embarcações regionais, empurradores, balsas e comboios integrados classificados só para navegação interior, de bandeira brasileira."}, "correta": "E", "coment": {"A": "O limite é 500.", "B": "O limite é 500.", "C": "O limite é 500 e há exceções.", "D": "Há limite de porte.", "E": "Correta: art. 13 §6º."}, "fonte": "Lei 14.813/2024 (altera a LESTA), art. 2º (novo art. 13 §6º da LESTA), PDF 2", "origem": "inedita"}, {"id": "I-LEG02-03", "unidade": "LEG-02", "disc": "LEG", "dif": "difícil", "enunciado": "Pela LESTA (redação da Lei 14.813/2024), o Certificado de Isenção de Praticagem pode ser concedido exclusivamente a comandantes brasileiros de navios de bandeira brasileira com:", "alts": {"A": "Até 100 m de comprimento e tripulação de no mínimo 2/3 de brasileiros.", "B": "Até 150 m e tripulação toda brasileira.", "C": "Qualquer comprimento, desde que com 12 fainas assistidas.", "D": "Até 100 m, sem exigência de tripulação.", "E": "Até 200 m e 1/3 de brasileiros."}, "correta": "A", "coment": {"A": "Correta: art. 13 §4º. Também exige análise de risco e, cumulativamente ou não, 6 meses como comandante na ZP e depois 6 meses de fainas assistidas (no mínimo 12).", "B": "Os números não conferem.", "C": "O comprimento é limitado a 100 m.", "D": "A exigência de 2/3 de brasileiros existe.", "E": "Os números não conferem."}, "fonte": "Lei 14.813/2024 (altera a LESTA), art. 2º (novo art. 13 §4º da LESTA), PDF 2", "origem": "inedita"}, {"id": "I-LEG02-04", "unidade": "LEG-02", "disc": "LEG", "dif": "difícil", "enunciado": "Pela LESTA (redação da Lei 14.813/2024), a fixação extraordinária do preço do serviço de praticagem pela Autoridade Marítima:", "alts": {"A": "É permanente e anual.", "B": "Vale por até 12 meses, prorrogável por igual período, e é precedida de parecer de comissão temporária, paritária e consultiva (praticagem, armador e Antaq), em até 45 dias.", "C": "É feita pela Antaq, sem participação da AM.", "D": "Vale por até 24 meses, sem prorrogação.", "E": "Dispensa provocação das partes."}, "correta": "B", "coment": {"A": "É extraordinária, excepcional e temporária.", "B": "Correta: art. 15-A §§3º a 5º.", "C": "A AM fixa; a Antaq participa da comissão.", "D": "O prazo é de 12 meses, prorrogável.", "E": "Depende de provocação fundamentada das partes."}, "fonte": "Lei 14.813/2024 (altera a LESTA), art. 2º (novo art. 15-A da LESTA), PDF 2–3", "origem": "inedita"}, {"id": "I-LEG02-05", "unidade": "LEG-02", "disc": "LEG", "dif": "fácil", "enunciado": "Pela LESTA, art. 2º, “prático” é:", "alts": {"A": "Todo aquele com habilitação para operar embarcações em caráter profissional.", "B": "Tripulante responsável pela operação e manutenção da embarcação.", "C": "Aquaviário não-tripulante que presta serviços de praticagem embarcado.", "D": "Profissional que presta serviços eventuais a bordo, sem ligação com a operação.", "E": "Amador habilitado para navegação interior."}, "correta": "C", "coment": {"A": "Essa é a definição de aquaviário (inciso II).", "B": "Essa é a definição de comandante (inciso IV).", "C": "Correta: inciso XV.", "D": "Essa é a definição de profissional não-tripulante (inciso XVI).", "E": "Amador opera embarcações de esporte e recreio (inciso I)."}, "fonte": "Lei 9.537/1997 (LESTA), texto compilado, art. 2º, PDF 1–2", "origem": "inedita"}, {"id": "I-LEG02-06", "unidade": "LEG-02", "disc": "LEG", "dif": "média", "enunciado": "Pela LESTA, art. 2º, a navegação interior é a realizada em:", "alts": {"A": "Rios e lagos, somente.", "B": "Qualquer área dentro do mar territorial.", "C": "Águas marítimas consideradas desabrigadas.", "D": "Hidrovias interiores: rios, lagos, canais, lagoas, baías, angras, enseadas e áreas marítimas consideradas abrigadas.", "E": "Áreas portuárias, somente."}, "correta": "D", "coment": {"A": "A definição é mais ampla.", "B": "O critério é ser abrigada, não estar no mar territorial.", "C": "Isso é navegação em mar aberto (inciso XI).", "D": "Correta: inciso XII.", "E": "A definição é mais ampla."}, "fonte": "Lei 9.537/1997 (LESTA), texto compilado, art. 2º XI–XII, PDF 2", "origem": "inedita"}, {"id": "I-LEG02-07", "unidade": "LEG-02", "disc": "LEG", "dif": "média", "enunciado": "Pela LESTA, art. 15, o prático que se recusar a prestar o serviço de praticagem:", "alts": {"A": "Recebe advertência escrita.", "B": "Paga multa em dobro.", "C": "É desligado da escala por 30 dias.", "D": "Responde apenas perante o Tribunal Marítimo.", "E": "Tem o certificado de habilitação suspenso e, em caso de reincidência, cancelado."}, "correta": "E", "coment": {"A": "A lei não prevê advertência.", "B": "A lei não prevê multa em dobro.", "C": "A lei não prevê esse prazo.", "D": "A penalidade é administrativa, prevista no próprio art. 15.", "E": "Correta: art. 15."}, "fonte": "Lei 9.537/1997 (LESTA), texto compilado, art. 15, PDF 6–7", "origem": "inedita"}, {"id": "I-LEG02-08", "unidade": "LEG-02", "disc": "LEG", "dif": "média", "enunciado": "Qual destas NÃO é uma medida administrativa da LESTA (art. 16)?", "alts": {"A": "Multa.", "B": "Apreensão do certificado de habilitação.", "C": "Apreensão, retirada do tráfego ou impedimento da saída de embarcação.", "D": "Embargo de obra.", "E": "Embargo de construção, reparo ou alteração das características de embarcação."}, "correta": "A", "coment": {"A": "Correta: multa é PENALIDADE (art. 25 I), não medida administrativa. As medidas não excluem as penalidades (art. 16 §1º).", "B": "É medida administrativa (I).", "C": "É medida administrativa (II).", "D": "É medida administrativa (IV).", "E": "É medida administrativa (III)."}, "fonte": "Lei 9.537/1997 (LESTA), texto compilado, arts. 16 e 25, PDF 7–9", "origem": "inedita"}, {"id": "I-LEG02-09", "unidade": "LEG-02", "disc": "LEG", "dif": "difícil", "enunciado": "Pela LESTA, lavrado o Auto de Infração:", "alts": {"A": "O infrator tem 30 dias corridos para a defesa; o recurso tem efeito suspensivo.", "B": "O infrator tem 15 dias úteis para a defesa; a autoridade decide em 30 dias; cabe recurso em 5 dias úteis, sem efeito suspensivo.", "C": "O recurso contra multa exige depósito prévio do valor.", "D": "A defesa é dispensada quando há prova documental.", "E": "O prazo de recurso é de 15 dias úteis, com efeito suspensivo."}, "correta": "B", "coment": {"A": "Prazos errados; o recurso não tem efeito suspensivo.", "B": "Correta: arts. 23 §1º e 24 caput e §1º.", "C": "O depósito prévio (art. 24 §2º) foi REVOGADO pela Lei 14.813/2024.", "D": "São assegurados o contraditório e a ampla defesa (art. 22).", "E": "O recurso é em 5 dias úteis e sem efeito suspensivo."}, "fonte": "Lei 9.537/1997 (LESTA), texto compilado, arts. 22–24, PDF 8", "origem": "inedita"}, {"id": "I-LEG02-10", "unidade": "LEG-02", "disc": "LEG", "dif": "média", "enunciado": "Sobre as penalidades da LESTA, é correto afirmar:", "alts": {"A": "A suspensão do certificado pode chegar a 24 meses.", "B": "O cancelamento é definitivo, sem possibilidade de reabilitação.", "C": "Multa e demolição de obras podem ser cumuladas com qualquer das outras penalidades; a suspensão não pode passar de 12 meses.", "D": "A reincidência é circunstância atenuante.", "E": "O valor das multas é fixado pela autoridade marítima a cada cinco anos."}, "correta": "C", "coment": {"A": "A suspensão não pode passar de 12 meses (art. 27).", "B": "Após dois anos do cancelamento, pode-se requerer reabilitação (art. 28).", "C": "Correta: art. 25 parágrafo único e art. 27.", "D": "Reincidência é AGRAVANTE (art. 30 I).", "E": "O Poder Executivo fixa as multas anualmente (art. 26)."}, "fonte": "Lei 9.537/1997 (LESTA), texto compilado, arts. 25–30, PDF 9", "origem": "inedita"}, {"id": "I-LEG02-11", "unidade": "LEG-02", "disc": "LEG", "dif": "difícil", "enunciado": "Durante inquérito administrativo sobre acidente ou fato da navegação, constata-se uma infração à LESTA. Pela lei:", "alts": {"A": "A sanção é aplicada imediatamente pela Capitania.", "B": "A sanção é aplicada pelo Tribunal Marítimo, sem inquérito.", "C": "A infração prescreve se não for punida em 30 dias.", "D": "É vedada a aplicação das sanções da LESTA antes da decisão final do Tribunal Marítimo, exceto no caso de poluição das águas.", "E": "A sanção depende de acordo com o armador."}, "correta": "D", "coment": {"A": "É vedado antes da decisão final do TM, salvo poluição.", "B": "Os acidentes e fatos são apurados por inquérito administrativo para posterior julgamento no TM (art. 33).", "C": "A lei não prevê esse prazo.", "D": "Correta: art. 33, parágrafo único.", "E": "Não há essa previsão."}, "fonte": "Lei 9.537/1997 (LESTA), texto compilado, art. 33, PDF 9", "origem": "inedita"}, {"id": "I-LEG02-12", "unidade": "LEG-02", "disc": "LEG", "dif": "média", "enunciado": "Uma embarcação estrangeira, submetida à inspeção naval, apresenta condições operacionais precárias que ameaçam o meio ambiente. Pela LESTA, art. 5º, ela pode ser ordenada a:", "alts": {"A": "Somente pagar multa e seguir viagem.", "B": "Ser incorporada aos bens da União imediatamente.", "C": "Trocar de bandeira.", "D": "Embarcar um prático permanente.", "E": "Não entrar no porto, não sair do porto, sair das águas jurisdicionais ou arribar em porto nacional."}, "correta": "E", "coment": {"A": "A lei prevê ordens de movimentação, além de penalidades.", "B": "A incorporação à União é para embarcação apreendida sem sanar a irregularidade em 90 dias (art. 17 §2º).", "C": "Não há essa previsão.", "D": "Não há essa previsão.", "E": "Correta: art. 5º, incisos I a IV."}, "fonte": "Lei 9.537/1997 (LESTA), texto compilado, art. 5º, PDF 3–4", "origem": "inedita"}]}
+{
+ "itens": [
+  {
+   "id": "P2012-34",
+   "unidade": "LEG-01",
+   "disc": "LEG",
+   "prova": "PSCPP 2012 · Rosa · Q34 · 1,3 pt",
+   "dif": "difícil",
+   "enunciado": "Com base na Portaria nº 156/MB/2004 (estrutura da Autoridade Marítima), analise:\nI) Compete ao DPC, como Representante da AM para o Meio Ambiente, comunicar ao órgão regulador da indústria do petróleo as irregularidades encontradas na fiscalização de embarcações e plataformas daquela indústria.\nII) Compete ao ComOpNav, como Representante da AM para a Segurança do Tráfego Aquaviário, promover a execução da inspeção naval.\nIII) Compete ao DGN determinar a elaboração e a edição de cartas e publicações náuticas sob responsabilidade do Brasil.\nIV) Compete aos Comandantes de Distritos Navais, como Representantes da AM para o Socorro e Salvamento, coordenar as ações de redução de danos de sinistros marítimos e fluviais e o salvamento de náufragos.\nV) Compete aos Comandantes de Distritos Navais promover a fiscalização dos procedimentos para a segurança do transporte aquaviário de material nuclear.",
+   "alts": {
+    "A": "Apenas I, II, IV e V são verdadeiras.",
+    "B": "Apenas II, III e IV são verdadeiras.",
+    "C": "Apenas I, IV e V são verdadeiras.",
+    "D": "Apenas I, III e IV são verdadeiras.",
+    "E": "Apenas III, IV e V são verdadeiras."
+   },
+   "correta": "C",
+   "coment": {
+    "A": "II é falsa: a inspeção naval é promovida pelos Comandantes de Distritos Navais.",
+    "B": "II e III são falsas (III é do DHN).",
+    "C": "Gabarito oficial (pela Portaria 156).",
+    "D": "III é falsa: cartas e publicações náuticas são do Diretor de Hidrografia e Navegação.",
+    "E": "III é falsa."
+   },
+   "atencao": "A Portaria 156/2004 foi REVOGADA pela Portaria 37/MB/MD/2022. Na Portaria 37, a comunicação ao órgão regulador do petróleo está no art. 9º §1º XVI (DPC, segurança da navegação), não no art. 11; e o item de material nuclear virou cooperação com o SIPRON (art. 8º §1º IV e art. 9º §3º IV). Estude pela Portaria 37.",
+   "fonte": "Portaria 37/MB/MD/2022, arts. 8º–11 (PDF 4–11); LC 97, art. 17",
+   "origem": "prova",
+   "s": "LEG-01.1"
+  },
+  {
+   "id": "I-LEG01-01",
+   "unidade": "LEG-01",
+   "disc": "LEG",
+   "dif": "fácil",
+   "enunciado": "Pela Lei Complementar 97/1999, art. 17, parágrafo único, quem é designado “Autoridade Marítima” para tratar das atribuições subsidiárias particulares da Marinha?",
+   "alts": {
+    "A": "O Diretor de Portos e Costas.",
+    "B": "O Ministro da Defesa.",
+    "C": "O Comandante da Marinha.",
+    "D": "O Chefe do Estado-Maior da Armada.",
+    "E": "O Diretor-Geral de Navegação."
+   },
+   "correta": "C",
+   "coment": {
+    "A": "O DPC é Representante da AM para assuntos específicos (Portaria 37).",
+    "B": "O Ministro da Defesa não é a AM.",
+    "C": "Correta: LC 97, art. 17, parágrafo único; repetido no art. 1º do anexo da Portaria 37.",
+    "D": "O CEMA é o Assessor da AM (Portaria 37, arts. 4º e 6º).",
+    "E": "O DGN é Representante da AM."
+   },
+   "fonte": "LC 97/1999, art. 17 (PDF 6); Portaria 37/MB/MD/2022, Anexo, art. 1º (PDF 2)",
+   "origem": "inedita",
+   "s": "LEG-01.1"
+  },
+  {
+   "id": "I-LEG01-02",
+   "unidade": "LEG-01",
+   "disc": "LEG",
+   "dif": "média",
+   "enunciado": "Pela Portaria 37/MB/MD/2022, o Assessor da Autoridade Marítima é:",
+   "alts": {
+    "A": "O Diretor de Portos e Costas.",
+    "B": "O Comandante de Operações Navais.",
+    "C": "O Diretor de Hidrografia e Navegação.",
+    "D": "O Chefe do Estado-Maior da Armada.",
+    "E": "O Comandante do Distrito Naval da área."
+   },
+   "correta": "D",
+   "coment": {
+    "A": "O DPC é Representante.",
+    "B": "O ComOpNav é Representante (segurança da navegação aquaviária, SAR etc.).",
+    "C": "O DHN é Representante.",
+    "D": "Correta: art. 4º e art. 6º do Anexo.",
+    "E": "Os Comandantes de Distrito são Representantes."
+   },
+   "fonte": "Portaria 37/MB/MD/2022, Anexo, arts. 4º e 6º, PDF 3",
+   "origem": "inedita",
+   "s": "LEG-01.1"
+  },
+  {
+   "id": "I-LEG01-03",
+   "unidade": "LEG-01",
+   "disc": "LEG",
+   "dif": "média",
+   "enunciado": "Pela Portaria 37/MB/MD/2022, compete a qual autoridade estabelecer as zonas em que a utilização do serviço de praticagem é obrigatória e especificar as embarcações dispensadas?",
+   "alts": {
+    "A": "Comandante do Distrito Naval.",
+    "B": "Diretor de Hidrografia e Navegação.",
+    "C": "Capitão dos Portos.",
+    "D": "Comandante de Operações Navais.",
+    "E": "Diretor de Portos e Costas."
+   },
+   "correta": "E",
+   "coment": {
+    "A": "Os Distritos promovem a inspeção naval e aplicam penalidades da LESTA.",
+    "B": "O DHN cuida de cartas, avisos e auxílios à navegação.",
+    "C": "O Capitão dos Portos é Agente da AM, não tem essa delegação aqui.",
+    "D": "O ComOpNav cuida de SAR e salvamento.",
+    "E": "Correta: art. 9º §1º II (Representante da AM para a segurança da navegação)."
+   },
+   "fonte": "Portaria 37/MB/MD/2022, Anexo, art. 9º §1º II, PDF 6",
+   "origem": "inedita",
+   "s": "LEG-01.1"
+  },
+  {
+   "id": "I-LEG01-04",
+   "unidade": "LEG-01",
+   "disc": "LEG",
+   "dif": "média",
+   "enunciado": "Pela Portaria 37/MB/MD/2022, determinar a elaboração e a disseminação dos Avisos aos Navegantes e dos Boletins Meteorológicos relativos às áreas de responsabilidade do Brasil compete ao:",
+   "alts": {
+    "A": "Diretor de Hidrografia e Navegação.",
+    "B": "Diretor de Portos e Costas.",
+    "C": "Diretor-Geral de Navegação.",
+    "D": "Comandante de Operações Navais.",
+    "E": "Comandante do Distrito Naval."
+   },
+   "correta": "A",
+   "coment": {
+    "A": "Correta: art. 9º §2º III (e V: cartas e publicações náuticas).",
+    "B": "O DPC cuida de segurança da navegação, praticagem, EPM etc.",
+    "C": "O DGN supervisiona e estabelece a política do EPM.",
+    "D": "O ComOpNav cuida de SAR e salvamento.",
+    "E": "Os Distritos executam inspeção e patrulha naval."
+   },
+   "fonte": "Portaria 37/MB/MD/2022, Anexo, art. 9º §2º, PDF 8–9",
+   "origem": "inedita",
+   "s": "LEG-01.1"
+  },
+  {
+   "id": "I-LEG01-05",
+   "unidade": "LEG-01",
+   "disc": "LEG",
+   "dif": "média",
+   "enunciado": "Pela Portaria 37/MB/MD/2022, julgar em última instância os recursos sobre multas aplicadas por infração aos regulamentos e leis de segurança da navegação compete ao:",
+   "alts": {
+    "A": "Comandante da Marinha.",
+    "B": "Diretor de Portos e Costas.",
+    "C": "Tribunal Marítimo.",
+    "D": "Comandante do Distrito Naval.",
+    "E": "Capitão dos Portos."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "A Portaria delega essa competência.",
+    "B": "Correta: art. 9º §1º XI. Para multas ambientais, também o DPC, pelo art. 11 §1º II.",
+    "C": "A Portaria 37 não dá essa competência ao Tribunal Marítimo.",
+    "D": "Os Distritos instauram e aplicam penalidades da LESTA (art. 9º §3º VII).",
+    "E": "O Capitão dos Portos é Agente da AM."
+   },
+   "fonte": "Portaria 37/MB/MD/2022, Anexo, arts. 9º §1º XI e 11 §1º II, PDF 8 e 11",
+   "origem": "inedita",
+   "s": "LEG-01.1"
+  },
+  {
+   "id": "I-LEG01-06",
+   "unidade": "LEG-01",
+   "disc": "LEG",
+   "dif": "difícil",
+   "enunciado": "Pela Portaria 37/MB/MD/2022, analise:\nI) Os titulares de outras OM que, por força das NORMAM, tenham atribuições nessa estrutura são designados Agentes da Autoridade Marítima.\nII) Os Representantes da AM para o Socorro e Salvamento são os Comandantes dos Distritos Navais.\nIII) Estabelecer a Política do Ensino Profissional Marítimo compete ao Diretor de Portos e Costas.\nIV) Instaurar procedimentos, lavrar autos de infração e aplicar as penalidades previstas na LESTA compete aos Comandantes dos Distritos Navais.",
+   "alts": {
+    "A": "Apenas I e II são verdadeiras.",
+    "B": "Apenas II e III são verdadeiras.",
+    "C": "Apenas I, II e IV são verdadeiras.",
+    "D": "Apenas III e IV são verdadeiras.",
+    "E": "Todas são verdadeiras."
+   },
+   "correta": "C",
+   "coment": {
+    "A": "IV também é verdadeira.",
+    "B": "III é falsa.",
+    "C": "Correta: I (art. 5º), II (art. 10) e IV (art. 9º §3º VII).",
+    "D": "III é falsa: a POLÍTICA do EPM é do Diretor-Geral de Navegação (art. 7º §1º II); o DPC baixa os ATOS do EPM e gere o fundo (art. 7º §2º).",
+    "E": "III é falsa."
+   },
+   "fonte": "Portaria 37/MB/MD/2022, Anexo, arts. 5º, 7º, 9º e 10, PDF 3–10",
+   "origem": "inedita",
+   "s": "LEG-01.1"
+  },
+  {
+   "id": "I-LEG02-01",
+   "unidade": "LEG-02",
+   "disc": "LEG",
+   "dif": "fácil",
+   "enunciado": "Pela LESTA, com a redação da Lei 14.813/2024, o serviço de praticagem compreende:",
+   "alts": {
+    "A": "Somente o prático.",
+    "B": "O prático e a atalaia.",
+    "C": "O prático, o rebocador e a lancha.",
+    "D": "O prático, a lancha de prático e a atalaia.",
+    "E": "O prático e o VTS."
+   },
+   "correta": "D",
+   "coment": {
+    "A": "Incompleto.",
+    "B": "Falta a lancha.",
+    "C": "Rebocador não integra o serviço de praticagem.",
+    "D": "Correta: art. 12-A (incluído pela Lei 14.813). A remuneração também compreende os três (art. 15-A).",
+    "E": "VTS não integra o serviço."
+   },
+   "fonte": "Lei 14.813/2024 (altera a LESTA), art. 2º (novos arts. 12-A e 15-A da LESTA), PDF 1–2",
+   "origem": "inedita",
+   "s": "LEG-02.2"
+  },
+  {
+   "id": "I-LEG02-02",
+   "unidade": "LEG-02",
+   "disc": "LEG",
+   "dif": "média",
+   "enunciado": "Pela LESTA (redação da Lei 14.813/2024), o serviço de praticagem é obrigatório em todas as zonas de praticagem para embarcações com arqueação bruta:",
+   "alts": {
+    "A": "Superior a 100.",
+    "B": "Superior a 300.",
+    "C": "Superior a 3.000, sem exceções.",
+    "D": "De qualquer porte.",
+    "E": "Superior a 500, salvo as hipóteses previstas pela AM e as embarcações regionais, empurradores, balsas e comboios integrados classificados só para navegação interior, de bandeira brasileira."
+   },
+   "correta": "E",
+   "coment": {
+    "A": "O limite é 500.",
+    "B": "O limite é 500.",
+    "C": "O limite é 500 e há exceções.",
+    "D": "Há limite de porte.",
+    "E": "Correta: art. 13 §6º."
+   },
+   "fonte": "Lei 14.813/2024 (altera a LESTA), art. 2º (novo art. 13 §6º da LESTA), PDF 2",
+   "origem": "inedita",
+   "s": "LEG-02.2"
+  },
+  {
+   "id": "I-LEG02-03",
+   "unidade": "LEG-02",
+   "disc": "LEG",
+   "dif": "difícil",
+   "enunciado": "Pela LESTA (redação da Lei 14.813/2024), o Certificado de Isenção de Praticagem pode ser concedido exclusivamente a comandantes brasileiros de navios de bandeira brasileira com:",
+   "alts": {
+    "A": "Até 100 m de comprimento e tripulação de no mínimo 2/3 de brasileiros.",
+    "B": "Até 150 m e tripulação toda brasileira.",
+    "C": "Qualquer comprimento, desde que com 12 fainas assistidas.",
+    "D": "Até 100 m, sem exigência de tripulação.",
+    "E": "Até 200 m e 1/3 de brasileiros."
+   },
+   "correta": "A",
+   "coment": {
+    "A": "Correta: art. 13 §4º. Também exige análise de risco e, cumulativamente ou não, 6 meses como comandante na ZP e depois 6 meses de fainas assistidas (no mínimo 12).",
+    "B": "Os números não conferem.",
+    "C": "O comprimento é limitado a 100 m.",
+    "D": "A exigência de 2/3 de brasileiros existe.",
+    "E": "Os números não conferem."
+   },
+   "fonte": "Lei 14.813/2024 (altera a LESTA), art. 2º (novo art. 13 §4º da LESTA), PDF 2",
+   "origem": "inedita",
+   "s": "LEG-02.2"
+  },
+  {
+   "id": "I-LEG02-04",
+   "unidade": "LEG-02",
+   "disc": "LEG",
+   "dif": "difícil",
+   "enunciado": "Pela LESTA (redação da Lei 14.813/2024), a fixação extraordinária do preço do serviço de praticagem pela Autoridade Marítima:",
+   "alts": {
+    "A": "É permanente e anual.",
+    "B": "Vale por até 12 meses, prorrogável por igual período, e é precedida de parecer de comissão temporária, paritária e consultiva (praticagem, armador e Antaq), em até 45 dias.",
+    "C": "É feita pela Antaq, sem participação da AM.",
+    "D": "Vale por até 24 meses, sem prorrogação.",
+    "E": "Dispensa provocação das partes."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "É extraordinária, excepcional e temporária.",
+    "B": "Correta: art. 15-A §§3º a 5º.",
+    "C": "A AM fixa; a Antaq participa da comissão.",
+    "D": "O prazo é de 12 meses, prorrogável.",
+    "E": "Depende de provocação fundamentada das partes."
+   },
+   "fonte": "Lei 14.813/2024 (altera a LESTA), art. 2º (novo art. 15-A da LESTA), PDF 2–3",
+   "origem": "inedita",
+   "s": "LEG-02.2"
+  },
+  {
+   "id": "I-LEG02-05",
+   "unidade": "LEG-02",
+   "disc": "LEG",
+   "dif": "fácil",
+   "enunciado": "Pela LESTA, art. 2º, “prático” é:",
+   "alts": {
+    "A": "Todo aquele com habilitação para operar embarcações em caráter profissional.",
+    "B": "Tripulante responsável pela operação e manutenção da embarcação.",
+    "C": "Aquaviário não-tripulante que presta serviços de praticagem embarcado.",
+    "D": "Profissional que presta serviços eventuais a bordo, sem ligação com a operação.",
+    "E": "Amador habilitado para navegação interior."
+   },
+   "correta": "C",
+   "coment": {
+    "A": "Essa é a definição de aquaviário (inciso II).",
+    "B": "Essa é a definição de comandante (inciso IV).",
+    "C": "Correta: inciso XV.",
+    "D": "Essa é a definição de profissional não-tripulante (inciso XVI).",
+    "E": "Amador opera embarcações de esporte e recreio (inciso I)."
+   },
+   "fonte": "Lei 9.537/1997 (LESTA), texto compilado, art. 2º, PDF 1–2",
+   "origem": "inedita",
+   "s": "LEG-02.2"
+  },
+  {
+   "id": "I-LEG02-06",
+   "unidade": "LEG-02",
+   "disc": "LEG",
+   "dif": "média",
+   "enunciado": "Pela LESTA, art. 2º, a navegação interior é a realizada em:",
+   "alts": {
+    "A": "Rios e lagos, somente.",
+    "B": "Qualquer área dentro do mar territorial.",
+    "C": "Águas marítimas consideradas desabrigadas.",
+    "D": "Hidrovias interiores: rios, lagos, canais, lagoas, baías, angras, enseadas e áreas marítimas consideradas abrigadas.",
+    "E": "Áreas portuárias, somente."
+   },
+   "correta": "D",
+   "coment": {
+    "A": "A definição é mais ampla.",
+    "B": "O critério é ser abrigada, não estar no mar territorial.",
+    "C": "Isso é navegação em mar aberto (inciso XI).",
+    "D": "Correta: inciso XII.",
+    "E": "A definição é mais ampla."
+   },
+   "fonte": "Lei 9.537/1997 (LESTA), texto compilado, art. 2º XI–XII, PDF 2",
+   "origem": "inedita",
+   "s": "LEG-02.2"
+  },
+  {
+   "id": "I-LEG02-07",
+   "unidade": "LEG-02",
+   "disc": "LEG",
+   "dif": "média",
+   "enunciado": "Pela LESTA, art. 15, o prático que se recusar a prestar o serviço de praticagem:",
+   "alts": {
+    "A": "Recebe advertência escrita.",
+    "B": "Paga multa em dobro.",
+    "C": "É desligado da escala por 30 dias.",
+    "D": "Responde apenas perante o Tribunal Marítimo.",
+    "E": "Tem o certificado de habilitação suspenso e, em caso de reincidência, cancelado."
+   },
+   "correta": "E",
+   "coment": {
+    "A": "A lei não prevê advertência.",
+    "B": "A lei não prevê multa em dobro.",
+    "C": "A lei não prevê esse prazo.",
+    "D": "A penalidade é administrativa, prevista no próprio art. 15.",
+    "E": "Correta: art. 15."
+   },
+   "fonte": "Lei 9.537/1997 (LESTA), texto compilado, art. 15, PDF 6–7",
+   "origem": "inedita",
+   "s": "LEG-02.2"
+  },
+  {
+   "id": "I-LEG02-08",
+   "unidade": "LEG-02",
+   "disc": "LEG",
+   "dif": "média",
+   "enunciado": "Qual destas NÃO é uma medida administrativa da LESTA (art. 16)?",
+   "alts": {
+    "A": "Multa.",
+    "B": "Apreensão do certificado de habilitação.",
+    "C": "Apreensão, retirada do tráfego ou impedimento da saída de embarcação.",
+    "D": "Embargo de obra.",
+    "E": "Embargo de construção, reparo ou alteração das características de embarcação."
+   },
+   "correta": "A",
+   "coment": {
+    "A": "Correta: multa é PENALIDADE (art. 25 I), não medida administrativa. As medidas não excluem as penalidades (art. 16 §1º).",
+    "B": "É medida administrativa (I).",
+    "C": "É medida administrativa (II).",
+    "D": "É medida administrativa (IV).",
+    "E": "É medida administrativa (III)."
+   },
+   "fonte": "Lei 9.537/1997 (LESTA), texto compilado, arts. 16 e 25, PDF 7–9",
+   "origem": "inedita",
+   "s": "LEG-02.2"
+  },
+  {
+   "id": "I-LEG02-09",
+   "unidade": "LEG-02",
+   "disc": "LEG",
+   "dif": "difícil",
+   "enunciado": "Pela LESTA, lavrado o Auto de Infração:",
+   "alts": {
+    "A": "O infrator tem 30 dias corridos para a defesa; o recurso tem efeito suspensivo.",
+    "B": "O infrator tem 15 dias úteis para a defesa; a autoridade decide em 30 dias; cabe recurso em 5 dias úteis, sem efeito suspensivo.",
+    "C": "O recurso contra multa exige depósito prévio do valor.",
+    "D": "A defesa é dispensada quando há prova documental.",
+    "E": "O prazo de recurso é de 15 dias úteis, com efeito suspensivo."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Prazos errados; o recurso não tem efeito suspensivo.",
+    "B": "Correta: arts. 23 §1º e 24 caput e §1º.",
+    "C": "O depósito prévio (art. 24 §2º) foi REVOGADO pela Lei 14.813/2024.",
+    "D": "São assegurados o contraditório e a ampla defesa (art. 22).",
+    "E": "O recurso é em 5 dias úteis e sem efeito suspensivo."
+   },
+   "fonte": "Lei 9.537/1997 (LESTA), texto compilado, arts. 22–24, PDF 8",
+   "origem": "inedita",
+   "s": "LEG-02.2"
+  },
+  {
+   "id": "I-LEG02-10",
+   "unidade": "LEG-02",
+   "disc": "LEG",
+   "dif": "média",
+   "enunciado": "Sobre as penalidades da LESTA, é correto afirmar:",
+   "alts": {
+    "A": "A suspensão do certificado pode chegar a 24 meses.",
+    "B": "O cancelamento é definitivo, sem possibilidade de reabilitação.",
+    "C": "Multa e demolição de obras podem ser cumuladas com qualquer das outras penalidades; a suspensão não pode passar de 12 meses.",
+    "D": "A reincidência é circunstância atenuante.",
+    "E": "O valor das multas é fixado pela autoridade marítima a cada cinco anos."
+   },
+   "correta": "C",
+   "coment": {
+    "A": "A suspensão não pode passar de 12 meses (art. 27).",
+    "B": "Após dois anos do cancelamento, pode-se requerer reabilitação (art. 28).",
+    "C": "Correta: art. 25 parágrafo único e art. 27.",
+    "D": "Reincidência é AGRAVANTE (art. 30 I).",
+    "E": "O Poder Executivo fixa as multas anualmente (art. 26)."
+   },
+   "fonte": "Lei 9.537/1997 (LESTA), texto compilado, arts. 25–30, PDF 9",
+   "origem": "inedita",
+   "s": "LEG-02.2"
+  },
+  {
+   "id": "I-LEG02-11",
+   "unidade": "LEG-02",
+   "disc": "LEG",
+   "dif": "difícil",
+   "enunciado": "Durante inquérito administrativo sobre acidente ou fato da navegação, constata-se uma infração à LESTA. Pela lei:",
+   "alts": {
+    "A": "A sanção é aplicada imediatamente pela Capitania.",
+    "B": "A sanção é aplicada pelo Tribunal Marítimo, sem inquérito.",
+    "C": "A infração prescreve se não for punida em 30 dias.",
+    "D": "É vedada a aplicação das sanções da LESTA antes da decisão final do Tribunal Marítimo, exceto no caso de poluição das águas.",
+    "E": "A sanção depende de acordo com o armador."
+   },
+   "correta": "D",
+   "coment": {
+    "A": "É vedado antes da decisão final do TM, salvo poluição.",
+    "B": "Os acidentes e fatos são apurados por inquérito administrativo para posterior julgamento no TM (art. 33).",
+    "C": "A lei não prevê esse prazo.",
+    "D": "Correta: art. 33, parágrafo único.",
+    "E": "Não há essa previsão."
+   },
+   "fonte": "Lei 9.537/1997 (LESTA), texto compilado, art. 33, PDF 9",
+   "origem": "inedita",
+   "s": "LEG-02.2"
+  },
+  {
+   "id": "I-LEG02-12",
+   "unidade": "LEG-02",
+   "disc": "LEG",
+   "dif": "média",
+   "enunciado": "Uma embarcação estrangeira, submetida à inspeção naval, apresenta condições operacionais precárias que ameaçam o meio ambiente. Pela LESTA, art. 5º, ela pode ser ordenada a:",
+   "alts": {
+    "A": "Somente pagar multa e seguir viagem.",
+    "B": "Ser incorporada aos bens da União imediatamente.",
+    "C": "Trocar de bandeira.",
+    "D": "Embarcar um prático permanente.",
+    "E": "Não entrar no porto, não sair do porto, sair das águas jurisdicionais ou arribar em porto nacional."
+   },
+   "correta": "E",
+   "coment": {
+    "A": "A lei prevê ordens de movimentação, além de penalidades.",
+    "B": "A incorporação à União é para embarcação apreendida sem sanar a irregularidade em 90 dias (art. 17 §2º).",
+    "C": "Não há essa previsão.",
+    "D": "Não há essa previsão.",
+    "E": "Correta: art. 5º, incisos I a IV."
+   },
+   "fonte": "Lei 9.537/1997 (LESTA), texto compilado, art. 5º, PDF 3–4",
+   "origem": "inedita",
+   "s": "LEG-02.2"
+  },
+  {
+   "id": "S-LEG-01.1-01",
+   "unidade": "LEG-01",
+   "s": "LEG-01.1",
+   "disc": "LEG",
+   "dif": "fácil",
+   "enunciado": "Quem é a Autoridade Marítima e quem é o seu assessor, segundo a Portaria 37/MB/MD/2022?",
+   "alts": {
+    "A": "O Diretor de Portos e Costas; o Comandante de Operações Navais.",
+    "B": "O Comandante da Marinha; o Chefe do Estado-Maior da Armada.",
+    "C": "O Comandante da Marinha; o Diretor-Geral de Navegação.",
+    "D": "O Chefe do Estado-Maior da Armada; o Comandante da Marinha.",
+    "E": "O Diretor de Hidrografia e Navegação; o Diretor de Portos e Costas."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: o DPC é Representante da AM, não a autoridade.",
+    "B": "Correta: AM = Comandante da Marinha; assessor = Chefe do Estado-Maior da Armada.",
+    "C": "Errado: o DGN é Representante, não assessor.",
+    "D": "Errado: invertido.",
+    "E": "Errado: ambos são Representantes da AM."
+   },
+   "fonte": "Portaria 37/MB/MD/2022; LC 97, arts. 16–17",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-LEG-01.1-02",
+   "unidade": "LEG-01",
+   "s": "LEG-01.1",
+   "disc": "LEG",
+   "dif": "média",
+   "enunciado": "A Portaria 37/MB/MD/2022 entrou em vigor em 3 de março de 2022 e revogou:",
+   "alts": {
+    "A": "A Lei 9.537/97.",
+    "B": "A Portaria 156/MB, de 2004.",
+    "C": "A LC 97/1999.",
+    "D": "As NORMAM em vigor.",
+    "E": "O Decreto 2.256/97."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: a lei continua em vigor.",
+    "B": "Correta: revogou a Portaria 156/MB/2004.",
+    "C": "Errado: a LC 97 continua em vigor.",
+    "D": "Errado: as NORMAM não foram revogadas.",
+    "E": "Errado: não foi revogado por ela."
+   },
+   "fonte": "Portaria 37/MB/MD/2022; LC 97, arts. 16–17",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-LEG-01.1-03",
+   "unidade": "LEG-01",
+   "s": "LEG-01.1",
+   "disc": "LEG",
+   "dif": "média",
+   "enunciado": "Quem estabelece a política do Ensino Profissional Marítimo e quem baixa os atos e gere o FDEPM?",
+   "alts": {
+    "A": "DPC estabelece a política; DGN baixa os atos.",
+    "B": "DGN estabelece a política; DPC baixa os atos e gere o FDEPM.",
+    "C": "ComOpNav e DHN, respectivamente.",
+    "D": "DHN estabelece a política; DPC baixa os atos.",
+    "E": "CEMA estabelece a política; DGN gere o FDEPM."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: invertido.",
+    "B": "Correta: a política é do DGN; os atos e a gestão do FDEPM são do DPC.",
+    "C": "Errado: não são os responsáveis.",
+    "D": "Errado: o DHN cuida de hidrografia.",
+    "E": "Errado: o FDEPM é gerido pelo DPC."
+   },
+   "fonte": "Portaria 37/MB/MD/2022; LC 97, arts. 16–17",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-LEG-01.1-04",
+   "unidade": "LEG-01",
+   "s": "LEG-01.1",
+   "disc": "LEG",
+   "dif": "média",
+   "enunciado": "Quais autoridades são Representantes da AM para a segurança da navegação aquaviária no art. 9º (subseção I)?",
+   "alts": {
+    "A": "ComOpNav, DGN e Comandante da Marinha.",
+    "B": "DPC, DHN e Comandantes dos Distritos Navais.",
+    "C": "Apenas os Comandantes dos Distritos Navais.",
+    "D": "DGN e CEMA.",
+    "E": "DPC e ComOpMar."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: não é essa a relação.",
+    "B": "Correta: o DPC, o DHN e os Comandantes dos Distritos Navais.",
+    "C": "Errado: não são só eles.",
+    "D": "Errado: não são esses.",
+    "E": "Errado: não é essa a relação."
+   },
+   "fonte": "Portaria 37/MB/MD/2022; LC 97, arts. 16–17",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-LEG-01.1-05",
+   "unidade": "LEG-01",
+   "s": "LEG-01.1",
+   "disc": "LEG",
+   "dif": "média",
+   "enunciado": "Quem baixa normas de socorro à vida humana e coordena e controla a assistência e o salvamento?",
+   "alts": {
+    "A": "O DPC.",
+    "B": "O DHN.",
+    "C": "O ComOpNav.",
+    "D": "O DGN.",
+    "E": "Os Agentes da AM."
+   },
+   "correta": "C",
+   "coment": {
+    "A": "Errado: o DPC cuida de portos e costas.",
+    "B": "Errado: o DHN cuida de hidrografia e navegação.",
+    "C": "Correta: ComOpNav.",
+    "D": "Errado: o DGN cuida de ensino e política.",
+    "E": "Errado: os Agentes cumprem atribuições dadas pelas NORMAM."
+   },
+   "fonte": "Portaria 37/MB/MD/2022; LC 97, arts. 16–17",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-LEG-01.1-06",
+   "unidade": "LEG-01",
+   "s": "LEG-01.1",
+   "disc": "LEG",
+   "dif": "difícil",
+   "enunciado": "Quanto às atribuições subsidiárias particulares da Marinha (LC 97, art. 17), assinale a correta:",
+   "alts": {
+    "A": "São três.",
+    "B": "São cinco (incisos I a V), e a LC 97 define a Autoridade Marítima no parágrafo único do art. 17.",
+    "C": "Estão no art. 18.",
+    "D": "Estão no art. 17-A.",
+    "E": "Incluem declarar guerra."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: são cinco.",
+    "B": "Correta: cinco incisos; o parágrafo único designa o Comandante da Marinha como AM.",
+    "C": "Errado: o art. 18 trata da Aeronáutica.",
+    "D": "Errado: o art. 17-A trata do Exército.",
+    "E": "Errado: não incluem isso."
+   },
+   "fonte": "Portaria 37/MB/MD/2022; LC 97, arts. 16–17",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-LEG-02.1-01",
+   "unidade": "LEG-02",
+   "s": "LEG-02.1",
+   "disc": "LEG",
+   "dif": "fácil",
+   "enunciado": "Segundo a LESTA, o prático é:",
+   "alts": {
+    "A": "Tripulante da embarcação.",
+    "B": "Aquaviário não-tripulante que presta serviços de praticagem embarcado.",
+    "C": "Amador.",
+    "D": "Passageiro.",
+    "E": "Profissional não-tripulante eventual."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: o prático não é tripulante.",
+    "B": "Correta: aquaviário não-tripulante.",
+    "C": "Errado: amador opera embarcações de esporte e recreio.",
+    "D": "Errado: passageiro é quem é transportado.",
+    "E": "Errado: o prático é aquaviário habilitado para a praticagem."
+   },
+   "fonte": "Lei 9.537/97 (LESTA)",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-LEG-02.1-02",
+   "unidade": "LEG-02",
+   "s": "LEG-02.1",
+   "disc": "LEG",
+   "dif": "média",
+   "enunciado": "O serviço de praticagem compreende:",
+   "alts": {
+    "A": "O prático, a lancha de prático e a atalaia.",
+    "B": "Somente o prático.",
+    "C": "O prático e o rebocador.",
+    "D": "O prático e o comandante.",
+    "E": "O prático e o agente marítimo."
+   },
+   "correta": "A",
+   "coment": {
+    "A": "Correta: prático, lancha de prático e atalaia.",
+    "B": "Errado: inclui lancha e atalaia.",
+    "C": "Errado: rebocador não integra o serviço.",
+    "D": "Errado: o comandante não integra.",
+    "E": "Errado: o agente não integra."
+   },
+   "fonte": "Lei 9.537/97 (LESTA)",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-LEG-02.1-03",
+   "unidade": "LEG-02",
+   "s": "LEG-02.1",
+   "disc": "LEG",
+   "dif": "média",
+   "enunciado": "A inscrição de aquaviário como prático é concedida:",
+   "alts": {
+    "A": "Para qualquer porto do país.",
+    "B": "Especificamente para cada zona de praticagem, após aprovação em exame e estágio de qualificação.",
+    "C": "Sem exame, por tempo de serviço.",
+    "D": "Apenas para a zona onde nasceu.",
+    "E": "Por indicação da companhia."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: é específica por zona.",
+    "B": "Correta: por zona, após exame e estágio.",
+    "C": "Errado: exige exame.",
+    "D": "Errado: não há esse critério.",
+    "E": "Errado: não há indicação da companhia."
+   },
+   "fonte": "Lei 9.537/97 (LESTA) art. 13 §1º",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-LEG-02.1-04",
+   "unidade": "LEG-02",
+   "s": "LEG-02.1",
+   "disc": "LEG",
+   "dif": "difícil",
+   "enunciado": "O Certificado de Isenção de Praticagem pode ser concedido a:",
+   "alts": {
+    "A": "Qualquer comandante de navio estrangeiro.",
+    "B": "Comandantes brasileiros de navios de bandeira brasileira de até 100 m, com tripulação de pelo menos 2/3 de brasileiros.",
+    "C": "Qualquer comandante com mais de 10 anos de experiência.",
+    "D": "Comandantes de navios de qualquer porte.",
+    "E": "Comandantes de navios acima de 10.000 AB."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: exige bandeira brasileira.",
+    "B": "Correta: até 100 m, bandeira brasileira, 2/3 de brasileiros.",
+    "C": "Errado: não é critério de tempo.",
+    "D": "Errado: há limite de comprimento.",
+    "E": "Errado: o limite é de comprimento, não de AB nesse sentido."
+   },
+   "fonte": "Lei 9.537/97 (LESTA) art. 13 §4º",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-LEG-02.1-05",
+   "unidade": "LEG-02",
+   "s": "LEG-02.1",
+   "disc": "LEG",
+   "dif": "média",
+   "enunciado": "Quem fixa a tripulação de segurança, e há direito a recurso?",
+   "alts": {
+    "A": "O armador, sem recurso.",
+    "B": "A Autoridade Marítima, e as partes que discordarem podem recorrer.",
+    "C": "O comandante da embarcação.",
+    "D": "O sindicato dos marítimos.",
+    "E": "A companhia de seguros."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: quem fixa é a AM.",
+    "B": "Correta: a AM fixa; cabe recurso.",
+    "C": "Errado: o comandante não a fixa.",
+    "D": "Errado: não é atribuição do sindicato.",
+    "E": "Errado: não é atribuição da seguradora."
+   },
+   "fonte": "Lei 9.537/97 (LESTA)",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-LEG-02.1-06",
+   "unidade": "LEG-02",
+   "s": "LEG-02.1",
+   "disc": "LEG",
+   "dif": "média",
+   "enunciado": "Segundo a LESTA, o Comandante também pode ser denominado:",
+   "alts": {
+    "A": "Imediato, Contramestre ou Marinheiro.",
+    "B": "Mestre, Arrais ou Patrão.",
+    "C": "Prático, Mestre ou Armador.",
+    "D": "Armador, Patrão ou Passageiro.",
+    "E": "Oficial de náutica."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: são outras funções.",
+    "B": "Correta: Mestre, Arrais ou Patrão.",
+    "C": "Errado: prático e armador são outras figuras.",
+    "D": "Errado: armador e passageiro não são comandante.",
+    "E": "Errado: não é sinônimo na lei."
+   },
+   "fonte": "Lei 9.537/97 (LESTA)",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-LEG-02.2-01",
+   "unidade": "LEG-02",
+   "s": "LEG-02.2",
+   "disc": "LEG",
+   "dif": "média",
+   "enunciado": "No auto de infração da LESTA, o prazo para a defesa e o prazo e efeito do recurso são:",
+   "alts": {
+    "A": "15 dias úteis; recurso em 5 dias úteis, sem efeito suspensivo.",
+    "B": "5 dias; recurso em 15 dias úteis, com efeito suspensivo.",
+    "C": "30 dias; recurso em 10 dias, sem efeito suspensivo.",
+    "D": "15 dias corridos; recurso em 5 dias corridos.",
+    "E": "10 dias úteis; recurso em 10 dias úteis."
+   },
+   "correta": "A",
+   "coment": {
+    "A": "Correta: defesa em 15 dias úteis; recurso em 5 dias úteis, sem efeito suspensivo.",
+    "B": "Errado: valores trocados e efeito incorreto.",
+    "C": "Errado: 30 dias é o prazo da autoridade para decidir.",
+    "D": "Errado: os prazos são em dias úteis.",
+    "E": "Errado: valores incorretos."
+   },
+   "fonte": "Lei 9.537/97 (LESTA) arts. 21–24",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-LEG-02.2-02",
+   "unidade": "LEG-02",
+   "s": "LEG-02.2",
+   "disc": "LEG",
+   "dif": "média",
+   "enunciado": "As penalidades previstas no art. 25 da LESTA são:",
+   "alts": {
+    "A": "Advertência, multa, suspensão e prisão.",
+    "B": "Multa, suspensão do certificado, cancelamento do certificado e demolição de obras e benfeitorias.",
+    "C": "Apenas multa.",
+    "D": "Multa, apreensão e leilão.",
+    "E": "Advertência, multa e demolição."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: não há prisão nem advertência.",
+    "B": "Correta: quatro penalidades.",
+    "C": "Errado: há outras.",
+    "D": "Errado: apreensão é medida administrativa.",
+    "E": "Errado: não inclui advertência."
+   },
+   "fonte": "Lei 9.537/97 (LESTA) art. 25",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-LEG-02.2-03",
+   "unidade": "LEG-02",
+   "s": "LEG-02.2",
+   "disc": "LEG",
+   "dif": "média",
+   "enunciado": "O prazo máximo da pena de suspensão do certificado e o tempo mínimo para a reabilitação após o cancelamento são, respectivamente:",
+   "alts": {
+    "A": "12 meses; 2 anos.",
+    "B": "6 meses; 1 ano.",
+    "C": "24 meses; 5 anos.",
+    "D": "3 meses; 6 meses.",
+    "E": "12 meses; 10 anos."
+   },
+   "correta": "A",
+   "coment": {
+    "A": "Correta: suspensão até 12 meses; reabilitação após 2 anos.",
+    "B": "Errado: valores incorretos.",
+    "C": "Errado: valores incorretos.",
+    "D": "Errado: valores incorretos.",
+    "E": "Errado: valores incorretos."
+   },
+   "fonte": "Lei 9.537/97 (LESTA) arts. 27–28",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-LEG-02.2-04",
+   "unidade": "LEG-02",
+   "s": "LEG-02.2",
+   "disc": "LEG",
+   "dif": "média",
+   "enunciado": "Uma embarcação apreendida tem prazo de quantos dias para sanar a irregularidade, sob pena de leilão ou incorporação aos bens da União?",
+   "alts": {
+    "A": "30 dias.",
+    "B": "60 dias.",
+    "C": "90 dias.",
+    "D": "180 dias.",
+    "E": "1 ano."
+   },
+   "correta": "C",
+   "coment": {
+    "A": "Errado: prazo incorreto.",
+    "B": "Errado: prazo incorreto.",
+    "C": "Correta: 90 dias.",
+    "D": "Errado: prazo incorreto.",
+    "E": "Errado: prazo incorreto."
+   },
+   "fonte": "Lei 9.537/97 (LESTA)",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-LEG-02.2-05",
+   "unidade": "LEG-02",
+   "s": "LEG-02.2",
+   "disc": "LEG",
+   "dif": "média",
+   "enunciado": "Em relação ao depósito prévio para recorrer de multa, é correto afirmar que:",
+   "alts": {
+    "A": "Continua obrigatório.",
+    "B": "Foi revogado pela Lei 14.813/2024.",
+    "C": "Só vale para navios estrangeiros.",
+    "D": "Só vale para práticos.",
+    "E": "Foi criado pela Lei 14.813/2024."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: foi revogado.",
+    "B": "Correta: revogado pela Lei 14.813/2024.",
+    "C": "Errado: não é regra de bandeira.",
+    "D": "Errado: não é regra de prático.",
+    "E": "Errado: foi revogado, não criado."
+   },
+   "fonte": "Lei 9.537/97 (LESTA); Lei 14.813/2024",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-LEG-02.2-06",
+   "unidade": "LEG-02",
+   "s": "LEG-02.2",
+   "disc": "LEG",
+   "dif": "difícil",
+   "enunciado": "O prazo para pagamento da multa é de:",
+   "alts": {
+    "A": "5 dias úteis.",
+    "B": "15 dias corridos, a contar da intimação.",
+    "C": "30 dias úteis.",
+    "D": "60 dias.",
+    "E": "Imediato."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: prazo incorreto.",
+    "B": "Correta: 15 dias corridos a contar da intimação.",
+    "C": "Errado: prazo incorreto.",
+    "D": "Errado: prazo incorreto.",
+    "E": "Errado: há prazo."
+   },
+   "fonte": "Lei 9.537/97 (LESTA) art. 32",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-LEG-02.2-07",
+   "unidade": "LEG-02",
+   "s": "LEG-02.2",
+   "disc": "LEG",
+   "dif": "média",
+   "enunciado": "Quais são as circunstâncias agravantes do art. 30 da LESTA?",
+   "alts": {
+    "A": "Reincidência; emprego da embarcação em ato ilícito; embriaguez ou outra substância entorpecente ou tóxica; grave ameaça à integridade física de pessoas.",
+    "B": "Somente a reincidência.",
+    "C": "Atraso no pagamento e falta de documentos.",
+    "D": "Nacionalidade estrangeira e porte da embarcação.",
+    "E": "Primeira infração e boa-fé."
+   },
+   "correta": "A",
+   "coment": {
+    "A": "Correta: as quatro circunstâncias do art. 30.",
+    "B": "Errado: há outras.",
+    "C": "Errado: não estão no rol.",
+    "D": "Errado: não estão no rol.",
+    "E": "Errado: seriam atenuantes."
+   },
+   "fonte": "Lei 9.537/97 (LESTA) art. 30",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-LEG-02.2-08",
+   "unidade": "LEG-02",
+   "s": "LEG-02.2",
+   "disc": "LEG",
+   "dif": "média",
+   "enunciado": "Nas zonas de praticagem, as orientações de rumos e velocidades ao Comandante são transmitidas exclusivamente:",
+   "alts": {
+    "A": "Pelo oficial de quarto.",
+    "B": "Pelos práticos.",
+    "C": "Pelo agente marítimo.",
+    "D": "Pelo VTS.",
+    "E": "Pela atalaia."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: o oficial de quarto não as transmite.",
+    "B": "Correta: exclusivamente pelos práticos (art. 15-B).",
+    "C": "Errado: não é atribuição do agente.",
+    "D": "Errado: o VTS não substitui o prático.",
+    "E": "Errado: a atalaia integra o serviço, mas não transmite essas orientações."
+   },
+   "fonte": "Lei 9.537/97 (LESTA) art. 15-B",
+   "origem": "inedita"
+  }
+ ]
+}

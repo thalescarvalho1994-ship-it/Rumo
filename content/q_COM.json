@@ -1,1 +1,480 @@
-{"itens": [{"id": "P2011-68", "unidade": "COM-01", "disc": "COM", "prova": "PSCPP 2011 · Amarela · Q68 · 0,6 pt", "dif": "média", "enunciado": "De acordo com a IMO SMCP, indique C (correta) ou E (errada):\n( ) My present speed is one-zero knots. Correction, my present speed is one-two knots.\n( ) Stand by on VHF channel one-four until pilot transfer is completed.\n( ) You should anchor in anchorage alfa two.\n( ) Pilot boat is bearing one-one-five degrees from you.\n( ) Port two-zero.\n( ) Starboard, steer zero-zero-zero.", "alts": {"A": "(C) (E) (C) (C) (C) (E)", "B": "(C) (C) (E) (E) (E) (C)", "C": "(E) (C) (E) (C) (E) (C)", "D": "(E) (C) (C) (E) (C) (C)", "E": "(C) (E) (E) (C) (E) (E)"}, "correta": "C", "coment": {"A": "A 1ª frase não usa 'Mistake' antes de 'Correction'; 'should' é palavra ambígua.", "B": "A 1ª está errada (falta 'Mistake'); a 4ª está certa.", "C": "Gabarito oficial: correção exige 'Mistake… Correction…'; 'should' vira 'ADVICE.'; ângulo de leme se diz 'twenty', não 'two-zero'.", "D": "'You should…' é ambíguo e 'Port two-zero' está errado.", "E": "A 2ª e a 6ª estão corretas."}, "fonte": "IMO SMCP, Res. A.918(22), General 7, 10, 12 e 18 (PDF 15–17)", "origem": "prova"}, {"id": "I-COM01-01", "unidade": "COM-01", "disc": "COM", "dif": "fácil", "enunciado": "Qual destas palavras NÃO é um dos oito Message Markers (marcadores de mensagem) da IMO SMCP?", "alts": {"A": "Order", "B": "Instruction", "C": "Warning", "D": "Intention", "E": "Request"}, "correta": "A", "coment": {"A": "Correta: “Order” não está na lista. Os oito são Instruction, Advice, Warning, Information, Question, Answer, Request e Intention.", "B": "É marcador (Instruction).", "C": "É marcador (Warning).", "D": "É marcador (Intention).", "E": "É marcador (Request)."}, "fonte": "IMO SMCP, Res. A.918(22), General 3, PDF 14", "origem": "inedita"}, {"id": "I-COM01-02", "unidade": "COM-01", "disc": "COM", "dif": "média", "enunciado": "Segundo a IMO SMCP (palavras ambíguas), a forma correta de substituir “You should anchor in anchorage B 3” é:", "alts": {"A": "“You may anchor in anchorage B 3.”", "B": "“ADVICE. Anchor in anchorage B 3.”", "C": "“INSTRUCTION. You could anchor in anchorage B 3.”", "D": "“Please anchor in anchorage B 3 if possible.”", "E": "“WARNING. You should anchor in anchorage B 3.”"}, "correta": "B", "coment": {"A": "“may” também é ambíguo.", "B": "Correta: General 18.1.", "C": "“could” é ambíguo.", "D": "Não usa o marcador nem a forma padronizada.", "E": "Mantém o “should” ambíguo."}, "fonte": "IMO SMCP, Res. A.918(22), General 18, PDF 17", "origem": "inedita"}, {"id": "I-COM01-03", "unidade": "COM-01", "disc": "COM", "dif": "média", "enunciado": "Segundo a IMO SMCP, ao comunicar a posição em relação a uma marca, a marcação deve ser:", "alts": {"A": "Relativa à proa do navio.", "B": "Magnética, DO navio PARA a marca.", "C": "Verdadeira (360°), DA marca para o navio, sendo a marca um objeto bem definido na carta.", "D": "Em quadrantes (N 30 E).", "E": "A critério do VTS."}, "correta": "C", "coment": {"A": "Marcações relativas são outra situação (12.1).", "B": "Deve ser a partir da marca e verdadeira.", "C": "Correta: General 11.2 (exemplo: “Your position bearing 137 degrees from Big Head lighthouse distance 2.4 nautical miles”).", "D": "Usa-se notação de 360°.", "E": "Não depende do VTS."}, "fonte": "IMO SMCP, Res. A.918(22), General 11–12, PDF 16", "origem": "inedita"}, {"id": "I-COM01-04", "unidade": "COM-01", "disc": "COM", "dif": "fácil", "enunciado": "Segundo a IMO SMCP, a velocidade informada em nós SEM outra notação significa:", "alts": {"A": "Velocidade no fundo.", "B": "Velocidade de máquina.", "C": "Velocidade relativa ao vento.", "D": "Velocidade na água (through the water).", "E": "Velocidade média da viagem."}, "correta": "D", "coment": {"A": "Velocidade no fundo deve ser dita “ground speed”.", "B": "Não consta da SMCP.", "C": "Não consta da SMCP.", "D": "Correta: General 15.1.", "E": "Não consta da SMCP."}, "fonte": "IMO SMCP, Res. A.918(22), General 15, PDF 17", "origem": "inedita"}, {"id": "I-COM01-05", "unidade": "COM-01", "disc": "COM", "dif": "média", "enunciado": "Segundo a IMO SMCP, como se transmite a correção de um erro numa mensagem?", "alts": {"A": "“Correction…” seguido da mensagem inteira.", "B": "“Say again…” seguido da parte corrigida.", "C": "“Repeat…” seguido da parte corrigida.", "D": "“Disregard…” e nova mensagem.", "E": "“Mistake…” seguido de “Correction…” e da parte corrigida."}, "correta": "E", "coment": {"A": "Falta “Mistake” antes de “Correction” (foi o erro cobrado em 2011 q68).", "B": "“Say again” é para pedir repetição de algo mal ouvido (9.2).", "C": "“Repeat” serve para salvaguardar parte importante (9.1).", "D": "Não é a frase padronizada.", "E": "Correta: General 7 (ex.: “My present speed is 14 knots – mistake. Correction, my present speed is 12, one-two, knots.”)."}, "fonte": "IMO SMCP, Res. A.918(22), General 7 e 9, PDF 15", "origem": "inedita"}, {"id": "I-COM01-06", "unidade": "COM-01", "disc": "COM", "dif": "fácil", "enunciado": "Pela IMO SMCP, a pronúncia padronizada dos algarismos 3, 9 e 1000 é, respectivamente:", "alts": {"A": "TREE, NINER, TOUSAND", "B": "THREE, NINE, THOUSAND", "C": "TREE, NINE, TOUSAND", "D": "THREE, NINER, THOUSAND", "E": "TRI, NAINER, TAUSAND"}, "correta": "A", "coment": {"A": "Correta: tabela de General 2.2.", "B": "Pronúncia do inglês geral, não a modificada.", "C": "9 é NINER.", "D": "3 é TREE e 1000 é TOUSAND.", "E": "Grafia não usada na SMCP."}, "fonte": "IMO SMCP, Res. A.918(22), General 2.2, PDF 13", "origem": "inedita"}, {"id": "I-COM01-07", "unidade": "COM-01", "disc": "COM", "dif": "fácil", "enunciado": "Pela IMO SMCP, as palavras usadas para anunciar mensagens de perigo, de urgência e de segurança são, respectivamente:", "alts": {"A": "PAN PAN, MAYDAY, SECURITE", "B": "MAYDAY, PAN PAN, SECURITE", "C": "MAYDAY, SECURITE, PAN PAN", "D": "SECURITE, PAN PAN, MAYDAY", "E": "SOS, PAN PAN, SECURITE"}, "correta": "B", "coment": {"A": "Inverte perigo e urgência.", "B": "Correta: General 5.", "C": "Inverte urgência e segurança.", "D": "Ordem invertida.", "E": "SOS não é o sinal de radiotelefonia da SMCP."}, "fonte": "IMO SMCP, Res. A.918(22), General 5, PDF 14", "origem": "inedita"}]}
+{
+ "itens": [
+  {
+   "id": "P2011-68",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "prova": "PSCPP 2011 · Amarela · Q68 · 0,6 pt",
+   "dif": "média",
+   "enunciado": "De acordo com a IMO SMCP, indique C (correta) ou E (errada):\n( ) My present speed is one-zero knots. Correction, my present speed is one-two knots.\n( ) Stand by on VHF channel one-four until pilot transfer is completed.\n( ) You should anchor in anchorage alfa two.\n( ) Pilot boat is bearing one-one-five degrees from you.\n( ) Port two-zero.\n( ) Starboard, steer zero-zero-zero.",
+   "alts": {
+    "A": "(C) (E) (C) (C) (C) (E)",
+    "B": "(C) (C) (E) (E) (E) (C)",
+    "C": "(E) (C) (E) (C) (E) (C)",
+    "D": "(E) (C) (C) (E) (C) (C)",
+    "E": "(C) (E) (E) (C) (E) (E)"
+   },
+   "correta": "C",
+   "coment": {
+    "A": "A 1ª frase não usa 'Mistake' antes de 'Correction'; 'should' é palavra ambígua.",
+    "B": "A 1ª está errada (falta 'Mistake'); a 4ª está certa.",
+    "C": "Gabarito oficial: correção exige 'Mistake… Correction…'; 'should' vira 'ADVICE.'; ângulo de leme se diz 'twenty', não 'two-zero'.",
+    "D": "'You should…' é ambíguo e 'Port two-zero' está errado.",
+    "E": "A 2ª e a 6ª estão corretas."
+   },
+   "fonte": "IMO SMCP, Res. A.918(22), General 7, 10, 12 e 18 (PDF 15–17)",
+   "origem": "prova",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "I-COM01-01",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "dif": "fácil",
+   "enunciado": "Qual destas palavras NÃO é um dos oito Message Markers (marcadores de mensagem) da IMO SMCP?",
+   "alts": {
+    "A": "Order",
+    "B": "Instruction",
+    "C": "Warning",
+    "D": "Intention",
+    "E": "Request"
+   },
+   "correta": "A",
+   "coment": {
+    "A": "Correta: “Order” não está na lista. Os oito são Instruction, Advice, Warning, Information, Question, Answer, Request e Intention.",
+    "B": "É marcador (Instruction).",
+    "C": "É marcador (Warning).",
+    "D": "É marcador (Intention).",
+    "E": "É marcador (Request)."
+   },
+   "fonte": "IMO SMCP, Res. A.918(22), General 3, PDF 14",
+   "origem": "inedita",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "I-COM01-02",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "dif": "média",
+   "enunciado": "Segundo a IMO SMCP (palavras ambíguas), a forma correta de substituir “You should anchor in anchorage B 3” é:",
+   "alts": {
+    "A": "“You may anchor in anchorage B 3.”",
+    "B": "“ADVICE. Anchor in anchorage B 3.”",
+    "C": "“INSTRUCTION. You could anchor in anchorage B 3.”",
+    "D": "“Please anchor in anchorage B 3 if possible.”",
+    "E": "“WARNING. You should anchor in anchorage B 3.”"
+   },
+   "correta": "B",
+   "coment": {
+    "A": "“may” também é ambíguo.",
+    "B": "Correta: General 18.1.",
+    "C": "“could” é ambíguo.",
+    "D": "Não usa o marcador nem a forma padronizada.",
+    "E": "Mantém o “should” ambíguo."
+   },
+   "fonte": "IMO SMCP, Res. A.918(22), General 18, PDF 17",
+   "origem": "inedita",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "I-COM01-03",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "dif": "média",
+   "enunciado": "Segundo a IMO SMCP, ao comunicar a posição em relação a uma marca, a marcação deve ser:",
+   "alts": {
+    "A": "Relativa à proa do navio.",
+    "B": "Magnética, DO navio PARA a marca.",
+    "C": "Verdadeira (360°), DA marca para o navio, sendo a marca um objeto bem definido na carta.",
+    "D": "Em quadrantes (N 30 E).",
+    "E": "A critério do VTS."
+   },
+   "correta": "C",
+   "coment": {
+    "A": "Marcações relativas são outra situação (12.1).",
+    "B": "Deve ser a partir da marca e verdadeira.",
+    "C": "Correta: General 11.2 (exemplo: “Your position bearing 137 degrees from Big Head lighthouse distance 2.4 nautical miles”).",
+    "D": "Usa-se notação de 360°.",
+    "E": "Não depende do VTS."
+   },
+   "fonte": "IMO SMCP, Res. A.918(22), General 11–12, PDF 16",
+   "origem": "inedita",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "I-COM01-04",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "dif": "fácil",
+   "enunciado": "Segundo a IMO SMCP, a velocidade informada em nós SEM outra notação significa:",
+   "alts": {
+    "A": "Velocidade no fundo.",
+    "B": "Velocidade de máquina.",
+    "C": "Velocidade relativa ao vento.",
+    "D": "Velocidade na água (through the water).",
+    "E": "Velocidade média da viagem."
+   },
+   "correta": "D",
+   "coment": {
+    "A": "Velocidade no fundo deve ser dita “ground speed”.",
+    "B": "Não consta da SMCP.",
+    "C": "Não consta da SMCP.",
+    "D": "Correta: General 15.1.",
+    "E": "Não consta da SMCP."
+   },
+   "fonte": "IMO SMCP, Res. A.918(22), General 15, PDF 17",
+   "origem": "inedita",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "I-COM01-05",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "dif": "média",
+   "enunciado": "Segundo a IMO SMCP, como se transmite a correção de um erro numa mensagem?",
+   "alts": {
+    "A": "“Correction…” seguido da mensagem inteira.",
+    "B": "“Say again…” seguido da parte corrigida.",
+    "C": "“Repeat…” seguido da parte corrigida.",
+    "D": "“Disregard…” e nova mensagem.",
+    "E": "“Mistake…” seguido de “Correction…” e da parte corrigida."
+   },
+   "correta": "E",
+   "coment": {
+    "A": "Falta “Mistake” antes de “Correction” (foi o erro cobrado em 2011 q68).",
+    "B": "“Say again” é para pedir repetição de algo mal ouvido (9.2).",
+    "C": "“Repeat” serve para salvaguardar parte importante (9.1).",
+    "D": "Não é a frase padronizada.",
+    "E": "Correta: General 7 (ex.: “My present speed is 14 knots – mistake. Correction, my present speed is 12, one-two, knots.”)."
+   },
+   "fonte": "IMO SMCP, Res. A.918(22), General 7 e 9, PDF 15",
+   "origem": "inedita",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "I-COM01-06",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "dif": "fácil",
+   "enunciado": "Pela IMO SMCP, a pronúncia padronizada dos algarismos 3, 9 e 1000 é, respectivamente:",
+   "alts": {
+    "A": "TREE, NINER, TOUSAND",
+    "B": "THREE, NINE, THOUSAND",
+    "C": "TREE, NINE, TOUSAND",
+    "D": "THREE, NINER, THOUSAND",
+    "E": "TRI, NAINER, TAUSAND"
+   },
+   "correta": "A",
+   "coment": {
+    "A": "Correta: tabela de General 2.2.",
+    "B": "Pronúncia do inglês geral, não a modificada.",
+    "C": "9 é NINER.",
+    "D": "3 é TREE e 1000 é TOUSAND.",
+    "E": "Grafia não usada na SMCP."
+   },
+   "fonte": "IMO SMCP, Res. A.918(22), General 2.2, PDF 13",
+   "origem": "inedita",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "I-COM01-07",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "dif": "fácil",
+   "enunciado": "Pela IMO SMCP, as palavras usadas para anunciar mensagens de perigo, de urgência e de segurança são, respectivamente:",
+   "alts": {
+    "A": "PAN PAN, MAYDAY, SECURITE",
+    "B": "MAYDAY, PAN PAN, SECURITE",
+    "C": "MAYDAY, SECURITE, PAN PAN",
+    "D": "SECURITE, PAN PAN, MAYDAY",
+    "E": "SOS, PAN PAN, SECURITE"
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Inverte perigo e urgência.",
+    "B": "Correta: General 5.",
+    "C": "Inverte urgência e segurança.",
+    "D": "Ordem invertida.",
+    "E": "SOS não é o sinal de radiotelefonia da SMCP."
+   },
+   "fonte": "IMO SMCP, Res. A.918(22), General 5, PDF 14",
+   "origem": "inedita",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "S-COM-01.1-01",
+   "unidade": "COM-01",
+   "s": "COM-01.1",
+   "disc": "COM",
+   "dif": "fácil",
+   "enunciado": "Os oito Message Markers do SMCP são:",
+   "alts": {
+    "A": "Instruction, Advice, Warning, Information, Question, Answer, Request, Intention.",
+    "B": "Mayday, Pan Pan, Securite, Warning, Answer, Request, Order, Question.",
+    "C": "Order, Advice, Warning, Information, Question, Reply, Request, Wish.",
+    "D": "Instruction, Advice, Alert, Information, Question, Answer, Request, Intention.",
+    "E": "Distress, Urgency, Safety, Instruction, Advice, Question, Answer, Request."
+   },
+   "correta": "A",
+   "coment": {
+    "A": "Correta: os oito marcadores do SMCP.",
+    "B": "Errado: Mayday, Pan Pan e Securite são sinais de prioridade, não message markers.",
+    "C": "Errado: não existem Order, Reply e Wish.",
+    "D": "Errado: o marcador é Warning, não Alert.",
+    "E": "Errado: distress, urgency e safety são categorias de prioridade."
+   },
+   "fonte": "SMCP (IMO A.918(22)), Introduction + General",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-COM-01.1-02",
+   "unidade": "COM-01",
+   "s": "COM-01.1",
+   "disc": "COM",
+   "dif": "fácil",
+   "enunciado": "Os sinais MAYDAY, PAN PAN e SECURITE anunciam, respectivamente, mensagens de:",
+   "alts": {
+    "A": "Urgência, perigo e segurança.",
+    "B": "Perigo, urgência e segurança.",
+    "C": "Segurança, perigo e urgência.",
+    "D": "Perigo, segurança e urgência.",
+    "E": "Urgência, segurança e perigo."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: ordem incorreta.",
+    "B": "Correta: MAYDAY perigo, PAN PAN urgência, SECURITE segurança.",
+    "C": "Errado: ordem incorreta.",
+    "D": "Errado: ordem incorreta.",
+    "E": "Errado: ordem incorreta."
+   },
+   "fonte": "SMCP (IMO A.918(22)), Introduction + General",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-COM-01.1-03",
+   "unidade": "COM-01",
+   "s": "COM-01.1",
+   "disc": "COM",
+   "dif": "média",
+   "enunciado": "Segundo o SMCP, a forma correta de pedir permissão em vez de \"May I enter the fairway?\" é:",
+   "alts": {
+    "A": "\"Can I enter the fairway?\"",
+    "B": "\"QUESTION. Do I have permission to enter the fairway?\"",
+    "C": "\"Might I enter the fairway?\"",
+    "D": "\"REQUEST. May I enter the fairway?\"",
+    "E": "\"INFORMATION. I should enter the fairway.\""
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: \"can\" indica possibilidade ou capacidade, não permissão.",
+    "B": "Correta: usa-se o marcador QUESTION e \"permission\".",
+    "C": "Errado: \"might\" é ambíguo e deve ser evitado.",
+    "D": "Errado: mantém \"may\", que é ambíguo.",
+    "E": "Errado: \"should\" é ambíguo e o marcador não faz sentido."
+   },
+   "fonte": "SMCP (IMO A.918(22)), Introduction + General",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-COM-01.1-04",
+   "unidade": "COM-01",
+   "s": "COM-01.1",
+   "disc": "COM",
+   "dif": "média",
+   "enunciado": "Para corrigir um erro durante a transmissão, o SMCP manda dizer:",
+   "alts": {
+    "A": "\"Sorry\" e repetir toda a mensagem.",
+    "B": "\"Mistake…\" e depois \"Correction…\" seguido da parte corrigida.",
+    "C": "\"Repeat…\" e a palavra errada.",
+    "D": "\"Say again\" e a palavra certa.",
+    "E": "\"Wrong\" e a palavra certa."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: não é a fórmula do SMCP.",
+    "B": "Correta: \"Mistake…\" e \"Correction…\".",
+    "C": "Errado: \"Repeat\" serve para proteger parte importante da mensagem.",
+    "D": "Errado: \"Say again\" pede repetição de mensagem não ouvida.",
+    "E": "Errado: não é a fórmula."
+   },
+   "fonte": "SMCP (IMO A.918(22)), Introduction + General",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-COM-01.1-05",
+   "unidade": "COM-01",
+   "s": "COM-01.1",
+   "disc": "COM",
+   "dif": "média",
+   "enunciado": "No SMCP, o número 150 e o ângulo de leme 15° dizem-se, respectivamente:",
+   "alts": {
+    "A": "\"fifteen-zero\" e \"one-five\".",
+    "B": "\"one-five-zero\" e \"fifteen\".",
+    "C": "\"one-fifty\" e \"one-five\".",
+    "D": "\"one-five-zero\" e \"one-five\".",
+    "E": "\"hundred fifty\" e \"fifteen\"."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: o ângulo de leme é dito como número inteiro.",
+    "B": "Correta: número dígito a dígito; leme \"fifteen\".",
+    "C": "Errado: não se usa \"fifty\".",
+    "D": "Errado: o ângulo de leme é dito \"fifteen\".",
+    "E": "Errado: números são ditos dígito a dígito."
+   },
+   "fonte": "SMCP (IMO A.918(22)), Introduction + General",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-COM-01.1-06",
+   "unidade": "COM-01",
+   "s": "COM-01.1",
+   "disc": "COM",
+   "dif": "fácil",
+   "enunciado": "A pronúncia SMCP dos dígitos 3, 5 e 9 é, respectivamente:",
+   "alts": {
+    "A": "THREE, FIVE, NINE.",
+    "B": "TREE, FIFE, NINER.",
+    "C": "TRI, FAIV, NAIN.",
+    "D": "TREE, FIVE, NINER.",
+    "E": "THREE, FIFE, NINER."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: pronúncia comum, não a do SMCP.",
+    "B": "Correta: TREE, FIFE, NINER.",
+    "C": "Errado: não é a pronúncia indicada.",
+    "D": "Errado: o 5 é FIFE.",
+    "E": "Errado: o 3 é TREE."
+   },
+   "fonte": "SMCP (IMO A.918(22)), Introduction + General",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-COM-01.1-07",
+   "unidade": "COM-01",
+   "s": "COM-01.1",
+   "disc": "COM",
+   "dif": "média",
+   "enunciado": "No SMCP, uma velocidade em nós sem nenhuma notação adicional é:",
+   "alts": {
+    "A": "Velocidade sobre o fundo.",
+    "B": "Velocidade na água (através da água).",
+    "C": "Velocidade de superfície do vento.",
+    "D": "Velocidade da corrente.",
+    "E": "Velocidade máxima do navio."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: sobre o fundo exige a notação \"ground speed\".",
+    "B": "Correta: velocidade através da água.",
+    "C": "Errado: não se refere ao vento.",
+    "D": "Errado: não se refere à corrente.",
+    "E": "Errado: não é velocidade máxima."
+   },
+   "fonte": "SMCP (IMO A.918(22)), Introduction + General",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-COM-01.1-08",
+   "unidade": "COM-01",
+   "s": "COM-01.1",
+   "disc": "COM",
+   "dif": "média",
+   "enunciado": "Quais são as palavras condicionais ambíguas que o SMCP manda evitar?",
+   "alts": {
+    "A": "Will, shall, must e need.",
+    "B": "May, might, should e could.",
+    "C": "Can, will, shall e must.",
+    "D": "Please, thank e sorry.",
+    "E": "Yes, no, maybe e perhaps."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: não é a lista indicada.",
+    "B": "Correta: may, might, should e could.",
+    "C": "Errado: \"can\" é tratado à parte e as demais não são ambíguas.",
+    "D": "Errado: não é a lista indicada.",
+    "E": "Errado: não é a lista indicada."
+   },
+   "fonte": "SMCP (IMO A.918(22)), Introduction + General",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-COM-01.1-09",
+   "unidade": "COM-01",
+   "s": "COM-01.1",
+   "disc": "COM",
+   "dif": "difícil",
+   "enunciado": "Sobre a marcação usada para informar uma posição em relação a uma marca no SMCP:",
+   "alts": {
+    "A": "É dada do navio para a marca, em graus relativos.",
+    "B": "É dada da marca para o navio, na notação de 360° a partir do norte verdadeiro, com a distância.",
+    "C": "É sempre magnética.",
+    "D": "É dada em quadrantes.",
+    "E": "Não se usa distância."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: o sentido é da marca para o navio.",
+    "B": "Correta: da marca para a posição, 360° a partir do norte verdadeiro, mais a distância.",
+    "C": "Errado: o padrão é o norte verdadeiro.",
+    "D": "Errado: usa-se a notação de 360°.",
+    "E": "Errado: a distância é informada."
+   },
+   "fonte": "SMCP (IMO A.918(22)), Introduction + General",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-COM-01.1-10",
+   "unidade": "COM-01",
+   "s": "COM-01.1",
+   "disc": "COM",
+   "dif": "média",
+   "enunciado": "O SMCP foi adotado pela Assembleia da IMO em 2001, pela Resolução A.918(22), e substituiu:",
+   "alts": {
+    "A": "O Código Internacional de Sinais.",
+    "B": "O RIPEAM.",
+    "C": "O Standard Marine Navigational Vocabulary (SMNV) de 1985.",
+    "D": "O Manual IAMSAR.",
+    "E": "A Convenção SOLAS."
+   },
+   "correta": "C",
+   "coment": {
+    "A": "Errado: o SMCP não substitui o Código Internacional de Sinais.",
+    "B": "Errado: não substitui o RIPEAM.",
+    "C": "Correta: substituiu o SMNV de 1985.",
+    "D": "Errado: não substitui o IAMSAR.",
+    "E": "Errado: não substitui a SOLAS."
+   },
+   "fonte": "SMCP (IMO A.918(22)), Introduction + General",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-COM-01.1-11",
+   "unidade": "COM-01",
+   "s": "COM-01.1",
+   "disc": "COM",
+   "dif": "difícil",
+   "enunciado": "Sobre a estrutura do SMCP, é correto afirmar que:",
+   "alts": {
+    "A": "A Parte A cobre as frases essenciais das comunicações externas e de manobra e segurança a bordo, e a Parte B cobre outras frases de segurança a bordo.",
+    "B": "A Parte A é facultativa e a B é obrigatória.",
+    "C": "A Parte B cobre as comunicações externas.",
+    "D": "As duas partes substituem o RIPEAM.",
+    "E": "O SMCP é um manual operacional completo."
+   },
+   "correta": "A",
+   "coment": {
+    "A": "Correta: Parte A essencial (STCW); Parte B complementar.",
+    "B": "Errado: a Parte A é a exigida.",
+    "C": "Errado: as comunicações externas estão na Parte A.",
+    "D": "Errado: o SMCP não substitui o RIPEAM.",
+    "E": "Errado: é uma coleção de frases, não um manual operacional."
+   },
+   "fonte": "SMCP (IMO A.918(22)), Introduction + General",
+   "origem": "inedita"
+  }
+ ]
+}
