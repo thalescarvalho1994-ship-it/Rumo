@@ -74,7 +74,14 @@
   document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') sync(); });
   window.addEventListener('online', sync);
 
-  const valor = path => (path in remoto ? remoto[path] : fixo[path]);
+  // cartões: o arquivo do site manda (assim os cartões novos sempre chegam); os que você criou no app (id "U…") ficam junto
+  const valor = path => {
+    if (path.startsWith('content_fc/') && path in remoto && fixo[path] && Array.isArray(fixo[path].cards)) {
+      const meus = ((remoto[path] || {}).cards || []).filter(c => c && /^U/.test(c.id));
+      return { ...fixo[path], cards: [...fixo[path].cards, ...meus] };
+    }
+    return path in remoto ? remoto[path] : fixo[path];
+  };
   const snap = path => ({ id: path.split('/').pop(), exists: valor(path) !== undefined, data: () => clone(valor(path)), metadata: { fromCache: false, hasPendingWrites: false } });
   function merge(a, b) {
     for (const k in b) {
