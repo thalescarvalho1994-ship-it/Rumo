@@ -446,6 +446,7 @@ function liberadas(){
 }
 function cartaoLiberado(c,lib){
   if(c.unidade==='ING-E1'){ const m=/E1-(\d+)/.exec(c.id); return m?+m[1]<=lib.e1:lib.e1>=12; }   // vocabulário extra: depois dos 12 termos
+  if(/^U/.test(c.id)) return true;   // cartão criado por você: sempre liberado
   return c.s?lib.ses.has(c.s):lib.uni.has(c.unidade);   // c.s = sessão do cartão; sem ela, vale a unidade
 }
 const questaoLiberada=(q,lib)=>lib.uni.has(q.unidade);
@@ -454,7 +455,8 @@ function revisoesHoje(){
   const prio=new Set(((sessoes().find(s=>s.tipo==='rev30'&&s.data===hoje)||{}).rev30||'').match(/[A-Z]{2,3}-\d{2}/g)||[]);
   const due=[],novos=[],redoPronto=[],redoEspera=[];let bloqueados=0;
   for(const c of allCards()){ if(ui.fcDeck!=='todos'&&c.disc!==ui.fcDeck) continue; const s=srsOf(c);
-    if(!s){ if(cartaoLiberado(c,lib)) novos.push(c); else bloqueados++; continue; }
+    if(!cartaoLiberado(c,lib)){ bloqueados++; continue; }   // trava vale mesmo p/ cartão já avaliado antes (versão antiga liberava a unidade inteira)
+    if(!s){ novos.push(c); continue; }
     if(s.venc>hoje) continue;
     if(s.int===0&&s.vez&&s.venc===hoje){ (now-s.vez>=REDO_MS?redoPronto:redoEspera).push(c); } else due.push(c); }
   const p=x=>prio.has(x.unidade)?0:1, mix=xs=>embaralha(xs,hoje).sort((a,b)=>p(a)-p(b));
@@ -720,7 +722,7 @@ function viewFlash(){
   } else h+=`<div class="card empty-state">${ic('circle-check')}<br>${r.bloqueados?'Nenhum cartão para agora. Os cartões de cada sessão entram assim que você marca a sessão como concluída (ou uma de suas partes).':'Nenhum cartão para agora. Os próximos vencem nos próximos dias.'}</div>`;
   const lib=liberadas();
   h+=`<div class="sec"><h2>Baralhos</h2>${canEdit?`<button class="act" data-act="fcnew">+ Novo cartão</button>`:''}</div><div class="decks">${discs.map(d=>{const cs=allCards().filter(c=>c.disc===d);
-    return `<button class="deck" data-act="decklist" data-v="${d}"><span class="dot" style="width:12px;height:12px;background:var(--${d})"></span><b>${esc(discNome(d))}</b><span>${cs.filter(c=>srsOf(c)||cartaoLiberado(c,lib)).length} liberados de ${cs.length} · ${cs.filter(c=>srsOf(c)).length} já vistos</span></button>`;}).join('')}</div>`;
+    return `<button class="deck" data-act="decklist" data-v="${d}"><span class="dot" style="width:12px;height:12px;background:var(--${d})"></span><b>${esc(discNome(d))}</b><span>${cs.filter(c=>cartaoLiberado(c,lib)).length} liberados de ${cs.length} · ${cs.filter(c=>srsOf(c)&&cartaoLiberado(c,lib)).length} já vistos</span></button>`;}).join('')}</div>`;
   return h;
 }
 
@@ -877,7 +879,7 @@ function sheetSettings(){const s=settings();
   <button class="btn pri" style="width:100%;margin-top:8px" data-act="saveCfg">Salvar</button>`);$('#cfTema').value=s.tema==='light'?'light':'';}
 function sheetDeck(d){const cs=allCards().filter(c=>c.disc===d),lib=liberadas();
   openSheet(`<h3 id="sheetTitle">${esc(discNome(d))}</h3><div style="font-size:13px;color:var(--muted)">${cs.length} cartões</div>
-  <div class="card" style="margin-top:10px">${cs.map(c=>{const s=srsOf(c);return `<div class="cardrow"><span class="t">${esc(c.frente)}<small>${s?`próxima: ${ddmm(s.venc)} · intervalo ${s.int} d`:cartaoLiberado(c,lib)?'novo · liberado':'entra ao concluir '+(c.s||c.unidade)} · ${esc(c.fonte)}</small></span>${canEdit?`<button class="iconbtn" data-act="fcedit" data-id="${c.id}" data-disc="${c.disc}" aria-label="Editar">${ic('pencil')}</button>`:''}</div>`;}).join('')}</div>`);}
+  <div class="card" style="margin-top:10px">${cs.map(c=>{const s=srsOf(c);return `<div class="cardrow"><span class="t">${esc(c.frente)}<small>${!cartaoLiberado(c,lib)?'entra ao concluir '+(c.s||c.unidade):s?`próxima: ${ddmm(s.venc)} · intervalo ${s.int} d`:'novo · liberado'} · ${esc(c.fonte)}</small></span>${canEdit?`<button class="iconbtn" data-act="fcedit" data-id="${c.id}" data-disc="${c.disc}" aria-label="Editar">${ic('pencil')}</button>`:''}</div>`;}).join('')}</div>`);}
 function sheetFcEdit(id,disc){const c=id?allCards().find(x=>x.id===id):{id:'',disc:disc||'AN',unidade:'',frente:'',verso:'',fonte:''};
   openSheet(`<h3 id="sheetTitle">${id?'Editar cartão':'Novo cartão'}</h3>
   <label class="f">Unidade<select id="feU">${C.plano.unidades.map(u=>`<option value="${u.codigo}" ${u.codigo===c.unidade?'selected':''}>${u.codigo} · ${esc(u.titulo)}</option>`).join('')}</select></label>
