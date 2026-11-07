@@ -12,6 +12,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="RUMO">
 <meta name="theme-color" content="#050E1F">
+<script>(function(){try{var t=localStorage.getItem('rumo.tema')||'auto',h=new Date().getHours(),l=t==='light'||(t==='auto'&&matchMedia('(prefers-color-scheme: light)').matches)||(t==='horario'&&h>=6&&h<18);if(l)document.documentElement.dataset.theme='light'}catch(e){}})()</script>
 <script src="shim.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
 <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
@@ -57,7 +58,7 @@ nav.tabs button{background:none;border:0;display:flex;flex-direction:column;alig
 nav.tabs button svg{width:23px;height:23px}
 nav.tabs button[aria-current="page"]{color:var(--neonB)}
 nav.tabs button[aria-current="page"] svg{filter:drop-shadow(0 0 6px rgba(0,194,255,.7))}
-@media (min-width:900px){
+@media (min-width:700px){
   nav.tabs{display:none}
   .rail{display:flex;flex-direction:column;gap:4px;width:232px;padding:20px 12px;border-right:1px solid var(--line);background:var(--card)}
   .rail .brand{margin:0 6px 18px}
@@ -66,14 +67,14 @@ nav.tabs button[aria-current="page"] svg{filter:drop-shadow(0 0 6px rgba(0,194,2
   .rail button svg{width:20px;height:20px}
   .rail button[aria-current="page"]{background:var(--card2);color:var(--neonB);box-shadow:var(--glowB)}
   main{max-width:1000px;padding-bottom:40px}
-  .grid2{grid-template-columns:1.1fr .9fr!important}
 }
+@media (min-width:900px){.grid2{grid-template-columns:1.1fr .9fr!important}}
 header.top{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:6px 0 14px}
 header.top .t{min-width:0}
 header.top h1{margin:0;font-size:26px;font-weight:800;letter-spacing:-.02em}
 header.top .sub{font-size:13px;color:var(--muted)}
 .logo{height:40px;width:auto;display:block;margin-bottom:4px}
-@media (min-width:900px){.logo{display:none}}
+@media (min-width:700px){.logo{display:none}}
 .hbtns{display:flex;gap:8px;flex:none}
 header.top{position:relative}
 .menubtn{border-color:var(--neonB);color:var(--neonB)}
@@ -82,7 +83,7 @@ header.top{position:relative}
 .menupop button svg{width:20px;height:20px;color:var(--muted)}
 .menupop button[aria-current="page"]{background:var(--card2);color:var(--neonB)}.menupop button[aria-current="page"] svg{color:var(--neonB)}
 main{position:relative}
-@media (min-width:900px){.menubtn,.menupop{display:none!important}}
+@media (min-width:700px){.menubtn,.menupop{display:none!important}}
 .iconbtn{width:44px;height:44px;border-radius:12px;border:1px solid var(--line);background:var(--card);display:grid;place-items:center;color:var(--ink)}
 .iconbtn svg{width:20px;height:20px}
 .note{font-size:12.5px;background:var(--warn-bg);border:1px solid var(--warn-line);border-radius:12px;padding:9px 11px;margin-bottom:12px;line-height:1.45}
@@ -92,6 +93,13 @@ main{position:relative}
 .sec h2{margin:0;font-size:12.5px;text-transform:uppercase;letter-spacing:.09em;color:var(--muted);font-weight:700}
 .sec .act{font-size:13px;color:var(--neonB);background:none;border:0;padding:6px 0;font-weight:700}
 .grid2{display:grid;gap:12px}
+.latesum{display:block;width:100%;text-align:left;padding:11px 14px;font-size:13px;color:var(--late);border-color:color-mix(in srgb,var(--late) 45%,transparent);background:var(--late-bg);font-weight:600;letter-spacing:.02em}
+@media (min-width:1100px){
+  main{max-width:1240px}
+  .hoje2{display:grid;grid-template-columns:400px 1fr;gap:24px;align-items:start}
+  .hoje2 .hl{position:sticky;top:0}
+  .hoje2 .grid2{grid-template-columns:1fr!important}
+}
 .daynav{display:flex;align-items:center;gap:6px}
 .daynav button{width:36px;height:36px;border-radius:10px;border:1px solid var(--line);background:var(--card);display:grid;place-items:center;color:var(--ink)}
 .daynav button svg{width:18px;height:18px}
@@ -297,7 +305,7 @@ label.f{min-width:0;display:flex;flex-direction:column;gap:6px;font-size:13px;fo
 .legend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:4px;vertical-align:-1px}
 .empty-state{padding:24px 16px;text-align:center;color:var(--muted);font-size:14px;line-height:1.5}
 .empty-state svg{width:28px;height:28px;margin-bottom:6px}
-.toast{position:fixed;left:50%;bottom:calc(92px + var(--safe-b));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:12px;font-size:14px;font-weight:700;z-index:60;opacity:0;transition:opacity .2s;pointer-events:none;max-width:90vw;text-align:center}
+.toast{position:fixed;left:50%;bottom:calc(24px + var(--safe-b));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:12px;font-size:14px;font-weight:700;z-index:60;opacity:0;transition:opacity .2s;pointer-events:none;max-width:90vw;text-align:center}
 .toast.on{opacity:1}
 .loading{padding:80px 16px;text-align:center;color:var(--muted)}
 .loading img{width:96px;height:96px;border-radius:22px;box-shadow:0 0 30px rgba(0,194,255,.35);margin-bottom:12px}
@@ -343,7 +351,7 @@ const C={plano:null,q:{},fc:{}}; const U={};
 let db=null,uid=null,canEdit=false,downloads=null,sample=null,ready=false,dbOk=false;
 let tab='hoje';
 const ui={dia:null,open:{},filtro:'todos',busca:'',atv:'questoes',qf:{disc:'todas',origem:'todas',status:'todas'},qIdx:0,qSel:null,qDone:false,qStart:Date.now(),motivo:null,qOnly:null,
-  sim:null,fcFlip:false,fcDeck:'todos',notaCode:null,calMes:null,semanaAberta:true,gen:{}};
+  sim:null,fcFlip:false,fcDeck:'todos',notaCode:null,calMes:null,semanaAberta:true,atrAberta:false,gen:{}};
 const scroller=()=>document.getElementById('scroller');
 const toTop=()=>scroller().scrollTo(0,0);
 
@@ -553,7 +561,7 @@ function taskCard(s){
      <button class="body" data-act="open" data-id="${esc(s.id)}"><span class="code mono" style="color:var(--${s.disc}-t)">${esc(codigoSess(s))}</span>
      <span class="title">${esc(titulo(s))}</span>
      <span class="meta">${ic('clock','style="width:14px;height:14px"')} ${hfmt(s.horas)} · ${nf}/${s.partes.length} partes ${pill(st,s)} ${st==='atrasado'?`<span>era da semana de ${ddmm(weekStart(s.data))}</span>`:''}</span></button>
-     ${s.partes.map((p,i)=>{const f=parteFeita(s,p.k);return `<div class="prow ${f?'pdone':''}"><div class="ptxt"><b>${i+1}. ${esc(p.t)}</b>${p.ref?`<span>${esc(p.ref)}</span>`:''}<span class="pmin">${esc(p.nota||(p.min+' min'))}</span></div>
+     ${s.partes.map((p,i)=>{const f=parteFeita(s,p.k);return `<div class="prow ${f?'pdone':''}"><div class="ptxt"><b>${esc(p.t)}</b>${p.ref?`<span>${esc(p.ref)}</span>`:''}<span class="pmin">Parte ${i+1} · ${esc(p.nota||(p.min+' min'))}</span></div>
        <button class="check" role="checkbox" aria-checked="${f}" aria-label="Concluir parte ${i+1}" data-act="tpart" data-id="${esc(s.id)}" data-p="${esc(p.k)}"><span>${f?ic('check'):''}</span></button></div>`;}).join('')}</div></div>`;
   }
   return `<div class="card task ${st==='atrasado'||st==='vencida'?'isLate':''} ${st==='concluido'&&!aRecuperar(s)?'isDone':''} ${aRecuperar(s)?'isRec':''}"><div class="bar" style="background:var(--${s.disc})"></div>
@@ -592,7 +600,10 @@ function viewHoje(){
   const hoje=todayISO(),dia=ui.dia||hoje,all=sessoes();
   const doDia=tarefasDoDia(dia,all);
   const semAtual=Math.max(1,semanaDe(dia)); const daSemana=all.filter(s=>s.semana===semAtual);
-  const late=all.filter(s=>statusOf(s)==='atrasado').sort((a,b)=>a.data<b.data?-1:1);
+  const origem=s=>s.puxada||s.data;
+  const venc=dia===hoje?doDia.filter(s=>!done(s)&&origem(s)<hoje):[];
+  const proprias=doDia.filter(s=>!venc.includes(s));
+  const late=[...all.filter(s=>statusOf(s)==='atrasado'),...venc].sort((a,b)=>a.data<b.data?-1:1);
   const recs=all.filter(aRecuperar).sort((a,b)=>a.data<b.data?-1:1);
   const t=timer(),run=t.estado==='rodando',paused=t.estado==='pausado',pomo=t.modo==='pomodoro';
   const target=(t.fase==='descanso'?settings().pomDescanso:settings().pomEstudo)*60000;
@@ -605,8 +616,8 @@ function viewHoje(){
   const hs=horas(daSemana), metaH=settings().horasSemana;
   const tarefaAtual=t.tarefa?all.find(s=>s.id===t.tarefa):null;
   return header(dia===hoje?'Hoje':ddmm(dia),label.charAt(0).toUpperCase()+label.slice(1),daynav,true)+`
-  <div class="grid2">
-   <section class="card hero" aria-label="Progresso">${voyage('Dia',horas(doDia),emptyDia)}${voyage(`Semana ${semAtual}${antes?' (adiantando)':''}`,hs,'Sem meta nesta semana')}</section>
+  <div class="hoje2"><div class="hl"><div class="grid2">
+   <section class="card hero" aria-label="Progresso">${voyage('Dia',horas(proprias),emptyDia)}${voyage(`Semana ${semAtual}${antes?' (adiantando)':''}`,hs,'Sem meta nesta semana')}</section>
    <section class="card timer" aria-label="Cronômetro">
     <div class="trow"><div><div class="clock mono" id="clock">${fmtClock(pomo?target-elapsed():elapsed())}</div>
      <div class="tasklabel">${pomo?(t.fase==='descanso'?'Descanso':'Foco')+` · ${settings().pomEstudo}/${settings().pomDescanso} min`:'Cronômetro livre'}${tarefaAtual?` · ${esc(codigoSess(tarefaAtual))}`:''}${outro?' · rodando em outro aparelho':''}</div></div>
@@ -617,15 +628,15 @@ function viewHoje(){
      ${paused?`<button class="btn pri block" data-act="tstart">${ic('play')}Continuar</button>`:''}
      ${run||paused?`<button class="btn danger" data-act="tstop">${ic('square')}Finalizar</button>`:''}</div>
     <div class="chips3"><div class="stat"><b>${fmtHM(liquidoDia(hoje))}</b><span>líquido hoje</span></div><div class="stat"><b>${fmtHM(liquidoSemana(hoje))}</b><span>na semana · meta ${metaH} h</span></div><div class="stat"><b>${due}</b><span>cartões hoje</span></div></div>
-   </section></div>
-  ${late.length?`<div class="sec"><h2 style="color:var(--late)">Atrasadas (${late.length})</h2><button class="act" data-act="redist">Propor redistribuição</button></div><div class="list">${late.map(taskCard).join('')}</div>`:''}
-  <div class="sec"><h2>${dia===hoje?'Hoje':'Neste dia'}</h2></div>
-  <div class="list">${doDia.length?doDia.map(taskCard).join(''):`<div class="card empty-state">${ic('anchor')}<br>${emptyDia}.</div>`}
+   </section></div></div><div class="hr">
+  <div class="sec" style="margin-top:6px"><h2>${dia===hoje?'Hoje':'Neste dia'}</h2></div>
+  <div class="list">${proprias.length?proprias.map(taskCard).join(''):`<div class="card empty-state">${ic('anchor')}<br>${emptyDia}.</div>`}
    ${prox?`<button class="adiantar" data-act="puxar" data-id="${esc(prox.id)}">${ic('fast-forward')}<span style="flex:1"><b>Adiantar: ${esc(codigoSess(prox))}</b><br><span style="font-size:12.5px;color:var(--muted)">${esc(titulo(prox))} · sugerida para ${ddmm(prox.data)} · ${hfmt(prox.horas)}</span></span>${ic('plus')}</button>`:''}</div>
+  ${late.length?`<div class="sec"><h2 style="color:var(--late)">Atrasadas (${late.length}) · ${hfmt(horas(late).total-horas(late).feito)}</h2><span class="secbtns"><button class="act" data-act="togatr">${ui.atrAberta?'Recolher':'Ver lista'}</button><button class="act" data-act="redist">Redistribuir</button></span></div>${ui.atrAberta?`<div class="list">${late.map(taskCard).join('')}</div>`:`<button class="card latesum" data-act="togatr">${[...new Set(late.map(s=>s.unidade||s.disc))].slice(0,8).map(esc).join(' · ')}${late.length>8?' …':''}</button>`}`:''}
   <div class="sec"><h2>Meta da semana ${semAtual}</h2><span class="secbtns">${recs.length?`<button class="act warnchip" data-act="recvlist" aria-label="${recs.length} para recuperar no fim de semana">${WARN(16)}</button>`:''}<button class="act" data-act="togsem">${ui.semanaAberta?'Recolher':'Ver tudo'}</button></span></div>
   <div class="card" style="padding:0">${ui.semanaAberta?(daSemana.length?semanaPorDia(daSemana):'<div class="empty-state">Sem meta nesta semana.</div>'):`<div class="weekrow">${hfmt(hs.feito)} de ${hfmt(hs.total)} feitos</div>`}</div>
   <div class="sec"><h2>Revisão espaçada</h2></div>
-  <button class="review" data-act="gotab" data-v="flash">${ic('layers')}<span style="flex:1"><b>${due} cartões para hoje</b><br><span style="font-size:12px;color:var(--muted)">Contam à parte do progresso das tarefas</span></span>${ic('chevron-right')}</button>`;
+  <button class="review" data-act="gotab" data-v="flash">${ic('layers')}<span style="flex:1"><b>${due} cartões para hoje</b><br><span style="font-size:12px;color:var(--muted)">Contam à parte do progresso das tarefas</span></span>${ic('chevron-right')}</button></div></div>`;
 }
 
 /* ---------- ASSUNTOS ---------- */
@@ -802,7 +813,7 @@ function sheetSess(id){
    ${(s.vocab||[]).length?`<h4>Inglês de ${esc(discNome(s.ligaDisc))} (aparece no texto de hoje)</h4>${vocabHTML(s.vocab)}`:''}
    `:''}
    ${s.tipo==='rev30'?`<h4>O que fazer</h4><ul><li>${esc(s.rev30||'')}</li></ul><div class="btns" style="margin-top:8px"><button class="btn" data-act="gotab" data-v="flash">${ic('layers')}Cartões para hoje</button></div>${revAb.length?`<div class="btns" style="margin-top:8px">${revAb.map(x=>`<button class="btn" data-act="open" data-id="${esc(x.id)}">${ic('file-text')}Abertura de ${esc(codigoSess(x))}</button>`).join('')}</div>`:(revCodes.length?'<p style="font-size:12.5px;color:var(--muted)">As perguntas de abertura aparecem aqui depois que você gerá-las nas sessões.</p>':'')}`:''}
-   ${s.partes?`<h4>Partes</h4><div class="card" style="padding:0;overflow:hidden">${s.partes.map((p,i)=>{const f=parteFeita(s,p.k);return `<div class="prow ${f?'pdone':''}" style="${i?'':'border-top:0'}"><div class="ptxt"><b>${i+1}. ${esc(p.t)}</b>${p.ref?`<span>${esc(p.ref)}</span>`:''}<span class="pmin">${esc(p.nota||(p.min+' min'))}</span></div><button class="check" role="checkbox" aria-checked="${f}" data-act="tpart" data-id="${esc(id)}" data-p="${esc(p.k)}"><span>${f?ic('check'):''}</span></button></div>`;}).join('')}</div>`:''}
+   ${s.partes?`<h4>Partes</h4><div class="card" style="padding:0;overflow:hidden">${s.partes.map((p,i)=>{const f=parteFeita(s,p.k);return `<div class="prow ${f?'pdone':''}" style="${i?'':'border-top:0'}"><div class="ptxt"><b>${esc(p.t)}</b>${p.ref?`<span>${esc(p.ref)}</span>`:''}<span class="pmin">Parte ${i+1} · ${esc(p.nota||(p.min+' min'))}</span></div><button class="check" role="checkbox" aria-checked="${f}" data-act="tpart" data-id="${esc(id)}" data-p="${esc(p.k)}"><span>${f?ic('check'):''}</span></button></div>`;}).join('')}</div>`:''}
    ${isB?`<h4>Leitura desta sessão</h4><ul><li>${esc(s.ref)}</li></ul><h4>Foco</h4><ul><li>${esc(u.foco)}</li></ul>
    ${(s.vocab||[]).length?`<h4>Inglês desta matéria</h4>${vocabHTML(s.vocab)}`:''}
    <h4>Unidade</h4><ul><li>Anexo ${esc(u.anexo)} · nível ${u.nivel} · ${u.idioma}</li><li>Material: ${{ok:'texto no projeto',pdf:'PDF enviado no chat (fora do projeto)',arq:'arquivo com você (fora do projeto)',falta:'falta conseguir'}[u.material]}</li>${u.caiu?`<li>Já caiu: ${esc(u.caiu)}</li>`:''}</ul>
@@ -881,10 +892,10 @@ function sheetSettings(){const s=settings();
   <label class="f">Data prevista da prova<input type="date" id="cfProva" value="${s.prova||''}"></label>
   <label class="f">Meta de horas por semana<input type="number" id="cfHoras" min="1" max="60" value="${s.horasSemana}"></label>
   <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px"><label class="f">Pomodoro — foco (min)<input type="number" id="cfPe" min="5" max="120" value="${s.pomEstudo}"></label><label class="f">Descanso (min)<input type="number" id="cfPd" min="1" max="60" value="${s.pomDescanso}"></label></div>
-  <label class="f">Tema<select id="cfTema"><option value="">Noite náutica (padrão)</option><option value="light">Claro</option></select></label>
+  <label class="f">Tema<select id="cfTema"><option value="auto">Automático: segue o celular</option><option value="horario">Por horário: claro 6h–18h</option><option value="dark">Sempre escuro (noite náutica)</option><option value="light">Sempre claro</option></select></label>
   <h4>Dados</h4><div class="btns"><button class="btn" data-act="export">${ic('download')}Exportar backup (JSON)</button><button class="btn danger" data-act="zerar">Zerar progresso</button><button class="btn" onclick="window.rumoSair&&confirm('Sair da conta neste aparelho?')&&rumoSair()">Sair da conta</button><button class="btn" data-act="importar">${ic('upload')}Importar backup</button><input type="file" id="impFile" accept="application/json,.json" hidden></div>
   <p style="font-size:12px;color:var(--muted)">Conteúdo: ${esc(C.plano?.meta?.titulo||'')} · versão ${esc(C.plano?.meta?.versao||'')}.</p>
-  <button class="btn pri" style="width:100%;margin-top:8px" data-act="saveCfg">Salvar</button>`);$('#cfTema').value=s.tema==='light'?'light':'';}
+  <button class="btn pri" style="width:100%;margin-top:8px" data-act="saveCfg">Salvar</button>`);$('#cfTema').value=s.tema||'auto';}
 function sheetDeck(d){const cs=allCards().filter(c=>c.disc===d),lib=liberadas();
   openSheet(`<h3 id="sheetTitle">${esc(discNome(d))}</h3><div style="font-size:13px;color:var(--muted)">${cs.length} cartões</div>
   <div class="card" style="margin-top:10px">${cs.map(c=>{const s=srsOf(c);return `<div class="cardrow"><span class="t">${esc(c.frente)}<small>${!cartaoLiberado(c,lib)?'entra ao concluir '+(c.s||c.unidade):s?`próxima: ${ddmm(s.venc)} · intervalo ${s.int} d`:'novo · liberado'} · ${esc(c.fonte)}</small></span>${canEdit?`<button class="iconbtn" data-act="fcedit" data-id="${c.id}" data-disc="${c.disc}" aria-label="Editar">${ic('pencil')}</button>`:''}</div>`;}).join('')}</div>`);}
@@ -897,7 +908,21 @@ function sheetFcEdit(id,disc){const c=id?allCards().find(x=>x.id===id):{id:'',di
   <div class="btns">${id?`<button class="btn danger" data-act="fcdel" data-id="${c.id}" data-disc="${c.disc}">${ic('trash-2')}Excluir</button>`:''}<button class="btn pri block" data-act="fcsave" data-id="${c.id}" data-disc="${c.disc}">Salvar</button></div>`);}
 
 /* ---------- render ---------- */
-function icons(){window.lucide&&lucide.createIcons();}
+const ICO={'chevron-left':'<path d="m15 18-6-6 6-6"/>','chevron-right':'<path d="m9 18 6-6-6-6"/>','check':'<path d="M20 6 9 17l-5-5"/>','circle-check':'<circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/>','circle-alert':'<circle cx="12" cy="12" r="10"/><line x1="12" x2="12" y1="8" y2="12"/><line x1="12" x2="12.01" y1="16" y2="16"/>','play':'<polygon points="6 3 20 12 6 21 6 3"/>','pause':'<rect x="14" y="4" width="4" height="16" rx="1"/><rect x="6" y="4" width="4" height="16" rx="1"/>','square':'<rect width="18" height="18" x="3" y="3" rx="2"/>','plus':'<path d="M5 12h14"/><path d="M12 5v14"/>','clock':'<circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>','settings':'<line x1="4" x2="20" y1="7" y2="7"/><line x1="4" x2="20" y1="17" y2="17"/><circle cx="9" cy="7" r="2.5"/><circle cx="15" cy="17" r="2.5"/>','search':'<circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>','layers':'<path d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z"/><path d="m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65"/><path d="m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65"/>','list-checks':'<path d="m3 17 2 2 4-4"/><path d="m3 7 2 2 4-4"/><path d="M13 6h8"/><path d="M13 12h8"/><path d="M13 18h8"/>','compass':'<circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/>','book-open':'<path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/>','chart-no-axes-column':'<line x1="18" x2="18" y1="20" y2="10"/><line x1="12" x2="12" y1="20" y2="4"/><line x1="6" x2="6" y1="20" y2="14"/>','arrow-left':'<path d="m12 19-7-7 7-7"/><path d="M19 12H5"/>','fast-forward':'<polygon points="13 19 22 12 13 5 13 19"/><polygon points="2 19 11 12 2 5 2 19"/>'};
+/* ícones: Lucide (CDN); se não carregar (sem internet), usa cópias embutidas dos principais */
+function icons(){
+  if(window.lucide){lucide.createIcons();return;}
+  document.querySelectorAll('i[data-lucide]').forEach(el=>{const st=el.getAttribute('style');
+    el.outerHTML=`<svg xmlns="http://www.w3.org/2000/svg" class="lucide" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"${st?` style="${st}"`:''}>${ICO[el.dataset.lucide]||''}</svg>`;});
+}
+/* tema: auto = segue o celular (claro de dia, escuro à noite, conforme o ajuste do aparelho) · horario = claro das 6h às 18h */
+function temaPref(){try{return settings().tema||'auto';}catch(e){try{return localStorage.getItem('rumo.tema')||'auto';}catch(e2){return 'auto';}}}
+function aplicaTema(){const t=temaPref();try{localStorage.setItem('rumo.tema',t);}catch(e){}
+  const h=new Date().getHours(),claro=t==='light'||(t==='auto'&&matchMedia('(prefers-color-scheme: light)').matches)||(t==='horario'&&h>=6&&h<18);
+  const r=document.documentElement;if(claro)r.dataset.theme='light';else delete r.dataset.theme;
+  const m=document.querySelector('meta[name=theme-color]');if(m)m.content=claro?'#F3F7FC':'#050E1F';}
+try{matchMedia('(prefers-color-scheme: light)').addEventListener('change',aplicaTema);}catch(e){}
+setInterval(aplicaTema,60000);document.addEventListener('visibilitychange',()=>{if(!document.hidden)aplicaTema();});
 function render(soft){
   if(!ready) return;
   const sh=$('#sheet'); if(soft&&sh.classList.contains('open')&&document.activeElement&&sh.contains(document.activeElement)&&['TEXTAREA','INPUT'].includes(document.activeElement.tagName)){ $('#tabs').innerHTML=navHTML(); return; }
@@ -907,7 +932,7 @@ function render(soft){
   $('#tabs').innerHTML=navHTML();$('#railBtns').innerHTML=navHTML();icons();requestAnimationFrame(placeBoats);
   if(soft) scroller().scrollTop=y;
   const bi=$('#busca');if(bi)bi.oninput=e=>{ui.busca=e.target.value;const p=e.target.selectionStart;render();const n=$('#busca');n.focus();n.setSelectionRange(p,p);};
-  if(settings().tema==='light')document.documentElement.dataset.theme='light';else delete document.documentElement.dataset.theme;
+  aplicaTema();
 }
 function reopenIfSess(id){ if($('#sheet').classList.contains('open')&&ui.notaCode===id&&$('#sheetTitle')) sheetSess(id); }
 
@@ -923,6 +948,7 @@ document.addEventListener('click',async e=>{
      for(const k of Object.keys(U)){if(k==='settings')continue;delete U[k];if(dbOk){const ref=db.doc(`data/users/${uid}/${k}`);try{ref.delete?await ref.delete():await ref.set({});}catch(e){try{await ref.set({});}catch(e2){}}}}
      for(const k in BOATX)delete BOATX[k];closeSheet();tab='hoje';ui.dia=null;toTop();render();toast('Progresso zerado. Bons estudos!');break;}
    case 'togsem': ui.semanaAberta=!ui.semanaAberta; render(true); break;
+   case 'togatr': ui.atrAberta=!ui.atrAberta; render(true); break;
    case 'tpart': {const s=sessoes().find(x=>x.id===id),k=t.dataset.p,em=new Date().toISOString();if(!s)break;
      const conc=stRec(s)?.s==='concluido';const pf={...partesFeitas(s)};
      if(conc){s.partes.forEach(p=>pf[p.k]={em,dia:stRec(s).dia||todayISO()});}
