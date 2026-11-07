@@ -431,6 +431,13 @@ function srsNext(c,nota,hoje){
 }
 const hashStr=s=>{let h=2166136261;for(let i=0;i<s.length;i++){h^=s.charCodeAt(i);h=Math.imul(h,16777619);}h^=h>>>16;h=Math.imul(h,2246822507);h^=h>>>13;h=Math.imul(h,3266489909);h^=h>>>16;return h>>>0;};
 const embaralha=(xs,seed)=>xs.map(x=>[hashStr(x.id+'|'+seed),x]).sort((a,b)=>a[0]-b[0]).map(x=>x[1]);   // mesma ordem o dia todo, outra amanhã
+/* intercala as matérias: sorteia dentro de cada matéria e alterna, evitando duas seguidas da mesma (enquanto houver outra) */
+const intercala=(xs,seed)=>{const g={};embaralha(xs,seed).forEach(x=>(g[x.disc]=g[x.disc]||[]).push(x));
+  const tot=Object.fromEntries(Object.entries(g).map(([d,l])=>[d,l.length])),out=[];let last=null;
+  while(out.length<xs.length){const ds=Object.keys(g).filter(d=>g[d].length);let c=ds.filter(d=>d!==last);if(!c.length)c=ds;
+    c.sort((a,b)=>(g[b].length/tot[b]-g[a].length/tot[a])||(hashStr(a+seed+out.length)-hashStr(b+seed+out.length)));
+    last=c[0];out.push(g[last].shift());}
+  return out;};
 const byOrder=(a,b)=>(DISC_ORDER.indexOf(a.disc)-DISC_ORDER.indexOf(b.disc))||(a.unidade<b.unidade?-1:a.unidade>b.unidade?1:0)||(a.id<b.id?-1:1);
 const allCards=()=>Object.values(C.fc).flat().sort(byOrder);
 const allQ=()=>Object.values(C.q).flat().sort(byOrder);
@@ -646,8 +653,8 @@ function viewAssuntos(){
 function qFiltradas(){
   if(ui.qOnly){ const q=allQ().find(x=>x.id===ui.qOnly); return q?[q]:[]; }
   const f=ui.qf,rev=uget('questoes',{}).revisar||{},lib=liberadas();
-  return embaralha(allQ(),todayISO()).filter(q=>(ui.qTodas||questaoLiberada(q,lib))&&(f.disc==='todas'||q.disc===f.disc)&&(f.origem==='todas'||q.origem===f.origem)&&
-   (f.status==='todas'||(f.status==='erradas'&&ultima(q.id)&&!ultima(q.id).certa)||(f.status==='nao'&&!ultima(q.id))||(f.status==='marcadas'&&rev[q.id])));
+  return intercala(allQ().filter(q=>(ui.qTodas||questaoLiberada(q,lib))&&(f.disc==='todas'||q.disc===f.disc)&&(f.origem==='todas'||q.origem===f.origem)&&
+   (f.status==='todas'||(f.status==='erradas'&&ultima(q.id)&&!ultima(q.id).certa)||(f.status==='nao'&&!ultima(q.id))||(f.status==='marcadas'&&rev[q.id]))),todayISO());
 }
 function qCard(q,{done:dn,sel,simulado,idx,total}){
   return `<article class="card q"><div class="qmeta"><span class="badge ${q.origem==='prova'?'off':'ined'}">${q.origem==='prova'?'Oficial · '+esc(q.prova):'Inédita — não oficial'}</span><span class="mono" style="color:var(--${q.disc}-t)">${q.unidade} · ${esc(q.dif||'')}</span></div>
