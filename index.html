@@ -378,8 +378,8 @@ function sessoes(){
     const data=hist.length?hist[hist.length-1].para:addDays(s.data,off);
     return {...s,ordem:i,dataOrig:addDays(s.data,off),data,semana:semanaDe(addDays(s.data,off)),puxada:ag.puxadas?.[s.id]||null};});
 }
-const titulo=s=>s.tipo==='ingles'?(s.aula?(s.aula.cod.startsWith('G1 ◆')?'Inglês · '+s.aula.tema:`Inglês · ${s.aula.cod} ${s.aula.tema}`):'Inglês · '+(s.termo||'E1')):s.tipo==='bloco'?(unidade(s.unidade)?.titulo||s.unidade):s.titulo;
-const codigoSess=s=>s.tipo==='bloco'?`${s.unidade} · ${s.n}/${s.de}`:s.tipo==='ingles'?`Inglês 30' · ${s.e1&&s.e1.en?s.e1.en+' · ':''}${s.ligaUnidade||''}`:s.tipo==='rev30'?`Revisão 30'`:s.id;
+const titulo=s=>s.tipo==='ingles'?(s.aula?(s.aula.cod.startsWith('G1 ◆')?'Inglês · '+s.aula.tema:`Inglês · ${s.aula.cod} ${s.aula.tema}`):'Inglês · '+(s.termo||'E1')):s.tipo==='bloco'?(unidade(s.unidade)?.titulo||s.unidade)+(s.meia?' ('+s.meia+')':''):s.titulo;
+const codigoSess=s=>s.tipo==='bloco'?`${s.unidade} · ${s.n}/${s.de}`:s.tipo==='ingles'?`Inglês 30' · ${s.e1&&s.e1.en?s.e1.en+' · ':''}${s.ligaUnidade||''}`:s.tipo==='rev30'?(s.rotulo||`Revisão 30'`):s.id;
 const stRec=s=>uget('blocos',{}).status?.[s.id];
 const partesFeitas=s=>uget('blocos',{}).partes?.[s.id]||{};
 const recRec=s=>uget('blocos',{}).recuperar?.[s.id];
@@ -404,7 +404,8 @@ function diaDaTarefa(s){ const r=stRec(s); if(r?.s==='concluido') return r.dia||
 function tarefasDoDia(dia,all){ const l=all.filter(s=>diaDaTarefa(s)===dia&&statusOf(s)!=='atrasado'); const out=[];
   const anexo=x=>x.tipo==='ingles'||x.tipo==='rev30';
   l.filter(s=>!anexo(s)).forEach(s=>{out.push(s); ['ingles','rev30'].forEach(tp=>l.filter(e=>e.tipo===tp&&e.liga===s.id).forEach(e=>out.push(e)));});
-  l.filter(e=>anexo(e)&&!out.includes(e)).forEach(e=>out.push(e)); return out; }
+  l.filter(e=>anexo(e)&&!out.includes(e)).forEach(e=>out.push(e));
+  return [...out.filter(x=>x.pos==='ini'),...out.filter(x=>!x.pos),...out.filter(x=>x.pos==='fim')]; }
 const feitoH=s=>{if(done(s))return s.horas;if(!s.partes)return 0;const tot=s.partes.reduce((a,p)=>a+p.min,0)||1;return s.horas*s.partes.filter(p=>partesFeitas(s)[p.k]).reduce((a,p)=>a+p.min,0)/tot;};
 const horas=xs=>({total:xs.reduce((a,s)=>a+s.horas,0),feito:xs.reduce((a,s)=>a+feitoH(s),0)});
 function proximaParaAdiantar(dia,all){
@@ -447,7 +448,7 @@ const logs=pref=>Object.entries(U).filter(([k])=>k.startsWith(pref)).flatMap(([,
 const estudada=s=>done(s)||!!(s.partes&&s.partes.some(p=>partesFeitas(s)[p.k]));
 function liberadas(){
   const all=sessoes(), ses=new Set(), uni=new Set(); let e1=0;
-  for(const s of all) if(s.tipo==='bloco'&&estudada(s)){ses.add(s.id);uni.add(s.unidade);}
+  for(const s of all) if(s.tipo==='bloco'&&estudada(s)){if(!(s.meia&&s.meia.startsWith('1')))ses.add(s.base||s.id);uni.add(s.unidade);}   // sessão em duas metades: libera ao estudar a 2ª
   for(const s of all) if(s.tipo==='ingles'&&(estudada(s)||ses.has(s.liga))) e1++;   // um termo E1 por aula de inglês feita
   return {ses,uni,e1};
 }
@@ -573,9 +574,10 @@ function semanaPorDia(lista){
     const fer=C.plano?.meta?.feriados?.[addDays(d,-offset())];
     const linhaP=s=>`<button class="wline" data-act="open" data-id="${esc(s.id)}"><span class="dot" style="background:var(--${s.disc})"></span><span class="c"><b class="mono" style="font-size:12px;color:var(--${s.disc}-t)">${esc(s.tipo==='bloco'?s.unidade+' '+s.n+'/'+s.de:discNome(s.disc))}</b> ${esc(titulo(s))}</span>${mark(s)}</button>`;
     const linhaE=e=>{const voc=(e.vocab||[]).slice(0,3).map(v=>v.en).join(', ');
-      if(e.tipo==='rev30') return `<button class="wline en" data-act="open" data-id="${esc(e.id)}"><span class="dot" style="background:var(--REV)"></span><span class="c"><b>Revisão 30'</b>: ${esc((e.revUnidades||[]).join(' e ')||'—')}</span>${mark(e)}</button>`;
+      if(e.tipo==='rev30') return `<button class="wline en" data-act="open" data-id="${esc(e.id)}"><span class="dot" style="background:var(--REV)"></span><span class="c"><b>${esc(e.rotulo||"Revisão 30'")}</b>: ${esc((e.revUnidades||[]).join(' e ')||'—')}</span>${mark(e)}</button>`;
       return `<button class="wline en" data-act="open" data-id="${esc(e.id)}"><span class="dot" style="background:var(--ING)"></span><span class="c"><b>Inglês 30'</b>: ${esc(e.aula?(e.aula.cod.startsWith('G1 ◆')?e.aula.tema:e.aula.cod+' '+e.aula.tema):e.termo)}${e.e1&&e.e1.en?` · ${esc(e.e1.en)}`:''}${voc?` · <i>${esc(voc)}</i>`:''}</span>${mark(e)}</button>`;};
-    const corpo=principais.map(s=>linhaP(s)+en.filter(e=>e.liga===s.id).map(linhaE).join('')).join('')+en.filter(e=>!principais.some(s=>s.id===e.liga)).map(linhaE).join('');
+    const orf=en.filter(e=>!principais.some(s=>s.id===e.liga));
+    const corpo=orf.filter(e=>e.pos==='ini').map(linhaE).join('')+principais.map(s=>linhaP(s)+en.filter(e=>e.liga===s.id).map(linhaE).join('')).join('')+orf.filter(e=>e.pos!=='ini').map(linhaE).join('');
     return `<div class="wday"><div class="dh">${dn[dow(d)]} ${ddmm(d)}${fer?`<span class="fer">⚑ ${esc(fer)}</span>`:''}</div>${corpo}</div>`;}).join('');
 }
 
@@ -870,7 +872,7 @@ function propostaRedist(){
     if(!alvo&&rev.length)alvo=rev.shift()+'R';return {s,para:alvo};});
 }
 function sheetRedist(){const prop=propostaRedist();ui.prop=prop;
-  openSheet(`<h3 id="sheetTitle">Redistribuir atrasadas</h3><div style="font-size:13px;color:var(--muted);margin-bottom:10px">Proposta: domingos livres (até 2 h) e, depois, a semana ◆ no lugar da revisão. Nenhum dia útil passa de 4 h. A data original fica no histórico. Você também pode simplesmente fazer a sessão em qualquer dia — ela sai da lista ao ser concluída.</div>
+  openSheet(`<h3 id="sheetTitle">Redistribuir atrasadas</h3><div style="font-size:13px;color:var(--muted);margin-bottom:10px">Proposta, só se você quiser: domingos (opcional, até 2 h) e, depois, a semana ◆ no lugar da revisão. Nenhum dia útil passa de 4 h. A data original fica no histórico. Você também pode repor no sábado ou em qualquer dia — a sessão sai da lista ao ser concluída.</div>
   ${prop.length?prop.map((p,i)=>`<label class="card" style="padding:12px;margin-bottom:8px;display:flex;gap:10px;align-items:center"><input type="checkbox" data-pi="${i}" ${p.para?'checked':''} ${p.para?'':'disabled'} style="width:20px;height:20px"><span class="dot" style="background:var(--${p.s.disc})"></span><span style="flex:1"><span class="mono" style="font-size:12px">${esc(codigoSess(p.s))}</span><br><b style="font-size:14px">${esc(titulo(p.s))}</b></span><span style="font-size:13px;text-align:right"><s style="color:var(--muted)">${ddmm(p.s.data)}</s><br><b>${p.para?ddmm(p.para.replace('R',''))+(p.para.endsWith('R')?' ◆':' dom'):'sem vaga'}</b></span></label>`).join(''):'<div class="empty-state">Nenhuma sessão atrasada.</div>'}
   <div class="btns" style="margin-top:10px"><button class="btn" data-act="close">Cancelar</button>${prop.length?`<button class="btn pri block" data-act="redistOk">Aceitar marcadas</button>`:''}</div>`);}
 function sheetSettings(){const s=settings();
@@ -986,7 +988,8 @@ document.addEventListener('click',async e=>{
    case 'qreset': ui.qSel=null;ui.qDone=false;ui.motivo=null;ui.qStart=Date.now();render();break;
    case 'refazer': ui.atv='questoes';ui.qOnly=id;ui.qIdx=0;ui.qSel=null;ui.qDone=false;ui.motivo=null;ui.qStart=Date.now();toTop();render();break;
    case 'qonlyx': ui.qOnly=null;ui.atv='erros';render();break;
-   case 'simstart': {let pool=allQ().filter(q=>v==='misto'||q.disc===v);pool=pool.map(q=>[Math.random(),q]).sort((x,y)=>x[0]-y[0]).map(x=>x[1]).slice(0,+t.dataset.n);
+   case 'simstart': {const fut=new Set(sessoes().filter(x=>x.tipo==='bloco'&&x.data>todayISO()&&!estudada(x)).map(x=>x.base||x.id));
+     let pool=allQ().filter(q=>(v==='misto'||q.disc===v)&&!fut.has(q.s));pool=pool.map(q=>[Math.random(),q]).sort((x,y)=>x[0]-y[0]).map(x=>x[1]).slice(0,+t.dataset.n);
      const tit=v==='misto'?(+t.dataset.n===30?'Simulado ciclo 1':+t.dataset.n===999?'Mês 1 completo':'Misto'):discNome(v);
      ui.sim={id:'s'+Date.now()+DEVICE,titulo:tit,itens:pool,i:0,resp:{},ini:Date.now(),limite:+t.dataset.t||0,fim:null};toTop();render();break;}
    case 'simsel': ui.sim.resp[ui.sim.itens[ui.sim.i].id]=v; render(true); break;
