@@ -1,1 +1,868 @@
-{"cards": [{"id": "v2.COM-01.01", "unidade": "COM-01", "disc": "COM", "frente": "Quantos são os Message Markers do SMCP?", "verso": "8.", "fonte": "IMO SMCP, General 3, PDF 14", "s": "COM-01.1"}, {"id": "v2.COM-01.02", "unidade": "COM-01", "disc": "COM", "frente": "Quais são os 8 Message Markers?", "verso": "Instruction, Advice, Warning, Information, Question, Answer, Request, Intention.", "fonte": "IMO SMCP, General 3, PDF 14", "s": "COM-01.1"}, {"id": "v2.COM-01.03", "unidade": "COM-01", "disc": "COM", "frente": "MAYDAY anuncia que tipo de mensagem?", "verso": "Perigo (distress).", "fonte": "IMO SMCP, General 5, PDF 14", "s": "COM-01.1"}, {"id": "v2.COM-01.04", "unidade": "COM-01", "disc": "COM", "frente": "PAN PAN anuncia que tipo de mensagem?", "verso": "Urgência.", "fonte": "IMO SMCP, General 5, PDF 14", "s": "COM-01.1"}, {"id": "v2.COM-01.05", "unidade": "COM-01", "disc": "COM", "frente": "SECURITE anuncia que tipo de mensagem?", "verso": "Segurança.", "fonte": "IMO SMCP, General 5, PDF 14", "s": "COM-01.1"}, {"id": "v2.COM-01.06", "unidade": "COM-01", "disc": "COM", "frente": "Como corrigir um erro durante a mensagem?", "verso": "\"Mistake…\" e depois \"Correction…\" + a parte corrigida.", "fonte": "IMO SMCP, General 7, PDF 15", "s": "COM-01.1"}, {"id": "v2.COM-01.07", "unidade": "COM-01", "disc": "COM", "frente": "Como se fala o número 150 no SMCP?", "verso": "Dígito a dígito: \"one-five-zero\".", "fonte": "IMO SMCP, General 10, PDF 16", "s": "COM-01.1"}, {"id": "v2.COM-01.08", "unidade": "COM-01", "disc": "COM", "frente": "Ângulo de leme 15° numa ordem: como se fala?", "verso": "\"Fifteen\" (não dígito a dígito).", "fonte": "IMO SMCP, General 10, PDF 16", "s": "COM-01.1"}, {"id": "v2.COM-01.09", "unidade": "COM-01", "disc": "COM", "frente": "Pronúncia SMCP de 3, 5 e 9?", "verso": "TREE, FIFE, NINER.", "fonte": "IMO SMCP, General 2.2, PDF 13", "s": "COM-01.1"}, {"id": "v2.COM-01.10", "unidade": "COM-01", "disc": "COM", "frente": "Posição em relação a uma marca: a marcação é DE onde PARA onde?", "verso": "Da marca para o navio, em 360° a partir do norte verdadeiro, mais a distância.", "fonte": "IMO SMCP, General 11.2, PDF 16", "s": "COM-01.1"}, {"id": "v2.COM-01.11", "unidade": "COM-01", "disc": "COM", "frente": "Velocidade em nós sem nenhuma notação significa…?", "verso": "Velocidade na água (through the water).", "fonte": "IMO SMCP, General 15, PDF 17", "s": "COM-01.1"}, {"id": "v2.COM-01.12", "unidade": "COM-01", "disc": "COM", "frente": "Como indicar velocidade no fundo no SMCP?", "verso": "\"Ground speed\".", "fonte": "IMO SMCP, General 15, PDF 17", "s": "COM-01.1"}, {"id": "v2.COM-01.13", "unidade": "COM-01", "disc": "COM", "frente": "Em que notação se dão as horas no SMCP?", "verso": "UTC, 24 h (hora local só se dita claramente).", "fonte": "IMO SMCP, General 16, PDF 17", "s": "COM-01.1"}, {"id": "v2.COM-01.14", "unidade": "COM-01", "disc": "COM", "frente": "Como pedir permissão em vez de \"May I enter the fairway?\"", "verso": "\"QUESTION. Do I have permission to enter the fairway?\"", "fonte": "IMO SMCP, General 18.1, PDF 17", "s": "COM-01.1"}, {"id": "v2.COM-01.15", "unidade": "COM-01", "disc": "COM", "frente": "Como dizer \"You could be running into danger\" no SMCP?", "verso": "\"WARNING. You are running into danger.\"", "fonte": "IMO SMCP, General 18.1, PDF 17", "s": "COM-01.1"}, {"id": "v2.COM-01.16", "unidade": "COM-01", "disc": "COM", "frente": "Como trocar \"You should anchor in anchorage B3\"?", "verso": "\"ADVICE. Anchor in anchorage B3.\"", "fonte": "IMO SMCP, General 18.1, PDF 17", "s": "COM-01.1"}, {"id": "v2.COM-01.17", "unidade": "COM-01", "disc": "COM", "frente": "Resposta afirmativa a uma INSTRUCTION ou ADVICE?", "verso": "\"I will / I can…\" + a instrução por extenso.", "fonte": "IMO SMCP, General 4.5, PDF 14", "s": "COM-01.1"}, {"id": "v2.COM-01.18", "unidade": "COM-01", "disc": "COM", "frente": "Resposta negativa a uma INSTRUCTION ou ADVICE?", "verso": "\"I will not / I cannot…\" + a instrução por extenso.", "fonte": "IMO SMCP, General 4.5, PDF 14", "s": "COM-01.1"}, {"id": "v2.COM-01.19", "unidade": "COM-01", "disc": "COM", "frente": "A informação pedida ainda não está disponível: o que dizer?", "verso": "\"Stand by\" + o tempo em que estará disponível.", "fonte": "IMO SMCP, General 4.3, PDF 14", "s": "COM-01.1"}, {"id": "v2.COM-01.20", "unidade": "COM-01", "disc": "COM", "frente": "A informação pedida não pode ser obtida: o que dizer?", "verso": "\"No information.\"", "fonte": "IMO SMCP, General 4.4, PDF 14", "s": "COM-01.1"}, {"id": "v3.COM-01-01", "unidade": "COM-01", "disc": "COM", "frente": "SMCP: por que a IMO criou as Standard Marine Communication Phrases?", "verso": "Porque comunicações de navegação e segurança têm de ser precisas, simples e sem ambiguidade, sobretudo com tripulações multilíngues; padroniza-se a linguagem para evitar confusão e erro.", "fonte": "SMCP, Foreword, PDF 3", "s": "COM-01.1"}, {"id": "v3.COM-01-02", "unidade": "COM-01", "disc": "COM", "frente": "Em que língua foi acordado o uso comum para fins de navegação (MSC, 1973)?", "verso": "Inglês. Isso levou ao SMNV (adotado em 1977, emendado em 1985), predecessor do SMCP.", "fonte": "SMCP, Foreword, PDF 3", "s": "COM-01.1"}, {"id": "v3.COM-01-03", "unidade": "COM-01", "disc": "COM", "frente": "Em que ano e por qual resolução o SMCP foi adotado pela Assembleia da IMO?", "verso": "Em novembro de 2001, pela Resolução A.918(22).", "fonte": "SMCP, Foreword, PDF 3", "s": "COM-01.1"}, {"id": "v3.COM-01-04", "unidade": "COM-01", "disc": "COM", "frente": "O SMCP substituiu qual vocabulário anterior?", "verso": "O Standard Marine Navigational Vocabulary (SMNV) de 1985.", "fonte": "SMCP, Introduction 2, PDF 11", "s": "COM-01.1"}, {"id": "v3.COM-01-05", "unidade": "COM-01", "disc": "COM", "frente": "STCW e SMCP: quem precisa saber usar e entender o SMCP?", "verso": "Oficiais encarregados do quarto de navegação em navios de 500 GT ou mais, para a certificação.", "fonte": "SMCP, Foreword, PDF 3", "s": "COM-01.1"}, {"id": "v3.COM-01-06", "unidade": "COM-01", "disc": "COM", "frente": "O SMCP substitui o RIPEAM, o Código Internacional de Sinais ou regras locais?", "verso": "Não. Não substitui nem contradiz o RIPEAM, regras locais, recomendações de roteamento da IMO nem o Código Internacional de Sinais; o uso externo segue os procedimentos de radiotelefonia do ITU.", "fonte": "SMCP, Introduction 1, PDF 11", "s": "COM-01.1"}, {"id": "v3.COM-01-07", "unidade": "COM-01", "disc": "COM", "frente": "O SMCP é um manual técnico operacional?", "verso": "Não. É uma coleção de frases individuais, não um manual com instruções operacionais.", "fonte": "SMCP, Introduction 1, PDF 11", "s": "COM-01.1"}, {"id": "v3.COM-01-08", "unidade": "COM-01", "disc": "COM", "frente": "Quais são os 3 objetivos do SMCP (Introduction 1)?", "verso": "Auxiliar a segurança da navegação e da condução do navio; padronizar a linguagem nas comunicações de navegação no mar, aproximações, canais e portos, e a bordo com tripulações multilíngues; e ajudar instituições de ensino marítimo.", "fonte": "SMCP, Introduction 1, PDF 11", "s": "COM-01.1"}, {"id": "v3.COM-01-09", "unidade": "COM-01", "disc": "COM", "frente": "Quanto o SMCP deve ser usado em relação a outras palavras de sentido semelhante?", "verso": "O máximo possível, de preferência a outras palavras; o mínimo exigido é seguir as frases o mais próximo possível nas situações relevantes.", "fonte": "SMCP, Introduction 1, PDF 11", "s": "COM-01.1"}, {"id": "v3.COM-01-10", "unidade": "COM-01", "disc": "COM", "frente": "Como o SMCP se divide quanto à aplicação e quanto ao status na STCW?", "verso": "Quanto à aplicação: comunicações externas e comunicações a bordo. Quanto ao status: Parte A e Parte B.", "fonte": "SMCP, Introduction 2, PDF 11", "s": "COM-01.1"}, {"id": "v3.COM-01-11", "unidade": "COM-01", "disc": "COM", "frente": "O que cobre a Parte A do SMCP?", "verso": "Frases das comunicações externas (substitui o SMNV 1985, exigido na STCW) e frases essenciais de manobra e segurança a bordo, especialmente com o Prático no passadiço (SOLAS V/14.4).", "fonte": "SMCP, Introduction 2, PDF 11", "s": "COM-01.1"}, {"id": "v3.COM-01-12", "unidade": "COM-01", "disc": "COM", "frente": "O que cobre a Parte B do SMCP?", "verso": "Outras frases de segurança a bordo, complementares à Parte A e úteis para o ensino de inglês marítimo.", "fonte": "SMCP, Introduction 2, PDF 11", "s": "COM-01.1"}, {"id": "v3.COM-01-13", "unidade": "COM-01", "disc": "COM", "frente": "O SMCP deve ser ensinado por inteiro ou seletivamente?", "verso": "Seletivamente, conforme as necessidades dos usuários e baseado na prática marítima. Não é um currículo completo de inglês marítimo.", "fonte": "SMCP, Introduction 3, PDF 12", "s": "COM-01.1"}, {"id": "v3.COM-01-14", "unidade": "COM-01", "disc": "COM", "frente": "O que é “block language” no SMCP e quando se usa?", "verso": "Linguagem que omite ou usa pouco as palavras the, a/an, is/are, em frases de emergência e sob pressão de tempo ou estresse, e em avisos de navegação. O usuário pode ser flexível.", "fonte": "SMCP, Introduction 4, PDF 12", "s": "COM-01.1"}, {"id": "v3.COM-01-15", "unidade": "COM-01", "disc": "COM", "frente": "Cite 4 características comunicativas do SMCP.", "verso": "Evita sinônimos; evita formas contraídas; respostas completas a perguntas sim/não; uma frase para cada evento; estrutura “invariável fixo + variável”.", "fonte": "SMCP, Introduction 4, PDF 12", "s": "COM-01.1"}, {"id": "v3.COM-01-16", "unidade": "COM-01", "disc": "COM", "frente": "Convenções tipográficas: o que significam ( ), /, ... e ~?", "verso": "( ) parte que pode ser acrescentada se relevante; / alternativas; ... informação a preencher; ~ palavras ou frases que podem ser usadas depois/associadas à frase padrão. Itálico: tipo de informação pedida.", "fonte": "SMCP, Introduction 5, PDF 12", "s": "COM-01.1"}, {"id": "v3.COM-01-17", "unidade": "COM-01", "disc": "COM", "frente": "Que mensagem indica que o SMCP será usado?", "verso": "“Please use IMO Standard Marine Communication Phrases.” ou “I will use IMO Standard Marine Communication Phrases.”", "fonte": "SMCP, General 1, PDF 13", "s": "COM-01.1"}, {"id": "v3.COM-01-18", "unidade": "COM-01", "disc": "COM", "frente": "Alfabeto fonético do SMCP: como se soletram H, J, W e X?", "verso": "Hotel, Juliet, Whisky, X-ray.", "fonte": "SMCP, General 2.1, PDF 13", "s": "COM-01.1"}, {"id": "v3.COM-01-19", "unidade": "COM-01", "disc": "COM", "frente": "Alfabeto fonético do SMCP: palavras de Q, P, M e A.", "verso": "Quebec, Papa, Mike, Alfa.", "fonte": "SMCP, General 2.1, PDF 13", "s": "COM-01.1"}, {"id": "v3.COM-01-20", "unidade": "COM-01", "disc": "COM", "frente": "Pronúncia SMCP do dígito 4 e do dígito 1.", "verso": "4 = FOWER; 1 = WUN.", "fonte": "SMCP, General 2.2, PDF 13", "s": "COM-01.1"}, {"id": "v3.COM-01-21", "unidade": "COM-01", "disc": "COM", "frente": "Pronúncia SMCP do 0, do 2 e do 1000.", "verso": "0 = ZEERO; 2 = TOO; 1000 = TOUSAND.", "fonte": "SMCP, General 2.2, PDF 13", "s": "COM-01.1"}, {"id": "v3.COM-01-22", "unidade": "COM-01", "disc": "COM", "frente": "Em que 'Message Marker' se enquadra “May I enter the fairway?” corretamente reformulada?", "verso": "QUESTION. Do I have permission to enter the fairway?", "fonte": "SMCP, General 18.1, PDF 17", "s": "COM-01.1"}, {"id": "v3.COM-01-23", "unidade": "COM-01", "disc": "COM", "frente": "Como dizer “You may enter the fairway” segundo o SMCP?", "verso": "ANSWER. You have permission to enter the fairway.", "fonte": "SMCP, General 18.1, PDF 17", "s": "COM-01.1"}, {"id": "v3.COM-01-24", "unidade": "COM-01", "disc": "COM", "frente": "Como dizer “I might enter the fairway” segundo o SMCP?", "verso": "INTENTION. I will enter the fairway.", "fonte": "SMCP, General 18.1, PDF 17", "s": "COM-01.1"}, {"id": "v3.COM-01-25", "unidade": "COM-01", "disc": "COM", "frente": "Palavra “can”: quando é ambígua e como evitar para pedir permissão?", "verso": "“Can” indica possibilidade ou capacidade. Para permissão, diga “QUESTION. Do I have permission to use the shallow draft fairway at this time?” e não “Can I use…?”.", "fonte": "SMCP, General 18.2, PDF 17", "s": "COM-01.1"}, {"id": "v3.COM-01-26", "unidade": "COM-01", "disc": "COM", "frente": "Quais são as 4 palavras condicionais ambíguas que o SMCP manda evitar?", "verso": "May, might, should e could.", "fonte": "SMCP, General 18.1, PDF 17", "s": "COM-01.1"}, {"id": "v3.COM-01-27", "unidade": "COM-01", "disc": "COM", "frente": "Resposta SMCP “How do you read (me)?” — qual a escala?", "verso": "“I read you…”: bad/one (quase imperceptível), poor/two (fraco), fair/three (razoável), good/four (bom), excellent/five (muito bom).", "fonte": "SMCP, General 6.1, PDF 15", "s": "COM-01.1"}, {"id": "v3.COM-01-28", "unidade": "COM-01", "disc": "COM", "frente": "Como dizer que se aceita permanecer no canal VHF indicado?", "verso": "“Standing by on VHF Channel … / frequency …”.", "fonte": "SMCP, General 6.2.1, PDF 15", "s": "COM-01.1"}, {"id": "v3.COM-01-29", "unidade": "COM-01", "disc": "COM", "frente": "Como aconselhar mudança de canal VHF e como aceitar a mudança?", "verso": "Aconselhar: “Advise (you) change to VHF Channel … / frequency …” ou “Advise (you) try VHF Channel …”. Aceitar: “Changing to VHF Channel … / frequency …”.", "fonte": "SMCP, General 6.3, PDF 15", "s": "COM-01.1"}, {"id": "v3.COM-01-30", "unidade": "COM-01", "disc": "COM", "frente": "Como indicar disponibilidade para receber mensagem?", "verso": "“I am / I am not ready to receive your message.”", "fonte": "SMCP, General 8, PDF 15", "s": "COM-01.1"}, {"id": "v3.COM-01-31", "unidade": "COM-01", "disc": "COM", "frente": "Como proteger uma parte importante da mensagem e como pedir repetição?", "verso": "“Repeat …” antes da parte (ex.: “Do not overtake — repeat — do not overtake”). Para mensagem não ouvida: “Say again (please)”.", "fonte": "SMCP, General 9, PDF 15", "s": "COM-01.1"}, {"id": "v3.COM-01-32", "unidade": "COM-01", "disc": "COM", "frente": "Fórmula para correção: o que se diz?", "verso": "“Mistake …” e depois “Correction …” seguido da parte corrigida.", "fonte": "SMCP, General 7, PDF 15", "s": "COM-01.1"}, {"id": "v3.COM-01-33", "unidade": "COM-01", "disc": "COM", "frente": "Como se fala 2,5 no SMCP?", "verso": "“Two decimal five” ou “two point five”.", "fonte": "SMCP, General 10, PDF 16", "s": "COM-01.1"}, {"id": "v3.COM-01-34", "unidade": "COM-01", "disc": "COM", "frente": "Posição em latitude e longitude: formato exigido?", "verso": "Graus e minutos (e décimos de minuto se preciso), Norte/Sul do Equador e Leste/Oeste de Greenwich.", "fonte": "SMCP, General 11.1, PDF 16", "s": "COM-01.1"}, {"id": "v3.COM-01-35", "unidade": "COM-01", "disc": "COM", "frente": "Posição relativa a uma marca: que tipo de objeto e de marcação se usa?", "verso": "Objeto bem definido e charteado; marcação na notação de 360° a partir do norte verdadeiro, da marca PARA a posição. Quem reporta a posição cita sempre a marcação DA marca.", "fonte": "SMCP, General 11.2 e 12, PDF 16", "s": "COM-01.1"}, {"id": "v3.COM-01-36", "unidade": "COM-01", "disc": "COM", "frente": "Marcação relativa: como se expressa?", "verso": "Em graus relativos à proa do navio, mais frequentemente em relação à amura de BB ou BE. Ex.: “Buoy 030 degrees on your port bow”.", "fonte": "SMCP, General 12.1, PDF 16", "s": "COM-01.1"}, {"id": "v3.COM-01-37", "unidade": "COM-01", "disc": "COM", "frente": "Rumos: como se expressam?", "verso": "Na notação de 360° a partir do norte (verdadeiro, salvo indicação contrária); pode-se dizer se é PARA ou DE uma marca.", "fonte": "SMCP, General 13, PDF 16", "s": "COM-01.1"}, {"id": "v3.COM-01-38", "unidade": "COM-01", "disc": "COM", "frente": "Distâncias: que unidades e o que não se pode omitir?", "verso": "Milhas náuticas ou cabos (décimos de milha); a unidade deve sempre ser dita.", "fonte": "SMCP, General 14, PDF 17", "s": "COM-01.1"}, {"id": "v3.COM-01-39", "unidade": "COM-01", "disc": "COM", "frente": "Velocidade sem notação adicional x “ground speed”.", "verso": "Sem notação: velocidade através da água. “Ground speed”: velocidade sobre o fundo.", "fonte": "SMCP, General 15, PDF 17", "s": "COM-01.1"}, {"id": "v3.COM-01-40", "unidade": "COM-01", "disc": "COM", "frente": "Horas: que padrão e se for hora local?", "verso": "24 horas em UTC; se for usada hora local em portos, deve ser dito claramente.", "fonte": "SMCP, General 16, PDF 17", "s": "COM-01.1"}, {"id": "v3.COM-01-41", "unidade": "COM-01", "disc": "COM", "frente": "Nomes geográficos: quais usar e o que fazer se não forem entendidos?", "verso": "Os da carta ou das Instruções Náuticas em uso; se não forem entendidos, dar latitude e longitude.", "fonte": "SMCP, General 17, PDF 17", "s": "COM-01.1"}, {"id": "v3.COM-01-42", "unidade": "COM-01", "disc": "COM", "frente": "Resposta a uma pergunta afirmativa/negativa no SMCP.", "verso": "Afirmativa: “Yes …” + frase completa. Negativa: “No …” + frase completa.", "fonte": "SMCP, General 4.1–4.2, PDF 14", "s": "COM-01.1"}, {"id": "v3.COM-01-43", "unidade": "COM-01", "disc": "COM", "frente": "Exemplo do SMCP: “ADVICE. Do not overtake the vessel North of you.” Qual a resposta negativa?", "verso": "“I will not overtake the vessel North of me.”", "fonte": "SMCP, General 4.5, PDF 14", "s": "COM-01.1"}, {"id": "v3.COM-01-44", "unidade": "COM-01", "disc": "COM", "frente": "Quando se usa o formato “I will/can …” e “I will not/cannot …”?", "verso": "Em resposta a uma INSTRUCTION (VTS, navio de guerra, pessoal autorizado) ou ADVICE, repetindo a instrução ou o conselho por inteiro.", "fonte": "SMCP, General 4.5, PDF 14", "s": "COM-01.1"}, {"id": "v3.COM-01-45", "unidade": "COM-01", "disc": "COM", "frente": "Alerta: notação de ângulo de leme “fifteen” ou “one-five”?", "verso": "“Fifteen” (leme dito como número inteiro), enquanto outros números são ditos dígito a dígito (150 = one-five-zero).", "fonte": "SMCP, General 10, PDF 16", "s": "COM-01.1"}, {"id": "v3.COM-01-46", "unidade": "COM-01", "disc": "COM", "frente": "SMCP Glossário: cable (medida)", "verso": "Cem braças ou um décimo de milha náutica. Também: amarra (corrente do ferro) ou cabo de amarração.", "fonte": "SMCP, Glossary 1, PDF 18"}, {"id": "v3.COM-01-47", "unidade": "COM-01", "disc": "COM", "frente": "SMCP Glossário: shackle", "verso": "Seção de corrente com 15 braças; também o grilhão em U com pino.", "fonte": "SMCP, Glossary 1, PDF 24"}, {"id": "v3.COM-01-48", "unidade": "COM-01", "disc": "COM", "frente": "SMCP Glossário: fathom", "verso": "Medida de 6 pés (braça).", "fonte": "SMCP, Glossary 1, PDF 20"}, {"id": "v3.COM-01-49", "unidade": "COM-01", "disc": "COM", "frente": "SMCP Glossário: air draft", "verso": "Altura da linha-d'água ao ponto mais alto do navio.", "fonte": "SMCP, Glossary 1, PDF 18"}, {"id": "v3.COM-01-50", "unidade": "COM-01", "disc": "COM", "frente": "SMCP Glossário: general emergency alarm", "verso": "Sete apitos curtos e um longo, no sistema sonoro do navio.", "fonte": "SMCP, Glossary 1, PDF 21"}, {"id": "v3.COM-01-51", "unidade": "COM-01", "disc": "COM", "frente": "SMCP Glossário: backing x veering (vento)", "verso": "Backing: vento gira anti-horário (ex.: norte para oeste). Veering: gira no sentido horário.", "fonte": "SMCP, Glossary 1, PDF 18 e 25"}, {"id": "v3.COM-01-52", "unidade": "COM-01", "disc": "COM", "frente": "SMCP Glossário: heading x course x track", "verso": "Heading: direção da proa num instante. Course: direção pretendida do movimento através da água. Track: caminho seguido ou a seguir entre duas posições.", "fonte": "SMCP, Glossary 1, PDF 19, 21 e 24"}, {"id": "v3.COM-01-53", "unidade": "COM-01", "disc": "COM", "frente": "SMCP Glossário: course made good", "verso": "Rumo efetivamente feito sobre o fundo, depois de considerar corrente, maré e abatimento causado pelo vento.", "fonte": "SMCP, Glossary 1, PDF 19"}, {"id": "v3.COM-01-54", "unidade": "COM-01", "disc": "COM", "frente": "SMCP Glossário: leeway", "verso": "Deriva lateral do navio a sotavento do rumo desejado.", "fonte": "SMCP, Glossary 1, PDF 21"}, {"id": "v3.COM-01-55", "unidade": "COM-01", "disc": "COM", "frente": "SMCP Glossário: reported x located (avisos de navegação)", "verso": "Reported: posição do objeto NÃO confirmada. Located: posição do objeto confirmada.", "fonte": "SMCP, Glossary 1, PDF 22–23"}, {"id": "v3.COM-01-56", "unidade": "COM-01", "disc": "COM", "frente": "SMCP Glossário: close up x drop back", "verso": "Close up: diminuir a distância ao navio à frente aumentando a própria velocidade. Drop back: aumentar a distância reduzindo a própria velocidade.", "fonte": "SMCP, Glossary 1, PDF 19–20"}, {"id": "v3.COM-01-57", "unidade": "COM-01", "disc": "COM", "frente": "SMCP Glossário: dragging x dredging (âncora)", "verso": "Dragging: âncora arrastando involuntariamente. Dredging: arrastar a âncora no fundo para controlar o movimento do navio.", "fonte": "SMCP, Glossary 1, PDF 20"}, {"id": "v3.COM-01-58", "unidade": "COM-01", "disc": "COM", "frente": "SMCP Glossário: foul anchor e foul propeller", "verso": "Âncora enroscada na própria amarra ou em obstrução; hélice enrolada por cabo, rede etc.", "fonte": "SMCP, Glossary 1, PDF 20"}, {"id": "v3.COM-01-59", "unidade": "COM-01", "disc": "COM", "frente": "SMCP Glossário: off station (boias) e unlit", "verso": "Off station: boia fora da posição charteada. Unlit: luz de boia ou farol inoperante.", "fonte": "SMCP, Glossary 1, PDF 22 e 25"}, {"id": "v3.COM-01-60", "unidade": "COM-01", "disc": "COM", "frente": "SMCP Glossário: not under command (NUC)", "verso": "Navio que, por circunstâncias excepcionais, não consegue manobrar como exigido pelo RIPEAM.", "fonte": "SMCP, Glossary 1, PDF 22"}, {"id": "v3.COM-01-61", "unidade": "COM-01", "disc": "COM", "frente": "SMCP Glossário: vessel constrained by her draft", "verso": "Navio severamente restrito pelo calado na capacidade de se desviar do rumo, em relação à profundidade e largura disponíveis.", "fonte": "SMCP, Glossary 1, PDF 19"}, {"id": "v3.COM-01-62", "unidade": "COM-01", "disc": "COM", "frente": "SMCP Glossário: hampered vessel", "verso": "Navio com capacidade de manobra restrita pela natureza do seu trabalho.", "fonte": "SMCP, Glossary 1, PDF 21"}, {"id": "v3.COM-01-63", "unidade": "COM-01", "disc": "COM", "frente": "SMCP Glossário: underway", "verso": "Navio que não está fundeado, nem amarrado à terra, nem encalhado.", "fonte": "SMCP, Glossary 1, PDF 25"}, {"id": "v3.COM-01-64", "unidade": "COM-01", "disc": "COM", "frente": "SMCP Glossário: safe speed", "verso": "Velocidade que permite ação eficaz para evitar abalroamento e parar a uma distância adequada nas circunstâncias do momento.", "fonte": "SMCP, Glossary 1, PDF 23"}, {"id": "v3.COM-01-65", "unidade": "COM-01", "disc": "COM", "frente": "SMCP Glossário: stand on", "verso": "Manter rumo e velocidade.", "fonte": "SMCP, Glossary 1, PDF 24"}, {"id": "v3.COM-01-66", "unidade": "COM-01", "disc": "COM", "frente": "SMCP Glossário: give way", "verso": "Manter-se fora do caminho de outro navio.", "fonte": "SMCP, Glossary 1, PDF 21"}, {"id": "v3.COM-01-67", "unidade": "COM-01", "disc": "COM", "frente": "SMCP Glossário: MRCC e OSC", "verso": "MRCC: centro de coordenação de salvamento marítimo que organiza e coordena operações SAR na sua região. OSC: coordenador designado para coordenar a operação SAR numa área especificada.", "fonte": "SMCP, Glossary 1, PDF 22"}, {"id": "v3.COM-01-68", "unidade": "COM-01", "disc": "COM", "frente": "SMCP Glossário: datum", "verso": "1) Posição mais provável do alvo de busca num dado momento; 2) plano de referência das profundidades da carta.", "fonte": "SMCP, Glossary 1, PDF 19"}, {"id": "v3.COM-01-69", "unidade": "COM-01", "disc": "COM", "frente": "SMCP Glossário: CPA/TCPA", "verso": "Ponto de maior aproximação / tempo até ele; limites definidos pelo observador para alarme quando um alvo rastreado se aproximar.", "fonte": "SMCP, Glossary 1, PDF 19"}, {"id": "v3.COM-01-70", "unidade": "COM-01", "disc": "COM", "frente": "SMCP Glossário: boarding speed e boarding arrangements", "verso": "Boarding speed: velocidade do navio ajustada à da lancha em que o prático pode embarcar/desembarcar com segurança. Boarding arrangements: todo o equipamento para transferência segura do prático.", "fonte": "SMCP, Glossary 1, PDF 18"}, {"id": "v3.COM-01-71", "unidade": "COM-01", "disc": "COM", "frente": "SMCP Glossário VTS: fairway, fairway speed e manoeuvring speed", "verso": "Fairway: parte navegável da via. Fairway speed: velocidade obrigatória na via. Manoeuvring speed: velocidade reduzida em que se pode precisar usar as máquinas em curto prazo.", "fonte": "SMCP, Glossary 2, PDF 25"}, {"id": "v3.COM-01-72", "unidade": "COM-01", "disc": "COM", "frente": "SMCP Glossário VTS: receiving point x reporting point", "verso": "Receiving point: marca ou local onde o navio fica sujeito a procedimento obrigatório de entrada, trânsito ou escolta. Reporting point: onde deve reportar-se à estação VTS para estabelecer a posição.", "fonte": "SMCP, Glossary 2, PDF 25"}, {"id": "v3.COM-01-73", "unidade": "COM-01", "disc": "COM", "frente": "SMCP Glossário VTS: traffic clearance e reference line", "verso": "Traffic clearance: autorização do VTS para prosseguir nas condições especificadas. Reference line: linha nos radares/cartas do VTS que separa o tráfego de entrada e saída.", "fonte": "SMCP, Glossary 2, PDF 25–26"}, {"id": "v3.COM-01-74", "unidade": "COM-01", "disc": "COM", "frente": "SMCP Glossário VTS: TSS, traffic lane, separation zone e ITZ", "verso": "TSS: esquema de separação de tráfego com faixas. Traffic lane: área com tráfego de mão única. Separation zone/line: separa faixas de sentidos opostos ou faixa de mar adjacente. ITZ: zona de tráfego costeiro entre o limite interno do TSS e a costa.", "fonte": "SMCP, Glossary 2, PDF 25–26"}, {"id": "v3.COM-01-75", "unidade": "COM-01", "disc": "COM", "frente": "SMCP Glossário: ETA, ETD e UTC", "verso": "ETA: hora estimada de chegada. ETD: hora estimada de partida. UTC: tempo universal coordenado (GMT).", "fonte": "SMCP, Glossary 1, PDF 20 e 25"}, {"id": "v3.COM-01-76", "unidade": "COM-01", "disc": "COM", "frente": "SMCP Glossário: waypoint", "verso": "Posição pela qual o navio deve passar ou onde deve mudar de rumo conforme o plano de viagem.", "fonte": "SMCP, Glossary 1, PDF 25"}]}
+{
+ "cards": [
+  {
+   "id": "v2.COM-01.01",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Quantos são os Message Markers do SMCP?",
+   "verso": "8.",
+   "fonte": "IMO SMCP, General 3, PDF 14",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v2.COM-01.02",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Quais são os 8 Message Markers?",
+   "verso": "Instruction, Advice, Warning, Information, Question, Answer, Request, Intention.",
+   "fonte": "IMO SMCP, General 3, PDF 14",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v2.COM-01.03",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "MAYDAY anuncia que tipo de mensagem?",
+   "verso": "Perigo (distress).",
+   "fonte": "IMO SMCP, General 5, PDF 14",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v2.COM-01.04",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "PAN PAN anuncia que tipo de mensagem?",
+   "verso": "Urgência.",
+   "fonte": "IMO SMCP, General 5, PDF 14",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v2.COM-01.05",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "SECURITE anuncia que tipo de mensagem?",
+   "verso": "Segurança.",
+   "fonte": "IMO SMCP, General 5, PDF 14",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v2.COM-01.06",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Como corrigir um erro durante a mensagem?",
+   "verso": "\"Mistake…\" e depois \"Correction…\" + a parte corrigida.",
+   "fonte": "IMO SMCP, General 7, PDF 15",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v2.COM-01.07",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Como se fala o número 150 no SMCP?",
+   "verso": "Dígito a dígito: \"one-five-zero\".",
+   "fonte": "IMO SMCP, General 10, PDF 16",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v2.COM-01.08",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Ângulo de leme 15° numa ordem: como se fala?",
+   "verso": "\"Fifteen\" (não dígito a dígito).",
+   "fonte": "IMO SMCP, General 10, PDF 16",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v2.COM-01.09",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Pronúncia SMCP de 3, 5 e 9?",
+   "verso": "TREE, FIFE, NINER.",
+   "fonte": "IMO SMCP, General 2.2, PDF 13",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v2.COM-01.10",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Posição em relação a uma marca: a marcação é DE onde PARA onde?",
+   "verso": "Da marca para o navio, em 360° a partir do norte verdadeiro, mais a distância.",
+   "fonte": "IMO SMCP, General 11.2, PDF 16",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v2.COM-01.11",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Velocidade em nós sem nenhuma notação significa…?",
+   "verso": "Velocidade na água (through the water).",
+   "fonte": "IMO SMCP, General 15, PDF 17",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v2.COM-01.12",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Como indicar velocidade no fundo no SMCP?",
+   "verso": "\"Ground speed\".",
+   "fonte": "IMO SMCP, General 15, PDF 17",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v2.COM-01.13",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Em que notação se dão as horas no SMCP?",
+   "verso": "UTC, 24 h (hora local só se dita claramente).",
+   "fonte": "IMO SMCP, General 16, PDF 17",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v2.COM-01.14",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Como pedir permissão em vez de \"May I enter the fairway?\"",
+   "verso": "\"QUESTION. Do I have permission to enter the fairway?\"",
+   "fonte": "IMO SMCP, General 18.1, PDF 17",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v2.COM-01.15",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Como dizer \"You could be running into danger\" no SMCP?",
+   "verso": "\"WARNING. You are running into danger.\"",
+   "fonte": "IMO SMCP, General 18.1, PDF 17",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v2.COM-01.16",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Como trocar \"You should anchor in anchorage B3\"?",
+   "verso": "\"ADVICE. Anchor in anchorage B3.\"",
+   "fonte": "IMO SMCP, General 18.1, PDF 17",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v2.COM-01.17",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Resposta afirmativa a uma INSTRUCTION ou ADVICE?",
+   "verso": "\"I will / I can…\" + a instrução por extenso.",
+   "fonte": "IMO SMCP, General 4.5, PDF 14",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v2.COM-01.18",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Resposta negativa a uma INSTRUCTION ou ADVICE?",
+   "verso": "\"I will not / I cannot…\" + a instrução por extenso.",
+   "fonte": "IMO SMCP, General 4.5, PDF 14",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v2.COM-01.19",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "A informação pedida ainda não está disponível: o que dizer?",
+   "verso": "\"Stand by\" + o tempo em que estará disponível.",
+   "fonte": "IMO SMCP, General 4.3, PDF 14",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v2.COM-01.20",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "A informação pedida não pode ser obtida: o que dizer?",
+   "verso": "\"No information.\"",
+   "fonte": "IMO SMCP, General 4.4, PDF 14",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v3.COM-01-01",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "SMCP: por que a IMO criou as Standard Marine Communication Phrases?",
+   "verso": "Porque comunicações de navegação e segurança têm de ser precisas, simples e sem ambiguidade, sobretudo com tripulações multilíngues; padroniza-se a linguagem para evitar confusão e erro.",
+   "fonte": "SMCP, Foreword, PDF 3",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v3.COM-01-02",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Em que língua foi acordado o uso comum para fins de navegação (MSC, 1973)?",
+   "verso": "Inglês. Isso levou ao SMNV (adotado em 1977, emendado em 1985), predecessor do SMCP.",
+   "fonte": "SMCP, Foreword, PDF 3",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v3.COM-01-03",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Em que ano e por qual resolução o SMCP foi adotado pela Assembleia da IMO?",
+   "verso": "Em novembro de 2001, pela Resolução A.918(22).",
+   "fonte": "SMCP, Foreword, PDF 3",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v3.COM-01-04",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "O SMCP substituiu qual vocabulário anterior?",
+   "verso": "O Standard Marine Navigational Vocabulary (SMNV) de 1985.",
+   "fonte": "SMCP, Introduction 2, PDF 11",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v3.COM-01-05",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "STCW e SMCP: quem precisa saber usar e entender o SMCP?",
+   "verso": "Oficiais encarregados do quarto de navegação em navios de 500 GT ou mais, para a certificação.",
+   "fonte": "SMCP, Foreword, PDF 3",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v3.COM-01-06",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "O SMCP substitui o RIPEAM, o Código Internacional de Sinais ou regras locais?",
+   "verso": "Não. Não substitui nem contradiz o RIPEAM, regras locais, recomendações de roteamento da IMO nem o Código Internacional de Sinais; o uso externo segue os procedimentos de radiotelefonia do ITU.",
+   "fonte": "SMCP, Introduction 1, PDF 11",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v3.COM-01-07",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "O SMCP é um manual técnico operacional?",
+   "verso": "Não. É uma coleção de frases individuais, não um manual com instruções operacionais.",
+   "fonte": "SMCP, Introduction 1, PDF 11",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v3.COM-01-08",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Quais são os 3 objetivos do SMCP (Introduction 1)?",
+   "verso": "Auxiliar a segurança da navegação e da condução do navio; padronizar a linguagem nas comunicações de navegação no mar, aproximações, canais e portos, e a bordo com tripulações multilíngues; e ajudar instituições de ensino marítimo.",
+   "fonte": "SMCP, Introduction 1, PDF 11",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v3.COM-01-09",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Quanto o SMCP deve ser usado em relação a outras palavras de sentido semelhante?",
+   "verso": "O máximo possível, de preferência a outras palavras; o mínimo exigido é seguir as frases o mais próximo possível nas situações relevantes.",
+   "fonte": "SMCP, Introduction 1, PDF 11",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v3.COM-01-10",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Como o SMCP se divide quanto à aplicação e quanto ao status na STCW?",
+   "verso": "Quanto à aplicação: comunicações externas e comunicações a bordo. Quanto ao status: Parte A e Parte B.",
+   "fonte": "SMCP, Introduction 2, PDF 11",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v3.COM-01-11",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "O que cobre a Parte A do SMCP?",
+   "verso": "Frases das comunicações externas (substitui o SMNV 1985, exigido na STCW) e frases essenciais de manobra e segurança a bordo, especialmente com o Prático no passadiço (SOLAS V/14.4).",
+   "fonte": "SMCP, Introduction 2, PDF 11",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v3.COM-01-12",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "O que cobre a Parte B do SMCP?",
+   "verso": "Outras frases de segurança a bordo, complementares à Parte A e úteis para o ensino de inglês marítimo.",
+   "fonte": "SMCP, Introduction 2, PDF 11",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v3.COM-01-13",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "O SMCP deve ser ensinado por inteiro ou seletivamente?",
+   "verso": "Seletivamente, conforme as necessidades dos usuários e baseado na prática marítima. Não é um currículo completo de inglês marítimo.",
+   "fonte": "SMCP, Introduction 3, PDF 12",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v3.COM-01-14",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "O que é “block language” no SMCP e quando se usa?",
+   "verso": "Linguagem que omite ou usa pouco as palavras the, a/an, is/are, em frases de emergência e sob pressão de tempo ou estresse, e em avisos de navegação. O usuário pode ser flexível.",
+   "fonte": "SMCP, Introduction 4, PDF 12",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v3.COM-01-15",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Cite 4 características comunicativas do SMCP.",
+   "verso": "Evita sinônimos; evita formas contraídas; respostas completas a perguntas sim/não; uma frase para cada evento; estrutura “invariável fixo + variável”.",
+   "fonte": "SMCP, Introduction 4, PDF 12",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v3.COM-01-16",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Convenções tipográficas: o que significam ( ), /, ... e ~?",
+   "verso": "( ) parte que pode ser acrescentada se relevante; / alternativas; ... informação a preencher; ~ palavras ou frases que podem ser usadas depois/associadas à frase padrão. Itálico: tipo de informação pedida.",
+   "fonte": "SMCP, Introduction 5, PDF 12",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v3.COM-01-17",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Que mensagem indica que o SMCP será usado?",
+   "verso": "“Please use IMO Standard Marine Communication Phrases.” ou “I will use IMO Standard Marine Communication Phrases.”",
+   "fonte": "SMCP, General 1, PDF 13",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v3.COM-01-18",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Alfabeto fonético do SMCP: como se soletram H, J, W e X?",
+   "verso": "Hotel, Juliet, Whisky, X-ray.",
+   "fonte": "SMCP, General 2.1, PDF 13",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v3.COM-01-19",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Alfabeto fonético do SMCP: palavras de Q, P, M e A.",
+   "verso": "Quebec, Papa, Mike, Alfa.",
+   "fonte": "SMCP, General 2.1, PDF 13",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v3.COM-01-20",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Pronúncia SMCP do dígito 4 e do dígito 1.",
+   "verso": "4 = FOWER; 1 = WUN.",
+   "fonte": "SMCP, General 2.2, PDF 13",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v3.COM-01-21",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Pronúncia SMCP do 0, do 2 e do 1000.",
+   "verso": "0 = ZEERO; 2 = TOO; 1000 = TOUSAND.",
+   "fonte": "SMCP, General 2.2, PDF 13",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v3.COM-01-22",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Em que 'Message Marker' se enquadra “May I enter the fairway?” corretamente reformulada?",
+   "verso": "QUESTION. Do I have permission to enter the fairway?",
+   "fonte": "SMCP, General 18.1, PDF 17",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v3.COM-01-23",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Como dizer “You may enter the fairway” segundo o SMCP?",
+   "verso": "ANSWER. You have permission to enter the fairway.",
+   "fonte": "SMCP, General 18.1, PDF 17",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v3.COM-01-24",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Como dizer “I might enter the fairway” segundo o SMCP?",
+   "verso": "INTENTION. I will enter the fairway.",
+   "fonte": "SMCP, General 18.1, PDF 17",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v3.COM-01-25",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Palavra “can”: quando é ambígua e como evitar para pedir permissão?",
+   "verso": "“Can” indica possibilidade ou capacidade. Para permissão, diga “QUESTION. Do I have permission to use the shallow draft fairway at this time?” e não “Can I use…?”.",
+   "fonte": "SMCP, General 18.2, PDF 17",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v3.COM-01-26",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Quais são as 4 palavras condicionais ambíguas que o SMCP manda evitar?",
+   "verso": "May, might, should e could.",
+   "fonte": "SMCP, General 18.1, PDF 17",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v3.COM-01-27",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Resposta SMCP “How do you read (me)?” — qual a escala?",
+   "verso": "“I read you…”: bad/one (quase imperceptível), poor/two (fraco), fair/three (razoável), good/four (bom), excellent/five (muito bom).",
+   "fonte": "SMCP, General 6.1, PDF 15",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v3.COM-01-28",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Como dizer que se aceita permanecer no canal VHF indicado?",
+   "verso": "“Standing by on VHF Channel … / frequency …”.",
+   "fonte": "SMCP, General 6.2.1, PDF 15",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v3.COM-01-29",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Como aconselhar mudança de canal VHF e como aceitar a mudança?",
+   "verso": "Aconselhar: “Advise (you) change to VHF Channel … / frequency …” ou “Advise (you) try VHF Channel …”. Aceitar: “Changing to VHF Channel … / frequency …”.",
+   "fonte": "SMCP, General 6.3, PDF 15",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v3.COM-01-30",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Como indicar disponibilidade para receber mensagem?",
+   "verso": "“I am / I am not ready to receive your message.”",
+   "fonte": "SMCP, General 8, PDF 15",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v3.COM-01-31",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Como proteger uma parte importante da mensagem e como pedir repetição?",
+   "verso": "“Repeat …” antes da parte (ex.: “Do not overtake — repeat — do not overtake”). Para mensagem não ouvida: “Say again (please)”.",
+   "fonte": "SMCP, General 9, PDF 15",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v3.COM-01-32",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Fórmula para correção: o que se diz?",
+   "verso": "“Mistake …” e depois “Correction …” seguido da parte corrigida.",
+   "fonte": "SMCP, General 7, PDF 15",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v3.COM-01-33",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Como se fala 2,5 no SMCP?",
+   "verso": "“Two decimal five” ou “two point five”.",
+   "fonte": "SMCP, General 10, PDF 16",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v3.COM-01-34",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Posição em latitude e longitude: formato exigido?",
+   "verso": "Graus e minutos (e décimos de minuto se preciso), Norte/Sul do Equador e Leste/Oeste de Greenwich.",
+   "fonte": "SMCP, General 11.1, PDF 16",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v3.COM-01-35",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Posição relativa a uma marca: que tipo de objeto e de marcação se usa?",
+   "verso": "Objeto bem definido e charteado; marcação na notação de 360° a partir do norte verdadeiro, da marca PARA a posição. Quem reporta a posição cita sempre a marcação DA marca.",
+   "fonte": "SMCP, General 11.2 e 12, PDF 16",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v3.COM-01-36",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Marcação relativa: como se expressa?",
+   "verso": "Em graus relativos à proa do navio, mais frequentemente em relação à amura de BB ou BE. Ex.: “Buoy 030 degrees on your port bow”.",
+   "fonte": "SMCP, General 12.1, PDF 16",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v3.COM-01-37",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Rumos: como se expressam?",
+   "verso": "Na notação de 360° a partir do norte (verdadeiro, salvo indicação contrária); pode-se dizer se é PARA ou DE uma marca.",
+   "fonte": "SMCP, General 13, PDF 16",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v3.COM-01-38",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Distâncias: que unidades e o que não se pode omitir?",
+   "verso": "Milhas náuticas ou cabos (décimos de milha); a unidade deve sempre ser dita.",
+   "fonte": "SMCP, General 14, PDF 17",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v3.COM-01-39",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Velocidade sem notação adicional x “ground speed”.",
+   "verso": "Sem notação: velocidade através da água. “Ground speed”: velocidade sobre o fundo.",
+   "fonte": "SMCP, General 15, PDF 17",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v3.COM-01-40",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Horas: que padrão e se for hora local?",
+   "verso": "24 horas em UTC; se for usada hora local em portos, deve ser dito claramente.",
+   "fonte": "SMCP, General 16, PDF 17",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v3.COM-01-41",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Nomes geográficos: quais usar e o que fazer se não forem entendidos?",
+   "verso": "Os da carta ou das Instruções Náuticas em uso; se não forem entendidos, dar latitude e longitude.",
+   "fonte": "SMCP, General 17, PDF 17",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v3.COM-01-42",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Resposta a uma pergunta afirmativa/negativa no SMCP.",
+   "verso": "Afirmativa: “Yes …” + frase completa. Negativa: “No …” + frase completa.",
+   "fonte": "SMCP, General 4.1–4.2, PDF 14",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v3.COM-01-43",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Exemplo do SMCP: “ADVICE. Do not overtake the vessel North of you.” Qual a resposta negativa?",
+   "verso": "“I will not overtake the vessel North of me.”",
+   "fonte": "SMCP, General 4.5, PDF 14",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v3.COM-01-44",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Quando se usa o formato “I will/can …” e “I will not/cannot …”?",
+   "verso": "Em resposta a uma INSTRUCTION (VTS, navio de guerra, pessoal autorizado) ou ADVICE, repetindo a instrução ou o conselho por inteiro.",
+   "fonte": "SMCP, General 4.5, PDF 14",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v3.COM-01-45",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "Alerta: notação de ângulo de leme “fifteen” ou “one-five”?",
+   "verso": "“Fifteen” (leme dito como número inteiro), enquanto outros números são ditos dígito a dígito (150 = one-five-zero).",
+   "fonte": "SMCP, General 10, PDF 16",
+   "s": "COM-01.1"
+  },
+  {
+   "id": "v3.COM-01-46",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "SMCP Glossário: cable (medida)",
+   "verso": "Cem braças ou um décimo de milha náutica. Também: amarra (corrente do ferro) ou cabo de amarração.",
+   "fonte": "SMCP, Glossary 1, PDF 18",
+   "s": "COM-01.2"
+  },
+  {
+   "id": "v3.COM-01-47",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "SMCP Glossário: shackle",
+   "verso": "Seção de corrente com 15 braças; também o grilhão em U com pino.",
+   "fonte": "SMCP, Glossary 1, PDF 24",
+   "s": "COM-01.2"
+  },
+  {
+   "id": "v3.COM-01-48",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "SMCP Glossário: fathom",
+   "verso": "Medida de 6 pés (braça).",
+   "fonte": "SMCP, Glossary 1, PDF 20",
+   "s": "COM-01.2"
+  },
+  {
+   "id": "v3.COM-01-49",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "SMCP Glossário: air draft",
+   "verso": "Altura da linha-d'água ao ponto mais alto do navio.",
+   "fonte": "SMCP, Glossary 1, PDF 18",
+   "s": "COM-01.2"
+  },
+  {
+   "id": "v3.COM-01-50",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "SMCP Glossário: general emergency alarm",
+   "verso": "Sete apitos curtos e um longo, no sistema sonoro do navio.",
+   "fonte": "SMCP, Glossary 1, PDF 21",
+   "s": "COM-01.2"
+  },
+  {
+   "id": "v3.COM-01-51",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "SMCP Glossário: backing x veering (vento)",
+   "verso": "Backing: vento gira anti-horário (ex.: norte para oeste). Veering: gira no sentido horário.",
+   "fonte": "SMCP, Glossary 1, PDF 18 e 25",
+   "s": "COM-01.2"
+  },
+  {
+   "id": "v3.COM-01-52",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "SMCP Glossário: heading x course x track",
+   "verso": "Heading: direção da proa num instante. Course: direção pretendida do movimento através da água. Track: caminho seguido ou a seguir entre duas posições.",
+   "fonte": "SMCP, Glossary 1, PDF 19, 21 e 24",
+   "s": "COM-01.2"
+  },
+  {
+   "id": "v3.COM-01-53",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "SMCP Glossário: course made good",
+   "verso": "Rumo efetivamente feito sobre o fundo, depois de considerar corrente, maré e abatimento causado pelo vento.",
+   "fonte": "SMCP, Glossary 1, PDF 19",
+   "s": "COM-01.2"
+  },
+  {
+   "id": "v3.COM-01-54",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "SMCP Glossário: leeway",
+   "verso": "Deriva lateral do navio a sotavento do rumo desejado.",
+   "fonte": "SMCP, Glossary 1, PDF 21",
+   "s": "COM-01.2"
+  },
+  {
+   "id": "v3.COM-01-55",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "SMCP Glossário: reported x located (avisos de navegação)",
+   "verso": "Reported: posição do objeto NÃO confirmada. Located: posição do objeto confirmada.",
+   "fonte": "SMCP, Glossary 1, PDF 22–23",
+   "s": "COM-01.2"
+  },
+  {
+   "id": "v3.COM-01-56",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "SMCP Glossário: close up x drop back",
+   "verso": "Close up: diminuir a distância ao navio à frente aumentando a própria velocidade. Drop back: aumentar a distância reduzindo a própria velocidade.",
+   "fonte": "SMCP, Glossary 1, PDF 19–20",
+   "s": "COM-01.2"
+  },
+  {
+   "id": "v3.COM-01-57",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "SMCP Glossário: dragging x dredging (âncora)",
+   "verso": "Dragging: âncora arrastando involuntariamente. Dredging: arrastar a âncora no fundo para controlar o movimento do navio.",
+   "fonte": "SMCP, Glossary 1, PDF 20",
+   "s": "COM-01.2"
+  },
+  {
+   "id": "v3.COM-01-58",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "SMCP Glossário: foul anchor e foul propeller",
+   "verso": "Âncora enroscada na própria amarra ou em obstrução; hélice enrolada por cabo, rede etc.",
+   "fonte": "SMCP, Glossary 1, PDF 20",
+   "s": "COM-01.2"
+  },
+  {
+   "id": "v3.COM-01-59",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "SMCP Glossário: off station (boias) e unlit",
+   "verso": "Off station: boia fora da posição charteada. Unlit: luz de boia ou farol inoperante.",
+   "fonte": "SMCP, Glossary 1, PDF 22 e 25",
+   "s": "COM-01.2"
+  },
+  {
+   "id": "v3.COM-01-60",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "SMCP Glossário: not under command (NUC)",
+   "verso": "Navio que, por circunstâncias excepcionais, não consegue manobrar como exigido pelo RIPEAM.",
+   "fonte": "SMCP, Glossary 1, PDF 22",
+   "s": "COM-01.2"
+  },
+  {
+   "id": "v3.COM-01-61",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "SMCP Glossário: vessel constrained by her draft",
+   "verso": "Navio severamente restrito pelo calado na capacidade de se desviar do rumo, em relação à profundidade e largura disponíveis.",
+   "fonte": "SMCP, Glossary 1, PDF 19",
+   "s": "COM-01.2"
+  },
+  {
+   "id": "v3.COM-01-62",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "SMCP Glossário: hampered vessel",
+   "verso": "Navio com capacidade de manobra restrita pela natureza do seu trabalho.",
+   "fonte": "SMCP, Glossary 1, PDF 21",
+   "s": "COM-01.2"
+  },
+  {
+   "id": "v3.COM-01-63",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "SMCP Glossário: underway",
+   "verso": "Navio que não está fundeado, nem amarrado à terra, nem encalhado.",
+   "fonte": "SMCP, Glossary 1, PDF 25",
+   "s": "COM-01.2"
+  },
+  {
+   "id": "v3.COM-01-64",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "SMCP Glossário: safe speed",
+   "verso": "Velocidade que permite ação eficaz para evitar abalroamento e parar a uma distância adequada nas circunstâncias do momento.",
+   "fonte": "SMCP, Glossary 1, PDF 23",
+   "s": "COM-01.2"
+  },
+  {
+   "id": "v3.COM-01-65",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "SMCP Glossário: stand on",
+   "verso": "Manter rumo e velocidade.",
+   "fonte": "SMCP, Glossary 1, PDF 24",
+   "s": "COM-01.2"
+  },
+  {
+   "id": "v3.COM-01-66",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "SMCP Glossário: give way",
+   "verso": "Manter-se fora do caminho de outro navio.",
+   "fonte": "SMCP, Glossary 1, PDF 21",
+   "s": "COM-01.2"
+  },
+  {
+   "id": "v3.COM-01-67",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "SMCP Glossário: MRCC e OSC",
+   "verso": "MRCC: centro de coordenação de salvamento marítimo que organiza e coordena operações SAR na sua região. OSC: coordenador designado para coordenar a operação SAR numa área especificada.",
+   "fonte": "SMCP, Glossary 1, PDF 22",
+   "s": "COM-01.2"
+  },
+  {
+   "id": "v3.COM-01-68",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "SMCP Glossário: datum",
+   "verso": "1) Posição mais provável do alvo de busca num dado momento; 2) plano de referência das profundidades da carta.",
+   "fonte": "SMCP, Glossary 1, PDF 19",
+   "s": "COM-01.2"
+  },
+  {
+   "id": "v3.COM-01-69",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "SMCP Glossário: CPA/TCPA",
+   "verso": "Ponto de maior aproximação / tempo até ele; limites definidos pelo observador para alarme quando um alvo rastreado se aproximar.",
+   "fonte": "SMCP, Glossary 1, PDF 19",
+   "s": "COM-01.2"
+  },
+  {
+   "id": "v3.COM-01-70",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "SMCP Glossário: boarding speed e boarding arrangements",
+   "verso": "Boarding speed: velocidade do navio ajustada à da lancha em que o prático pode embarcar/desembarcar com segurança. Boarding arrangements: todo o equipamento para transferência segura do prático.",
+   "fonte": "SMCP, Glossary 1, PDF 18",
+   "s": "COM-01.2"
+  },
+  {
+   "id": "v3.COM-01-71",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "SMCP Glossário VTS: fairway, fairway speed e manoeuvring speed",
+   "verso": "Fairway: parte navegável da via. Fairway speed: velocidade obrigatória na via. Manoeuvring speed: velocidade reduzida em que se pode precisar usar as máquinas em curto prazo.",
+   "fonte": "SMCP, Glossary 2, PDF 25",
+   "s": "COM-01.2"
+  },
+  {
+   "id": "v3.COM-01-72",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "SMCP Glossário VTS: receiving point x reporting point",
+   "verso": "Receiving point: marca ou local onde o navio fica sujeito a procedimento obrigatório de entrada, trânsito ou escolta. Reporting point: onde deve reportar-se à estação VTS para estabelecer a posição.",
+   "fonte": "SMCP, Glossary 2, PDF 25",
+   "s": "COM-01.2"
+  },
+  {
+   "id": "v3.COM-01-73",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "SMCP Glossário VTS: traffic clearance e reference line",
+   "verso": "Traffic clearance: autorização do VTS para prosseguir nas condições especificadas. Reference line: linha nos radares/cartas do VTS que separa o tráfego de entrada e saída.",
+   "fonte": "SMCP, Glossary 2, PDF 25–26",
+   "s": "COM-01.2"
+  },
+  {
+   "id": "v3.COM-01-74",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "SMCP Glossário VTS: TSS, traffic lane, separation zone e ITZ",
+   "verso": "TSS: esquema de separação de tráfego com faixas. Traffic lane: área com tráfego de mão única. Separation zone/line: separa faixas de sentidos opostos ou faixa de mar adjacente. ITZ: zona de tráfego costeiro entre o limite interno do TSS e a costa.",
+   "fonte": "SMCP, Glossary 2, PDF 25–26",
+   "s": "COM-01.2"
+  },
+  {
+   "id": "v3.COM-01-75",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "SMCP Glossário: ETA, ETD e UTC",
+   "verso": "ETA: hora estimada de chegada. ETD: hora estimada de partida. UTC: tempo universal coordenado (GMT).",
+   "fonte": "SMCP, Glossary 1, PDF 20 e 25",
+   "s": "COM-01.2"
+  },
+  {
+   "id": "v3.COM-01-76",
+   "unidade": "COM-01",
+   "disc": "COM",
+   "frente": "SMCP Glossário: waypoint",
+   "verso": "Posição pela qual o navio deve passar ou onde deve mudar de rumo conforme o plano de viagem.",
+   "fonte": "SMCP, Glossary 1, PDF 25",
+   "s": "COM-01.2"
+  }
+ ]
+}

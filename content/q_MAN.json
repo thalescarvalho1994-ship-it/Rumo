@@ -906,7 +906,7 @@
   {
    "id": "S-MAN-01.1-04",
    "unidade": "MAN-01",
-   "s": "MAN-01.1",
+   "s": "MAN-01.2",
    "disc": "MAN",
    "dif": "média",
    "enunciado": "No plano horizontal, o navio tem três graus de liberdade. Quais são, e quais as velocidades associadas?",
@@ -981,7 +981,7 @@
   {
    "id": "S-MAN-01.2-03",
    "unidade": "MAN-01",
-   "s": "MAN-01.2",
+   "s": "MAN-01.1",
    "disc": "MAN",
    "dif": "média",
    "enunciado": "Por que são nulos os produtos de inércia quando os eixos passam pelo CG e são paralelos aos principais de inércia?",
@@ -1006,7 +1006,7 @@
   {
    "id": "S-MAN-01.2-04",
    "unidade": "MAN-01",
-   "s": "MAN-01.2",
+   "s": "MAN-01.1",
    "disc": "MAN",
    "dif": "difícil",
    "enunciado": "A massa do navio é tomada como constante nas equações de manobra porque:",
@@ -1526,6 +1526,156 @@
     "E": "Errado: piloto automático não é o requisito."
    },
    "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 4",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-MAN-01.1-06",
+   "unidade": "MAN-01",
+   "s": "MAN-01.1",
+   "disc": "MAN",
+   "dif": "fácil",
+   "enunciado": "Segundo Santos, o movimento do navio é função:",
+   "alts": {
+    "A": "Apenas da potência da máquina.",
+    "B": "De forças externas que atuam sobre ele, as quais dependem significativamente de sua geometria.",
+    "C": "Somente do ângulo de leme.",
+    "D": "Da massa do navio, independentemente da forma do casco.",
+    "E": "Apenas do vento e da corrente."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: a máquina é só um dos atuadores.",
+    "B": "Correta: forças externas que dependem significativamente da geometria do navio (2.1).",
+    "C": "Errado: o leme é só um dos atuadores.",
+    "D": "Errado: a geometria é determinante.",
+    "E": "Errado: são apenas parte das forças externas."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 2, 2.1",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-MAN-01.1-07",
+   "unidade": "MAN-01",
+   "s": "MAN-01.1",
+   "disc": "MAN",
+   "dif": "média",
+   "enunciado": "O vetor posição R_O de um elemento de massa dm do navio, no sistema NED, é dado por:",
+   "alts": {
+    "A": "R_O = R_b − R_G.",
+    "B": "R_O = R_b + R_G, sendo R_b a posição do CG no referencial inercial e R_G a posição de dm em relação ao CG.",
+    "C": "R_O = R_b × R_G.",
+    "D": "R_O = Ω × R_G.",
+    "E": "R_O = R_G apenas."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: os vetores se somam.",
+    "B": "Correta: soma do vetor que acompanha o CG com o vetor do elemento em relação ao CG (2.2).",
+    "C": "Errado: não é produto vetorial.",
+    "D": "Errado: Ω × R_G é a parcela de velocidade devida à rotação.",
+    "E": "Errado: falta a posição do CG."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 2, 2.2",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-MAN-01.1-08",
+   "unidade": "MAN-01",
+   "s": "MAN-01.1",
+   "disc": "MAN",
+   "dif": "média",
+   "enunciado": "Sendo Ω = p i + q j + r k o vetor velocidade angular do navio, é correto afirmar que:",
+   "alts": {
+    "A": "p = dψ/dt, q = dθ/dt e r = dφ/dt.",
+    "B": "p = dφ/dt (roll), q = dθ/dt (pitch) e r = dψ/dt (yaw).",
+    "C": "p, q e r são velocidades lineares.",
+    "D": "r é a velocidade de roll.",
+    "E": "p, q e r são acelerações angulares."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: p e r estão trocados.",
+    "B": "Correta: p roll, q pitch e r yaw.",
+    "C": "Errado: são velocidades angulares.",
+    "D": "Errado: r é a de yaw.",
+    "E": "Errado: as acelerações angulares são ṗ, q̇ e ṙ."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 2, 2.3",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-MAN-01.1-09",
+   "unidade": "MAN-01",
+   "s": "MAN-01.1",
+   "disc": "MAN",
+   "dif": "difícil",
+   "enunciado": "A conclusão puramente cinemática da seção 2.3 (velocidade de um ponto do navio) é:",
+   "alts": {
+    "A": "U_G = V_G − Ω × R_G.",
+    "B": "U_G = V_G + Ω × R_G.",
+    "C": "U_G = Ω × V_G.",
+    "D": "U_G = V_G · R_G.",
+    "E": "U_G = V_G, sempre."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: o sinal é positivo.",
+    "B": "Correta: velocidade do CG mais a parcela devida à rotação (vínculo cinemático).",
+    "C": "Errado: relação incorreta.",
+    "D": "Errado: não é produto escalar.",
+    "E": "Errado: falta a parcela de rotação."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 2, 2.3",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-MAN-01.1-10",
+   "unidade": "MAN-01",
+   "s": "MAN-01.1",
+   "disc": "MAN",
+   "dif": "difícil",
+   "enunciado": "Nas equações de Euler K = Ixṗ + (Iz − Iy)qr, M = Iyq̇ + (Ix − Iz)pr e N = Izṙ + (Iy − Ix)pq, os termos com produtos de velocidades angulares representam:",
+   "alts": {
+    "A": "Forças de Coriolis.",
+    "B": "Forças centrífugas de um referencial fora do CG.",
+    "C": "Momentos dos efeitos giroscópicos, conhecidos como movimentos de precessão e nutação.",
+    "D": "Massas adicionais.",
+    "E": "Momentos hidrostáticos de endireitamento."
+   },
+   "correta": "C",
+   "coment": {
+    "A": "Errado: Coriolis aparece com a origem fora do CG.",
+    "B": "Errado: as equações são com origem no CG.",
+    "C": "Correta: efeitos giroscópicos, precessão e nutação (2.4.2.2).",
+    "D": "Errado: massa adicional é hidrodinâmica.",
+    "E": "Errado: não são hidrostáticos."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 2, 2.4.2.2",
+   "origem": "inedita"
+  },
+  {
+   "id": "S-MAN-01.1-11",
+   "unidade": "MAN-01",
+   "s": "MAN-01.1",
+   "disc": "MAN",
+   "dif": "média",
+   "enunciado": "Quando o navio gira, as derivadas dos vetores unitários i, j e k fixos no navio não são nulas porque:",
+   "alts": {
+    "A": "O comprimento deles aumenta com a velocidade.",
+    "B": "Eles mudam de sentido com a rotação, embora o comprimento não se altere; por exemplo, di/dt = Ω × i = r j − q k.",
+    "C": "Eles são medidos no NED.",
+    "D": "A massa do navio varia.",
+    "E": "O navio é tratado como partícula."
+   },
+   "correta": "B",
+   "coment": {
+    "A": "Errado: são unitários, o comprimento não muda.",
+    "B": "Correta: muda só o sentido.",
+    "C": "Errado: são fixos no navio.",
+    "D": "Errado: a massa é constante.",
+    "E": "Errado: não é o motivo."
+   },
+   "fonte": "Santos, A manobrabilidade do navio no século 21, Cap. 2, 2.2–2.3",
    "origem": "inedita"
   }
  ]
