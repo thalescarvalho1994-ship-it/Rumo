@@ -646,7 +646,7 @@ function viewAssuntos(){
 function qFiltradas(){
   if(ui.qOnly){ const q=allQ().find(x=>x.id===ui.qOnly); return q?[q]:[]; }
   const f=ui.qf,rev=uget('questoes',{}).revisar||{},lib=liberadas();
-  return allQ().filter(q=>(ui.qTodas||questaoLiberada(q,lib))&&(f.disc==='todas'||q.disc===f.disc)&&(f.origem==='todas'||q.origem===f.origem)&&
+  return embaralha(allQ(),todayISO()).filter(q=>(ui.qTodas||questaoLiberada(q,lib))&&(f.disc==='todas'||q.disc===f.disc)&&(f.origem==='todas'||q.origem===f.origem)&&
    (f.status==='todas'||(f.status==='erradas'&&ultima(q.id)&&!ultima(q.id).certa)||(f.status==='nao'&&!ultima(q.id))||(f.status==='marcadas'&&rev[q.id])));
 }
 function qCard(q,{done:dn,sel,simulado,idx,total}){
