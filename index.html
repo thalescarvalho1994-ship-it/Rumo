@@ -354,7 +354,7 @@ const C={plano:null,q:{},fc:{}}; const U={};
 let db=null,uid=null,canEdit=false,downloads=null,sample=null,ready=false,dbOk=false;
 let tab='hoje';
 const ui={dia:null,open:{},filtro:'todos',busca:'',atv:'questoes',qf:{disc:'todas',origem:'todas',status:'todas'},qIdx:0,qSel:null,qDone:false,qStart:Date.now(),motivo:null,qOnly:null,
-  sim:null,fcFlip:false,fcDeck:'todos',notaCode:null,calMes:null,semanaAberta:true,atrAberta:false,gen:{}};
+  sim:null,fcFlip:false,fcDeck:'todos',fcSeed:0,notaCode:null,calMes:null,semanaAberta:true,atrAberta:false,gen:{}};
 const scroller=()=>document.getElementById('scroller');
 const toTop=()=>scroller().scrollTo(0,0);
 
@@ -482,7 +482,7 @@ function revisoesHoje(){
     if(!s){ novos.push(c); continue; }
     if(s.venc>hoje) continue;
     if(s.int===0&&s.vez&&s.venc===hoje){ (now-s.vez>=REDO_MS?redoPronto:redoEspera).push(c); } else due.push(c); }
-  const p=x=>prio.has(x.unidade)?0:1, mix=xs=>intercala(xs,hoje);   // tudo misturado, matérias alternadas
+  const p=x=>prio.has(x.unidade)?0:1, mix=xs=>intercala(xs,hoje+'|'+(ui.fcSeed||0));   // tudo misturado, matérias alternadas
   redoPronto.sort((a,b)=>srsOf(a).vez-srsOf(b).vez); redoEspera.sort((a,b)=>srsOf(a).vez-srsOf(b).vez);
   // ordem: refazer que já esperou · vencidos · novos · refazer que ainda esfria (só aparece quando não resta mais nada)
   return {due:[...redoPronto,...due],novos,fila:[...redoPronto,...mix([...due,...novos]),...redoEspera],espera:redoEspera,totalNovos:novos.length,bloqueados,prio};
@@ -740,7 +740,7 @@ function viewFlash(){
   let h=header('Flashcards','Revisão espaçada')+`<div class="filters" role="group" aria-label="Baralho"><button class="fchip" aria-pressed="${ui.fcDeck==='todos'}" data-act="deck" data-v="todos">Todos</button>${discs.map(d=>`<button class="fchip" aria-pressed="${ui.fcDeck===d}" data-act="deck" data-v="${d}"><span class="dot" style="width:8px;height:8px;background:var(--${d})"></span>${d}</button>`).join('')}</div>
   <div class="fcstats"><div class="stat"><b>${r.totalNovos}</b><span>novos liberados</span></div><div class="stat"><b>${r.due.length+r.espera.length}</b><span>para rever</span></div><div class="stat"><b>${aprend}</b><span>aprendidos</span></div><div class="stat"><b>${ret==null?'—':ret+'%'}</b><span>retenção 30 d</span></div></div>`;
   if(c){const prev=srsOf(c)||{},pv=n=>{const x=srsNext(prev,n,todayISO(),c.id);return x.int===1?'amanhã':x.int+' dias';};
-    h+=`<div style="font-size:12px;color:var(--muted)">${f.length} na fila (${r.due.length+r.espera.length} para rever + ${r.novos.length} novos) · tudo o que você já estudou${r.prio.size?` · prioridade: ${[...r.prio].join(', ')} (revisão de 7 dias)`:''}</div>
+    h+=`<div style="display:flex;align-items:center;justify-content:space-between;gap:8px"><div style="font-size:12px;color:var(--muted)">${f.length} na fila (${r.due.length+r.espera.length} para rever + ${r.novos.length} novos) · tudo o que você já estudou${r.prio.size?` · prioridade: ${[...r.prio].join(', ')} (revisão de 7 dias)`:''}</div><button class="fchip" data-act="fcshuffle" aria-label="Embaralhar cartões">${ic('shuffle')}Embaralhar</button></div>
     <div class="flip"><button class="fcard ${ui.fcFlip?'on':''}" data-act="flip" aria-label="Virar cartão">
      <div class="face"><div class="stripe" style="background:var(--${c.disc})"></div><span class="mono" style="font-size:12px;color:var(--${c.disc}-t)">${c.unidade}${prev.venc?'':' · novo'}</span><div class="q1">${esc(c.frente)}</div><div class="hint">Toque para ver a resposta</div></div>
      <div class="face back"><div class="stripe" style="background:var(--${c.disc})"></div><span class="mono" style="font-size:12px;color:var(--${c.disc}-t)">${c.unidade}</span><div class="q1" style="font-weight:500;font-size:16px">${esc(c.verso)}</div><div class="hint">Fonte: ${esc(c.fonte)}</div></div></button></div>
@@ -1029,6 +1029,7 @@ document.addEventListener('click',async e=>{
      await usave('revisoes-'+monthKey(dia),{itens:{['v'+Date.now()+DEVICE]:{card:id,nota,rep:prev.rep||0,dia,intAntes:prev.int||0,intDepois:nx.int}}});
      toast('Próxima revisão: '+(nx.int===0?'daqui a pouco, nesta sessão':nx.int===1?'amanhã':'em '+nx.int+' dias'));break;}
    case 'deck': ui.fcDeck=v; ui.fcFlip=false; render(); break;
+   case 'fcshuffle': ui.fcSeed=(ui.fcSeed||0)+1; ui.fcFlip=false; render(); toast('Cartões embaralhados'); break;
    case 'decklist': sheetDeck(v); break;
    case 'fcnew': sheetFcEdit(null,ui.fcDeck!=='todos'?ui.fcDeck:'AN'); break;
    case 'fcedit': sheetFcEdit(id,t.dataset.disc); break;
