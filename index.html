@@ -278,8 +278,11 @@ label.f{min-width:0;display:flex;flex-direction:column;gap:6px;font-size:13px;fo
 .face .stripe{height:4px;border-radius:2px;width:44px}
 .rate{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
 .rate button{min-height:56px;border-radius:12px;border:1px solid var(--line);background:var(--card2);font-weight:700;font-size:13px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;color:var(--ink)}
+.rate button svg{width:18px;height:18px}
 .rate button span{font-size:11px;color:var(--muted);font-weight:500}
 .rate button.r1{border-color:var(--late);color:var(--late)}
+.rate button.r4{border-color:var(--ok);color:var(--ok)}
+.rate button.r3{border-color:var(--neonB);color:var(--neonB)}
 .rate button.r2{border-color:var(--warn);color:var(--warn)}
 .rate button.r3{border-color:var(--neonB);color:var(--neonB)}
 .rate button.r4{border-color:var(--neonG);color:var(--neonG)}
@@ -423,45 +426,49 @@ function proximaParaAdiantar(dia,all){
 }
 
 /* ---------- SRS (SM-2 adaptado, 4 notas) ---------- */
-/* 4 notas: 1 Refazer (volta ainda hoje) · 2 Difícil (amanhã) · 3 Médio (2 dias, depois cresce) · 4 Fácil (4 dias, depois cresce mais) */
+/* 4 notas: 1 Não sei (amanhã) · 2 Difícil (2 dias) · 3 Médio (3–4 dias) · 4 Fácil (5–6 dias); a 1ª revisão varia por cartão para espalhar os vencimentos, depois cresce */
 const SRS_MAX=60, REDO_MS=4*60000;
-function srsNext(c,nota,hoje){
+function srsNext(c,nota,hoje,id){
   c={ef:2.5,int:0,rep:0,lapsos:0,...c};
-  const dEf={1:-0.2,2:-0.15,3:0,4:0.1}[nota];
-  if(nota===1){c.int=0;c.rep=0;c.lapsos++;c.vez=Date.now();}
+  const dEf={1:-0.2,2:-0.15,3:0,4:0.1}[nota], j=hashStr((id||'')+'|'+hoje+'|'+c.rep)%2;   // j = 0/1: espalha 3–4 e 5–6 dias
+  if(nota===1){c.int=1;c.rep=0;c.lapsos++;delete c.vez;}
   else{
     delete c.vez;
-    if(nota===2)c.int=1;
-    else if(nota===3)c.int=c.rep===0?2:Math.max(2,Math.round(c.int*c.ef*0.8));
-    else c.int=c.rep===0?4:Math.max(4,Math.round(c.int*c.ef*1.3));
+    if(nota===2)c.int=c.rep===0?2:Math.max(2,Math.round(c.int*1.2));
+    else if(nota===3)c.int=c.rep===0?3+j:Math.max(3,Math.round(c.int*c.ef*0.8));
+    else c.int=c.rep===0?5+j:Math.max(5,Math.round(c.int*c.ef*1.3));
+    if(c.rep>0&&c.int>=8)c.int+=j?1:0;
     c.int=Math.min(SRS_MAX,c.int);c.rep++;
   }
   c.ef=Math.min(3,Math.max(1.3,+(c.ef+dEf).toFixed(2))); c.venc=addDays(hoje,c.int); c.novo=false; return c;
 }
 const hashStr=s=>{let h=2166136261;for(let i=0;i<s.length;i++){h^=s.charCodeAt(i);h=Math.imul(h,16777619);}h^=h>>>16;h=Math.imul(h,2246822507);h^=h>>>13;h=Math.imul(h,3266489909);h^=h>>>16;return h>>>0;};
 const embaralha=(xs,seed)=>xs.map(x=>[hashStr(x.id+'|'+seed),x]).sort((a,b)=>a[0]-b[0]).map(x=>x[1]);   // mesma ordem o dia todo, outra amanhã
-/* intercala as matérias: sorteia dentro de cada matéria e alterna, evitando duas seguidas da mesma (enquanto houver outra) */
+/* intercala as matérias: sorteia dentro de cada matéria e alterna, sem duas seguidas da mesma matéria e (dentro da matéria) sem duas seguidas da mesma unidade, enquanto houver outra opção */
 const intercala=(xs,seed)=>{const g={};embaralha(xs,seed).forEach(x=>(g[x.disc]=g[x.disc]||[]).push(x));
-  const tot=Object.fromEntries(Object.entries(g).map(([d,l])=>[d,l.length])),out=[];let last=null;
+  const tot=Object.fromEntries(Object.entries(g).map(([d,l])=>[d,l.length])),out=[],lastU={};let last=null;
   while(out.length<xs.length){const ds=Object.keys(g).filter(d=>g[d].length);let c=ds.filter(d=>d!==last);if(!c.length)c=ds;
     c.sort((a,b)=>(g[b].length/tot[b]-g[a].length/tot[a])||(hashStr(a+seed+out.length)-hashStr(b+seed+out.length)));
-    last=c[0];out.push(g[last].shift());}
+    const d=c[0];let i=g[d].findIndex(x=>x.unidade!==lastU[d]);if(i<0)i=0;
+    const x=g[d].splice(i,1)[0];lastU[d]=x.unidade;last=d;out.push(x);}
   return out;};
 const byOrder=(a,b)=>(DISC_ORDER.indexOf(a.disc)-DISC_ORDER.indexOf(b.disc))||(a.unidade<b.unidade?-1:a.unidade>b.unidade?1:0)||(a.id<b.id?-1:1);
 const allCards=()=>Object.values(C.fc).flat().sort(byOrder);
 const allQ=()=>Object.values(C.q).flat().sort(byOrder);
 const srsOf=card=>uget('srs-'+card.disc,{}).cards?.[card.id];
 const logs=pref=>Object.entries(U).filter(([k])=>k.startsWith(pref)).flatMap(([,d])=>Object.entries(d.itens||{}).map(([id,r])=>({id,...r})));
-/* liberação: o que você estudou (sessão concluída ou com alguma parte marcada) entra na hora, sem limite por dia */
+/* liberação: os cartões entram quando a sessão é concluída (todas as partes marcadas) e a aula de inglês é feita; sem limite por dia */
 const estudada=s=>done(s)||!!(s.partes&&s.partes.some(p=>partesFeitas(s)[p.k]));
 function liberadas(){
   const all=sessoes(), ses=new Set(), uni=new Set(); let e1=0;
-  for(const s of all) if(s.tipo==='bloco'&&estudada(s)){if(!(s.meia&&s.meia.startsWith('1')))ses.add(s.base||s.id);uni.add(s.unidade);}   // sessão em duas metades: libera ao estudar a 2ª
-  for(const s of all) if(s.tipo==='ingles'&&(estudada(s)||ses.has(s.liga))) e1++;   // um termo E1 por aula de inglês feita
-  return {ses,uni,e1};
+  for(const s of all) if(s.tipo==='bloco'&&done(s)){if(!(s.meia&&s.meia.startsWith('1')))ses.add(s.base||s.id);uni.add(s.unidade);}   // só libera com a sessão inteira concluída (todas as partes); em duas metades: ao concluir a 2ª
+  const ing=new Set();
+  for(const s of all) if(s.tipo==='ingles'&&estudada(s)){e1++;ing.add(s.id);}   // um termo E1 por aula de inglês feita; a gramática da aula entra junto
+  return {ses,uni,e1,ing};
 }
 function cartaoLiberado(c,lib){
   if(c.unidade==='ING-E1'){ const m=/E1-(\d+)/.exec(c.id); return m?+m[1]<=lib.e1:lib.e1>=12; }   // vocabulário extra: depois dos 12 termos
+  if(c.ing) return lib.ing.has(c.ing);   // gramática: só depois de fazer a aula de inglês do dia
   if(/^U/.test(c.id)) return true;   // cartão criado por você: sempre liberado
   return c.s?lib.ses.has(c.s):lib.uni.has(c.unidade);   // c.s = sessão do cartão; sem ela, vale a unidade
 }
@@ -475,12 +482,12 @@ function revisoesHoje(){
     if(!s){ novos.push(c); continue; }
     if(s.venc>hoje) continue;
     if(s.int===0&&s.vez&&s.venc===hoje){ (now-s.vez>=REDO_MS?redoPronto:redoEspera).push(c); } else due.push(c); }
-  const p=x=>prio.has(x.unidade)?0:1, mix=xs=>embaralha(xs,hoje);   // tudo misturado, de todas as matérias liberadas (sem ordem por matéria/unidade)
+  const p=x=>prio.has(x.unidade)?0:1, mix=xs=>intercala(xs,hoje);   // tudo misturado, matérias alternadas
   redoPronto.sort((a,b)=>srsOf(a).vez-srsOf(b).vez); redoEspera.sort((a,b)=>srsOf(a).vez-srsOf(b).vez);
   // ordem: refazer que já esperou · vencidos · novos · refazer que ainda esfria (só aparece quando não resta mais nada)
-  return {due:[...redoPronto,...mix(due)],novos:mix(novos),espera:redoEspera,totalNovos:novos.length,bloqueados,prio};
+  return {due:[...redoPronto,...due],novos,fila:[...redoPronto,...mix([...due,...novos]),...redoEspera],espera:redoEspera,totalNovos:novos.length,bloqueados,prio};
 }
-const fila=()=>{const r=revisoesHoje();return [...r.due,...r.novos,...r.espera];};
+const fila=()=>revisoesHoje().fila;
 function retencao(){const lim=addDays(todayISO(),-30);const rs=logs('revisoes-').filter(r=>r.rep>0&&r.dia>=lim);return rs.length?Math.round(100*rs.filter(r=>r.nota>1).length/rs.length):null;}
 
 /* ---------- questões ---------- */
@@ -727,17 +734,17 @@ function viewSimulados(){
 
 /* ---------- FLASHCARDS ---------- */
 function viewFlash(){
-  const r=revisoesHoje(),f=[...r.due,...r.novos,...r.espera],c=f[0];
+  const r=revisoesHoje(),f=r.fila,c=f[0];
   const srsAll=Object.entries(U).filter(([k])=>k.startsWith('srs-')).flatMap(([,d])=>Object.values(d.cards||{}));
   const aprend=srsAll.filter(x=>x.rep>=2).length,ret=retencao(),discs=[...new Set(allCards().map(c=>c.disc))];
   let h=header('Flashcards','Revisão espaçada')+`<div class="filters" role="group" aria-label="Baralho"><button class="fchip" aria-pressed="${ui.fcDeck==='todos'}" data-act="deck" data-v="todos">Todos</button>${discs.map(d=>`<button class="fchip" aria-pressed="${ui.fcDeck===d}" data-act="deck" data-v="${d}"><span class="dot" style="width:8px;height:8px;background:var(--${d})"></span>${d}</button>`).join('')}</div>
   <div class="fcstats"><div class="stat"><b>${r.totalNovos}</b><span>novos liberados</span></div><div class="stat"><b>${r.due.length+r.espera.length}</b><span>para rever</span></div><div class="stat"><b>${aprend}</b><span>aprendidos</span></div><div class="stat"><b>${ret==null?'—':ret+'%'}</b><span>retenção 30 d</span></div></div>`;
-  if(c){const prev=srsOf(c)||{},pv=n=>{const x=srsNext(prev,n,todayISO());return x.int===0?'já já':x.int===1?'amanhã':x.int+' dias';};
+  if(c){const prev=srsOf(c)||{},pv=n=>{const x=srsNext(prev,n,todayISO(),c.id);return x.int===1?'amanhã':x.int+' dias';};
     h+=`<div style="font-size:12px;color:var(--muted)">${f.length} na fila (${r.due.length+r.espera.length} para rever + ${r.novos.length} novos) · tudo o que você já estudou${r.prio.size?` · prioridade: ${[...r.prio].join(', ')} (revisão de 7 dias)`:''}</div>
     <div class="flip"><button class="fcard ${ui.fcFlip?'on':''}" data-act="flip" aria-label="Virar cartão">
      <div class="face"><div class="stripe" style="background:var(--${c.disc})"></div><span class="mono" style="font-size:12px;color:var(--${c.disc}-t)">${c.unidade}${prev.venc?'':' · novo'}</span><div class="q1">${esc(c.frente)}</div><div class="hint">Toque para ver a resposta</div></div>
      <div class="face back"><div class="stripe" style="background:var(--${c.disc})"></div><span class="mono" style="font-size:12px;color:var(--${c.disc}-t)">${c.unidade}</span><div class="q1" style="font-weight:500;font-size:16px">${esc(c.verso)}</div><div class="hint">Fonte: ${esc(c.fonte)}</div></div></button></div>
-    ${ui.fcFlip?`<div class="rate">${[[1,'Refazer'],[2,'Difícil'],[3,'Médio'],[4,'Fácil']].map(([n,l])=>`<button class="r${n}" data-act="rate" data-v="${n}" data-id="${c.id}" data-disc="${c.disc}">${l}<span>${pv(n)}</span></button>`).join('')}</div>`:''}`;
+    ${ui.fcFlip?`<div class="rate">${[[1,'Não sei','circle-help'],[2,'Difícil','circle-alert'],[3,'Médio','minus'],[4,'Fácil','circle-check']].map(([n,l,i])=>`<button class="r${n}" data-act="rate" data-v="${n}" data-id="${c.id}" data-disc="${c.disc}">${ic(i)}${l}<span>${pv(n)}</span></button>`).join('')}</div>`:''}`;
   } else h+=`<div class="card empty-state">${ic('circle-check')}<br>${r.bloqueados?'Nenhum cartão para agora. Os cartões de cada sessão entram assim que você marca a sessão como concluída (ou uma de suas partes).':'Nenhum cartão para agora. Os próximos vencem nos próximos dias.'}</div>`;
   const lib=liberadas();
   h+=`<div class="sec"><h2>Baralhos</h2>${canEdit?`<button class="act" data-act="fcnew">+ Novo cartão</button>`:''}</div><div class="decks">${discs.map(d=>{const cs=allCards().filter(c=>c.disc===d);
@@ -907,7 +914,7 @@ function sheetFcEdit(id,disc){const c=id?allCards().find(x=>x.id===id):{id:'',di
   <div class="btns">${id?`<button class="btn danger" data-act="fcdel" data-id="${c.id}" data-disc="${c.disc}">${ic('trash-2')}Excluir</button>`:''}<button class="btn pri block" data-act="fcsave" data-id="${c.id}" data-disc="${c.disc}">Salvar</button></div>`);}
 
 /* ---------- render ---------- */
-const ICO={'chevron-left':'<path d="m15 18-6-6 6-6"/>','chevron-right':'<path d="m9 18 6-6-6-6"/>','check':'<path d="M20 6 9 17l-5-5"/>','circle-check':'<circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/>','circle-alert':'<circle cx="12" cy="12" r="10"/><line x1="12" x2="12" y1="8" y2="12"/><line x1="12" x2="12.01" y1="16" y2="16"/>','play':'<polygon points="6 3 20 12 6 21 6 3"/>','pause':'<rect x="14" y="4" width="4" height="16" rx="1"/><rect x="6" y="4" width="4" height="16" rx="1"/>','square':'<rect width="18" height="18" x="3" y="3" rx="2"/>','plus':'<path d="M5 12h14"/><path d="M12 5v14"/>','clock':'<circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>','settings':'<line x1="4" x2="20" y1="7" y2="7"/><line x1="4" x2="20" y1="17" y2="17"/><circle cx="9" cy="7" r="2.5"/><circle cx="15" cy="17" r="2.5"/>','search':'<circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>','layers':'<path d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z"/><path d="m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65"/><path d="m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65"/>','list-checks':'<path d="m3 17 2 2 4-4"/><path d="m3 7 2 2 4-4"/><path d="M13 6h8"/><path d="M13 12h8"/><path d="M13 18h8"/>','compass':'<circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/>','book-open':'<path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/>','chart-no-axes-column':'<line x1="18" x2="18" y1="20" y2="10"/><line x1="12" x2="12" y1="20" y2="4"/><line x1="6" x2="6" y1="20" y2="14"/>','arrow-left':'<path d="m12 19-7-7 7-7"/><path d="M19 12H5"/>','fast-forward':'<polygon points="13 19 22 12 13 5 13 19"/><polygon points="2 19 11 12 2 5 2 19"/>'};
+const ICO={'circle-help':'<circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/>','minus':'<path d="M5 12h14"/>','chevron-left':'<path d="m15 18-6-6 6-6"/>','chevron-right':'<path d="m9 18 6-6-6-6"/>','check':'<path d="M20 6 9 17l-5-5"/>','circle-check':'<circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/>','circle-alert':'<circle cx="12" cy="12" r="10"/><line x1="12" x2="12" y1="8" y2="12"/><line x1="12" x2="12.01" y1="16" y2="16"/>','play':'<polygon points="6 3 20 12 6 21 6 3"/>','pause':'<rect x="14" y="4" width="4" height="16" rx="1"/><rect x="6" y="4" width="4" height="16" rx="1"/>','square':'<rect width="18" height="18" x="3" y="3" rx="2"/>','plus':'<path d="M5 12h14"/><path d="M12 5v14"/>','clock':'<circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>','settings':'<line x1="4" x2="20" y1="7" y2="7"/><line x1="4" x2="20" y1="17" y2="17"/><circle cx="9" cy="7" r="2.5"/><circle cx="15" cy="17" r="2.5"/>','search':'<circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>','layers':'<path d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z"/><path d="m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65"/><path d="m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65"/>','list-checks':'<path d="m3 17 2 2 4-4"/><path d="m3 7 2 2 4-4"/><path d="M13 6h8"/><path d="M13 12h8"/><path d="M13 18h8"/>','compass':'<circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/>','book-open':'<path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/>','chart-no-axes-column':'<line x1="18" x2="18" y1="20" y2="10"/><line x1="12" x2="12" y1="20" y2="4"/><line x1="6" x2="6" y1="20" y2="14"/>','arrow-left':'<path d="m12 19-7-7 7-7"/><path d="M19 12H5"/>','fast-forward':'<polygon points="13 19 22 12 13 5 13 19"/><polygon points="2 19 11 12 2 5 2 19"/>'};
 /* ícones: Lucide (CDN); se não carregar (sem internet), usa cópias embutidas dos principais */
 function icons(){
   if(window.lucide){lucide.createIcons();return;}
@@ -1016,7 +1023,7 @@ document.addEventListener('click',async e=>{
    case 'simfim': await finishSim(); break;
    case 'simsair': ui.sim=null; render(); break;
    case 'flip': ui.fcFlip=!ui.fcFlip; t.classList.toggle('on'); setTimeout(()=>render(true),ui.fcFlip?380:0); break;
-   case 'rate': {const disc=t.dataset.disc,prev=srsOf({id,disc})||{},nota=+v,dia=todayISO(),nx=srsNext(prev,nota,dia);ui.fcFlip=false;
+   case 'rate': {const disc=t.dataset.disc,prev=srsOf({id,disc})||{},nota=+v,dia=todayISO(),nx=srsNext(prev,nota,dia,id);ui.fcFlip=false;
      const patch={...nx}; if(nx.vez===undefined) patch.vez={__delete__:true};
      await usave('srs-'+disc,{cards:{[id]:patch}});
      await usave('revisoes-'+monthKey(dia),{itens:{['v'+Date.now()+DEVICE]:{card:id,nota,rep:prev.rep||0,dia,intAntes:prev.int||0,intDepois:nx.int}}});
