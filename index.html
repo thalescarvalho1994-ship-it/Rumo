@@ -12,7 +12,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="RUMO">
 <meta name="theme-color" content="#050E1F">
-<script>(function(){try{var t=localStorage.getItem('rumo.tema')||'auto',h=new Date().getHours(),l=t==='light'||(t==='auto'&&matchMedia('(prefers-color-scheme: light)').matches)||(t==='horario'&&h>=6&&h<18);if(l)document.documentElement.dataset.theme='light'}catch(e){}})()</script>
+
 <script src="shim.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
 <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
@@ -31,14 +31,14 @@
   --r:16px;--safe-b:env(safe-area-inset-bottom,0px);--safe-t:env(safe-area-inset-top,0px);
   color-scheme:dark;
 }
-:root[data-theme="light"]{
-  --bg:#F3F7FC;--bg2:#E9F1FA;--card:#FFFFFF;--card2:#F6FAFF;--line:#D3DEEB;--line2:#E7EEF6;
-  --ink:#071A33;--ink2:#17345C;--muted:#4E6385;--neonB:#0090C8;--neonG:#0F9D58;--action:#006FA8;--action-ink:#FFFFFF;
-  --late:#C62839;--late-bg:#FDECEE;--ok:#0F8A4A;--ok-bg:#E6F6EC;--warn:#8A6100;--warn-bg:#FFF6DD;--warn-line:#EBCF84;
-  --glowB:0 1px 2px rgba(7,26,51,.08),0 3px 10px rgba(7,26,51,.06);--glowG:none;
-  --MAN-t:#B91C1C;--NAR-t:#15803D;--LEG-t:#854D0E;--ING-t:#4B5563;--REV-t:#BE185D;--AN-t:#1D4ED8;--MET-t:#0E7490;--COM-t:#C2410C;--CG-t:#6D28D9;
-  color-scheme:light;
-}
+
+
+
+
+
+
+
+
 *{box-sizing:border-box}
 html,body{margin:0;height:100%;overflow:hidden;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased;overscroll-behavior:none}
 button,input,select,textarea{font:inherit;color:inherit}
@@ -112,7 +112,7 @@ main{position:relative}
 .vhead span{font-size:12.5px;color:var(--muted)}
 .vhead .pct{font-weight:800;color:var(--neonG);font-size:17px;text-shadow:0 0 10px rgba(57,255,136,.5)}
 .river{position:relative;height:58px;border-radius:12px;overflow:hidden;background:linear-gradient(180deg,#04122A 0%,#062A55 55%,#0A4A8C 100%);box-shadow:inset 0 0 0 1px rgba(0,194,255,.35),inset 0 -10px 24px rgba(0,194,255,.25)}
-:root[data-theme="light"] .river{background:linear-gradient(180deg,#0B2A55,#0F4C8F)}
+
 .waves{position:absolute;left:0;width:200%;height:24px;animation:drift 8s linear infinite}
 .waves.w1{bottom:-2px}
 .waves.w2{bottom:8px;opacity:.55;animation-duration:13s;animation-direction:reverse}
@@ -136,7 +136,7 @@ main{position:relative}
 .btn{min-height:44px;padding:0 16px;border-radius:12px;border:1px solid var(--line);background:var(--card2);font-weight:700;display:inline-flex;align-items:center;justify-content:center;gap:8px;color:var(--ink)}
 .btn svg{width:18px;height:18px}
 .btn.pri{background:linear-gradient(135deg,var(--neonB),#3BE0FF);border-color:transparent;color:var(--action-ink);box-shadow:0 0 18px rgba(0,194,255,.35)}
-:root[data-theme="light"] .btn.pri{background:var(--action);color:#fff;box-shadow:none}
+
 .btn.go{background:linear-gradient(135deg,#1FE07A,var(--neonG));border-color:transparent;color:#03140A;box-shadow:var(--glowG)}
 .btn.danger{color:var(--late);border-color:var(--late);background:transparent}
 .btn.block{flex:1}
@@ -892,10 +892,9 @@ function sheetSettings(){const s=settings();
   <label class="f">Data prevista da prova<input type="date" id="cfProva" value="${s.prova||''}"></label>
   <label class="f">Meta de horas por semana<input type="number" id="cfHoras" min="1" max="60" value="${s.horasSemana}"></label>
   <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px"><label class="f">Pomodoro — foco (min)<input type="number" id="cfPe" min="5" max="120" value="${s.pomEstudo}"></label><label class="f">Descanso (min)<input type="number" id="cfPd" min="1" max="60" value="${s.pomDescanso}"></label></div>
-  <label class="f">Tema<select id="cfTema"><option value="auto">Automático: segue o celular</option><option value="horario">Por horário: claro 6h–18h</option><option value="dark">Sempre escuro (noite náutica)</option><option value="light">Sempre claro</option></select></label>
   <h4>Dados</h4><div class="btns"><button class="btn" data-act="export">${ic('download')}Exportar backup (JSON)</button><button class="btn danger" data-act="zerar">Zerar progresso</button><button class="btn" onclick="window.rumoSair&&confirm('Sair da conta neste aparelho?')&&rumoSair()">Sair da conta</button><button class="btn" data-act="importar">${ic('upload')}Importar backup</button><input type="file" id="impFile" accept="application/json,.json" hidden></div>
   <p style="font-size:12px;color:var(--muted)">Conteúdo: ${esc(C.plano?.meta?.titulo||'')} · versão ${esc(C.plano?.meta?.versao||'')}.</p>
-  <button class="btn pri" style="width:100%;margin-top:8px" data-act="saveCfg">Salvar</button>`);$('#cfTema').value=s.tema||'auto';}
+  <button class="btn pri" style="width:100%;margin-top:8px" data-act="saveCfg">Salvar</button>`);}
 function sheetDeck(d){const cs=allCards().filter(c=>c.disc===d),lib=liberadas();
   openSheet(`<h3 id="sheetTitle">${esc(discNome(d))}</h3><div style="font-size:13px;color:var(--muted)">${cs.length} cartões</div>
   <div class="card" style="margin-top:10px">${cs.map(c=>{const s=srsOf(c);return `<div class="cardrow"><span class="t">${esc(c.frente)}<small>${!cartaoLiberado(c,lib)?'entra ao concluir '+(c.s||c.unidade):s?`próxima: ${ddmm(s.venc)} · intervalo ${s.int} d`:'novo · liberado'} · ${esc(c.fonte)}</small></span>${canEdit?`<button class="iconbtn" data-act="fcedit" data-id="${c.id}" data-disc="${c.disc}" aria-label="Editar">${ic('pencil')}</button>`:''}</div>`;}).join('')}</div>`);}
@@ -915,14 +914,8 @@ function icons(){
   document.querySelectorAll('i[data-lucide]').forEach(el=>{const st=el.getAttribute('style');
     el.outerHTML=`<svg xmlns="http://www.w3.org/2000/svg" class="lucide" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"${st?` style="${st}"`:''}>${ICO[el.dataset.lucide]||''}</svg>`;});
 }
-/* tema: auto = segue o celular (claro de dia, escuro à noite, conforme o ajuste do aparelho) · horario = claro das 6h às 18h */
-function temaPref(){try{return settings().tema||'auto';}catch(e){try{return localStorage.getItem('rumo.tema')||'auto';}catch(e2){return 'auto';}}}
-function aplicaTema(){const t=temaPref();try{localStorage.setItem('rumo.tema',t);}catch(e){}
-  const h=new Date().getHours(),claro=t==='light'||(t==='auto'&&matchMedia('(prefers-color-scheme: light)').matches)||(t==='horario'&&h>=6&&h<18);
-  const r=document.documentElement;if(claro)r.dataset.theme='light';else delete r.dataset.theme;
-  const m=document.querySelector('meta[name=theme-color]');if(m)m.content=claro?'#F3F7FC':'#050E1F';}
-try{matchMedia('(prefers-color-scheme: light)').addEventListener('change',aplicaTema);}catch(e){}
-setInterval(aplicaTema,60000);document.addEventListener('visibilitychange',()=>{if(!document.hidden)aplicaTema();});
+/* app somente no tema escuro */
+function aplicaTema(){delete document.documentElement.dataset.theme;try{localStorage.removeItem('rumo.tema');}catch(e){}}
 function render(soft){
   if(!ready) return;
   const sh=$('#sheet'); if(soft&&sh.classList.contains('open')&&document.activeElement&&sh.contains(document.activeElement)&&['TEXTAREA','INPUT'].includes(document.activeElement.tagName)){ $('#tabs').innerHTML=navHTML(); return; }
@@ -987,7 +980,7 @@ document.addEventListener('click',async e=>{
      await usave('agenda',patch);closeSheet();render();toast(marks.length+' sessão(ões) remarcada(s)');break;}
    case 'settings': sheetSettings(); break;
    case 'close': closeSheet(); break;
-   case 'saveCfg': await usave('settings',{inicio:$('#cfInicio').value||PLANO_BASE,prova:$('#cfProva').value,horasSemana:+$('#cfHoras').value||19,pomEstudo:+$('#cfPe').value||50,pomDescanso:+$('#cfPd').value||10,tema:$('#cfTema').value});
+   case 'saveCfg': await usave('settings',{inicio:$('#cfInicio').value||PLANO_BASE,prova:$('#cfProva').value,horasSemana:+$('#cfHoras').value||19,pomEstudo:+$('#cfPe').value||50,pomDescanso:+$('#cfPd').value||10});
      closeSheet();render();toast('Configurações salvas');break;
    case 'export': {const blob=JSON.stringify({exportadoEm:new Date().toISOString(),usuario:U},null,1);
      if(!downloads){toast('Download indisponível nesta visualização');break;}
