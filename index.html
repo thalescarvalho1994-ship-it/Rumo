@@ -269,12 +269,15 @@ label.f{min-width:0;display:flex;flex-direction:column;gap:6px;font-size:13px;fo
 /* ===== flashcards ===== */
 .fcstats{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:12px}
 .flip{perspective:1200px;margin:10px 0 12px}
-.fcard{position:relative;height:270px;transform-style:preserve-3d;transition:transform .45s ease;cursor:pointer;border:0;background:none;width:100%;padding:0;color:var(--ink)}
+.fcard{position:relative;display:grid;min-height:270px;transform-style:preserve-3d;transition:transform .45s ease;cursor:pointer;border:0;background:none;width:100%;padding:0;color:var(--ink)}
 .fcard.on{transform:rotateY(180deg)}
-.face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:20px;border:1px solid var(--line);background:linear-gradient(160deg,var(--card2),var(--card));padding:18px;display:flex;flex-direction:column;gap:10px;text-align:left;box-shadow:var(--glowB)}
+.face{grid-area:1/1;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:20px;border:1px solid var(--line);background:linear-gradient(160deg,var(--card2),var(--card));padding:18px;display:flex;flex-direction:column;gap:10px;text-align:left;box-shadow:var(--glowB)}
 .face.back{transform:rotateY(180deg)}
-.face .q1{font-size:18px;font-weight:700;line-height:1.35;flex:1;display:flex;align-items:center;overflow:auto}
+.face .q1{font-size:18px;font-weight:700;line-height:1.35;overflow-wrap:anywhere}
 .face .hint{font-size:12px;color:var(--muted)}
+.oracao img{width:100%;height:auto;border-radius:14px;display:block;margin-bottom:14px}
+.oracao h3{font-size:15px;margin:0 0 10px;letter-spacing:.6px;text-transform:uppercase;color:var(--ink)}
+.oracao p{font-size:16px;line-height:1.65;margin:0 0 12px}
 .face .stripe{height:4px;border-radius:2px;width:44px}
 .rate{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
 .rate button{min-height:56px;border-radius:12px;border:1px solid var(--line);background:var(--card2);font-weight:700;font-size:13px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;color:var(--ink)}
@@ -538,7 +541,7 @@ async function startTimer(tarefa){
 }
 
 /* ===================== UI ===================== */
-const TABS=[['hoje','Hoje','compass'],['assuntos','Assuntos','book-open'],['atividades','Atividades','list-checks'],['flash','Flashcards','layers'],['progresso','Progresso','chart-no-axes-column']];
+const TABS=[['hoje','Hoje','compass'],['assuntos','Assuntos','book-open'],['atividades','Atividades','list-checks'],['flash','Flashcards','layers'],['progresso','Progresso','chart-no-axes-column'],['oracao','Oração','heart']];
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const ic=(n,extra='')=>`<i data-lucide="${n}" ${extra}></i>`;
@@ -708,8 +711,7 @@ function qCard(q,{done:dn,sel,simulado,idx,total}){
    ${dn&&q.atencao?`<div class="attn">⚠ ${esc(q.atencao)}</div>`:''}${dn?`<div style="font-size:12px;color:var(--muted)">Fonte: ${esc(q.fonte)}</div>`:''}</article>`;
 }
 function viewAtividades(){
-  let h=header('Atividades','Questões, simulados e caderno de erros')+`<div class="seg" role="group"><button aria-pressed="${ui.atv==='questoes'}" data-act="atv" data-v="questoes">Questões</button><button aria-pressed="${ui.atv==='simulados'}" data-act="atv" data-v="simulados">Simulados</button><button aria-pressed="${ui.atv==='erros'}" data-act="atv" data-v="erros">Erros</button></div>`;
-  if(ui.atv==='simulados') return h+viewSimulados();
+  let h=header('Atividades','Questões e caderno de erros')+`<div class="seg" role="group"><button aria-pressed="${ui.atv!=='erros'}" data-act="atv" data-v="questoes">Questões</button><button aria-pressed="${ui.atv==='erros'}" data-act="atv" data-v="erros">Erros</button></div>`;
   if(ui.atv==='erros') return h+viewErros();
   const f=ui.qf,lista=qFiltradas(); if(ui.qIdx>=lista.length) ui.qIdx=0;
   const discs=[...new Set(allQ().map(q=>q.disc))];
@@ -756,6 +758,17 @@ function viewSimulados(){
    <div class="sec"><h2>Histórico</h2></div><div class="card">${hist.length?hist.map(([,t])=>`<div class="hist"><span>${ddmm(t.dia)} · ${esc(t.titulo)}</span><b>${t.acertos}/${t.total}</b></div>`).join(''):'<div class="empty-state">Nenhum simulado feito ainda.</div>'}</div>`;
 }
 
+/* ---------- ORAÇÃO ---------- */
+function viewOracao(){
+  return header('Oração','Antes do estudo')+`<article class="card oracao">
+   <img src="img/santo-tomas.jpg" alt="Santo Tomás de Aquino" width="800" height="1000" loading="lazy">
+   <h3>Oração antes do estudo</h3>
+   <p>Criador inefável, que, no meio dos tesouros da vossa Sabedoria, elegestes três hierarquias de Anjos e as dispusestes numa ordem admirável acima dos Céus, que dispusestes com tanta beleza as partes do universo, Vós, a Quem chamamos a verdadeira Fonte de Luz e de Sabedoria, e o Princípio supereminente, dignai-Vos derramar sobre as trevas da minha inteligência um raio de vossa clareza.</p>
+   <p>Afastai para longe de mim a dupla obscuridade na qual nasci: o pecado e a ignorância. Vós, que tornais eloquente a língua das crianchinhas, modelai a minha palavra e derramai nos meus lábios a graça de vossa bênção.</p>
+   <p>Dai-me a penetração da inteligência, a faculdade de lembrar-me, o método e a facilidade do estudo, a profundidade na interpretação e uma graça abundante de expressão.</p>
+   <p>Fortificai o meu estudo, dirigi o seu curso, aperfeiçoai o seu fim, Vós que sois verdadeiro Deus e verdadeiro homem, e que viveis nos séculos dos séculos.</p>
+  </article>`;
+}
 /* ---------- FLASHCARDS ---------- */
 function viewFlash(){
   const r=revisoesHoje(),f=r.fila,c=f[0];
@@ -856,7 +869,7 @@ function sheetSess(id){
    <textarea id="abCola" rows="4" placeholder="Cole aqui a abertura que o Claude respondeu"></textarea>
    <div class="btns" style="margin-top:8px"><button class="btn" data-act="salvarAb" data-id="${esc(id)}">${ic('save')}Salvar abertura</button></div>`:'')}`:''}
    ${!u?`<h4>Objetivo</h4><ul><li>${esc(s.obj||'')}</li></ul>`:''}
-   ${u&&(qs.length||fcs.length)?`<h4>Associados</h4><div class="btns">${qs.length?`<button class="btn" data-act="goq" data-v="${u.disc}">${ic('list-checks')}${qs.length} questões</button>`:''}${fcs.length?`<button class="btn" data-act="gofc" data-v="${u.disc}">${ic('layers')}${fcs.length} cartões</button>`:''}</div>`:''}
+   ${u&&fcs.length?`<h4>Associados</h4><div class="btns"><button class="btn" data-act="gofc" data-v="${u.disc}">${ic('layers')}${fcs.length} cartões</button></div>`:''}
    <h4>Observações</h4><textarea id="nota" rows="3" placeholder="Anotações pessoais">${esc(n.texto)}</textarea>
    <h4>Dúvidas e dificuldades</h4><textarea id="duv" rows="2" placeholder="O que ficou difícil">${esc(n.duvidas)}</textarea>
    <div class="btns" style="margin-top:14px"><button class="btn pri block" data-act="toggle" data-id="${esc(id)}" data-close="1">${st==='concluido'?'Reabrir':'Marcar concluída'}</button></div>`);
@@ -952,7 +965,7 @@ function render(soft){
   const sh=$('#sheet'); if(soft&&sh.classList.contains('open')&&document.activeElement&&sh.contains(document.activeElement)&&['TEXTAREA','INPUT'].includes(document.activeElement.tagName)){ $('#tabs').innerHTML=navHTML(); return; }
   const y=scroller().scrollTop; lembraBarcos();
   if(!C.plano) $('#main').innerHTML=header('RUMO','PSCPP 2027','',true)+`<div class="card empty-state">${ic('database')}<br>Carregando o conteúdo…</div>`;
-  else $('#main').innerHTML={hoje:viewHoje,assuntos:viewAssuntos,atividades:viewAtividades,flash:viewFlash,progresso:viewProgresso}[tab]();
+  else $('#main').innerHTML={hoje:viewHoje,assuntos:viewAssuntos,atividades:viewAtividades,flash:viewFlash,progresso:viewProgresso,oracao:viewOracao}[tab]();
   $('#tabs').innerHTML=navHTML();$('#railBtns').innerHTML=navHTML();icons();requestAnimationFrame(placeBoats);
   if(soft) scroller().scrollTop=y;
   const bi=$('#busca');if(bi)bi.oninput=e=>{ui.busca=e.target.value;const p=e.target.selectionStart;render();const n=$('#busca');n.focus();n.setSelectionRange(p,p);};

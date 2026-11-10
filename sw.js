@@ -1,6 +1,6 @@
 /* RUMO: guarda o app para abrir sem internet. Dados do Supabase não passam por aqui. */
-const V = 'rumo-v29';
-const BASE = ['./', 'index.html', 'shim.js', 'manifest.webmanifest', 'icons/logo.png', 'icons/icon-180.png', 'icons/icon-192.png', 'icons/icon-512.png',
+const V = 'rumo-v34';
+const BASE = ['./', 'index.html', 'shim.js', 'manifest.webmanifest', 'icons/logo.png', 'icons/icon-180.png', 'icons/icon-192.png', 'icons/icon-512.png', 'img/santo-tomas.jpg',
   'content/plano.json', 'content/q_AN.json', 'content/q_COM.json', 'content/q_LEG.json', 'content/q_MAN.json', 'content/q_NAR.json',
   'content/fc_AN.json', 'content/fc_COM.json', 'content/fc_ING.json', 'content/fc_LEG.json', 'content/fc_MAN.json', 'content/fc_NAR.json'];
 const EXT = ['https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js', 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap'];
