@@ -1,1 +1,697 @@
-{"cards": [{"id": "v2.E1-01", "unidade": "ING-E1", "disc": "ING", "frente": "EN → PT: o que significa “bearing”?", "verso": "marcação (pronúncia aprox.: BÉ-rin) · Frase do material: “Pilot boat is bearing 215 degrees from you.”", "fonte": "IMO SMCP (Res. A.918(22)), General 12 (Bearings), PDF 16"}, {"id": "v2.E1-01r", "unidade": "ING-E1", "disc": "ING", "frente": "PT → EN: como se diz “marcação” no rádio/SMCP?", "verso": "bearing (BÉ-rin)", "fonte": "Plano PSCPP 2027, seção 9, E1"}, {"id": "v2.E1-02", "unidade": "ING-E1", "disc": "ING", "frente": "EN → PT: o que significa “heading”?", "verso": "proa / aproamento (pronúncia aprox.: RÉ-din) · Frase do material: “Heading — the horizontal direction of the vessel's bows at a given moment measured in degrees clockwise from north.”", "fonte": "IMO SMCP, Glossary, PDF 21"}, {"id": "v2.E1-02r", "unidade": "ING-E1", "disc": "ING", "frente": "PT → EN: como se diz “proa / aproamento” no rádio/SMCP?", "verso": "heading (RÉ-din)", "fonte": "Plano PSCPP 2027, seção 9, E1"}, {"id": "v2.E1-03", "unidade": "ING-E1", "disc": "ING", "frente": "EN → PT: o que significa “course”?", "verso": "rumo (pronúncia aprox.: CÓRS) · Frase do material: “Course — the intended direction of movement of a vessel through the water.”", "fonte": "IMO SMCP, Glossary, PDF 19"}, {"id": "v2.E1-03r", "unidade": "ING-E1", "disc": "ING", "frente": "PT → EN: como se diz “rumo” no rádio/SMCP?", "verso": "course (CÓRS)", "fonte": "Plano PSCPP 2027, seção 9, E1"}, {"id": "v2.E1-04", "unidade": "ING-E1", "disc": "ING", "frente": "EN → PT: o que significa “speed over ground”?", "verso": "velocidade no fundo (pronúncia aprox.: SPID ôu-ver GRÁUND) · Frase do material: “\"ground speed\", meaning speed over the ground.”", "fonte": "IMO SMCP (Res. A.918(22)), General 15 (Speed), PDF 17"}, {"id": "v2.E1-04r", "unidade": "ING-E1", "disc": "ING", "frente": "PT → EN: como se diz “velocidade no fundo” no rádio/SMCP?", "verso": "speed over ground (SPID ôu-ver GRÁUND)", "fonte": "Plano PSCPP 2027, seção 9, E1"}, {"id": "v2.E1-05", "unidade": "ING-E1", "disc": "ING", "frente": "EN → PT: o que significa “say again”?", "verso": "repita (pronúncia aprox.: SÊI a-GUÉN) · Frase do material: “When a message is not properly heard, say: \"Say again (please).\"”", "fonte": "IMO SMCP (Res. A.918(22)), General 9.2, PDF 15"}, {"id": "v2.E1-05r", "unidade": "ING-E1", "disc": "ING", "frente": "PT → EN: como se diz “repita” no rádio/SMCP?", "verso": "say again (SÊI a-GUÉN)", "fonte": "Plano PSCPP 2027, seção 9, E1"}, {"id": "v2.E1-06", "unidade": "ING-E1", "disc": "ING", "frente": "EN → PT: o que significa “correction”?", "verso": "correção (pronúncia aprox.: co-RÉC-xan) · Frase do material: “My present speed is 14 knots - mistake. Correction, my present speed is 12, one-two, knots.”", "fonte": "IMO SMCP (Res. A.918(22)), General 7 (Corrections), PDF 15"}, {"id": "v2.E1-06r", "unidade": "ING-E1", "disc": "ING", "frente": "PT → EN: como se diz “correção” no rádio/SMCP?", "verso": "correction (co-RÉC-xan)", "fonte": "Plano PSCPP 2027, seção 9, E1"}, {"id": "v2.E1-07", "unidade": "ING-E1", "disc": "ING", "frente": "EN → PT: o que significa “stand by”?", "verso": "aguarde (pronúncia aprox.: STÉND BÁI) · Frase do material: “\"Stand by\" followed by the time interval within which the information will be available.”", "fonte": "IMO SMCP (Res. A.918(22)), General 4.3, PDF 14"}, {"id": "v2.E1-07r", "unidade": "ING-E1", "disc": "ING", "frente": "PT → EN: como se diz “aguarde” no rádio/SMCP?", "verso": "stand by (STÉND BÁI)", "fonte": "Plano PSCPP 2027, seção 9, E1"}, {"id": "v2.E1-08", "unidade": "ING-E1", "disc": "ING", "frente": "EN → PT: o que significa “over”?", "verso": "câmbio (pronúncia aprox.: ÔU-ver) · Frase do material: “A palavra \"over/câmbio\" é utilizada para indicar o fim de uma chamada ou mensagem e [...] indica que a outra estação pode responder.”", "fonte": "EROG (DPC), Unidade 1, 1.10.2, PDF 52"}, {"id": "v2.E1-08r", "unidade": "ING-E1", "disc": "ING", "frente": "PT → EN: como se diz “câmbio” no rádio/SMCP?", "verso": "over (ÔU-ver)", "fonte": "Plano PSCPP 2027, seção 9, E1"}, {"id": "v2.E1-09", "unidade": "ING-E1", "disc": "ING", "frente": "EN → PT: o que significa “out”?", "verso": "desligo (pronúncia aprox.: ÁUT) · Frase do material: “O fim das comunicações deve ser indicado com o uso da palavra \"out\".”", "fonte": "EROG (DPC), Unidade 1, PDF 51"}, {"id": "v2.E1-09r", "unidade": "ING-E1", "disc": "ING", "frente": "PT → EN: como se diz “desligo” no rádio/SMCP?", "verso": "out (ÁUT)", "fonte": "Plano PSCPP 2027, seção 9, E1"}, {"id": "v2.E1-10", "unidade": "ING-E1", "disc": "ING", "frente": "EN → PT: o que significa “I say again”?", "verso": "repito (pronúncia aprox.: ÁI SÊI a-GUÉN) · Frase do material: “I say again: (repita a mensagem)”", "fonte": "EROG (DPC), Unidade 1, mensagem de segurança, PDF 58"}, {"id": "v2.E1-10r", "unidade": "ING-E1", "disc": "ING", "frente": "PT → EN: como se diz “repito” no rádio/SMCP?", "verso": "I say again (ÁI SÊI a-GUÉN)", "fonte": "Plano PSCPP 2027, seção 9, E1"}, {"id": "v2.E1-11", "unidade": "ING-E1", "disc": "ING", "frente": "EN → PT: o que significa “read back”?", "verso": "repita o que entendeu (pronúncia aprox.: RID BÉC) · Frase do material: “Quando a mensagem é recebida e o reconhecimento correto é necessário, repita a mensagem junto com o reconhecimento: \"Received, understood. Berth clear at 0830 hours\".”", "fonte": "EROG (DPC), Unidade 1, PDF 51"}, {"id": "v2.E1-11r", "unidade": "ING-E1", "disc": "ING", "frente": "PT → EN: como se diz “repita o que entendeu” no rádio/SMCP?", "verso": "read back (RID BÉC)", "fonte": "Plano PSCPP 2027, seção 9, E1"}, {"id": "v2.E1-12", "unidade": "ING-E1", "disc": "ING", "frente": "EN → PT: o que significa “roger”?", "verso": "entendido (pronúncia aprox.: RÓ-djer)", "fonte": "Plano, E1 — termo não encontrado no material do projeto (conhecimento geral)"}, {"id": "v2.E1-12r", "unidade": "ING-E1", "disc": "ING", "frente": "PT → EN: como se diz “entendido” no rádio/SMCP?", "verso": "roger (RÓ-djer)", "fonte": "Plano PSCPP 2027, seção 9, E1"}, {"id": "v2.ENX-01", "unidade": "ING-E1", "disc": "ING", "frente": "EN → PT: “air draft”", "verso": "calado aéreo: altura da linha-d'água ao ponto mais alto do navio", "fonte": "IMO SMCP, Glossary, PDF 18"}, {"id": "v2.ENX-02", "unidade": "ING-E1", "disc": "ING", "frente": "EN → PT: “backing (wind)”", "verso": "vento rondando no sentido anti-horário", "fonte": "IMO SMCP, Glossary, PDF 18"}, {"id": "v2.ENX-03", "unidade": "ING-E1", "disc": "ING", "frente": "EN → PT: “veering (wind)”", "verso": "vento rondando no sentido horário", "fonte": "IMO SMCP, Glossary, PDF 25"}, {"id": "v2.ENX-04", "unidade": "ING-E1", "disc": "ING", "frente": "EN → PT: “leeway”", "verso": "abatimento: deriva lateral para sotavento", "fonte": "IMO SMCP, Glossary, PDF 21"}, {"id": "v2.ENX-05", "unidade": "ING-E1", "disc": "ING", "frente": "EN → PT: “boarding speed”", "verso": "velocidade ajustada à da lancha para embarque do prático", "fonte": "IMO SMCP, Glossary, PDF 18"}, {"id": "v2.ENX-06", "unidade": "ING-E1", "disc": "ING", "frente": "EN → PT: “cable (measurement)”", "verso": "1/10 de milha (100 braças)", "fonte": "IMO SMCP, Glossary, PDF 18"}, {"id": "v2.ENX-07", "unidade": "ING-E1", "disc": "ING", "frente": "EN → PT: “shackle (chain)”", "verso": "quartel de amarra de 15 braças", "fonte": "IMO SMCP, Glossary, PDF 24"}, {"id": "v2.ENX-08", "unidade": "ING-E1", "disc": "ING", "frente": "EN → PT: “crash-stop”", "verso": "inversão de emergência da máquina para evitar colisão", "fonte": "IMO SMCP, Glossary, PDF 19"}, {"id": "v2.ENX-09", "unidade": "ING-E1", "disc": "ING", "frente": "EN → PT: “dragging (anchor)”", "verso": "ferro garrando sem querer", "fonte": "IMO SMCP, Glossary, PDF 20"}, {"id": "v2.ENX-10", "unidade": "ING-E1", "disc": "ING", "frente": "EN → PT: “dredging (anchor)”", "verso": "ferro arrastado de propósito para controlar o navio", "fonte": "IMO SMCP, Glossary, PDF 20"}, {"id": "v2.ENX-11", "unidade": "ING-E1", "disc": "ING", "frente": "EN → PT: “give way”", "verso": "manobrar para sair do caminho de outro navio", "fonte": "IMO SMCP, Glossary, PDF 21"}, {"id": "v2.ENX-12", "unidade": "ING-E1", "disc": "ING", "frente": "EN → PT: “stand on”", "verso": "manter rumo e velocidade", "fonte": "IMO SMCP, Glossary, PDF 24"}, {"id": "v2.ENX-13", "unidade": "ING-E1", "disc": "ING", "frente": "EN → PT: “course made good”", "verso": "rumo efetivamente feito sobre o fundo", "fonte": "IMO SMCP, Glossary, PDF 19"}, {"id": "v2.ENX-14", "unidade": "ING-E1", "disc": "ING", "frente": "EN → PT: “underway”", "verso": "em movimento: não fundeado, não amarrado e não encalhado", "fonte": "IMO SMCP, Glossary, PDF 25"}, {"id": "v2.ENX-15", "unidade": "ING-E1", "disc": "ING", "frente": "EN → PT: “fairway”", "verso": "parte navegável de uma via", "fonte": "IMO SMCP, Glossary VTS, PDF 25"}, {"id": "v2.ENX-16", "unidade": "ING-E1", "disc": "ING", "frente": "EN → PT: “reporting point”", "verso": "ponto em que o navio deve se reportar ao VTS", "fonte": "IMO SMCP, Glossary VTS, PDF 25"}, {"id": "v2.ENX-17", "unidade": "ING-E1", "disc": "ING", "frente": "EN → PT: “traffic clearance”", "verso": "autorização do VTS para prosseguir em condições especificadas", "fonte": "IMO SMCP, Glossary VTS, PDF 26"}, {"id": "v2.ENX-18", "unidade": "ING-E1", "disc": "ING", "frente": "EN → PT: “veer out (anchor)”", "verso": "largar mais amarra", "fonte": "IMO SMCP, Glossary, PDF 25"}, {"id": "v2.ENX-19", "unidade": "ING-E1", "disc": "ING", "frente": "EN → PT: “walk out (anchor)”", "verso": "arriar o ferro com o molinete até sair do escovém", "fonte": "IMO SMCP, Glossary, PDF 25"}, {"id": "v2.GR-G1.01-1", "unidade": "MAN-01", "disc": "ING", "frente": "G1.01 · Complete com o verbo to be: “The pilot ___ on the bridge.”", "verso": "is", "fonte": "Plano de inglês v1, aula G1.01 — gramática geral; frase criada para o cartão", "s": "MAN-01.1"}, {"id": "v2.GR-G1.01-2", "unidade": "MAN-01", "disc": "ING", "frente": "G1.01 · Complete: “We ___ in the channel.”", "verso": "are", "fonte": "Plano de inglês v1, aula G1.01 — gramática geral; frase criada para o cartão", "s": "MAN-01.1"}, {"id": "v2.GR-G1.02-1", "unidade": "NAR-01", "disc": "ING", "frente": "G1.02 · Passe para a negativa: “The anchor is clear.”", "verso": "The anchor isn't (is not) clear.", "fonte": "Plano de inglês v1, aula G1.02 — gramática geral; frase criada para o cartão", "s": "NAR-01.1"}, {"id": "v2.GR-G1.02-2", "unidade": "NAR-01", "disc": "ING", "frente": "G1.02 · Passe para pergunta: “The pilot is on board.”", "verso": "Is the pilot on board?", "fonte": "Plano de inglês v1, aula G1.02 — gramática geral; frase criada para o cartão", "s": "NAR-01.1"}, {"id": "v2.GR-G1.03-1", "unidade": "AN-01", "disc": "ING", "frente": "G1.03 · there is ou there are? “___ two tugs alongside.”", "verso": "There are (plural).", "fonte": "Plano de inglês v1, aula G1.03 — gramática geral; frase criada para o cartão", "s": "AN-01.1"}, {"id": "v2.GR-G1.03-2", "unidade": "AN-01", "disc": "ING", "frente": "G1.03 · Preposição: “The tug is ___ the buoys.” (entre)", "verso": "between", "fonte": "Plano de inglês v1, aula G1.03 — gramática geral; frase criada para o cartão", "s": "AN-01.1"}, {"id": "v2.GR-G1.04-1", "unidade": "LEG-01", "disc": "ING", "frente": "G1.04 · a ou an? “___ anchor”", "verso": "an (som de vogal).", "fonte": "Plano de inglês v1, aula G1.04 — gramática geral; frase criada para o cartão", "s": "LEG-01.1"}, {"id": "v2.GR-G1.04-2", "unidade": "LEG-01", "disc": "ING", "frente": "G1.04 · Plural de “buoy”?", "verso": "buoys", "fonte": "Plano de inglês v1, aula G1.04 — gramática geral; frase criada para o cartão", "s": "LEG-01.1"}, {"id": "v2.GR-G1.05-1", "unidade": "COM-01", "disc": "ING", "frente": "G1.05 · Forma negativa do imperativo usada no SMCP: “___ overtake.”", "verso": "Do not overtake.", "fonte": "SMCP General 4.5 (exemplo “Do not overtake…”), PDF 14", "s": "COM-01.1"}, {"id": "v2.GR-G1.05-2", "unidade": "COM-01", "disc": "ING", "frente": "G1.05 · No imperativo, o sujeito aparece? Ex.: “Stop engines.”", "verso": "Não: o verbo vem no início, sem sujeito.", "fonte": "Plano de inglês v1, aula G1.05 — gramática geral; frase criada para o cartão", "s": "COM-01.1"}, {"id": "v2.GR-G1.06-1", "unidade": "MAN-02", "disc": "ING", "frente": "G1.06 · Complete (turn): “The ship ___ to starboard.”", "verso": "turns (3ª pessoa + s).", "fonte": "Plano de inglês v1, aula G1.06 — gramática geral; frase criada para o cartão", "s": "MAN-02.2"}, {"id": "v2.GR-G1.06-2", "unidade": "MAN-02", "disc": "ING", "frente": "G1.06 · Complete (board): “Pilots ___ here.”", "verso": "board (plural, sem s).", "fonte": "Plano de inglês v1, aula G1.06 — gramática geral; frase criada para o cartão", "s": "MAN-02.2"}, {"id": "v2.GR-G1.07-1", "unidade": "NAR-01", "disc": "ING", "frente": "G1.07 · Corrija: “It doesn't turns.”", "verso": "It doesn't turn. (o -s fica no doesn't)", "fonte": "Plano de inglês v1, aula G1.07 — gramática geral; frase criada para o cartão", "s": "NAR-01.2"}, {"id": "v2.GR-G1.07-2", "unidade": "NAR-01", "disc": "ING", "frente": "G1.07 · Negativa de “We have a tug.”", "verso": "We don't (do not) have a tug.", "fonte": "Plano de inglês v1, aula G1.07 — gramática geral; frase criada para o cartão", "s": "NAR-01.2"}, {"id": "v2.GR-G1.08-1", "unidade": "AN-01", "disc": "ING", "frente": "G1.08 · Faça a pergunta: “The vessel has a bow thruster.”", "verso": "Does the vessel have a bow thruster?", "fonte": "Plano de inglês v1, aula G1.08 — gramática geral; frase criada para o cartão", "s": "AN-01.2"}, {"id": "v2.GR-G1.08-2", "unidade": "AN-01", "disc": "ING", "frente": "G1.08 · Resposta curta afirmativa a “Does she carry dangerous cargo?”", "verso": "Yes, she does.", "fonte": "Plano de inglês v1, aula G1.08 — gramática geral; frase criada para o cartão", "s": "AN-01.2"}, {"id": "v2.GR-G1.09-1", "unidade": "LEG-02", "disc": "ING", "frente": "G1.09 · Que palavra pergunta LUGAR? “___ is the pilot boat?”", "verso": "Where", "fonte": "Plano de inglês v1, aula G1.09 — gramática geral; frase criada para o cartão", "s": "LEG-02.1"}, {"id": "v2.GR-G1.09-2", "unidade": "LEG-02", "disc": "ING", "frente": "G1.09 · How much ou how many? “___ tugs do you need?”", "verso": "How many (contável).", "fonte": "Plano de inglês v1, aula G1.09 — gramática geral; frase criada para o cartão", "s": "LEG-02.1"}, {"id": "v2.GR-G1.10-1", "unidade": "MAN-02", "disc": "ING", "frente": "G1.10 · Possessivo do navio (she): “___ draft is 12 metres.”", "verso": "Her", "fonte": "Plano de inglês v1, aula G1.10 — gramática geral; frase criada para o cartão", "s": "MAN-02.3"}, {"id": "v2.GR-G1.10-2", "unidade": "MAN-02", "disc": "ING", "frente": "G1.10 · Como dizer “a ponte de comando do navio” com 's?", "verso": "the ship's bridge", "fonte": "Plano de inglês v1, aula G1.10 — gramática geral; frase criada para o cartão", "s": "MAN-02.3"}, {"id": "v2.GR-G1.11-1", "unidade": "NAR-03", "disc": "ING", "frente": "G1.11 · at, on ou in? “___ 0830”", "verso": "at (hora).", "fonte": "Plano de inglês v1, aula G1.11 — gramática geral; frase criada para o cartão", "s": "NAR-03.1"}, {"id": "v2.GR-G1.11-2", "unidade": "NAR-03", "disc": "ING", "frente": "G1.11 · Como falar 045° no SMCP?", "verso": "“zero-four-five degrees” (dígito a dígito).", "fonte": "SMCP General 10, PDF 16", "s": "NAR-03.1"}, {"id": "v2.GR-G1.12-1", "unidade": "AN-02", "disc": "ING", "frente": "G1.12 · Pronome objeto de “we”: “Call ___ on channel 12.”", "verso": "us", "fonte": "Plano de inglês v1, aula G1.12 — gramática geral; frase criada para o cartão", "s": "AN-02.1"}, {"id": "v2.GR-G1.12-2", "unidade": "AN-02", "disc": "ING", "frente": "G1.12 · Em inglês náutico, o navio é tratado como…?", "verso": "she / her", "fonte": "Plano de inglês v1, aula G1.12 — gramática geral; frase criada para o cartão", "s": "AN-02.1"}, {"id": "v2.GR-G1.13-1", "unidade": "LEG-02", "disc": "ING", "frente": "G1.13 · Negativa de “We can enter now.”", "verso": "We can't (cannot) enter now.", "fonte": "Plano de inglês v1, aula G1.13 — gramática geral; frase criada para o cartão", "s": "LEG-02.2"}, {"id": "v2.GR-G1.13-2", "unidade": "LEG-02", "disc": "ING", "frente": "G1.13 · No SMCP, como pedir permissão em vez de “Can I…?”", "verso": "“QUESTION. Do I have permission to…?”", "fonte": "SMCP General 18.2, PDF 17", "s": "LEG-02.2"}, {"id": "v2.GR-G1.14-1", "unidade": "MAN-03", "disc": "ING", "frente": "G1.14 · Posição do advérbio: “We anchor here.” + usually", "verso": "We usually anchor here. (antes do verbo principal)", "fonte": "Plano de inglês v1, aula G1.14 — gramática geral; frase criada para o cartão", "s": "MAN-03.1"}, {"id": "v2.GR-G1.14-2", "unidade": "MAN-03", "disc": "ING", "frente": "G1.14 · Posição com to be: “The channel is busy.” + often", "verso": "The channel is often busy. (depois do to be)", "fonte": "Plano de inglês v1, aula G1.14 — gramática geral; frase criada para o cartão", "s": "MAN-03.1"}, {"id": "v2.VO-MAN-01.1-1", "unidade": "MAN-01", "disc": "ING", "frente": "EN → PT: “surge”", "verso": "movimento longitudinal (eixo x)", "fonte": "Santos, Manobrabilidade séc. 21, Cap. 2, p. 21 e 33 (PDF 14, 26)", "s": "MAN-01.1"}, {"id": "v2.VO-MAN-01.1-1r", "unidade": "MAN-01", "disc": "ING", "frente": "PT → EN: “movimento longitudinal”", "verso": "surge", "fonte": "Santos, Manobrabilidade séc. 21, Cap. 2, p. 21 e 33 (PDF 14, 26)", "s": "MAN-01.1"}, {"id": "v2.VO-MAN-01.1-2", "unidade": "MAN-01", "disc": "ING", "frente": "EN → PT: “sway”", "verso": "movimento lateral (eixo y)", "fonte": "Santos, Manobrabilidade séc. 21, Cap. 2, p. 33 (PDF 26)", "s": "MAN-01.1"}, {"id": "v2.VO-MAN-01.1-2r", "unidade": "MAN-01", "disc": "ING", "frente": "PT → EN: “movimento lateral”", "verso": "sway", "fonte": "Santos, Manobrabilidade séc. 21, Cap. 2, p. 33 (PDF 26)", "s": "MAN-01.1"}, {"id": "v2.VO-MAN-01.1-3", "unidade": "MAN-01", "disc": "ING", "frente": "EN → PT: “heave”", "verso": "movimento vertical (eixo z)", "fonte": "Santos, Manobrabilidade séc. 21, Cap. 2, p. 21 e 33 (PDF 14, 26)", "s": "MAN-01.1"}, {"id": "v2.VO-MAN-01.1-3r", "unidade": "MAN-01", "disc": "ING", "frente": "PT → EN: “movimento vertical”", "verso": "heave", "fonte": "Santos, Manobrabilidade séc. 21, Cap. 2, p. 21 e 33 (PDF 14, 26)", "s": "MAN-01.1"}, {"id": "v2.VO-MAN-01.1-4", "unidade": "MAN-01", "disc": "ING", "frente": "EN → PT: “roll · pitch · yaw”", "verso": "rotação em torno de x · de y · de z (momentos K, M, N)", "fonte": "Santos, Manobrabilidade séc. 21, Cap. 2, p. 23 e 28 (PDF 16, 21)", "s": "MAN-01.1"}, {"id": "v2.VO-MAN-01.1-4r", "unidade": "MAN-01", "disc": "ING", "frente": "PT → EN: “rotação em torno de x · de y · de z”", "verso": "roll · pitch · yaw", "fonte": "Santos, Manobrabilidade séc. 21, Cap. 2, p. 23 e 28 (PDF 16, 21)", "s": "MAN-01.1"}, {"id": "v2.VO-MAN-01.1-5", "unidade": "MAN-01", "disc": "ING", "frente": "EN → PT: “North-East-Down (NED)”", "verso": "referencial inercial: x norte, y leste, z para baixo", "fonte": "Santos, Manobrabilidade séc. 21, Cap. 2, p. 22 (PDF 15)", "s": "MAN-01.1"}, {"id": "v2.VO-MAN-01.1-5r", "unidade": "MAN-01", "disc": "ING", "frente": "PT → EN: “referencial inercial: x norte, y leste, z para baixo”", "verso": "North-East-Down (NED)", "fonte": "Santos, Manobrabilidade séc. 21, Cap. 2, p. 22 (PDF 15)", "s": "MAN-01.1"}, {"id": "v2.VO-NAR-01.1-1", "unidade": "NAR-01", "disc": "ING", "frente": "EN → PT: “heading information”", "verso": "informação de proa", "fonte": "SOLAS Cap. V, Reg. 12(b)(i)(2) antiga, PDF 219", "s": "NAR-01.1"}, {"id": "v2.VO-NAR-01.1-1r", "unidade": "NAR-01", "disc": "ING", "frente": "PT → EN: “informação de proa”", "verso": "heading information", "fonte": "SOLAS Cap. V, Reg. 12(b)(i)(2) antiga, PDF 219", "s": "NAR-01.1"}, {"id": "v2.VO-NAR-01.1-2", "unidade": "NAR-01", "disc": "ING", "frente": "EN → PT: “ships' routeing”", "verso": "sistemas de roteamento de navios", "fonte": "SOLAS Cap. V, Reg. 10, PDF 217", "s": "NAR-01.1"}, {"id": "v2.VO-NAR-01.1-2r", "unidade": "NAR-01", "disc": "ING", "frente": "PT → EN: “sistemas de roteamento de navios”", "verso": "ships' routeing", "fonte": "SOLAS Cap. V, Reg. 10, PDF 217", "s": "NAR-01.1"}, {"id": "v2.VO-NAR-01.1-3", "unidade": "NAR-01", "disc": "ING", "frente": "EN → PT: “vessel traffic services (VTS)”", "verso": "serviço de tráfego de navios", "fonte": "SOLAS Cap. V, Reg. 12, PDF 220", "s": "NAR-01.1"}, {"id": "v2.VO-NAR-01.1-3r", "unidade": "NAR-01", "disc": "ING", "frente": "PT → EN: “serviço de tráfego de navios”", "verso": "vessel traffic services (VTS)", "fonte": "SOLAS Cap. V, Reg. 12, PDF 220", "s": "NAR-01.1"}, {"id": "v2.VO-NAR-01.1-4", "unidade": "NAR-01", "disc": "ING", "frente": "EN → PT: “working language”", "verso": "idioma de trabalho a bordo", "fonte": "SOLAS Cap. V, Reg. 14.3, PDF 221", "s": "NAR-01.1"}, {"id": "v2.VO-NAR-01.1-4r", "unidade": "NAR-01", "disc": "ING", "frente": "PT → EN: “idioma de trabalho a bordo”", "verso": "working language", "fonte": "SOLAS Cap. V, Reg. 14.3, PDF 221", "s": "NAR-01.1"}, {"id": "v2.VO-AN-01.1-1", "unidade": "AN-01", "disc": "ING", "frente": "EN → PT: “hull”", "verso": "casco", "fonte": "Arte Naval v.1, art. 1.2, PDF 24", "s": "AN-01.1"}, {"id": "v2.VO-AN-01.1-1r", "unidade": "AN-01", "disc": "ING", "frente": "PT → EN: “casco”", "verso": "hull", "fonte": "Arte Naval v.1, art. 1.2, PDF 24", "s": "AN-01.1"}, {"id": "v2.VO-AN-01.1-2", "unidade": "AN-01", "disc": "ING", "frente": "EN → PT: “bow · stern”", "verso": "proa · popa", "fonte": "Arte Naval v.1, arts. 1.3–1.4, PDF 24", "s": "AN-01.1"}, {"id": "v2.VO-AN-01.1-2r", "unidade": "AN-01", "disc": "ING", "frente": "PT → EN: “proa · popa”", "verso": "bow · stern", "fonte": "Arte Naval v.1, arts. 1.3–1.4, PDF 24", "s": "AN-01.1"}, {"id": "v2.VO-AN-01.1-3", "unidade": "AN-01", "disc": "ING", "frente": "EN → PT: “bilge”", "verso": "bojo", "fonte": "Arte Naval v.1, art. 1.15, PDF 27", "s": "AN-01.1"}, {"id": "v2.VO-AN-01.1-3r", "unidade": "AN-01", "disc": "ING", "frente": "PT → EN: “bojo”", "verso": "bilge", "fonte": "Arte Naval v.1, art. 1.15, PDF 27", "s": "AN-01.1"}, {"id": "v2.VO-AN-01.1-4", "unidade": "AN-01", "disc": "ING", "frente": "EN → PT: “bulwark”", "verso": "borda-falsa", "fonte": "Arte Naval v.1, art. 1.22, PDF 28", "s": "AN-01.1"}, {"id": "v2.VO-AN-01.1-4r", "unidade": "AN-01", "disc": "ING", "frente": "PT → EN: “borda-falsa”", "verso": "bulwark", "fonte": "Arte Naval v.1, art. 1.22, PDF 28", "s": "AN-01.1"}, {"id": "v2.VO-AN-01.1-5", "unidade": "AN-01", "disc": "ING", "frente": "EN → PT: “quarter”", "verso": "alheta", "fonte": "Arte Naval v.1, art. 1.24, PDF 30", "s": "AN-01.1"}, {"id": "v2.VO-AN-01.1-5r", "unidade": "AN-01", "disc": "ING", "frente": "PT → EN: “alheta”", "verso": "quarter", "fonte": "Arte Naval v.1, art. 1.24, PDF 30", "s": "AN-01.1"}, {"id": "v2.VO-AN-01.1-6", "unidade": "AN-01", "disc": "ING", "frente": "EN → PT: “sheer strake”", "verso": "cintado", "fonte": "Arte Naval v.1, art. 1.29, PDF 31", "s": "AN-01.1"}, {"id": "v2.VO-AN-01.1-6r", "unidade": "AN-01", "disc": "ING", "frente": "PT → EN: “cintado”", "verso": "sheer strake", "fonte": "Arte Naval v.1, art. 1.29, PDF 31", "s": "AN-01.1"}, {"id": "v2.VO-LEG-01.1-1", "unidade": "LEG-01", "disc": "ING", "frente": "EN → PT: “Navy”", "verso": "Marinha", "fonte": "plano de inglês v1 (termo sugerido; não aparece no texto da norma)", "s": "LEG-01.1"}, {"id": "v2.VO-LEG-01.1-1r", "unidade": "LEG-01", "disc": "ING", "frente": "PT → EN: “Marinha”", "verso": "Navy", "fonte": "plano de inglês v1 (termo sugerido; não aparece no texto da norma)", "s": "LEG-01.1"}, {"id": "v2.VO-LEG-01.1-2", "unidade": "LEG-01", "disc": "ING", "frente": "EN → PT: “Directorate of Ports and Coasts”", "verso": "Diretoria de Portos e Costas (DPC)", "fonte": "plano de inglês v1 (termo sugerido)", "s": "LEG-01.1"}, {"id": "v2.VO-LEG-01.1-2r", "unidade": "LEG-01", "disc": "ING", "frente": "PT → EN: “Diretoria de Portos e Costas”", "verso": "Directorate of Ports and Coasts", "fonte": "plano de inglês v1 (termo sugerido)", "s": "LEG-01.1"}, {"id": "v2.VO-LEG-01.1-3", "unidade": "LEG-01", "disc": "ING", "frente": "EN → PT: “Harbour Master”", "verso": "Capitão dos Portos", "fonte": "plano de inglês v1 (termo sugerido)", "s": "LEG-01.1"}, {"id": "v2.VO-LEG-01.1-3r", "unidade": "LEG-01", "disc": "ING", "frente": "PT → EN: “Capitão dos Portos”", "verso": "Harbour Master", "fonte": "plano de inglês v1 (termo sugerido)", "s": "LEG-01.1"}, {"id": "v2.VO-COM-01.1-1", "unidade": "COM-01", "disc": "ING", "frente": "EN → PT: “message markers”", "verso": "marcadores de mensagem (Instruction, Advice, Warning...)", "fonte": "IMO SMCP (Res. A.918(22)), General 3, PDF 14", "s": "COM-01.1"}, {"id": "v2.VO-COM-01.1-1r", "unidade": "COM-01", "disc": "ING", "frente": "PT → EN: “marcadores de mensagem”", "verso": "message markers", "fonte": "IMO SMCP (Res. A.918(22)), General 3, PDF 14", "s": "COM-01.1"}, {"id": "v2.VO-COM-01.1-2", "unidade": "COM-01", "disc": "ING", "frente": "EN → PT: “relative bearing”", "verso": "marcação relativa (a partir da proa)", "fonte": "IMO SMCP (Res. A.918(22)), General 12.1, PDF 16", "s": "COM-01.1"}, {"id": "v2.VO-COM-01.1-2r", "unidade": "COM-01", "disc": "ING", "frente": "PT → EN: “marcação relativa”", "verso": "relative bearing", "fonte": "IMO SMCP (Res. A.918(22)), General 12.1, PDF 16", "s": "COM-01.1"}, {"id": "v2.VO-COM-01.1-3", "unidade": "COM-01", "disc": "ING", "frente": "EN → PT: “cable”", "verso": "amarra = 1/10 de milha (medida)", "fonte": "IMO SMCP, Glossary, PDF 18", "s": "COM-01.1"}, {"id": "v2.VO-COM-01.1-3r", "unidade": "COM-01", "disc": "ING", "frente": "PT → EN: “amarra = 1/10 de milha”", "verso": "cable", "fonte": "IMO SMCP, Glossary, PDF 18", "s": "COM-01.1"}, {"id": "v2.VO-MAN-02.1-1", "unidade": "MAN-02", "disc": "ING", "frente": "EN → PT: “eddy drag”", "verso": "arrasto por vorticidades (de forma)", "fonte": "Santos, Manobrabilidade séc. 21, Cap. 3, p. 41 (PDF 34)", "s": "MAN-02.1"}, {"id": "v2.VO-MAN-02.1-1r", "unidade": "MAN-02", "disc": "ING", "frente": "PT → EN: “arrasto por vorticidades”", "verso": "eddy drag", "fonte": "Santos, Manobrabilidade séc. 21, Cap. 3, p. 41 (PDF 34)", "s": "MAN-02.1"}, {"id": "v2.VO-MAN-02.1-2", "unidade": "MAN-02", "disc": "ING", "frente": "EN → PT: “groundboard”", "verso": "superfície livre tratada como base plana sólida", "fonte": "Santos, Manobrabilidade séc. 21, Cap. 3, p. 36 (PDF 29)", "s": "MAN-02.1"}, {"id": "v2.VO-MAN-02.1-2r", "unidade": "MAN-02", "disc": "ING", "frente": "PT → EN: “superfície livre tratada como base plana sólida”", "verso": "groundboard", "fonte": "Santos, Manobrabilidade séc. 21, Cap. 3, p. 36 (PDF 29)", "s": "MAN-02.1"}, {"id": "v2.VO-MAN-02.2-1", "unidade": "MAN-02", "disc": "ING", "frente": "EN → PT: “surge · sway · yaw”", "verso": "os 3 graus de liberdade do plano horizontal", "fonte": "Santos, Manobrabilidade séc. 21, Cap. 3, p. 43 (PDF 36)", "s": "MAN-02.2"}, {"id": "v2.VO-MAN-02.2-1r", "unidade": "MAN-02", "disc": "ING", "frente": "PT → EN: “os 3 graus de liberdade do plano horizontal”", "verso": "surge · sway · yaw", "fonte": "Santos, Manobrabilidade séc. 21, Cap. 3, p. 43 (PDF 36)", "s": "MAN-02.2"}, {"id": "v2.VO-MAN-02.2-2", "unidade": "MAN-02", "disc": "ING", "frente": "EN → PT: “yaw moment”", "verso": "momento de guinada (N)", "fonte": "Santos, Manobrabilidade séc. 21, Cap. 3, p. 47–49 (PDF 40–42)", "s": "MAN-02.2"}, {"id": "v2.VO-MAN-02.2-2r", "unidade": "MAN-02", "disc": "ING", "frente": "PT → EN: “momento de guinada”", "verso": "yaw moment", "fonte": "Santos, Manobrabilidade séc. 21, Cap. 3, p. 47–49 (PDF 40–42)", "s": "MAN-02.2"}, {"id": "v2.VO-NAR-01.2-1", "unidade": "NAR-01", "disc": "ING", "frente": "EN → PT: “blind sector”", "verso": "setor cego (radar/visibilidade)", "fonte": "SOLAS Cap. V, Reg. 22.1.2, PDF 232; IMO SMCP, Glossary", "s": "NAR-01.2"}, {"id": "v2.VO-NAR-01.2-1r", "unidade": "NAR-01", "disc": "ING", "frente": "PT → EN: “setor cego”", "verso": "blind sector", "fonte": "SOLAS Cap. V, Reg. 22.1.2, PDF 232; IMO SMCP, Glossary", "s": "NAR-01.2"}, {"id": "v2.VO-NAR-01.2-2", "unidade": "NAR-01", "disc": "ING", "frente": "EN → PT: “conning position”", "verso": "posição de comando da manobra", "fonte": "SOLAS Cap. V, Reg. 22, PDF 232", "s": "NAR-01.2"}, {"id": "v2.VO-NAR-01.2-2r", "unidade": "NAR-01", "disc": "ING", "frente": "PT → EN: “posição de comando da manobra”", "verso": "conning position", "fonte": "SOLAS Cap. V, Reg. 22, PDF 232", "s": "NAR-01.2"}, {"id": "v2.VO-NAR-01.2-3", "unidade": "NAR-01", "disc": "ING", "frente": "EN → PT: “rate of turn indicator”", "verso": "indicador de razão de guinada", "fonte": "SOLAS Cap. V, Reg. 19.2.9.1, PDF 227", "s": "NAR-01.2"}, {"id": "v2.VO-NAR-01.2-3r", "unidade": "NAR-01", "disc": "ING", "frente": "PT → EN: “indicador de razão de guinada”", "verso": "rate of turn indicator", "fonte": "SOLAS Cap. V, Reg. 19.2.9.1, PDF 227", "s": "NAR-01.2"}, {"id": "v2.VO-NAR-01.2-4", "unidade": "NAR-01", "disc": "ING", "frente": "EN → PT: “automatic identification system (AIS)”", "verso": "sistema de identificação automática", "fonte": "SOLAS Cap. V, Reg. 19.2.4, PDF 226", "s": "NAR-01.2"}, {"id": "v2.VO-NAR-01.2-4r", "unidade": "NAR-01", "disc": "ING", "frente": "PT → EN: “sistema de identificação automática”", "verso": "automatic identification system (AIS)", "fonte": "SOLAS Cap. V, Reg. 19.2.4, PDF 226", "s": "NAR-01.2"}, {"id": "v2.VO-AN-01.2-1", "unidade": "AN-01", "disc": "ING", "frente": "EN → PT: “chain locker”", "verso": "paiol da amarra", "fonte": "Arte Naval v.1, art. 1.68, PDF 49", "s": "AN-01.2"}, {"id": "v2.VO-AN-01.2-1r", "unidade": "AN-01", "disc": "ING", "frente": "PT → EN: “paiol da amarra”", "verso": "chain locker", "fonte": "Arte Naval v.1, art. 1.68, PDF 49", "s": "AN-01.2"}, {"id": "v2.VO-AN-01.2-2", "unidade": "AN-01", "disc": "ING", "frente": "EN → PT: “hawse pipe”", "verso": "tubo do escovém", "fonte": "Arte Naval v.1, art. 1.89, PDF 52", "s": "AN-01.2"}, {"id": "v2.VO-AN-01.2-2r", "unidade": "AN-01", "disc": "ING", "frente": "PT → EN: “tubo do escovém”", "verso": "hawse pipe", "fonte": "Arte Naval v.1, art. 1.89, PDF 52", "s": "AN-01.2"}, {"id": "v2.VO-AN-01.2-3", "unidade": "AN-01", "disc": "ING", "frente": "EN → PT: “scupper”", "verso": "embornal", "fonte": "Arte Naval v.1, art. 1.90, PDF 52", "s": "AN-01.2"}, {"id": "v2.VO-AN-01.2-3r", "unidade": "AN-01", "disc": "ING", "frente": "PT → EN: “embornal”", "verso": "scupper", "fonte": "Arte Naval v.1, art. 1.90, PDF 52", "s": "AN-01.2"}, {"id": "v2.VO-AN-01.2-4", "unidade": "AN-01", "disc": "ING", "frente": "EN → PT: “freeing ports”", "verso": "saídas de água", "fonte": "Arte Naval v.1, art. 1.91, PDF 52", "s": "AN-01.2"}, {"id": "v2.VO-AN-01.2-4r", "unidade": "AN-01", "disc": "ING", "frente": "PT → EN: “saídas de água”", "verso": "freeing ports", "fonte": "Arte Naval v.1, art. 1.91, PDF 52", "s": "AN-01.2"}, {"id": "v2.VO-AN-01.2-5", "unidade": "AN-01", "disc": "ING", "frente": "EN → PT: “spurling pipe”", "verso": "gateira", "fonte": "Arte Naval v.1, art. 1.88, PDF 52", "s": "AN-01.2"}, {"id": "v2.VO-AN-01.2-5r", "unidade": "AN-01", "disc": "ING", "frente": "PT → EN: “gateira”", "verso": "spurling pipe", "fonte": "Arte Naval v.1, art. 1.88, PDF 52", "s": "AN-01.2"}, {"id": "v2.VO-AN-01.2-6", "unidade": "AN-01", "disc": "ING", "frente": "EN → PT: “rudder”", "verso": "leme", "fonte": "Arte Naval v.1, art. 1.97, PDF 55", "s": "AN-01.2"}, {"id": "v2.VO-AN-01.2-6r", "unidade": "AN-01", "disc": "ING", "frente": "PT → EN: “leme”", "verso": "rudder", "fonte": "Arte Naval v.1, art. 1.97, PDF 55", "s": "AN-01.2"}, {"id": "v2.VO-LEG-02.1-1", "unidade": "LEG-02", "disc": "ING", "frente": "EN → PT: “pilot”", "verso": "prático", "fonte": "plano de inglês v1 (termo sugerido)", "s": "LEG-02.1"}, {"id": "v2.VO-LEG-02.1-1r", "unidade": "LEG-02", "disc": "ING", "frente": "PT → EN: “prático”", "verso": "pilot", "fonte": "plano de inglês v1 (termo sugerido)", "s": "LEG-02.1"}, {"id": "v2.VO-LEG-02.1-2", "unidade": "LEG-02", "disc": "ING", "frente": "EN → PT: “pilotage zone”", "verso": "zona de praticagem", "fonte": "plano de inglês v1 (termo sugerido)", "s": "LEG-02.1"}, {"id": "v2.VO-LEG-02.1-2r", "unidade": "LEG-02", "disc": "ING", "frente": "PT → EN: “zona de praticagem”", "verso": "pilotage zone", "fonte": "plano de inglês v1 (termo sugerido)", "s": "LEG-02.1"}, {"id": "v2.VO-LEG-02.1-3", "unidade": "LEG-02", "disc": "ING", "frente": "EN → PT: “master”", "verso": "comandante", "fonte": "plano de inglês v1 (termo sugerido)", "s": "LEG-02.1"}, {"id": "v2.VO-LEG-02.1-3r", "unidade": "LEG-02", "disc": "ING", "frente": "PT → EN: “comandante”", "verso": "master", "fonte": "plano de inglês v1 (termo sugerido)", "s": "LEG-02.1"}, {"id": "v2.VO-LEG-02.1-4", "unidade": "LEG-02", "disc": "ING", "frente": "EN → PT: “owner”", "verso": "armador / proprietário", "fonte": "plano de inglês v1 (termo sugerido)", "s": "LEG-02.1"}, {"id": "v2.VO-LEG-02.1-4r", "unidade": "LEG-02", "disc": "ING", "frente": "PT → EN: “armador / proprietário”", "verso": "owner", "fonte": "plano de inglês v1 (termo sugerido)", "s": "LEG-02.1"}, {"id": "v2.VO-MAN-02.3-1", "unidade": "MAN-02", "disc": "ING", "frente": "EN → PT: “cross flow”", "verso": "escoamento cruzado (deriva > 25°)", "fonte": "Santos, Manobrabilidade séc. 21, Cap. 3, 3.8, p. 53 (PDF 46)", "s": "MAN-02.3"}, {"id": "v2.VO-MAN-02.3-1r", "unidade": "MAN-02", "disc": "ING", "frente": "PT → EN: “escoamento cruzado”", "verso": "cross flow", "fonte": "Santos, Manobrabilidade séc. 21, Cap. 3, 3.8, p. 53 (PDF 46)", "s": "MAN-02.3"}, {"id": "v2.VO-MAN-02.3-2", "unidade": "MAN-02", "disc": "ING", "frente": "EN → PT: “yaw”", "verso": "guinada", "fonte": "Santos, Manobrabilidade séc. 21, Cap. 3, p. 53 (PDF 46)", "s": "MAN-02.3"}, {"id": "v2.VO-MAN-02.3-2r", "unidade": "MAN-02", "disc": "ING", "frente": "PT → EN: “guinada”", "verso": "yaw", "fonte": "Santos, Manobrabilidade séc. 21, Cap. 3, p. 53 (PDF 46)", "s": "MAN-02.3"}, {"id": "v2.VO-NAR-03.1-1", "unidade": "NAR-03", "disc": "ING", "frente": "EN → PT: “speed of advance (SOA)”", "verso": "velocidade de avanço planejada", "fonte": "Miguens, Navegação: ciência e arte v.1, Cap. 1, p. 14 (PDF 16)", "s": "NAR-03.1"}, {"id": "v2.VO-NAR-03.1-1r", "unidade": "NAR-03", "disc": "ING", "frente": "PT → EN: “velocidade de avanço planejada”", "verso": "speed of advance (SOA)", "fonte": "Miguens, Navegação: ciência e arte v.1, Cap. 1, p. 14 (PDF 16)", "s": "NAR-03.1"}, {"id": "v2.VO-NAR-03.1-2", "unidade": "NAR-03", "disc": "ING", "frente": "EN → PT: “ETA · ETD”", "verso": "hora estimada de chegada · de partida", "fonte": "Miguens, Navegação: ciência e arte v.1, Cap. 1, p. 14 (PDF 16)", "s": "NAR-03.1"}, {"id": "v2.VO-NAR-03.1-2r", "unidade": "NAR-03", "disc": "ING", "frente": "PT → EN: “hora estimada de chegada · de partida”", "verso": "ETA · ETD", "fonte": "Miguens, Navegação: ciência e arte v.1, Cap. 1, p. 14 (PDF 16)", "s": "NAR-03.1"}, {"id": "v2.VO-AN-02.1-1", "unidade": "AN-02", "disc": "ING", "frente": "EN → PT: “waterline”", "verso": "linha de flutuação", "fonte": "Arte Naval v.1, art. 2.2, PDF 75", "s": "AN-02.1"}, {"id": "v2.VO-AN-02.1-1r", "unidade": "AN-02", "disc": "ING", "frente": "PT → EN: “linha de flutuação”", "verso": "waterline", "fonte": "Arte Naval v.1, art. 2.2, PDF 75", "s": "AN-02.1"}, {"id": "v2.VO-AN-02.1-2", "unidade": "AN-02", "disc": "ING", "frente": "EN → PT: “wetted surface”", "verso": "superfície molhada", "fonte": "Arte Naval v.1, art. 2.12, PDF 79", "s": "AN-02.1"}, {"id": "v2.VO-AN-02.1-2r", "unidade": "AN-02", "disc": "ING", "frente": "PT → EN: “superfície molhada”", "verso": "wetted surface", "fonte": "Arte Naval v.1, art. 2.12, PDF 79", "s": "AN-02.1"}, {"id": "v2.VO-AN-02.1-3", "unidade": "AN-02", "disc": "ING", "frente": "EN → PT: “center of buoyancy”", "verso": "centro de carena", "fonte": "Arte Naval v.1, art. 2.22, PDF 81", "s": "AN-02.1"}, {"id": "v2.VO-AN-02.1-3r", "unidade": "AN-02", "disc": "ING", "frente": "PT → EN: “centro de carena”", "verso": "center of buoyancy", "fonte": "Arte Naval v.1, art. 2.22, PDF 81", "s": "AN-02.1"}, {"id": "v2.VO-AN-02.1-4", "unidade": "AN-02", "disc": "ING", "frente": "EN → PT: “reserve of buoyancy”", "verso": "reserva de flutuabilidade", "fonte": "Arte Naval v.1, art. 2.27, PDF 84", "s": "AN-02.1"}, {"id": "v2.VO-AN-02.1-4r", "unidade": "AN-02", "disc": "ING", "frente": "PT → EN: “reserva de flutuabilidade”", "verso": "reserve of buoyancy", "fonte": "Arte Naval v.1, art. 2.27, PDF 84", "s": "AN-02.1"}, {"id": "v2.VO-AN-02.1-5", "unidade": "AN-02", "disc": "ING", "frente": "EN → PT: “freeboard”", "verso": "borda-livre", "fonte": "Arte Naval v.1, art. 2.28, PDF 84", "s": "AN-02.1"}, {"id": "v2.VO-AN-02.1-5r", "unidade": "AN-02", "disc": "ING", "frente": "PT → EN: “borda-livre”", "verso": "freeboard", "fonte": "Arte Naval v.1, art. 2.28, PDF 84", "s": "AN-02.1"}, {"id": "v2.VO-LEG-02.2-1", "unidade": "LEG-02", "disc": "ING", "frente": "EN → PT: “fine”", "verso": "multa", "fonte": "plano de inglês v1 (termo sugerido)", "s": "LEG-02.2"}, {"id": "v2.VO-LEG-02.2-1r", "unidade": "LEG-02", "disc": "ING", "frente": "PT → EN: “multa”", "verso": "fine", "fonte": "plano de inglês v1 (termo sugerido)", "s": "LEG-02.2"}, {"id": "v2.VO-LEG-02.2-2", "unidade": "LEG-02", "disc": "ING", "frente": "EN → PT: “suspension”", "verso": "suspensão", "fonte": "plano de inglês v1 (termo sugerido)", "s": "LEG-02.2"}, {"id": "v2.VO-LEG-02.2-2r", "unidade": "LEG-02", "disc": "ING", "frente": "PT → EN: “suspensão”", "verso": "suspension", "fonte": "plano de inglês v1 (termo sugerido)", "s": "LEG-02.2"}, {"id": "v2.VO-LEG-02.2-3", "unidade": "LEG-02", "disc": "ING", "frente": "EN → PT: “offence”", "verso": "infração", "fonte": "plano de inglês v1 (termo sugerido)", "s": "LEG-02.2"}, {"id": "v2.VO-LEG-02.2-3r", "unidade": "LEG-02", "disc": "ING", "frente": "PT → EN: “infração”", "verso": "offence", "fonte": "plano de inglês v1 (termo sugerido)", "s": "LEG-02.2"}, {"id": "v2.VO-NAR-03.2-1", "unidade": "NAR-03", "disc": "ING", "frente": "EN → PT: “RACON”", "verso": "equipamento RACON, auxílio à navegação representado na carta", "fonte": "Miguens, Navegação: ciência e arte v.1, Cap. 2, p. 46 (PDF 49)", "s": "NAR-03.2"}, {"id": "v2.VO-NAR-03.2-1r", "unidade": "NAR-03", "disc": "ING", "frente": "PT → EN: “equipamento RACON, auxílio à navegação representado na carta”", "verso": "RACON", "fonte": "Miguens, Navegação: ciência e arte v.1, Cap. 2, p. 46 (PDF 49)", "s": "NAR-03.2"}, {"id": "v2.VO-NAR-03.2-2", "unidade": "NAR-03", "disc": "ING", "frente": "EN → PT: “LANBY (Large Automatic Navigational Buoy)”", "verso": "boia grande automática (citada junto da barca-farol)", "fonte": "Miguens, Navegação: ciência e arte v.1, Cap. 2, p. 47 (PDF 50)", "s": "NAR-03.2"}, {"id": "v2.VO-NAR-03.2-2r", "unidade": "NAR-03", "disc": "ING", "frente": "PT → EN: “boia grande automática”", "verso": "LANBY (Large Automatic Navigational Buoy)", "fonte": "Miguens, Navegação: ciência e arte v.1, Cap. 2, p. 47 (PDF 50)", "s": "NAR-03.2"}, {"id": "v3.G1.01.01", "unidade": "ING-G1.01", "disc": "ING", "frente": "to be no presente: como ficam as formas com I, you, he/she/it, we, they?", "verso": "I am · you are · he/she/it is · we are · they are. Contrações: I'm, you're, he's, she's, it's, we're, they're.", "fonte": "Plano de inglês, aula G1.01: to be: afirmativa", "ing": "ING-E1@2026-11-02"}, {"id": "v3.G1.01.02", "unidade": "ING-G1.01", "disc": "ING", "frente": "Complete: “The vessel ___ at anchor.”", "verso": "is — navio é it/she, então “is”: The vessel is at anchor.", "fonte": "Plano de inglês, aula G1.01: to be: afirmativa", "ing": "ING-E1@2026-11-02"}, {"id": "v3.G1.01.03", "unidade": "ING-G1.01", "disc": "ING", "frente": "Por que “The pilots is on board” está errado?", "verso": "Sujeito plural (pilots) pede “are”: The pilots are on board.", "fonte": "Plano de inglês, aula G1.01: to be: afirmativa", "ing": "ING-E1@2026-11-02"}, {"id": "v3.G1.01.04", "unidade": "ING-G1.01", "disc": "ING", "frente": "Como dizer em inglês: “Eu sou o prático.”", "verso": "I am the pilot. (contraída: I'm the pilot)", "fonte": "Plano de inglês, aula G1.01: to be: afirmativa", "ing": "ING-E1@2026-11-02"}, {"id": "v3.G1.01.05", "unidade": "ING-G1.01", "disc": "ING", "frente": "Complete: “The tugs ___ ready.”", "verso": "are — The tugs are ready.", "fonte": "Plano de inglês, aula G1.01: to be: afirmativa", "ing": "ING-E1@2026-11-02"}, {"id": "v3.G1.02.01", "unidade": "ING-G1.02", "disc": "ING", "frente": "Como se forma a negativa do verbo to be?", "verso": "Verbo + not: is not (isn't), are not (aren't), am not (sem contração comum). Ex.: The engine is not ready.", "fonte": "Plano de inglês, aula G1.02: to be: negativa, perguntas e respostas curtas", "ing": "ING-E1@2026-11-03"}, {"id": "v3.G1.02.02", "unidade": "ING-G1.02", "disc": "ING", "frente": "Como se forma a pergunta com to be?", "verso": "Inverte: verbo antes do sujeito. “Is the pilot on board?” “Are the tugs ready?”", "fonte": "Plano de inglês, aula G1.02: to be: negativa, perguntas e respostas curtas", "ing": "ING-E1@2026-11-03"}, {"id": "v3.G1.02.03", "unidade": "ING-G1.02", "disc": "ING", "frente": "Resposta curta para “Is the engine ready?” (sim e não)", "verso": "Yes, it is. / No, it isn't. (não se contrai o “is” no Yes: nunca “Yes, it's”).", "fonte": "Plano de inglês, aula G1.02: to be: negativa, perguntas e respostas curtas", "ing": "ING-E1@2026-11-03"}, {"id": "v3.G1.02.04", "unidade": "ING-G1.02", "disc": "ING", "frente": "Transforme em pergunta: “The vessel is alongside.”", "verso": "Is the vessel alongside?", "fonte": "Plano de inglês, aula G1.02: to be: negativa, perguntas e respostas curtas", "ing": "ING-E1@2026-11-03"}, {"id": "v3.G1.02.05", "unidade": "ING-G1.02", "disc": "ING", "frente": "Resposta curta para “Are you the master?”", "verso": "Yes, I am. / No, I'm not.", "fonte": "Plano de inglês, aula G1.02: to be: negativa, perguntas e respostas curtas", "ing": "ING-E1@2026-11-03"}, {"id": "v3.G1.03.01", "unidade": "ING-G1.03", "disc": "ING", "frente": "Quando usar there is e there are?", "verso": "There is + singular ou incontável; there are + plural. “There is a buoy ahead.” “There are two tugs astern.”", "fonte": "Plano de inglês, aula G1.03: there is / there are + preposições de lugar", "ing": "ING-E1@2026-11-04"}, {"id": "v3.G1.03.02", "unidade": "ING-G1.03", "disc": "ING", "frente": "Negativa e pergunta de there is/are", "verso": "There isn't / There aren't. Pergunta: Is there…? Are there…? Ex.: Is there a pilot ladder?", "fonte": "Plano de inglês, aula G1.03: there is / there are + preposições de lugar", "ing": "ING-E1@2026-11-04"}, {"id": "v3.G1.03.03", "unidade": "ING-G1.03", "disc": "ING", "frente": "in, on, at: qual para lugar?", "verso": "in = dentro (in the channel); on = sobre a superfície (on deck); at = ponto específico (at the berth, at anchor).", "fonte": "Plano de inglês, aula G1.03: there is / there are + preposições de lugar", "ing": "ING-E1@2026-11-04"}, {"id": "v3.G1.03.04", "unidade": "ING-G1.03", "disc": "ING", "frente": "Como dizer “à proa / à popa / a bombordo / a boreste” de um ponto?", "verso": "ahead / astern / to port (on the port side) / to starboard (on the starboard side).", "fonte": "Plano de inglês, aula G1.03: there is / there are + preposições de lugar", "ing": "ING-E1@2026-11-04"}, {"id": "v3.G1.03.05", "unidade": "ING-G1.03", "disc": "ING", "frente": "Complete: “There ___ three vessels at anchor.”", "verso": "are — plural.", "fonte": "Plano de inglês, aula G1.03: there is / there are + preposições de lugar", "ing": "ING-E1@2026-11-04"}, {"id": "v3.G1.04.01", "unidade": "ING-G1.04", "disc": "ING", "frente": "a ou an?", "verso": "a antes de som de consoante (a tug, a ship); an antes de som de vogal (an anchor, an engine, an hour).", "fonte": "Plano de inglês, aula G1.04: artigos (a/an/the, artigo zero) e plural", "ing": "ING-E1@2026-11-05"}, {"id": "v3.G1.04.02", "unidade": "ING-G1.04", "disc": "ING", "frente": "Quando usar the?", "verso": "Algo específico ou já mencionado, ou único: the pilot, the channel, the master of the vessel.", "fonte": "Plano de inglês, aula G1.04: artigos (a/an/the, artigo zero) e plural", "ing": "ING-E1@2026-11-05"}, {"id": "v3.G1.04.03", "unidade": "ING-G1.04", "disc": "ING", "frente": "Quando não usar artigo (artigo zero)?", "verso": "Plural ou incontável em sentido geral: Pilots help ships. Fog is dangerous. Também em expressões fixas: at sea, at anchor, on deck.", "fonte": "Plano de inglês, aula G1.04: artigos (a/an/the, artigo zero) e plural", "ing": "ING-E1@2026-11-05"}, {"id": "v3.G1.04.04", "unidade": "ING-G1.04", "disc": "ING", "frente": "Plural: regra geral e exceções", "verso": "+s (ship → ships); +es após s, x, ch, sh (bus → buses); consoante+y → ies (supply → supplies); irregulares: man → men.", "fonte": "Plano de inglês, aula G1.04: artigos (a/an/the, artigo zero) e plural", "ing": "ING-E1@2026-11-05"}, {"id": "v3.G1.04.05", "unidade": "ING-G1.04", "disc": "ING", "frente": "Plural de: boat · box · cargo · berth", "verso": "boats · boxes · cargoes (ou cargos) · berths.", "fonte": "Plano de inglês, aula G1.04: artigos (a/an/the, artigo zero) e plural", "ing": "ING-E1@2026-11-05"}, {"id": "v3.G1.05.01", "unidade": "ING-G1.05", "disc": "ING", "frente": "Como se forma o imperativo?", "verso": "Verbo no infinitivo sem “to”. Negativo: Do not + verbo. “Stop engines.” “Do not anchor.”", "fonte": "Plano de inglês, aula G1.05: imperativo (ordens do SMCP)", "ing": "ING-E1@2026-11-06"}, {"id": "v3.G1.05.02", "unidade": "ING-G1.05", "disc": "ING", "frente": "Ordens do SMCP: “Mantenha o rumo” e “Reduza a velocidade”", "verso": "Keep your course. / Reduce your speed.", "fonte": "Plano de inglês, aula G1.05: imperativo (ordens do SMCP)", "ing": "ING-E1@2026-11-06"}, {"id": "v3.G1.05.03", "unidade": "ING-G1.05", "disc": "ING", "frente": "Diferença entre order e advice no SMCP", "verso": "Instruction (ordem): “Alter course to starboard.” · Advice (conselho): “Advise you to alter course.” No SMCP a ordem direta usa o imperativo.", "fonte": "Plano de inglês, aula G1.05: imperativo (ordens do SMCP)", "ing": "ING-E1@2026-11-06"}, {"id": "v3.G1.05.04", "unidade": "ING-G1.05", "disc": "ING", "frente": "Como dizer “Não ultrapasse”?", "verso": "Do not overtake.", "fonte": "Plano de inglês, aula G1.05: imperativo (ordens do SMCP)", "ing": "ING-E1@2026-11-06"}, {"id": "v3.G1.05.05", "unidade": "ING-G1.05", "disc": "ING", "frente": "Imperativo de cortesia: como suavizar uma ordem?", "verso": "Please + imperativo: “Please stand by on channel 12.”", "fonte": "Plano de inglês, aula G1.05: imperativo (ordens do SMCP)", "ing": "ING-E1@2026-11-06"}, {"id": "v3.G1.06.01", "unidade": "ING-G1.06", "disc": "ING", "frente": "Quando usar o presente simples?", "verso": "Fatos, rotinas e verdades gerais: The ship sails at 0600. Pilots board at the pilot station.", "fonte": "Plano de inglês, aula G1.06: presente simples: afirmativa", "ing": "ING-E1@2026-11-09"}, {"id": "v3.G1.06.02", "unidade": "ING-G1.06", "disc": "ING", "frente": "Regra do -s na 3ª pessoa", "verso": "He/she/it + verbo com -s: he works, she checks, the vessel arrives. -es após s, sh, ch, x, o (passes, watches, goes); consoante+y → ies (try → tries).", "fonte": "Plano de inglês, aula G1.06: presente simples: afirmativa", "ing": "ING-E1@2026-11-09"}, {"id": "v3.G1.06.03", "unidade": "ING-G1.06", "disc": "ING", "frente": "Complete: “The pilot ___ (check) the chart.”", "verso": "checks — 3ª pessoa singular.", "fonte": "Plano de inglês, aula G1.06: presente simples: afirmativa", "ing": "ING-E1@2026-11-09"}, {"id": "v3.G1.06.04", "unidade": "ING-G1.06", "disc": "ING", "frente": "Complete: “Tugs ___ (assist) large vessels.”", "verso": "assist — plural, sem -s.", "fonte": "Plano de inglês, aula G1.06: presente simples: afirmativa", "ing": "ING-E1@2026-11-09"}, {"id": "v3.G1.06.05", "unidade": "ING-G1.06", "disc": "ING", "frente": "Como dizer: “O navio atraca às 8 h.”", "verso": "The ship berths at 8 o'clock. (ou: at 0800)", "fonte": "Plano de inglês, aula G1.06: presente simples: afirmativa", "ing": "ING-E1@2026-11-09"}, {"id": "v3.G1.07.01", "unidade": "ING-G1.07", "disc": "ING", "frente": "Como se forma a negativa do presente simples?", "verso": "don't (I/you/we/they) e doesn't (he/she/it) + verbo no infinitivo: The pilot doesn't board here.", "fonte": "Plano de inglês, aula G1.07: presente simples: negativa", "ing": "ING-E1@2026-11-10"}, {"id": "v3.G1.07.02", "unidade": "ING-G1.07", "disc": "ING", "frente": "Por que “He doesn't works” está errado?", "verso": "Depois de doesn't o verbo volta ao infinitivo, sem -s: He doesn't work.", "fonte": "Plano de inglês, aula G1.07: presente simples: negativa", "ing": "ING-E1@2026-11-10"}, {"id": "v3.G1.07.03", "unidade": "ING-G1.07", "disc": "ING", "frente": "Transforme em negativa: “The tugs assist us.”", "verso": "The tugs don't assist us.", "fonte": "Plano de inglês, aula G1.07: presente simples: negativa", "ing": "ING-E1@2026-11-10"}, {"id": "v3.G1.07.04", "unidade": "ING-G1.07", "disc": "ING", "frente": "Transforme em negativa: “The engine starts.”", "verso": "The engine doesn't start.", "fonte": "Plano de inglês, aula G1.07: presente simples: negativa", "ing": "ING-E1@2026-11-10"}, {"id": "v3.G1.07.05", "unidade": "ING-G1.07", "disc": "ING", "frente": "Negativa e contração: do not · does not", "verso": "don't · doesn't", "fonte": "Plano de inglês, aula G1.07: presente simples: negativa", "ing": "ING-E1@2026-11-10"}, {"id": "v3.G1.08.01", "unidade": "ING-G1.08", "disc": "ING", "frente": "Como se forma a pergunta no presente simples?", "verso": "Do/Does + sujeito + verbo no infinitivo: Do you speak English? Does the pilot board here?", "fonte": "Plano de inglês, aula G1.08: perguntas com do/does", "ing": "ING-E1@2026-11-11"}, {"id": "v3.G1.08.02", "unidade": "ING-G1.08", "disc": "ING", "frente": "Do ou does?", "verso": "Does com he/she/it e sujeitos singulares; do com I, you, we, they e plurais.", "fonte": "Plano de inglês, aula G1.08: perguntas com do/does", "ing": "ING-E1@2026-11-11"}, {"id": "v3.G1.08.03", "unidade": "ING-G1.08", "disc": "ING", "frente": "Por que “Does the pilot boards?” está errado?", "verso": "Após does o verbo fica no infinitivo: Does the pilot board?", "fonte": "Plano de inglês, aula G1.08: perguntas com do/does", "ing": "ING-E1@2026-11-11"}, {"id": "v3.G1.08.04", "unidade": "ING-G1.08", "disc": "ING", "frente": "Resposta curta para “Do tugs assist here?”", "verso": "Yes, they do. / No, they don't.", "fonte": "Plano de inglês, aula G1.08: perguntas com do/does", "ing": "ING-E1@2026-11-11"}, {"id": "v3.G1.08.05", "unidade": "ING-G1.08", "disc": "ING", "frente": "Transforme em pergunta: “The vessel anchors here.”", "verso": "Does the vessel anchor here?", "fonte": "Plano de inglês, aula G1.08: perguntas com do/does", "ing": "ING-E1@2026-11-11"}, {"id": "v3.G1.09.01", "unidade": "ING-G1.09", "disc": "ING", "frente": "What / Where / When / Who / Why / How: o que cada uma pergunta?", "verso": "coisa / lugar / tempo / pessoa / razão / modo. How much/many: quantidade; How long/far: duração/distância.", "fonte": "Plano de inglês, aula G1.09: wh-questions", "ing": "ING-E1@2026-11-12"}, {"id": "v3.G1.09.02", "unidade": "ING-G1.09", "disc": "ING", "frente": "Ordem da wh-question", "verso": "Wh- + do/does (ou to be) + sujeito + verbo. “Where does the pilot board?” “What is your draught?”", "fonte": "Plano de inglês, aula G1.09: wh-questions", "ing": "ING-E1@2026-11-12"}, {"id": "v3.G1.09.03", "unidade": "ING-G1.09", "disc": "ING", "frente": "Como perguntar “Qual é o seu calado?” e “Qual é a sua velocidade?”", "verso": "What is your draught? / What is your speed?", "fonte": "Plano de inglês, aula G1.09: wh-questions", "ing": "ING-E1@2026-11-12"}, {"id": "v3.G1.09.04", "unidade": "ING-G1.09", "disc": "ING", "frente": "Quando não se usa do/does na wh-question?", "verso": "Quando a wh-word é o sujeito: “Who boards the vessel?” (sem does).", "fonte": "Plano de inglês, aula G1.09: wh-questions", "ing": "ING-E1@2026-11-12"}, {"id": "v3.G1.09.05", "unidade": "ING-G1.09", "disc": "ING", "frente": "Pergunta: “Quando o navio chega?”", "verso": "When does the vessel arrive?", "fonte": "Plano de inglês, aula G1.09: wh-questions", "ing": "ING-E1@2026-11-12"}, {"id": "v3.G1.10.01", "unidade": "ING-G1.10", "disc": "ING", "frente": "Adjetivos possessivos", "verso": "my, your, his, her, its, our, their — vêm antes do substantivo: our vessel, its draught.", "fonte": "Plano de inglês, aula G1.10: possessivos (my/her/its, 's)", "ing": "ING-E1@2026-11-13"}, {"id": "v3.G1.10.02", "unidade": "ING-G1.10", "disc": "ING", "frente": "its ou it's?", "verso": "its = dele/dela (posse). it's = it is (contração).", "fonte": "Plano de inglês, aula G1.10: possessivos (my/her/its, 's)", "ing": "ING-E1@2026-11-13"}, {"id": "v3.G1.10.03", "unidade": "ING-G1.10", "disc": "ING", "frente": "Como se forma o possessivo com 's?", "verso": "Singular: pilot's ladder. Plural em -s: the pilots' boat. Irregular: men's cabin. Navio costuma usar “her” ou “its”.", "fonte": "Plano de inglês, aula G1.10: possessivos (my/her/its, 's)", "ing": "ING-E1@2026-11-13"}, {"id": "v3.G1.10.04", "unidade": "ING-G1.10", "disc": "ING", "frente": "Complete: “The master gave ___ orders.” (o comandante, masc.)", "verso": "his orders.", "fonte": "Plano de inglês, aula G1.10: possessivos (my/her/its, 's)", "ing": "ING-E1@2026-11-13"}, {"id": "v3.G1.10.05", "unidade": "ING-G1.10", "disc": "ING", "frente": "Como dizer “o calado do navio” com possessivo?", "verso": "the vessel's draught (ou the draught of the vessel).", "fonte": "Plano de inglês, aula G1.10: possessivos (my/her/its, 's)", "ing": "ING-E1@2026-11-13"}, {"id": "v3.G1.11.01", "unidade": "ING-G1.11", "disc": "ING", "frente": "at, on, in com tempo", "verso": "at + hora (at 0600); on + dia (on Monday); in + mês/ano/período (in November, in the morning).", "fonte": "Plano de inglês, aula G1.11: preposições de tempo + números, horas, rumos e decimais", "ing": "ING-E1@2026-11-16"}, {"id": "v3.G1.11.02", "unidade": "ING-G1.11", "disc": "ING", "frente": "Como se lê 0645 / 1830 em inglês náutico?", "verso": "zero six four five hours / one eight three zero hours (ou six forty-five a.m.).", "fonte": "Plano de inglês, aula G1.11: preposições de tempo + números, horas, rumos e decimais", "ing": "ING-E1@2026-11-16"}, {"id": "v3.G1.11.03", "unidade": "ING-G1.11", "disc": "ING", "frente": "Como se lê um rumo 045 / 270?", "verso": "zero four five / two seven zero — dígito a dígito: “Steer course zero four five.”", "fonte": "Plano de inglês, aula G1.11: preposições de tempo + números, horas, rumos e decimais", "ing": "ING-E1@2026-11-16"}, {"id": "v3.G1.11.04", "unidade": "ING-G1.11", "disc": "ING", "frente": "Como se lê 12.5 e 0.3?", "verso": "one two decimal five (SMCP: “decimal”) · zero decimal three.", "fonte": "Plano de inglês, aula G1.11: preposições de tempo + números, horas, rumos e decimais", "ing": "ING-E1@2026-11-16"}, {"id": "v3.G1.11.05", "unidade": "ING-G1.11", "disc": "ING", "frente": "Como dizer “às 14 h de sexta”?", "verso": "at 1400 on Friday.", "fonte": "Plano de inglês, aula G1.11: preposições de tempo + números, horas, rumos e decimais", "ing": "ING-E1@2026-11-16"}, {"id": "v3.G1.12.01", "unidade": "ING-G1.12", "disc": "ING", "frente": "Pronomes sujeito e objeto", "verso": "I/me · you/you · he/him · she/her · it/it · we/us · they/them. “The pilot called me.”", "fonte": "Plano de inglês, aula G1.12: pronomes objeto, it/its e o navio como “she”", "ing": "ING-E1@2026-11-17"}, {"id": "v3.G1.12.02", "unidade": "ING-G1.12", "disc": "ING", "frente": "O navio é “it” ou “she”?", "verso": "Os dois existem. Em inglês náutico tradicional o navio costuma ser she/her; em texto técnico moderno e SMCP, it/its também é aceito.", "fonte": "Plano de inglês, aula G1.12: pronomes objeto, it/its e o navio como “she”", "ing": "ING-E1@2026-11-17"}, {"id": "v3.G1.12.03", "unidade": "ING-G1.12", "disc": "ING", "frente": "Complete: “The tugs assist ___ (we).”", "verso": "us.", "fonte": "Plano de inglês, aula G1.12: pronomes objeto, it/its e o navio como “she”", "ing": "ING-E1@2026-11-17"}, {"id": "v3.G1.12.04", "unidade": "ING-G1.12", "disc": "ING", "frente": "Complete: “The master thanked ___ (the pilot).”", "verso": "him / her (conforme o prático).", "fonte": "Plano de inglês, aula G1.12: pronomes objeto, it/its e o navio como “she”", "ing": "ING-E1@2026-11-17"}, {"id": "v3.G1.12.05", "unidade": "ING-G1.12", "disc": "ING", "frente": "Substitua: “The pilot boards the ship.” por pronomes", "verso": "He/She boards it.", "fonte": "Plano de inglês, aula G1.12: pronomes objeto, it/its e o navio como “she”", "ing": "ING-E1@2026-11-17"}, {"id": "v3.G1.13.01", "unidade": "ING-G1.13", "disc": "ING", "frente": "Como se usa can?", "verso": "can + verbo sem “to”: capacidade ou possibilidade. “The tug can pull 60 tonnes.” Negativa: can't / cannot.", "fonte": "Plano de inglês, aula G1.13: can / can't", "ing": "ING-E1@2026-11-18"}, {"id": "v3.G1.13.02", "unidade": "ING-G1.13", "disc": "ING", "frente": "Pergunta e resposta curta com can", "verso": "Can you hear me? — Yes, I can. / No, I can't.", "fonte": "Plano de inglês, aula G1.13: can / can't", "ing": "ING-E1@2026-11-18"}, {"id": "v3.G1.13.03", "unidade": "ING-G1.13", "disc": "ING", "frente": "Por que “He can to swim” está errado?", "verso": "Após modal, verbo no infinitivo sem “to”: He can swim.", "fonte": "Plano de inglês, aula G1.13: can / can't", "ing": "ING-E1@2026-11-18"}, {"id": "v3.G1.13.04", "unidade": "ING-G1.13", "disc": "ING", "frente": "can também pode pedir permissão?", "verso": "Sim, informalmente: “Can I enter the channel?” = posso entrar?", "fonte": "Plano de inglês, aula G1.13: can / can't", "ing": "ING-E1@2026-11-18"}, {"id": "v3.G1.13.05", "unidade": "ING-G1.13", "disc": "ING", "frente": "Como dizer “Não consigo ver o farol.”", "verso": "I can't see the lighthouse.", "fonte": "Plano de inglês, aula G1.13: can / can't", "ing": "ING-E1@2026-11-18"}, {"id": "v3.G1.14.01", "unidade": "ING-G1.14", "disc": "ING", "frente": "Escala: always · usually · often · sometimes · rarely · never", "verso": "100% → 0%: sempre · geralmente · frequentemente · às vezes · raramente · nunca.", "fonte": "Plano de inglês, aula G1.14: advérbios de frequência", "ing": "ING-E1@2026-11-19"}, {"id": "v3.G1.14.02", "unidade": "ING-G1.14", "disc": "ING", "frente": "Posição do advérbio de frequência", "verso": "Antes do verbo principal (The pilot always checks) e depois de to be (He is never late).", "fonte": "Plano de inglês, aula G1.14: advérbios de frequência", "ing": "ING-E1@2026-11-19"}, {"id": "v3.G1.14.03", "unidade": "ING-G1.14", "disc": "ING", "frente": "Complete a ordem: “The tugs ___ (usually / arrive) early.”", "verso": "The tugs usually arrive early.", "fonte": "Plano de inglês, aula G1.14: advérbios de frequência", "ing": "ING-E1@2026-11-19"}, {"id": "v3.G1.14.04", "unidade": "ING-G1.14", "disc": "ING", "frente": "Como dizer “Ele nunca usa o VHF no canal 16 para conversar.”", "verso": "He never uses VHF channel 16 for conversation.", "fonte": "Plano de inglês, aula G1.14: advérbios de frequência", "ing": "ING-E1@2026-11-19"}, {"id": "v3.G1.14.05", "unidade": "ING-G1.14", "disc": "ING", "frente": "sometimes pode vir em outras posições?", "verso": "Sim: no início ou fim. “Sometimes the fog is thick.” / “The fog is thick sometimes.”", "fonte": "Plano de inglês, aula G1.14: advérbios de frequência", "ing": "ING-E1@2026-11-19"}]}
+{
+"cards": [
+{
+"id": "v5.G1.01-01",
+"disc": "ING",
+"unidade": "ING-G1.01",
+"ing": "ING-E1@2026-11-02",
+"frente": "Complete com am, is ou are: “The tugs ___ ready and the pilot ___ on board.”",
+"verso": "are · is. Sujeito no plural pede are; he, she e it pedem is. The tugs are ready and the pilot is on board.",
+"fonte": "Plano de inglês 2027, aula G1.01"
+},
+{
+"id": "v5.G1.01-02",
+"disc": "ING",
+"unidade": "ING-G1.01",
+"ing": "ING-E1@2026-11-02",
+"frente": "Passe para o inglês: “Eu sou o prático. O navio está fundeado.”",
+"verso": "I am the pilot. The vessel is at anchor.",
+"fonte": "Plano de inglês 2027, aula G1.01"
+},
+{
+"id": "v5.G1.01-03",
+"disc": "ING",
+"unidade": "ING-G1.01",
+"ing": "ING-E1@2026-11-02",
+"frente": "O que está errado em “The engines is ready”?",
+"verso": "O sujeito está no plural e pede are: The engines are ready.",
+"fonte": "Plano de inglês 2027, aula G1.01"
+},
+{
+"id": "v5.G1.01-04",
+"disc": "ING",
+"unidade": "ING-G1.01",
+"ing": "ING-E1@2026-11-02",
+"frente": "EN → PT: “Pilot boat is bearing 215 degrees from you.” O que é bearing?",
+"verso": "Marcação. “A lancha do prático está na marcação 215 graus a partir de você.” No SMCP a marcação é contada em 360° a partir do norte verdadeiro, salvo se for relativa.",
+"fonte": "IMO SMCP (Res. A.918(22)), General 12"
+},
+{
+"id": "v5.G1.01-05",
+"disc": "ING",
+"unidade": "ING-G1.01",
+"ing": "ING-E1@2026-11-02",
+"frente": "Surge, sway e heave: que movimento do navio é cada um?",
+"verso": "Surge: avanço e recuo, no eixo longitudinal. Sway: deslocamento lateral. Heave: movimento vertical, de subir e descer.",
+"fonte": "Santos, Manobrabilidade séc. 21, Cap. 2"
+},
+{
+"id": "v5.G1.01-06",
+"disc": "ING",
+"unidade": "ING-G1.01",
+"ing": "ING-E1@2026-11-02",
+"frente": "Roll, pitch e yaw: que rotação do navio é cada uma?",
+"verso": "Roll: balanço, em torno do eixo longitudinal. Pitch: arfagem (caturro), em torno do eixo transversal. Yaw: guinada, em torno do eixo vertical.",
+"fonte": "Santos, Manobrabilidade séc. 21, Cap. 2"
+},
+{
+"id": "v5.G1.02-01",
+"disc": "ING",
+"unidade": "ING-G1.02",
+"ing": "ING-E1@2026-11-03",
+"frente": "Passe para a negativa e para a pergunta: “The pilot ladder is ready.”",
+"verso": "The pilot ladder is not ready. / Is the pilot ladder ready? Na pergunta, o verbo to be vai para antes do sujeito.",
+"fonte": "Plano de inglês 2027, aula G1.02"
+},
+{
+"id": "v5.G1.02-02",
+"disc": "ING",
+"unidade": "ING-G1.02",
+"ing": "ING-E1@2026-11-03",
+"frente": "Dê as respostas curtas para “Are you the master?”",
+"verso": "Yes, I am. / No, I am not. Na resposta afirmativa não se contrai: nunca “Yes, I'm”.",
+"fonte": "Plano de inglês 2027, aula G1.02"
+},
+{
+"id": "v5.G1.02-03",
+"disc": "ING",
+"unidade": "ING-G1.02",
+"ing": "ING-E1@2026-11-03",
+"frente": "Pergunte em inglês: “Os rebocadores estão prontos?”",
+"verso": "Are the tugs ready?",
+"fonte": "Plano de inglês 2027, aula G1.02"
+},
+{
+"id": "v5.G1.02-04",
+"disc": "ING",
+"unidade": "ING-G1.02",
+"ing": "ING-E1@2026-11-03",
+"frente": "Heading: qual a tradução e como o SMCP define?",
+"verso": "Proa (aproamento): a direção horizontal para onde aponta a proa do navio num dado momento, medida em graus a partir do norte, no sentido horário.",
+"fonte": "IMO SMCP (Res. A.918(22)), Glossary"
+},
+{
+"id": "v5.G1.02-05",
+"disc": "ING",
+"unidade": "ING-G1.02",
+"ing": "ING-E1@2026-11-03",
+"frente": "EN → PT: working language · vessel traffic services (VTS) · ships' routeing",
+"verso": "idioma de trabalho a bordo · serviço de tráfego de embarcações · roteamento de navios.",
+"fonte": "SOLAS Cap. V, Reg. 10, 12 e 14"
+},
+{
+"id": "v5.G1.03-01",
+"disc": "ING",
+"unidade": "ING-G1.03",
+"ing": "ING-E1@2026-11-04",
+"frente": "There is ou there are? “___ a buoy ahead and ___ two tugs astern.”",
+"verso": "There is a buoy ahead and there are two tugs astern. There is com singular; there are com plural.",
+"fonte": "Plano de inglês 2027, aula G1.03"
+},
+{
+"id": "v5.G1.03-02",
+"disc": "ING",
+"unidade": "ING-G1.03",
+"ing": "ING-E1@2026-11-04",
+"frente": "in, on ou at? “The pilot is ___ the bridge. The vessel is ___ anchor. The buoy is ___ the channel.”",
+"verso": "on the bridge · at anchor · in the channel. On: sobre uma superfície. At: um ponto ou expressão fixa. In: dentro de.",
+"fonte": "Plano de inglês 2027, aula G1.03"
+},
+{
+"id": "v5.G1.03-03",
+"disc": "ING",
+"unidade": "ING-G1.03",
+"ing": "ING-E1@2026-11-04",
+"frente": "Pergunte em inglês: “Há uma escada de prático a boreste?”",
+"verso": "Is there a pilot ladder on the starboard side?",
+"fonte": "Plano de inglês 2027, aula G1.03"
+},
+{
+"id": "v5.G1.03-04",
+"disc": "ING",
+"unidade": "ING-G1.03",
+"ing": "ING-E1@2026-11-04",
+"frente": "Course e course made good: qual a diferença?",
+"verso": "Course: rumo, a direção em que se pretende mover o navio na água. Course made good: o rumo realmente feito no fundo, já com o efeito de corrente, maré e abatimento.",
+"fonte": "IMO SMCP (Res. A.918(22)), Glossary"
+},
+{
+"id": "v5.G1.03-05",
+"disc": "ING",
+"unidade": "ING-G1.03",
+"ing": "ING-E1@2026-11-04",
+"frente": "PT → EN: casco · proa · popa · bojo",
+"verso": "hull · bow · stern · bilge.",
+"fonte": "Arte Naval v.1, arts. 1.2 a 1.4 e 1.15"
+},
+{
+"id": "v5.G1.03-06",
+"disc": "ING",
+"unidade": "ING-G1.03",
+"ing": "ING-E1@2026-11-04",
+"frente": "EN → PT: bulwark · quarter · sheer strake",
+"verso": "borda-falsa · alheta · cintado.",
+"fonte": "Arte Naval v.1, arts. 1.22, 1.24 e 1.29"
+},
+{
+"id": "v5.G1.04-01",
+"disc": "ING",
+"unidade": "ING-G1.04",
+"ing": "ING-E1@2026-11-05",
+"frente": "a ou an? “___ anchor, ___ tug, ___ hour, ___ engine.”",
+"verso": "an anchor, a tug, an hour, an engine. Vale o som: an antes de som de vogal (o h de hour é mudo).",
+"fonte": "Plano de inglês 2027, aula G1.04"
+},
+{
+"id": "v5.G1.04-02",
+"disc": "ING",
+"unidade": "ING-G1.04",
+"ing": "ING-E1@2026-11-05",
+"frente": "Por que não há artigo em “The vessel is at anchor” e em “Fog is dangerous”?",
+"verso": "É o artigo zero: usado em expressões fixas (at anchor, at sea, on deck) e com incontáveis ou plurais em sentido geral.",
+"fonte": "Plano de inglês 2027, aula G1.04"
+},
+{
+"id": "v5.G1.04-03",
+"disc": "ING",
+"unidade": "ING-G1.04",
+"ing": "ING-E1@2026-11-05",
+"frente": "Dê o plural de: vessel · box · berth · man",
+"verso": "vessels · boxes · berths · men.",
+"fonte": "Plano de inglês 2027, aula G1.04"
+},
+{
+"id": "v5.G1.04-04",
+"disc": "ING",
+"unidade": "ING-G1.04",
+"ing": "ING-E1@2026-11-05",
+"frente": "No SMCP, a velocidade dita em nós, sem mais nada, é em relação a quê? Como se diz a velocidade no fundo?",
+"verso": "Sem indicação, é a velocidade na água (speed through the water). A velocidade no fundo se diz “ground speed” (speed over the ground).",
+"fonte": "IMO SMCP (Res. A.918(22)), General 15"
+},
+{
+"id": "v5.G1.04-05",
+"disc": "ING",
+"unidade": "ING-G1.04",
+"ing": "ING-E1@2026-11-05",
+"frente": "PT → EN: Marinha · Capitão dos Portos · Diretoria de Portos e Costas",
+"verso": "Navy · Harbour Master · Directorate of Ports and Coasts.",
+"fonte": "Plano de inglês 2027 (termos sugeridos)"
+},
+{
+"id": "v5.G1.05-01",
+"disc": "ING",
+"unidade": "ING-G1.05",
+"ing": "ING-E1@2026-11-06",
+"frente": "Como se forma o imperativo e a sua negativa?",
+"verso": "Com o verbo na forma base, sem to: Stop engines. Negativa: Do not + verbo: Do not overtake.",
+"fonte": "Plano de inglês 2027, aula G1.05"
+},
+{
+"id": "v5.G1.05-02",
+"disc": "ING",
+"unidade": "ING-G1.05",
+"ing": "ING-E1@2026-11-06",
+"frente": "Passe para o inglês: “Mantenha o rumo.” “Reduza a velocidade.” “Não fundeie.”",
+"verso": "Keep your course. Reduce your speed. Do not anchor.",
+"fonte": "Plano de inglês 2027, aula G1.05"
+},
+{
+"id": "v5.G1.05-03",
+"disc": "ING",
+"unidade": "ING-G1.05",
+"ing": "ING-E1@2026-11-06",
+"frente": "No SMCP, o que dizer quando a mensagem não foi bem ouvida?",
+"verso": "“Say again (please).”",
+"fonte": "IMO SMCP (Res. A.918(22)), General 9.2"
+},
+{
+"id": "v5.G1.05-04",
+"disc": "ING",
+"unidade": "ING-G1.05",
+"ing": "ING-E1@2026-11-06",
+"frente": "EN → PT: Instruction · Advice · Warning · Request · Intention",
+"verso": "instrução · recomendação · alerta · pedido · intenção. São cinco dos oito marcadores de mensagem do SMCP.",
+"fonte": "IMO SMCP (Res. A.918(22)), General 3"
+},
+{
+"id": "v5.G1.05-05",
+"disc": "ING",
+"unidade": "ING-G1.05",
+"ing": "ING-E1@2026-11-06",
+"frente": "Cable: quais os três sentidos no glossário do SMCP?",
+"verso": "A amarra, corrente que liga o navio à âncora; cabo de aço ou de fibra usado na amarração; e a medida de um décimo de milha náutica (cem braças).",
+"fonte": "IMO SMCP (Res. A.918(22)), Glossary"
+},
+{
+"id": "v5.G1.05-06",
+"disc": "ING",
+"unidade": "ING-G1.05",
+"ing": "ING-E1@2026-11-06",
+"frente": "EN → PT: “Buoy 030 degrees on your port bow.”",
+"verso": "Boia a 030 graus pela amura de bombordo. É uma marcação relativa (relative bearing), contada a partir da proa.",
+"fonte": "IMO SMCP (Res. A.918(22)), General 12.1"
+},
+{
+"id": "v5.G1.06-01",
+"disc": "ING",
+"unidade": "ING-G1.06",
+"ing": "ING-E1@2026-11-09",
+"frente": "Complete: “The pilot ___ (board) at the pilot station. Tugs ___ (assist) large vessels.”",
+"verso": "boards · assist. Com he, she e it o verbo ganha -s; com sujeito no plural, não.",
+"fonte": "Plano de inglês 2027, aula G1.06"
+},
+{
+"id": "v5.G1.06-02",
+"disc": "ING",
+"unidade": "ING-G1.06",
+"ing": "ING-E1@2026-11-09",
+"frente": "Dê a terceira pessoa do singular de: go · pass · carry · have",
+"verso": "goes · passes · carries · has.",
+"fonte": "Plano de inglês 2027, aula G1.06"
+},
+{
+"id": "v5.G1.06-03",
+"disc": "ING",
+"unidade": "ING-G1.06",
+"ing": "ING-E1@2026-11-09",
+"frente": "Passe para o inglês: “O navio guina para boreste.”",
+"verso": "The vessel turns to starboard.",
+"fonte": "Plano de inglês 2027, aula G1.06"
+},
+{
+"id": "v5.G1.06-04",
+"disc": "ING",
+"unidade": "ING-G1.06",
+"ing": "ING-E1@2026-11-09",
+"frente": "No SMCP, como se corrige um erro na mensagem?",
+"verso": "“Mistake”, depois “Correction” e a parte certa: “My present speed is 14 knots — mistake. Correction, my present speed is 12, one-two, knots.”",
+"fonte": "IMO SMCP (Res. A.918(22)), General 7"
+},
+{
+"id": "v5.G1.06-05",
+"disc": "ING",
+"unidade": "ING-G1.06",
+"ing": "ING-E1@2026-11-09",
+"frente": "EN → PT: yaw · yaw moment",
+"verso": "guinada · momento de guinada.",
+"fonte": "Santos, Manobrabilidade séc. 21, Cap. 3"
+},
+{
+"id": "v5.G1.07-01",
+"disc": "ING",
+"unidade": "ING-G1.07",
+"ing": "ING-E1@2026-11-10",
+"frente": "Passe para a negativa: “The engine starts.” “The tugs assist us.”",
+"verso": "The engine does not start. The tugs do not assist us. Does not com he, she e it; do not com os demais.",
+"fonte": "Plano de inglês 2027, aula G1.07"
+},
+{
+"id": "v5.G1.07-02",
+"disc": "ING",
+"unidade": "ING-G1.07",
+"ing": "ING-E1@2026-11-10",
+"frente": "O que está errado em “He doesn't works”?",
+"verso": "Depois de doesn't o verbo volta à forma base, sem -s: He doesn't work.",
+"fonte": "Plano de inglês 2027, aula G1.07"
+},
+{
+"id": "v5.G1.07-03",
+"disc": "ING",
+"unidade": "ING-G1.07",
+"ing": "ING-E1@2026-11-10",
+"frente": "Stand by: que usos tem no SMCP?",
+"verso": "Como resposta, quando a informação não está disponível na hora: “Stand by” e o tempo de espera. Para manter escuta: “Stand by on VHF Channel…”. No glossário: estar pronto para executar uma ordem.",
+"fonte": "IMO SMCP (Res. A.918(22)), General 4.3 e 6.2; Glossary"
+},
+{
+"id": "v5.G1.07-04",
+"disc": "ING",
+"unidade": "ING-G1.07",
+"ing": "ING-E1@2026-11-10",
+"frente": "EN → PT: blind sector · conning position",
+"verso": "setor cego · posição de manobra, de onde se conduz o navio.",
+"fonte": "SOLAS Cap. V, Reg. 22"
+},
+{
+"id": "v5.G1.07-05",
+"disc": "ING",
+"unidade": "ING-G1.07",
+"ing": "ING-E1@2026-11-10",
+"frente": "EN → PT: rate of turn indicator · automatic identification system",
+"verso": "indicador de taxa de guinada · sistema de identificação automática (AIS).",
+"fonte": "SOLAS Cap. V, Reg. 19"
+},
+{
+"id": "v5.G1.08-01",
+"disc": "ING",
+"unidade": "ING-G1.08",
+"ing": "ING-E1@2026-11-11",
+"frente": "Faça a pergunta: “The vessel anchors here.” “You speak English.”",
+"verso": "Does the vessel anchor here? Do you speak English?",
+"fonte": "Plano de inglês 2027, aula G1.08"
+},
+{
+"id": "v5.G1.08-02",
+"disc": "ING",
+"unidade": "ING-G1.08",
+"ing": "ING-E1@2026-11-11",
+"frente": "O que está errado em “Does the pilot boards here?”",
+"verso": "Com does, o verbo fica na forma base: Does the pilot board here?",
+"fonte": "Plano de inglês 2027, aula G1.08"
+},
+{
+"id": "v5.G1.08-03",
+"disc": "ING",
+"unidade": "ING-G1.08",
+"ing": "ING-E1@2026-11-11",
+"frente": "Dê as respostas curtas para “Do the tugs assist here?”",
+"verso": "Yes, they do. / No, they do not.",
+"fonte": "Plano de inglês 2027, aula G1.08"
+},
+{
+"id": "v5.G1.08-04",
+"disc": "ING",
+"unidade": "ING-G1.08",
+"ing": "ING-E1@2026-11-11",
+"frente": "No radiotelefone, o que significa “over”?",
+"verso": "Câmbio: terminei a minha transmissão e a outra estação pode responder.",
+"fonte": "EROG (DPC), Unidade 1"
+},
+{
+"id": "v5.G1.08-05",
+"disc": "ING",
+"unidade": "ING-G1.08",
+"ing": "ING-E1@2026-11-11",
+"frente": "PT → EN: paiol da amarra · tubo do escovém · gateira",
+"verso": "chain locker · hawse pipe · spurling pipe.",
+"fonte": "Arte Naval v.1, arts. 1.68, 1.88 e 1.89"
+},
+{
+"id": "v5.G1.08-06",
+"disc": "ING",
+"unidade": "ING-G1.08",
+"ing": "ING-E1@2026-11-11",
+"frente": "EN → PT: scupper · freeing ports · rudder",
+"verso": "embornal · saídas de água · leme.",
+"fonte": "Arte Naval v.1, arts. 1.90, 1.91 e 1.97"
+},
+{
+"id": "v5.G1.09-01",
+"disc": "ING",
+"unidade": "ING-G1.09",
+"ing": "ING-E1@2026-11-12",
+"frente": "What, where, when, who, why e how: o que cada uma pergunta?",
+"verso": "o quê · onde · quando · quem · por quê · como. How many e how much: quantidade. How long: duração. How far: distância.",
+"fonte": "Plano de inglês 2027, aula G1.09"
+},
+{
+"id": "v5.G1.09-02",
+"disc": "ING",
+"unidade": "ING-G1.09",
+"ing": "ING-E1@2026-11-12",
+"frente": "Pergunte em inglês: “Qual é o seu calado?” “Onde o prático embarca?”",
+"verso": "What is your draught? Where does the pilot board?",
+"fonte": "Plano de inglês 2027, aula G1.09"
+},
+{
+"id": "v5.G1.09-03",
+"disc": "ING",
+"unidade": "ING-G1.09",
+"ing": "ING-E1@2026-11-12",
+"frente": "Por que “Who boards the vessel?” não leva does?",
+"verso": "Porque who é o sujeito da frase. Quando a palavra interrogativa é o sujeito, não se usa do nem does.",
+"fonte": "Plano de inglês 2027, aula G1.09"
+},
+{
+"id": "v5.G1.09-04",
+"disc": "ING",
+"unidade": "ING-G1.09",
+"ing": "ING-E1@2026-11-12",
+"frente": "No radiotelefone, qual a diferença entre “out” e “over”?",
+"verso": "Out (desligo): encerra a comunicação. Over (câmbio): passa a palavra e espera resposta.",
+"fonte": "EROG (DPC), Unidade 1"
+},
+{
+"id": "v5.G1.09-05",
+"disc": "ING",
+"unidade": "ING-G1.09",
+"ing": "ING-E1@2026-11-12",
+"frente": "PT → EN: prático · zona de praticagem · comandante · armador",
+"verso": "pilot · pilotage zone · master · owner (shipowner).",
+"fonte": "Plano de inglês 2027 (termos sugeridos)"
+},
+{
+"id": "v5.G1.10-01",
+"disc": "ING",
+"unidade": "ING-G1.10",
+"ing": "ING-E1@2026-11-13",
+"frente": "its ou it's? “The vessel lost ___ anchor. ___ a container ship.”",
+"verso": "its anchor · It's a container ship. Its indica posse; it's é a contração de it is.",
+"fonte": "Plano de inglês 2027, aula G1.10"
+},
+{
+"id": "v5.G1.10-02",
+"disc": "ING",
+"unidade": "ING-G1.10",
+"ing": "ING-E1@2026-11-13",
+"frente": "Passe para o inglês com 's: “a escada do prático” e “o calado do navio”.",
+"verso": "the pilot's ladder · the vessel's draught.",
+"fonte": "Plano de inglês 2027, aula G1.10"
+},
+{
+"id": "v5.G1.10-03",
+"disc": "ING",
+"unidade": "ING-G1.10",
+"ing": "ING-E1@2026-11-13",
+"frente": "Complete com o possessivo: “We reduced ___ speed and the tug changed ___ position.”",
+"verso": "our speed · its position.",
+"fonte": "Plano de inglês 2027, aula G1.10"
+},
+{
+"id": "v5.G1.10-04",
+"disc": "ING",
+"unidade": "ING-G1.10",
+"ing": "ING-E1@2026-11-13",
+"frente": "“I say again” e “Repeat”: quando se usa cada um?",
+"verso": "“I say again”: para repetir a própria mensagem, no procedimento de radiotelefonia do EROG. No SMCP, para reforçar uma parte importante da mensagem, a palavra é “Repeat”.",
+"fonte": "EROG (DPC), Unidade 1; SMCP, General 9.1"
+},
+{
+"id": "v5.G1.10-05",
+"disc": "ING",
+"unidade": "ING-G1.10",
+"ing": "ING-E1@2026-11-13",
+"frente": "EN → PT: cross flow",
+"verso": "Escoamento cruzado: a água atacando o casco de lado, com o navio muito lento ou com deriva grande.",
+"fonte": "Santos, Manobrabilidade séc. 21, Cap. 3, 3.8"
+},
+{
+"id": "v5.G1.11-01",
+"disc": "ING",
+"unidade": "ING-G1.11",
+"ing": "ING-E1@2026-11-16",
+"frente": "at, on ou in? “___ 0600, ___ Monday, ___ November, ___ the morning.”",
+"verso": "at 0600, on Monday, in November, in the morning. At com hora; on com dia; in com mês, ano e parte do dia.",
+"fonte": "Plano de inglês 2027, aula G1.11"
+},
+{
+"id": "v5.G1.11-02",
+"disc": "ING",
+"unidade": "ING-G1.11",
+"ing": "ING-E1@2026-11-16",
+"frente": "Como o SMCP manda falar os números 150 e 2.5?",
+"verso": "Algarismo por algarismo: “one-five-zero”; “two decimal five” ou “two point five”.",
+"fonte": "IMO SMCP (Res. A.918(22)), General 10"
+},
+{
+"id": "v5.G1.11-03",
+"disc": "ING",
+"unidade": "ING-G1.11",
+"ing": "ING-E1@2026-11-16",
+"frente": "Como dizer em inglês: “Governe no rumo 045.” e “às 14 horas de sexta-feira”?",
+"verso": "Steer course zero-four-five. / at 1400 hours on Friday.",
+"fonte": "Plano de inglês 2027, aula G1.11"
+},
+{
+"id": "v5.G1.11-04",
+"disc": "ING",
+"unidade": "ING-G1.11",
+"ing": "ING-E1@2026-11-16",
+"frente": "O que é fazer o “read back” de uma mensagem?",
+"verso": "Repetir a mensagem recebida, para confirmar que foi entendida. Exemplo: “Received, understood. Berth clear at 0830 hours.”",
+"fonte": "EROG (DPC), Unidade 1"
+},
+{
+"id": "v5.G1.11-05",
+"disc": "ING",
+"unidade": "ING-G1.11",
+"ing": "ING-E1@2026-11-16",
+"frente": "EN → PT: speed of advance (SOA) · ETA · ETD",
+"verso": "velocidade de avanço planejada · hora estimada de chegada · hora estimada de partida.",
+"fonte": "Miguens, Navegação v.1, Cap. 1, 1.8"
+},
+{
+"id": "v5.G1.12-01",
+"disc": "ING",
+"unidade": "ING-G1.12",
+"ing": "ING-E1@2026-11-17",
+"frente": "Complete com o pronome objeto: “The tugs assist ___ (we). The master thanked ___ (the pilot, homem).”",
+"verso": "us · him. Pronomes objeto: me, you, him, her, it, us, them.",
+"fonte": "Plano de inglês 2027, aula G1.12"
+},
+{
+"id": "v5.G1.12-02",
+"disc": "ING",
+"unidade": "ING-G1.12",
+"ing": "ING-E1@2026-11-17",
+"frente": "Em inglês o navio é it ou she? Dê um exemplo do SMCP.",
+"verso": "Os dois aparecem. O inglês náutico tradicional usa she e her, e o SMCP também: “a vessel constrained by her draught”.",
+"fonte": "IMO SMCP (Res. A.918(22)), Glossary"
+},
+{
+"id": "v5.G1.12-03",
+"disc": "ING",
+"unidade": "ING-G1.12",
+"ing": "ING-E1@2026-11-17",
+"frente": "Troque por pronomes: “The pilot boards the ship.”",
+"verso": "He boards her. (Também se aceita: He boards it.)",
+"fonte": "Plano de inglês 2027, aula G1.12"
+},
+{
+"id": "v5.G1.12-04",
+"disc": "ING",
+"unidade": "ING-G1.12",
+"ing": "ING-E1@2026-11-17",
+"frente": "O que significa “roger” no radiotelefone?",
+"verso": "Recebido e entendido. O termo não aparece no SMCP nem no EROG do projeto; o SMCP prefere a resposta completa: “Yes…”, “I will…”.",
+"fonte": "Plano de inglês 2027 (termo E1; fora do SMCP do projeto)"
+},
+{
+"id": "v5.G1.12-05",
+"disc": "ING",
+"unidade": "ING-G1.12",
+"ing": "ING-E1@2026-11-17",
+"frente": "PT → EN: linha-d'água · borda-livre · superfície molhada",
+"verso": "waterline · freeboard · wetted surface.",
+"fonte": "Arte Naval v.1, arts. 2.2, 2.12 e 2.28"
+},
+{
+"id": "v5.G1.12-06",
+"disc": "ING",
+"unidade": "ING-G1.12",
+"ing": "ING-E1@2026-11-17",
+"frente": "EN → PT: center of buoyancy · reserve of buoyancy",
+"verso": "centro de carena · reserva de flutuabilidade.",
+"fonte": "Arte Naval v.1, arts. 2.22 e 2.27"
+},
+{
+"id": "v5.G1.13-01",
+"disc": "ING",
+"unidade": "ING-G1.13",
+"ing": "ING-E1@2026-11-18",
+"frente": "Como se usa can? Corrija: “He can to swim.”",
+"verso": "Can + verbo na forma base, sem to: He can swim. Negativa: cannot ou can't.",
+"fonte": "Plano de inglês 2027, aula G1.13"
+},
+{
+"id": "v5.G1.13-02",
+"disc": "ING",
+"unidade": "ING-G1.13",
+"ing": "ING-E1@2026-11-18",
+"frente": "Pergunte “Você consegue me ouvir?” e dê as respostas curtas.",
+"verso": "Can you hear me? — Yes, I can. / No, I cannot.",
+"fonte": "Plano de inglês 2027, aula G1.13"
+},
+{
+"id": "v5.G1.13-03",
+"disc": "ING",
+"unidade": "ING-G1.13",
+"ing": "ING-E1@2026-11-18",
+"frente": "No SMCP, por que evitar “Can I enter the fairway?”, e o que dizer no lugar?",
+"verso": "Can é ambíguo: pode indicar possibilidade ou permissão. Diga: “QUESTION. Do I have permission to enter the fairway?”",
+"fonte": "IMO SMCP (Res. A.918(22)), General 18.2"
+},
+{
+"id": "v5.G1.13-04",
+"disc": "ING",
+"unidade": "ING-G1.13",
+"ing": "ING-E1@2026-11-18",
+"frente": "PT → EN: multa · suspensão · infração",
+"verso": "fine · suspension · offence.",
+"fonte": "Plano de inglês 2027 (termos sugeridos)"
+},
+{
+"id": "v5.G1.14-01",
+"disc": "ING",
+"unidade": "ING-G1.14",
+"ing": "ING-E1@2026-11-19",
+"frente": "Ordene do mais frequente para o menos frequente: sometimes, never, always, rarely, usually, often.",
+"verso": "always · usually · often · sometimes · rarely · never.",
+"fonte": "Plano de inglês 2027, aula G1.14"
+},
+{
+"id": "v5.G1.14-02",
+"disc": "ING",
+"unidade": "ING-G1.14",
+"ing": "ING-E1@2026-11-19",
+"frente": "Onde entra o advérbio de frequência? “The pilot ___ checks the chart.” (always) “He is ___ late.” (never)",
+"verso": "Antes do verbo principal e depois do verbo to be: The pilot always checks the chart. He is never late.",
+"fonte": "Plano de inglês 2027, aula G1.14"
+},
+{
+"id": "v5.G1.14-03",
+"disc": "ING",
+"unidade": "ING-G1.14",
+"ing": "ING-E1@2026-11-19",
+"frente": "Passe para o inglês: “Os rebocadores geralmente chegam cedo.”",
+"verso": "The tugs usually arrive early.",
+"fonte": "Plano de inglês 2027, aula G1.14"
+},
+{
+"id": "v5.G1.14-04",
+"disc": "ING",
+"unidade": "ING-G1.14",
+"ing": "ING-E1@2026-11-19",
+"frente": "Revisão dos termos: PT → EN: marcação · proa · rumo · velocidade no fundo",
+"verso": "bearing · heading · course · ground speed (speed over ground).",
+"fonte": "IMO SMCP (Res. A.918(22)), General 12, 13 e 15; Glossary"
+},
+{
+"id": "v5.G1.15-01",
+"disc": "ING",
+"unidade": "ING-G1.15",
+"ing": "ING-E1@2026-11-20",
+"frente": "Revisão: passe para a pergunta e para a negativa: “The vessel carries containers.”",
+"verso": "Does the vessel carry containers? / The vessel does not carry containers.",
+"fonte": "Plano de inglês 2027, aula G1.15"
+},
+{
+"id": "v5.G1.15-02",
+"disc": "ING",
+"unidade": "ING-G1.15",
+"ing": "ING-E1@2026-11-20",
+"frente": "Revisão: corrija “There is two tugs in the starboard side.”",
+"verso": "There are two tugs on the starboard side. Plural pede there are; lado do navio pede on.",
+"fonte": "Plano de inglês 2027, aula G1.15"
+},
+{
+"id": "v5.G1.15-03",
+"disc": "ING",
+"unidade": "ING-G1.15",
+"ing": "ING-E1@2026-11-20",
+"frente": "Revisão dos termos: PT → EN: repita · aguarde · câmbio · desligo",
+"verso": "say again · stand by · over · out.",
+"fonte": "SMCP, General 4.3 e 9.2; EROG, Unidade 1"
+},
+{
+"id": "v5.G1.15-04",
+"disc": "ING",
+"unidade": "ING-G1.15",
+"ing": "ING-E1@2026-11-20",
+"frente": "O que são RACON e LANBY?",
+"verso": "RACON: baliza respondedora de radar (radar beacon), auxílio à navegação representado na carta. LANBY: Large Automatic Navigational Buoy, a boia grande automática.",
+"fonte": "Miguens, Navegação v.1, Cap. 2"
+}
+]
+}

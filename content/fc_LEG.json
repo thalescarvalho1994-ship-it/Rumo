@@ -1,1 +1,604 @@
-{"cards": [{"id": "v2.LEG-01.01", "unidade": "LEG-01", "disc": "LEG", "frente": "Quem é a Autoridade Marítima?", "verso": "O Comandante da Marinha.", "fonte": "LC 97/1999, art. 17, parágrafo único", "s": "LEG-01.1"}, {"id": "v2.LEG-01.02", "unidade": "LEG-01", "disc": "LEG", "frente": "LC 97, art. 17: cite 2 atribuições subsidiárias da Marinha.", "verso": "Orientar e controlar a Marinha Mercante; prover a segurança da navegação aquaviária; contribuir para políticas do mar; fiscalizar leis no mar e águas interiores; cooperar na repressão a delitos (qualquer 2).", "fonte": "LC 97/1999, art. 17", "s": "LEG-01.1"}, {"id": "v2.LEG-01.03", "unidade": "LEG-01", "disc": "LEG", "frente": "Quem é o assessor da Autoridade Marítima?", "verso": "O Chefe do Estado-Maior da Armada.", "fonte": "Portaria 37/MB/MD/2022, arts. 4º e 6º, PDF 3", "s": "LEG-01.1"}, {"id": "v2.LEG-01.04", "unidade": "LEG-01", "disc": "LEG", "frente": "Quem são os Agentes da Autoridade Marítima?", "verso": "Titulares de outras OM (e prepostos) com atribuições dadas pelas NORMAM, supervisionados pelos Distritos Navais.", "fonte": "Portaria 37/MB/MD/2022, art. 5º, PDF 3", "s": "LEG-01.1"}, {"id": "v2.LEG-01.05", "unidade": "LEG-01", "disc": "LEG", "frente": "Quem estabelece as zonas de praticagem obrigatória?", "verso": "A DPC.", "fonte": "Portaria 37/MB/MD/2022, art. 9º §1º, PDF 6–7", "s": "LEG-01.1"}, {"id": "v2.LEG-01.06", "unidade": "LEG-01", "disc": "LEG", "frente": "Quem aprova a NORMAM do serviço de praticagem?", "verso": "A DPC.", "fonte": "Portaria 37/MB/MD/2022, art. 9º §1º, PDF 6–7", "s": "LEG-01.1"}, {"id": "v2.LEG-01.07", "unidade": "LEG-01", "disc": "LEG", "frente": "Quem é responsável pelo Plano Cartográfico Náutico e pelos Avisos aos Navegantes?", "verso": "A DHN.", "fonte": "Portaria 37/MB/MD/2022, art. 9º §2º, PDF 8–9", "s": "LEG-01.1"}, {"id": "v2.LEG-01.08", "unidade": "LEG-01", "disc": "LEG", "frente": "Quem aplica medidas administrativas e lavra autos de infração da LESTA?", "verso": "Os Distritos Navais (Inspeção e Patrulha Naval).", "fonte": "Portaria 37/MB/MD/2022, art. 9º §3º, PDF 9–10", "s": "LEG-01.1"}, {"id": "v2.LEG-01.09", "unidade": "LEG-01", "disc": "LEG", "frente": "Socorro e salvamento: quem são os Representantes da AM?", "verso": "Os Comandantes dos Distritos Navais.", "fonte": "Portaria 37/MB/MD/2022, art. 10, PDF 10", "s": "LEG-01.1"}, {"id": "v2.LEG-01.10", "unidade": "LEG-01", "disc": "LEG", "frente": "Quem baixa normas de socorro à vida humana e coordena assistência e salvamento?", "verso": "O ComOpNav.", "fonte": "Portaria 37/MB/MD/2022, art. 8º §1º, PDF 5", "s": "LEG-01.1"}, {"id": "v2.LEG-01.11", "unidade": "LEG-01", "disc": "LEG", "frente": "Ensino Profissional Marítimo: quem estabelece a POLÍTICA?", "verso": "A DGN.", "fonte": "Portaria 37/MB/MD/2022, art. 7º, PDF 4", "s": "LEG-01.1"}, {"id": "v2.LEG-01.12", "unidade": "LEG-01", "disc": "LEG", "frente": "Ensino Profissional Marítimo: quem baixa os atos e gere o FDEPM?", "verso": "A DPC.", "fonte": "Portaria 37/MB/MD/2022, art. 7º, PDF 4", "s": "LEG-01.1"}, {"id": "v2.LEG-01.13", "unidade": "LEG-01", "disc": "LEG", "frente": "Recurso de multa: qual a última instância?", "verso": "O Diretor de Portos e Costas.", "fonte": "Portaria 37/MB/MD/2022, arts. 9º §1º XI e 11 §1º II, PDF 8 e 11", "s": "LEG-01.1"}, {"id": "v2.LEG-01.14", "unidade": "LEG-01", "disc": "LEG", "frente": "A Portaria 156/2004 ainda está em vigor?", "verso": "Não; foi revogada pela Portaria 37/MB/MD/2022 (vigência em 3/3/2022).", "fonte": "Portaria 37/MB/MD/2022, arts. 3º e 4º, PDF 1", "s": "LEG-01.1"}, {"id": "v2.LEG-02.01", "unidade": "LEG-02", "disc": "LEG", "frente": "O que compreende o serviço de praticagem?", "verso": "O prático, a lancha de prático e a atalaia.", "fonte": "Lei 14.813/2024 (art. 12-A da LESTA), PDF 1", "s": "LEG-02.1"}, {"id": "v2.LEG-02.02", "unidade": "LEG-02", "disc": "LEG", "frente": "Qual a natureza do serviço de praticagem?", "verso": "Atividade essencial, de natureza privada, para garantir o interesse público (segurança da navegação, vida humana e meio ambiente).", "fonte": "Lei 14.813/2024 (art. 12 §1º da LESTA), PDF 1", "s": "LEG-02.1"}, {"id": "v2.LEG-02.03", "unidade": "LEG-02", "disc": "LEG", "frente": "Praticagem obrigatória: acima de quantos AB?", "verso": "AB superior a 500, em todas as zonas de praticagem (com exceções).", "fonte": "Lei 14.813/2024 (art. 13 §6º da LESTA), PDF 2", "s": "LEG-02.1"}, {"id": "v2.LEG-02.04", "unidade": "LEG-02", "disc": "LEG", "frente": "Cite 2 requisitos de manutenção da habilitação do prático.", "verso": "Frequência mínima de manobras; cursos de aperfeiçoamento; recomendações internacionais reconhecidas pela AM (qualquer 2).", "fonte": "Lei 14.813/2024 (art. 13 §2º da LESTA), PDF 1", "s": "LEG-02.1"}, {"id": "v2.LEG-02.05", "unidade": "LEG-02", "disc": "LEG", "frente": "Definição de Zona de Praticagem?", "verso": "Área com peculiaridades locais que dificultam a movimentação livre e segura, exigindo serviço de praticagem permanente.", "fonte": "Lei 14.813/2024 (art. 2º XXII da LESTA), PDF 1", "s": "LEG-02.1"}, {"id": "v2.LEG-02.06", "unidade": "LEG-02", "disc": "LEG", "frente": "Quantas escalas de rodízio por zona de praticagem?", "verso": "Uma única, homologada pela Autoridade Marítima.", "fonte": "Lei 14.813/2024 (art. 13 §5º da LESTA), PDF 2", "s": "LEG-02.1"}, {"id": "v2.LEG-02.07", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA: o que é aquaviário?", "verso": "Quem tem habilitação para operar embarcações em caráter profissional.", "fonte": "LESTA compilada, art. 2º I, PDF 1", "s": "LEG-02.1"}, {"id": "v2.LEG-02.08", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA: o que é amador?", "verso": "Quem tem habilitação para operar embarcações de esporte e recreio, sem caráter profissional.", "fonte": "LESTA compilada, art. 2º II, PDF 1", "s": "LEG-02.1"}, {"id": "v2.LEG-02.09", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA: o prático é tripulante?", "verso": "Não: é aquaviário NÃO-tripulante que presta praticagem embarcado.", "fonte": "LESTA compilada, art. 2º XV, PDF 2", "s": "LEG-02.1"}, {"id": "v2.LEG-02.10", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA: o que é navegação interior?", "verso": "Em hidrovias interiores: rios, lagos, canais, lagoas, baías, angras, enseadas e áreas marítimas abrigadas.", "fonte": "LESTA compilada, art. 2º XI, PDF 2", "s": "LEG-02.1"}, {"id": "v2.LEG-02.11", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA: o que é navegação de mar aberto?", "verso": "A realizada em águas marítimas desabrigadas.", "fonte": "LESTA compilada, art. 2º XII, PDF 2", "s": "LEG-02.1"}, {"id": "v2.LEG-02.12", "unidade": "LEG-02", "disc": "LEG", "frente": "Quem fixa a tripulação de segurança?", "verso": "A Autoridade Marítima (com direito a recurso).", "fonte": "LESTA compilada, arts. 2º XIX e 4º III, PDF 2–3", "s": "LEG-02.1"}, {"id": "v2.LEG-02.13", "unidade": "LEG-02", "disc": "LEG", "frente": "Embarcação estrangeira irregular (art. 5º): cite 2 ordens possíveis.", "verso": "Não entrar no porto; não sair; sair das águas jurisdicionais; arribar em porto nacional (qualquer 2).", "fonte": "LESTA compilada, art. 5º, PDF 3–4", "s": "LEG-02.1"}, {"id": "v2.LEG-02.14", "unidade": "LEG-02", "disc": "LEG", "frente": "Prático que recusa o serviço: qual a sanção?", "verso": "Suspensão do certificado; na reincidência, cancelamento.", "fonte": "LESTA compilada, art. 15, PDF 6–7", "s": "LEG-02.2"}, {"id": "v2.LEG-02.15", "unidade": "LEG-02", "disc": "LEG", "frente": "Cite 2 medidas administrativas do art. 16.", "verso": "Apreensão do certificado; apreensão ou retirada do tráfego da embarcação; embargo de construção/reparo; embargo de obra; embargo de mineração (qualquer 2).", "fonte": "LESTA compilada, art. 16, PDF 7–8", "s": "LEG-02.2"}, {"id": "v2.LEG-02.16", "unidade": "LEG-02", "disc": "LEG", "frente": "Embarcação apreendida: prazo para sanar a irregularidade?", "verso": "90 dias, sob pena de leilão ou incorporação aos bens da União.", "fonte": "LESTA compilada, art. 17 §2º, PDF 8", "s": "LEG-02.2"}, {"id": "v2.LEG-02.17", "unidade": "LEG-02", "disc": "LEG", "frente": "Auto de infração: prazo para defesa?", "verso": "15 dias úteis.", "fonte": "LESTA compilada, arts. 23–24, PDF 8", "s": "LEG-02.2"}, {"id": "v2.LEG-02.18", "unidade": "LEG-02", "disc": "LEG", "frente": "Auto de infração: prazo de recurso e efeito?", "verso": "5 dias úteis, sem efeito suspensivo.", "fonte": "LESTA compilada, arts. 23–24, PDF 8", "s": "LEG-02.2"}, {"id": "v2.LEG-02.19", "unidade": "LEG-02", "disc": "LEG", "frente": "O depósito prévio para recorrer ainda existe?", "verso": "Não; foi revogado pela Lei 14.813/2024.", "fonte": "LESTA compilada, art. 24, PDF 8", "s": "LEG-02.2"}, {"id": "v2.LEG-02.20", "unidade": "LEG-02", "disc": "LEG", "frente": "Prazo máximo da pena de suspensão?", "verso": "Até 12 meses.", "fonte": "LESTA compilada, art. 25, PDF 9", "s": "LEG-02.2"}, {"id": "v2.LEG-02.21", "unidade": "LEG-02", "disc": "LEG", "frente": "Cancelamento do certificado: reabilitação depois de quanto tempo?", "verso": "Após 2 anos.", "fonte": "LESTA compilada, art. 25, PDF 9", "s": "LEG-02.2"}, {"id": "v2.LEG-02.22", "unidade": "LEG-02", "disc": "LEG", "frente": "Quais penalidades podem ser aplicadas junto com as outras?", "verso": "Multa e demolição.", "fonte": "LESTA compilada, arts. 25–28, PDF 9", "s": "LEG-02.2"}, {"id": "v2.LEG-02.23", "unidade": "LEG-02", "disc": "LEG", "frente": "Cite 2 agravantes do art. 30.", "verso": "Reincidência; uso da embarcação em ato ilícito; embriaguez ou entorpecente; grave ameaça à integridade física (qualquer 2).", "fonte": "LESTA compilada, art. 30, PDF 9", "s": "LEG-02.2"}, {"id": "v2.LEG-02.24", "unidade": "LEG-02", "disc": "LEG", "frente": "Infração descoberta em inquérito de acidente: quando aplicar a sanção?", "verso": "Só após a decisão final do Tribunal Marítimo — salvo poluição das águas.", "fonte": "LESTA compilada, art. 33, PDF 9", "s": "LEG-02.2"}, {"id": "v3.LEG-01.1-01", "unidade": "LEG-01", "disc": "LEG", "frente": "LC 97, art. 16: qual é a atribuição subsidiária GERAL das Forças Armadas?", "verso": "Cooperar com o desenvolvimento nacional e a defesa civil, na forma determinada pelo Presidente da República.", "fonte": "LC 97/1999, art. 16, PDF 5", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-02", "unidade": "LEG-01", "disc": "LEG", "frente": "LC 97, art. 16, parágrafo único: o que integra as ações de caráter geral?", "verso": "A participação em campanhas institucionais de utilidade pública ou de interesse social (incluído pela LC 117/2004).", "fonte": "LC 97/1999, art. 16 p.ú., PDF 5", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-03", "unidade": "LEG-01", "disc": "LEG", "frente": "LC 97, art. 16-A: onde as Forças Armadas atuam, preventiva e repressivamente, contra delitos transfronteiriços e ambientais?", "verso": "Na faixa de fronteira terrestre, no mar e nas águas interiores, isoladamente ou em coordenação com outros órgãos do Executivo, preservadas as competências exclusivas das polícias judiciárias.", "fonte": "LC 97/1999, art. 16-A, PDF 5", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-04", "unidade": "LEG-01", "disc": "LEG", "frente": "LC 97, art. 16-A: cite as 3 ações que as Forças Armadas executam.", "verso": "Patrulhamento; revista de pessoas, veículos terrestres, embarcações e aeronaves; e prisões em flagrante delito.", "fonte": "LC 97/1999, art. 16-A I–III, PDF 5", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-05", "unidade": "LEG-01", "disc": "LEG", "frente": "LC 97, art. 17, inciso I: atribuição subsidiária particular da Marinha sobre a Marinha Mercante.", "verso": "Orientar e controlar a Marinha Mercante e suas atividades correlatas, no que interessa à defesa nacional.", "fonte": "LC 97/1999, art. 17 I, PDF 5", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-06", "unidade": "LEG-01", "disc": "LEG", "frente": "LC 97, art. 17, inciso II.", "verso": "Prover a segurança da navegação aquaviária.", "fonte": "LC 97/1999, art. 17 II, PDF 6", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-07", "unidade": "LEG-01", "disc": "LEG", "frente": "LC 97, art. 17, inciso III.", "verso": "Contribuir para a formulação e condução de políticas nacionais que digam respeito ao mar.", "fonte": "LC 97/1999, art. 17 III, PDF 6", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-08", "unidade": "LEG-01", "disc": "LEG", "frente": "LC 97, art. 17, inciso IV.", "verso": "Implementar e fiscalizar o cumprimento de leis e regulamentos, no mar e nas águas interiores, em coordenação com outros órgãos do Executivo, federal ou estadual, quando necessário, em razão de competências específicas.", "fonte": "LC 97/1999, art. 17 IV, PDF 6", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-09", "unidade": "LEG-01", "disc": "LEG", "frente": "LC 97, art. 17, inciso V (incluído pela LC 117/2004).", "verso": "Cooperar com os órgãos federais, quando necessário, na repressão a delitos de repercussão nacional ou internacional quanto ao uso do mar, águas interiores e áreas portuárias, com apoio logístico, de inteligência, de comunicações e de instrução.", "fonte": "LC 97/1999, art. 17 V, PDF 6", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-10", "unidade": "LEG-01", "disc": "LEG", "frente": "Quantas atribuições subsidiárias particulares a Marinha tem no art. 17 da LC 97?", "verso": "Cinco (incisos I a V). São as mesmas listadas no art. 2º da Portaria 37/MB/MD/2022.", "fonte": "LC 97/1999, art. 17; Portaria 37/MB/MD/2022, art. 2º, PDF 6 e 2", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-11", "unidade": "LEG-01", "disc": "LEG", "frente": "LC 97, art. 17, parágrafo único: por que o Comandante da Marinha é “Autoridade Marítima”?", "verso": "Pela especificidade das atribuições do art. 17, o trato desses assuntos é competência do Comandante da Marinha, designado Autoridade Marítima para esse fim.", "fonte": "LC 97/1999, art. 17 p.ú., PDF 6", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-12", "unidade": "LEG-01", "disc": "LEG", "frente": "Quem é a Autoridade Aeronáutica (ou Aeronáutica Militar) e qual artigo da LC 97 a define?", "verso": "O Comandante da Aeronáutica, no art. 18, parágrafo único.", "fonte": "LC 97/1999, art. 18 p.ú., PDF 7", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-13", "unidade": "LEG-01", "disc": "LEG", "frente": "Quais artigos da LC 97 tratam das atribuições subsidiárias particulares de Marinha, Exército e Aeronáutica?", "verso": "Marinha: art. 17; Exército: art. 17-A; Aeronáutica: art. 18.", "fonte": "LC 97/1999, arts. 17, 17-A e 18, PDF 6", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-14", "unidade": "LEG-01", "disc": "LEG", "frente": "Portaria 37/MB/MD, art. 1º do Anexo: qual é o alcance da competência da Autoridade Marítima?", "verso": "Trato dos assuntos afetos às atribuições subsidiárias da MB por norma legal que não se relacionem com a defesa da Pátria nem com a garantia dos poderes constitucionais, da lei e da ordem.", "fonte": "Portaria 37/MB/MD/2022, Anexo art. 1º, PDF 2", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-15", "unidade": "LEG-01", "disc": "LEG", "frente": "Portaria 37/MB/MD: quando entrou em vigor e que norma anterior revogou?", "verso": "Entrou em vigor em 3 de março de 2022 e revogou a Portaria nº 156/MB, de 2004.", "fonte": "Portaria 37/MB/MD/2022, arts. 3º e 4º, PDF 1", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-16", "unidade": "LEG-01", "disc": "LEG", "frente": "Quem pode, por delegação do CM, esclarecer competências e dirimir dúvidas sobre as atribuições da AM?", "verso": "O Chefe do Estado-Maior da Armada (Assessor da AM), com delegação vedada a subdelegação.", "fonte": "Portaria 37/MB/MD/2022, art. 6º p.ú. II, PDF 3", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-17", "unidade": "LEG-01", "disc": "LEG", "frente": "Quem supervisiona os Agentes da AM?", "verso": "Os Comandantes dos Distritos Navais a que estão subordinados. Já os Representantes da AM supervisionam os subordinados com atribuições dentro da estrutura.", "fonte": "Portaria 37/MB/MD/2022, art. 5º p.ú. e art. 3º §2º, PDF 2–3", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-18", "unidade": "LEG-01", "disc": "LEG", "frente": "Quais são os Representantes da AM para orientar e controlar a Marinha Mercante?", "verso": "O Diretor-Geral de Navegação, o Diretor de Portos e Costas e o Comandante de Operações Marítimas e Proteção da Amazônia Azul.", "fonte": "Portaria 37/MB/MD/2022, art. 7º, PDF 4", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-19", "unidade": "LEG-01", "disc": "LEG", "frente": "Quais são os Representantes da AM para a segurança da navegação aquaviária (art. 8º)?", "verso": "O Comandante de Operações Navais e o Diretor-Geral de Navegação.", "fonte": "Portaria 37/MB/MD/2022, art. 8º, PDF 5", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-20", "unidade": "LEG-01", "disc": "LEG", "frente": "Quais são os Representantes da AM para a segurança da navegação (subseção I, art. 9º)?", "verso": "O Diretor de Portos e Costas, o Diretor de Hidrografia e Navegação e os Comandantes dos Distritos Navais.", "fonte": "Portaria 37/MB/MD/2022, art. 9º, PDF 6", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-21", "unidade": "LEG-01", "disc": "LEG", "frente": "Quais são os Representantes da AM para o Meio Ambiente?", "verso": "O Diretor de Portos e Costas e os Comandantes dos Distritos Navais.", "fonte": "Portaria 37/MB/MD/2022, art. 11, PDF 10", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-22", "unidade": "LEG-01", "disc": "LEG", "frente": "Quem é o Representante da AM para a Antártica e os Recursos do Mar?", "verso": "O Secretário da Comissão Interministerial para os Recursos do Mar (SECIRM).", "fonte": "Portaria 37/MB/MD/2022, art. 13, PDF 14", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-23", "unidade": "LEG-01", "disc": "LEG", "frente": "Quais são os Representantes da AM para implementar e fiscalizar leis e regulamentos em coordenação com outros órgãos?", "verso": "O Comandante de Operações Navais, o Comandante em Chefe da Esquadra, os Comandantes dos Distritos Navais e o Comandante de Operações Marítimas e Proteção da Amazônia Azul.", "fonte": "Portaria 37/MB/MD/2022, art. 14, PDF 14", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-24", "unidade": "LEG-01", "disc": "LEG", "frente": "Quem estabelece a Política do Ensino Profissional Marítimo, e quem baixa os atos? (reforço)", "verso": "A política é do Diretor-Geral de Navegação (DGN); os atos e a gestão do FDEPM (com prestação de contas ao TCU) são do Diretor de Portos e Costas (DPC).", "fonte": "Portaria 37/MB/MD/2022, art. 7º §§1º–2º, PDF 4", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-25", "unidade": "LEG-01", "disc": "LEG", "frente": "Quem determina o cumprimento da STCW e expede certidões do pessoal da Marinha Mercante?", "verso": "O Diretor de Portos e Costas.", "fonte": "Portaria 37/MB/MD/2022, art. 7º §2º IV e VI, PDF 4", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-26", "unidade": "LEG-01", "disc": "LEG", "frente": "Quem fornece orientações de proteção aos navios de bandeira brasileira ou afretados por empresas brasileiras?", "verso": "O Comandante de Operações Marítimas e Proteção da Amazônia Azul.", "fonte": "Portaria 37/MB/MD/2022, art. 7º §3º, PDF 4", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-27", "unidade": "LEG-01", "disc": "LEG", "frente": "Quem aprova as normas de socorro a vida humana e quem coordena e controla a assistência e salvamento?", "verso": "O Comandante de Operações Navais (ComOpNav) aprova as normas de socorro e coordena/controla a assistência e o salvamento (incisos II, III e IV não podem ser subdelegados).", "fonte": "Portaria 37/MB/MD/2022, art. 8º §1º, PDF 5", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-28", "unidade": "LEG-01", "disc": "LEG", "frente": "Quem atualiza o valor da Tarifa de Utilização de Faróis e quem faz a proposta?", "verso": "O Diretor-Geral de Navegação atualiza, mediante proposta do Diretor de Hidrografia e Navegação.", "fonte": "Portaria 37/MB/MD/2022, art. 8º §2º II, PDF 5–6", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-29", "unidade": "LEG-01", "disc": "LEG", "frente": "Quem determina a tripulação de segurança e quem pode delegar ou não essa competência?", "verso": "O Diretor de Portos e Costas. A subdelegação é vedada, exceto no inciso III (tripulação de segurança), onde fica vedada apenas a delegação subsequente.", "fonte": "Portaria 37/MB/MD/2022, art. 9º §1º III, PDF 6", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-30", "unidade": "LEG-01", "disc": "LEG", "frente": "Quem estabelece a precedência hierárquica a bordo das embarcações nacionais e define refúgios provisórios?", "verso": "O Diretor de Portos e Costas.", "fonte": "Portaria 37/MB/MD/2022, art. 9º §1º I e VIII, PDF 6", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-31", "unidade": "LEG-01", "disc": "LEG", "frente": "Quem estabelece as Regras Especiais complementares ao RIPEAM para rios, canais, lagoas e lagos?", "verso": "O Diretor de Portos e Costas.", "fonte": "Portaria 37/MB/MD/2022, art. 9º §1º XVII, PDF 8", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-32", "unidade": "LEG-01", "disc": "LEG", "frente": "Quem estipula os emolumentos de serviços prestados pela LESTA?", "verso": "O Diretor de Portos e Costas.", "fonte": "Portaria 37/MB/MD/2022, art. 9º §1º XIV, PDF 8", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-33", "unidade": "LEG-01", "disc": "LEG", "frente": "Quem determina a elaboração do Plano Cartográfico Náutico Brasileiro e autoriza levantamentos hidrográficos de terceiros?", "verso": "O Diretor de Hidrografia e Navegação (DHN).", "fonte": "Portaria 37/MB/MD/2022, art. 9º §2º I–II, PDF 8", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-34", "unidade": "LEG-01", "disc": "LEG", "frente": "Quem aprova as NORMAM sobre sinais e auxílios à navegação, levantamentos hidrográficos, faróis e meteorologia marítima?", "verso": "O Diretor de Hidrografia e Navegação.", "fonte": "Portaria 37/MB/MD/2022, art. 9º §2º VII, PDF 9", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-35", "unidade": "LEG-01", "disc": "LEG", "frente": "Quem determina a elaboração e a edição das cartas e publicações náuticas e dos Boletins Meteorológicos?", "verso": "O DHN: cartas e publicações (inciso V); Avisos aos Navegantes e Boletins Meteorológicos (inciso III).", "fonte": "Portaria 37/MB/MD/2022, art. 9º §2º III e V, PDF 9", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-36", "unidade": "LEG-01", "disc": "LEG", "frente": "Quem promove a Inspeção Naval e a Patrulha Naval nas áreas de jurisdição, quem as supervisiona e quem elabora as normas?", "verso": "Os Comandantes dos Distritos Navais promovem a execução; o ComOpNav supervisiona e elabora/revisa as normas; o ComemCh promove eventualmente.", "fonte": "Portaria 37/MB/MD/2022, art. 9º §3º II e art. 14, PDF 9 e 14–15", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-37", "unidade": "LEG-01", "disc": "LEG", "frente": "Quem pode designar Agentes da AM para lavrar autos de infração da LESTA?", "verso": "Os Comandantes dos Distritos Navais.", "fonte": "Portaria 37/MB/MD/2022, art. 9º §3º VIII, PDF 10", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-38", "unidade": "LEG-01", "disc": "LEG", "frente": "Quem coordena as Administrações dos Portos no que concerne à AM e quem garante prioridade de atracação a navios da MB?", "verso": "Os Comandantes dos Distritos Navais.", "fonte": "Portaria 37/MB/MD/2022, art. 9º §3º I e IX, PDF 9–10", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-39", "unidade": "LEG-01", "disc": "LEG", "frente": "Quem fiscaliza o seguro obrigatório de danos pessoais causados por embarcações (DPEM)?", "verso": "Os Comandantes dos Distritos Navais.", "fonte": "Portaria 37/MB/MD/2022, art. 9º §3º V e art. 10 II, PDF 9–10", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-40", "unidade": "LEG-01", "disc": "LEG", "frente": "Quem julga em última instância os recursos de multas por poluição ambiental aplicadas por Agentes da AM?", "verso": "O Diretor de Portos e Costas.", "fonte": "Portaria 37/MB/MD/2022, art. 11 §1º II, PDF 11", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-41", "unidade": "LEG-01", "disc": "LEG", "frente": "Quem emite o Certificado de Garantia Financeira (CLC) para navios de bandeira brasileira?", "verso": "O Diretor de Portos e Costas determina a emissão (Convenção de Responsabilidade Civil por Poluição por Óleo).", "fonte": "Portaria 37/MB/MD/2022, art. 11 §1º III, PDF 11", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-42", "unidade": "LEG-01", "disc": "LEG", "frente": "Quem acompanha incidentes de poluição por óleo na área de jurisdição e designa Agentes para autos da Lei do Óleo e da Lei de Crimes Ambientais?", "verso": "Os Comandantes dos Distritos Navais.", "fonte": "Portaria 37/MB/MD/2022, art. 11 §2º III–IV, PDF 11", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-43", "unidade": "LEG-01", "disc": "LEG", "frente": "Quem coordena a CCA-IMO e quem é o Sec-IMO?", "verso": "O Chefe do Estado-Maior da Armada coordena as atividades dos órgãos nacionais na CCA-IMO; o Diretor-Geral de Navegação é o Secretário-Executivo (Sec-IMO).", "fonte": "Portaria 37/MB/MD/2022, art. 12 §§1º–2º, PDF 12", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-44", "unidade": "LEG-01", "disc": "LEG", "frente": "Quem autoriza pesquisa científica na plataforma continental e águas jurisdicionais e a exploração de bens afundados que passaram ao domínio da União?", "verso": "O Chefe do Estado-Maior da Armada.", "fonte": "Portaria 37/MB/MD/2022, art. 12 §1º I e III, PDF 12", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-45", "unidade": "LEG-01", "disc": "LEG", "frente": "Quem autoriza a exploração/remoção de coisas ou bens afundados que NÃO passaram ao domínio da União?", "verso": "Os Comandantes dos Distritos Navais (na sua área); a autorização da pesquisa desses bens é do DPC.", "fonte": "Portaria 37/MB/MD/2022, art. 12 §5º I e §3º II, PDF 13", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-46", "unidade": "LEG-01", "disc": "LEG", "frente": "Quem supervisiona o Banco Nacional de Dados Oceanográficos (BNDO) e a participação do país na COI?", "verso": "O Diretor de Hidrografia e Navegação.", "fonte": "Portaria 37/MB/MD/2022, art. 12 §4º, PDF 13", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-47", "unidade": "LEG-01", "disc": "LEG", "frente": "Quem representa a AM no apoio a órgãos federais quanto à segurança marítima e fluvial nacional e internacional?", "verso": "O Comandante de Operações Marítimas e Proteção da Amazônia Azul (ComOpMar), que também atua de forma coordenada com agências governamentais.", "fonte": "Portaria 37/MB/MD/2022, art. 14 §4º e art. 15 §2º, PDF 15", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-48", "unidade": "LEG-01", "disc": "LEG", "frente": "Quais Representantes da AM cooperam na repressão a delitos (art. 15)?", "verso": "O Comandante de Operações Navais, os Comandantes dos Distritos Navais e o ComOpMar.", "fonte": "Portaria 37/MB/MD/2022, art. 15, PDF 15", "s": "LEG-01.1"}, {"id": "v3.LEG-01.1-49", "unidade": "LEG-01", "disc": "LEG", "frente": "Quem apoia a defesa civil com pessoal, material e meios de transporte?", "verso": "Os Comandantes dos Distritos Navais.", "fonte": "Portaria 37/MB/MD/2022, art. 10 p.ú. I, PDF 10", "s": "LEG-01.1"}, {"id": "v3.LEG-02-01", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA art. 1º §1º: as embarcações brasileiras ficam sujeitas à lei mesmo fora das águas jurisdicionais?", "verso": "Sim, exceto as de guerra, respeitada a soberania do Estado costeiro em águas estrangeiras. Vale também para tripulantes, profissionais não-tripulantes e passageiros.", "fonte": "LESTA art. 1º §1º, PDF 1", "s": "LEG-02.1"}, {"id": "v3.LEG-02-02", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA art. 1º §2º: e as embarcações estrangeiras e aeronaves na superfície das águas jurisdicionais?", "verso": "Estão sujeitas à lei, no que couber.", "fonte": "LESTA art. 1º §2º, PDF 1", "s": "LEG-02.1"}, {"id": "v3.LEG-02-03", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA: definição de Armador.", "verso": "Pessoa física ou jurídica que, em seu nome e sob sua responsabilidade, apresta a embarcação com fins comerciais, pondo-a ou não a navegar por sua conta.", "fonte": "LESTA art. 2º III, PDF 1", "s": "LEG-02.1"}, {"id": "v3.LEG-02-04", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA: definição de Comandante e seus sinônimos.", "verso": "Também denominado Mestre, Arrais ou Patrão: tripulante responsável pela operação e manutenção da embarcação em condições de segurança, extensivas à carga, aos tripulantes e às demais pessoas a bordo.", "fonte": "LESTA art. 2º IV, PDF 1", "s": "LEG-02.1"}, {"id": "v3.LEG-02-05", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA: definição de Embarcação.", "verso": "Qualquer construção, inclusive plataformas flutuantes e, quando rebocadas, as fixas, sujeita a inscrição na autoridade marítima e suscetível de se locomover na água, por meios próprios ou não, transportando pessoas ou cargas.", "fonte": "LESTA art. 2º V, PDF 1", "s": "LEG-02.1"}, {"id": "v3.LEG-02-06", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA: o que é Inscrição da embarcação?", "verso": "Cadastramento na autoridade marítima, com atribuição do nome e do número de inscrição e expedição do documento de inscrição.", "fonte": "LESTA art. 2º VI, PDF 1", "s": "LEG-02.1"}, {"id": "v3.LEG-02-07", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA: definição de Inspeção Naval.", "verso": "Atividade de cunho administrativo: fiscalização do cumprimento da lei, das normas e dos atos internacionais ratificados, exclusivamente quanto à salvaguarda da vida humana, segurança da navegação e prevenção da poluição por embarcações, plataformas fixas ou instalações de apoio.", "fonte": "LESTA art. 2º VII, PDF 1", "s": "LEG-02.1"}, {"id": "v3.LEG-02-08", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA: o que é Lotação?", "verso": "Quantidade máxima de pessoas autorizadas a embarcar.", "fonte": "LESTA art. 2º IX, PDF 1", "s": "LEG-02.1"}, {"id": "v3.LEG-02-09", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA: definição de Passageiro.", "verso": "Todo aquele que, não fazendo parte da tripulação nem sendo profissional não-tripulante prestando serviço a bordo, é transportado pela embarcação.", "fonte": "LESTA art. 2º XIII, PDF 2", "s": "LEG-02.1"}, {"id": "v3.LEG-02-10", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA: definição de Plataforma.", "verso": "Instalação ou estrutura, fixa ou flutuante, destinada às atividades de pesquisa, exploração e explotação dos recursos do leito das águas interiores, do mar e subsolo, inclusive da plataforma continental.", "fonte": "LESTA art. 2º XIV, PDF 2", "s": "LEG-02.1"}, {"id": "v3.LEG-02-11", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA: definição de Profissional não-tripulante.", "verso": "Todo aquele que, sem exercer atribuições diretamente ligadas à operação da embarcação, presta serviços eventuais a bordo.", "fonte": "LESTA art. 2º XVI, PDF 2", "s": "LEG-02.1"}, {"id": "v3.LEG-02-12", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA: Proprietário x Registro de Propriedade.", "verso": "Proprietário: em nome de quem a propriedade é inscrita na autoridade marítima e, quando exigido, no Tribunal Marítimo. Registro de Propriedade: registro no Tribunal Marítimo, com a Provisão de Registro da Propriedade Marítima.", "fonte": "LESTA art. 2º XVII–XVIII, PDF 2", "s": "LEG-02.1"}, {"id": "v3.LEG-02-13", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA: o que é Tripulante?", "verso": "Aquaviário ou amador que exerce funções, embarcado, na operação da embarcação.", "fonte": "LESTA art. 2º XX, PDF 2", "s": "LEG-02.1"}, {"id": "v3.LEG-02-14", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA: o que é Vistoria?", "verso": "Ação técnico-administrativa, eventual ou periódica, que verifica o cumprimento de requisitos de normas nacionais e internacionais sobre prevenção da poluição e condições de segurança e habitabilidade de embarcações e plataformas.", "fonte": "LESTA art. 2º XXI, PDF 2", "s": "LEG-02.1"}, {"id": "v3.LEG-02-15", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA: o que é Margem das águas?", "verso": "As bordas dos terrenos onde as águas tocam, em regime de cheia normal sem transbordar ou de preamar de sizígia.", "fonte": "LESTA art. 2º X, PDF 1–2", "s": "LEG-02.1"}, {"id": "v3.LEG-02-16", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA art. 3º: quem implementa e executa a lei? E no exterior?", "verso": "A autoridade marítima. No exterior, a autoridade diplomática a representa, no que for pertinente.", "fonte": "LESTA art. 3º, PDF 2", "s": "LEG-02.1"}, {"id": "v3.LEG-02-17", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA art. 4º: cite 5 temas das normas elaboradas pela autoridade marítima (inciso I).", "verso": "Habilitação e cadastro de aquaviários e amadores; tráfego e permanência de embarcações; inspeções e vistorias; arqueação, borda livre, lotação e classificação; inscrição de embarcações e fiscalização do registro; cerimonial e uniformes; helipontos; obras e dragagens; marinas e clubes; empresas de navegação, peritos e sociedades classificadoras; sinais e auxílios; penalidade pelo Comandante.", "fonte": "LESTA art. 4º I, PDF 2–3", "s": "LEG-02.1"}, {"id": "v3.LEG-02-18", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA art. 4º III: a quem cabe recorrer da tripulação de segurança fixada?", "verso": "Às partes interessadas que discordarem da quantidade fixada pela autoridade marítima.", "fonte": "LESTA art. 4º III, PDF 3", "s": "LEG-02.1"}, {"id": "v3.LEG-02-19", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA art. 4º: quem define refúgios provisórios e limites da navegação interior?", "verso": "A autoridade marítima: refúgios (áreas onde embarcações possam fundear ou varar para reparos, inciso VIII) e limites da navegação interior (inciso VI).", "fonte": "LESTA art. 4º VI e VIII, PDF 3", "s": "LEG-02.1"}, {"id": "v3.LEG-02-20", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA art. 4º-A: o que é obrigatório e qual a consequência de descumprir?", "verso": "Proteção no motor, eixo e outras partes móveis que ofereçam risco aos passageiros e tripulação. Infrator sofre medidas do art. 16 I e II e penalidades do art. 25; na reincidência, multa x3, apreensão e cancelamento do certificado.", "fonte": "LESTA art. 4º-A, PDF 3", "s": "LEG-02.1"}, {"id": "v3.LEG-02-21", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA art. 6º: a quem a autoridade marítima pode delegar a fiscalização do tráfego nas áreas adjacentes às praias?", "verso": "Aos municípios.", "fonte": "LESTA art. 6º, PDF 4", "s": "LEG-02.1"}, {"id": "v3.LEG-02-22", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA art. 7º: o que se exige dos aquaviários?", "verso": "O nível de habilitação estabelecido pela autoridade marítima para os cargos e funções a bordo. O embarque e desembarque do tripulante seguem o contrato de trabalho.", "fonte": "LESTA art. 7º, PDF 4", "s": "LEG-02.1"}, {"id": "v3.LEG-02-23", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA art. 8º: cite 3 deveres do Comandante.", "verso": "Cumprir e fazer cumprir a legislação; cumprir os procedimentos de salvaguarda da vida humana, meio ambiente e segurança da navegação; manter a disciplina a bordo; lavrar nascimentos e óbitos; inventariar bens de falecidos; comunicar alterações de sinais náuticos, acidentes e infrações.", "fonte": "LESTA art. 8º, PDF 4", "s": "LEG-02.1"}, {"id": "v3.LEG-02-24", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA art. 8º V: o que o Comandante deve comunicar à autoridade marítima?", "verso": "Alteração de sinais náuticos e qualquer obstáculo à navegação; acidentes e fatos da navegação ocorridos com sua embarcação; infração à lei cometida por outra embarcação.", "fonte": "LESTA art. 8º V, PDF 4", "s": "LEG-02.1"}, {"id": "v3.LEG-02-25", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA art. 8º IV: atos do Comandante em viagem previstos em lei.", "verso": "Lavrar termos de nascimento e óbito; inventariar e arrecadar bens de falecidos; realizar casamentos e aprovar testamentos in extremis.", "fonte": "LESTA art. 8º IV, PDF 4", "s": "LEG-02.1"}, {"id": "v3.LEG-02-26", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA art. 10: o que o Comandante pode fazer para garantir a segurança?", "verso": "Impor sanções disciplinares; ordenar o desembarque de qualquer pessoa; ordenar a detenção em camarote ou alojamento (com algemas se imprescindível); determinar o alijamento de carga.", "fonte": "LESTA art. 10, PDF 4", "s": "LEG-02.1"}, {"id": "v3.LEG-02-27", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA art. 11: quem substitui o Comandante impedido?", "verso": "Outro tripulante, segundo a precedência hierárquica dos cargos e funções estabelecida pela autoridade marítima.", "fonte": "LESTA art. 11, PDF 5", "s": "LEG-02.1"}, {"id": "v3.LEG-02-28", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA art. 9º: quem está sujeito à autoridade do Comandante?", "verso": "Todas as pessoas a bordo.", "fonte": "LESTA art. 9º, PDF 4", "s": "LEG-02.1"}, {"id": "v3.LEG-02-29", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA art. 12-A (Lei 14.813): o que compreende o serviço de praticagem e quem responde pela infraestrutura?", "verso": "Prático, lancha de prático e atalaia. Os práticos respondem pela infraestrutura, equipamentos, treinamento de colaboradores e disponibilidade permanente.", "fonte": "LESTA art. 12-A, PDF 5", "s": "LEG-02.1"}, {"id": "v3.LEG-02-30", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA art. 13 §1º: como é concedida a inscrição de aquaviário como prático?", "verso": "Especificamente para cada zona de praticagem, após aprovação em exame e estágio de qualificação.", "fonte": "LESTA art. 13 §1º, PDF 5", "s": "LEG-02.1"}, {"id": "v3.LEG-02-31", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA art. 13 §4º: o Certificado de Isenção de Praticagem — quem pode ter e limites?", "verso": "Comandantes brasileiros de navios de bandeira brasileira de até 100 m de comprimento, com tripulação de pelo menos 2/3 de brasileiros, atendido o regulamento específico.", "fonte": "LESTA art. 13 §4º, PDF 5–6", "s": "LEG-02.1"}, {"id": "v3.LEG-02-32", "unidade": "LEG-02", "disc": "LEG", "frente": "Isenção de praticagem: requisitos de experiência do Comandante (art. 13 §4º IV).", "verso": "6 meses de atuação prévia como Comandante do navio na zona/subzona; depois 6 meses de fainas assistido por prático, em total não inferior a 12 fainas. Exige análise de risco e períodos de descanso.", "fonte": "LESTA art. 13 §4º II–IV, PDF 6", "s": "LEG-02.1"}, {"id": "v3.LEG-02-33", "unidade": "LEG-02", "disc": "LEG", "frente": "A isenção de praticagem dispensa o pagamento à praticagem local?", "verso": "Não, para navios com AB a partir de 500: o tomador continua pagando pela disponibilidade e deve comunicar o trânsito à atalaia coordenadora.", "fonte": "LESTA art. 13 §4º I, PDF 6", "s": "LEG-02.1"}, {"id": "v3.LEG-02-34", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA art. 13 §6º II: quais embarcações escapam da praticagem obrigatória independentemente da arqueação?", "verso": "Embarcações regionais, empurradores, balsas e comboio integrado de balsas classificadas para navegação interior exclusiva, de bandeira brasileira.", "fonte": "LESTA art. 13 §6º II, PDF 6", "s": "LEG-02.1"}, {"id": "v3.LEG-02-35", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA art. 14: o que a autoridade marítima pode fazer para garantir a ininterruptibilidade da praticagem?", "verso": "Estabelecer o número de práticos por zona (revisado periodicamente), fixar em caráter excepcional e temporário o valor do serviço e requisitar o serviço de práticos.", "fonte": "LESTA art. 14 p.ú., PDF 6", "s": "LEG-02.1"}, {"id": "v3.LEG-02-36", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA art. 15-A: o que compreende a remuneração da praticagem e como se forma o preço no rito ordinário?", "verso": "Prático, lancha de prático e atalaia. O preço é livremente negociado entre tomadores e prestadores, reprimido o abuso de poder econômico.", "fonte": "LESTA art. 15-A, PDF 7", "s": "LEG-02.2"}, {"id": "v3.LEG-02-37", "unidade": "LEG-02", "disc": "LEG", "frente": "Art. 15-A §3º: por quanto tempo a autoridade marítima pode fixar o preço da praticagem em caráter extraordinário?", "verso": "Até 12 meses, prorrogável por igual período, nos casos de abuso de poder econômico, defasagem ou para cumprir o art. 14 p.ú. II.", "fonte": "LESTA art. 15-A §3º, PDF 7", "s": "LEG-02.2"}, {"id": "v3.LEG-02-38", "unidade": "LEG-02", "disc": "LEG", "frente": "Art. 15-A §5º: que comissão é formada e em quantos dias emite parecer?", "verso": "Comissão temporária, paritária e consultiva (entidade de praticagem, armador tomador da zona e Antaq), presidida pela autoridade marítima, com até 45 dias.", "fonte": "LESTA art. 15-A §5º, PDF 7", "s": "LEG-02.2"}, {"id": "v3.LEG-02-39", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA art. 15-A §1º: alojamento do prático no revezamento.", "verso": "Mesmas condições dos oficiais de bordo, preferencialmente em camarotes individuais e independentes; o Comandante é responsável pela adequação.", "fonte": "LESTA art. 15-A §1º, PDF 7", "s": "LEG-02.2"}, {"id": "v3.LEG-02-40", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA art. 15-B: quem transmite orientações de rumos e velocidades ao Comandante nas zonas de praticagem?", "verso": "Exclusivamente os práticos.", "fonte": "LESTA art. 15-B, PDF 7", "s": "LEG-02.2"}, {"id": "v3.LEG-02-41", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA art. 15-C: cite parâmetros para fixar a lotação de práticos.", "verso": "Número e duração das manobras nos 24 meses anteriores; alterações significativas no movimento; evitar sobrecarga permanente; frequência de manobras que mantenha a proficiência uniforme.", "fonte": "LESTA art. 15-C, PDF 7", "s": "LEG-02.2"}, {"id": "v3.LEG-02-42", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA art. 16: cite as 5 medidas administrativas.", "verso": "Apreensão do certificado de habilitação; apreensão, retirada do tráfego ou impedimento de saída da embarcação; embargo de construção/reparo/alteração; embargo da obra; embargo de mineração e benfeitorias.", "fonte": "LESTA art. 16, PDF 7–8", "s": "LEG-02.2"}, {"id": "v3.LEG-02-43", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA art. 16 §§1º–2º: as medidas administrativas substituem as penalidades? Quando são suspensas?", "verso": "Não; são complementares. São suspensas assim que sanados os motivos.", "fonte": "LESTA art. 16 §§1º–2º, PDF 8", "s": "LEG-02.2"}, {"id": "v3.LEG-02-44", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA art. 17: embarcação apreendida — onde fica e quem guarda?", "verso": "Em local determinado pela autoridade marítima, com responsável designado (pode ser o proprietário, armador ou preposto).", "fonte": "LESTA art. 17 caput e §1º, PDF 8", "s": "LEG-02.2"}, {"id": "v3.LEG-02-45", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA art. 18: quem responde, nesta ordem, pelas despesas de guarda de embarcação apreendida?", "verso": "Proprietário, armador ou preposto, nesta ordem.", "fonte": "LESTA art. 18, PDF 8", "s": "LEG-02.2"}, {"id": "v3.LEG-02-46", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA art. 19: dano a sinais náuticos.", "verso": "O causador deve repará-los ou indenizar quem os repare, independentemente da penalidade.", "fonte": "LESTA art. 19, PDF 8", "s": "LEG-02.2"}, {"id": "v3.LEG-02-47", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA art. 20: infrator em débito.", "verso": "A autoridade marítima sustará o andamento de qualquer documento ou ato administrativo de seu interesse até a quitação.", "fonte": "LESTA art. 20, PDF 8", "s": "LEG-02.2"}, {"id": "v3.LEG-02-48", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA art. 21 p.ú.: medidas administrativas liminares.", "verso": "Para salvaguarda da vida humana e segurança da navegação, a autoridade marítima pode aplicá-las liminarmente.", "fonte": "LESTA art. 21 p.ú., PDF 8", "s": "LEG-02.2"}, {"id": "v3.LEG-02-49", "unidade": "LEG-02", "disc": "LEG", "frente": "Auto de infração: prazo da autoridade para decidir e para recorrer?", "verso": "Decisão em 30 dias (fundamentada). Recurso em 5 dias úteis da notificação, sem efeito suspensivo, à autoridade superior.", "fonte": "LESTA arts. 24 e 24 §1º, PDF 8", "s": "LEG-02.2"}, {"id": "v3.LEG-02-50", "unidade": "LEG-02", "disc": "LEG", "frente": "Auto de infração: defesa em 15 dias úteis. O que acontece se o infrator não defende?", "verso": "É considerado revel.", "fonte": "LESTA art. 23 §§1º–2º, PDF 8", "s": "LEG-02.2"}, {"id": "v3.LEG-02-51", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA art. 25: cite as 4 penalidades.", "verso": "Multa; suspensão do certificado de habilitação; cancelamento do certificado; demolição de obras e benfeitorias.", "fonte": "LESTA art. 25, PDF 9", "s": "LEG-02.2"}, {"id": "v3.LEG-02-52", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA art. 26: quem fixa o valor das multas e com que periodicidade?", "verso": "O Poder Executivo, anualmente, considerando a gravidade da infração.", "fonte": "LESTA art. 26, PDF 9", "s": "LEG-02.2"}, {"id": "v3.LEG-02-53", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA art. 27 e 28: suspensão e reabilitação.", "verso": "Suspensão: máximo 12 meses. Cancelamento: reabilitação pode ser requerida após 2 anos, com todos os requisitos de habilitação.", "fonte": "LESTA arts. 27–28, PDF 9", "s": "LEG-02.2"}, {"id": "v3.LEG-02-54", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA art. 29: demolição de obra.", "verso": "Feita pelo infrator, que arca com a recomposição do local. A autoridade pode providenciar diretamente, às expensas do infrator.", "fonte": "LESTA art. 29, PDF 9", "s": "LEG-02.2"}, {"id": "v3.LEG-02-55", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA art. 30: cite as 4 circunstâncias agravantes.", "verso": "Reincidência; emprego da embarcação em ato ilícito; embriaguez ou outra substância entorpecente/tóxica; grave ameaça à integridade física de pessoas.", "fonte": "LESTA art. 30, PDF 9", "s": "LEG-02.2"}, {"id": "v3.LEG-02-56", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA art. 31: quem aplica a multa nas áreas adjacentes às praias?", "verso": "Os órgãos municipais, se houve delegação (art. 6º); nos demais casos, a autoridade competente designada pela autoridade marítima.", "fonte": "LESTA art. 31, PDF 9", "s": "LEG-02.2"}, {"id": "v3.LEG-02-57", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA art. 32: prazo para pagar a multa.", "verso": "15 dias corridos, a contar da intimação.", "fonte": "LESTA art. 32, PDF 9", "s": "LEG-02.2"}, {"id": "v3.LEG-02-58", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA art. 34: quem responde solidária e isoladamente pelas infrações?", "verso": "O proprietário, armador ou preposto (embarcação); o proprietário ou construtor da obra; o proprietário de jazida ou quem faz pesquisa/lavra; e o autor material.", "fonte": "LESTA art. 34, PDF 9–10", "s": "LEG-02.2"}, {"id": "v3.LEG-02-59", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA art. 35: destino das multas.", "verso": "Arrecadadas pela autoridade marítima e empregadas nas atividades de fiscalização (exceto as municipais do art. 31 I).", "fonte": "LESTA art. 35, PDF 10", "s": "LEG-02.2"}, {"id": "v3.LEG-02-60", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA art. 38: serviços da autoridade marítima são gratuitos?", "verso": "Não. Vistorias, testes, homologações, pareceres, perícias e certificados são indenizados pelos interessados (emolumentos fixados pela autoridade e pagos no ato do pedido).", "fonte": "LESTA art. 38, PDF 10", "s": "LEG-02.2"}, {"id": "v3.LEG-02-61", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA art. 39: quem exerce a autoridade marítima?", "verso": "Originalmente o Ministério da Marinha (hoje o Comandante da Marinha, conforme LC 97).", "fonte": "LESTA art. 39, PDF 10", "s": "LEG-02.2"}, {"id": "v3.LEG-02-62", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA art. 37: contra quem se argúi norma ou ato baixado em decorrência da lei?", "verso": "Encaminha-se à autoridade que o aprovou e, em recurso, à autoridade a que esta estiver subordinada.", "fonte": "LESTA art. 37, PDF 10", "s": "LEG-02.2"}, {"id": "v3.LEG-02-63", "unidade": "LEG-02", "disc": "LEG", "frente": "LESTA art. 36: com que atos as normas decorrentes devem estar de acordo?", "verso": "Com os atos e resoluções internacionais ratificados pelo Brasil sobre salvaguarda da vida humana, segurança da navegação e controle da poluição.", "fonte": "LESTA art. 36, PDF 10", "s": "LEG-02.2"}]}
+{
+"cards": [
+{
+"id": "v5.LEG-01.1-01",
+"disc": "LEG",
+"unidade": "LEG-01",
+"s": "LEG-01.1",
+"p": "a",
+"frente": "Quem é a Autoridade Marítima, e de que assuntos ela trata?",
+"verso": "O Comandante da Marinha. Trata das atribuições subsidiárias da Marinha: as que não se ligam à defesa da Pátria nem à garantia dos poderes constitucionais, da lei e da ordem.",
+"fonte": "Portaria 37/MB/MD/2022, anexo, art. 1º"
+},
+{
+"id": "v5.LEG-01.1-02",
+"disc": "LEG",
+"unidade": "LEG-01",
+"s": "LEG-01.1",
+"p": "a",
+"frente": "Representante, Assessor e Agente da Autoridade Marítima: quem é cada um?",
+"verso": "Representantes: os titulares designados para cada atribuição. Assessor: o Chefe do Estado-Maior da Armada. Agentes: titulares de outras organizações militares e seus prepostos, com atribuições dadas pelas NORMAM; são supervisionados pelos Comandantes dos Distritos Navais.",
+"fonte": "Portaria 37/MB/MD/2022, arts. 3º a 5º"
+},
+{
+"id": "v5.LEG-01.1-03",
+"disc": "LEG",
+"unidade": "LEG-01",
+"s": "LEG-01.1",
+"p": "a",
+"frente": "Quem são os Representantes para orientar e controlar a Marinha Mercante?",
+"verso": "O Diretor-Geral de Navegação, o Diretor de Portos e Costas e o Comandante de Operações Marítimas e Proteção da Amazônia Azul.",
+"fonte": "Portaria 37/MB/MD/2022, art. 7º"
+},
+{
+"id": "v5.LEG-01.1-04",
+"disc": "LEG",
+"unidade": "LEG-01",
+"s": "LEG-01.1",
+"p": "a",
+"frente": "Quem são os Representantes para prover a segurança da navegação aquaviária? E para a segurança da navegação, assunto que dela decorre?",
+"verso": "Segurança da navegação aquaviária: Comandante de Operações Navais e Diretor-Geral de Navegação. Segurança da navegação: Diretor de Portos e Costas, Diretor de Hidrografia e Navegação e Comandantes dos Distritos Navais.",
+"fonte": "Portaria 37/MB/MD/2022, arts. 8º e 9º"
+},
+{
+"id": "v5.LEG-01.1-05",
+"disc": "LEG",
+"unidade": "LEG-01",
+"s": "LEG-01.1",
+"p": "a",
+"frente": "Quem estabelece as zonas em que a praticagem é obrigatória, e quem aprova a NORMAM que regulamenta o serviço?",
+"verso": "O Diretor de Portos e Costas, nos dois casos. Ele também especifica as embarcações dispensadas do serviço.",
+"fonte": "Portaria 37/MB/MD/2022, art. 9º, § 1º, II e X-l"
+},
+{
+"id": "v5.LEG-01.1-06",
+"disc": "LEG",
+"unidade": "LEG-01",
+"s": "LEG-01.1",
+"p": "a",
+"frente": "Cite outras competências do Diretor de Portos e Costas na segurança da navegação.",
+"verso": "Determinar a tripulação de segurança; fixar a dotação mínima de equipamentos de segurança; estabelecer a precedência hierárquica a bordo; julgar em última instância os recursos de multas; e estabelecer as regras complementares ao RIPEAM para rios, canais, lagoas e lagos.",
+"fonte": "Portaria 37/MB/MD/2022, art. 9º, § 1º"
+},
+{
+"id": "v5.LEG-01.1-07",
+"disc": "LEG",
+"unidade": "LEG-01",
+"s": "LEG-01.1",
+"p": "a",
+"frente": "O que cabe ao Diretor de Hidrografia e Navegação?",
+"verso": "O Plano Cartográfico Náutico Brasileiro; autorizar e controlar levantamentos hidrográficos; Avisos aos Navegantes e Boletins Meteorológicos; cartas e publicações náuticas; e as NORMAM de sinais e auxílios à navegação, levantamentos, faróis e meteorologia marítima.",
+"fonte": "Portaria 37/MB/MD/2022, art. 9º, § 2º"
+},
+{
+"id": "v5.LEG-01.1-08",
+"disc": "LEG",
+"unidade": "LEG-01",
+"s": "LEG-01.1",
+"p": "a",
+"frente": "O que cabe aos Comandantes dos Distritos Navais na segurança da navegação?",
+"verso": "Promover a Inspeção Naval e a Patrulha Naval; adotar as medidas administrativas, lavrar autos de infração e aplicar as penalidades da LESTA; designar os Agentes que lavram autos; ordenar a demolição de obras irregulares; e delegar aos municípios a fiscalização junto às praias.",
+"fonte": "Portaria 37/MB/MD/2022, art. 9º, § 3º"
+},
+{
+"id": "v5.LEG-01.1-09",
+"disc": "LEG",
+"unidade": "LEG-01",
+"s": "LEG-01.1",
+"p": "a",
+"frente": "Quem são os Representantes para Socorro e Salvamento? E quem aprova, na Marinha, as normas de socorro à vida humana no mar?",
+"verso": "Representantes: os Comandantes dos Distritos Navais. As normas são aprovadas pelo Comandante de Operações Navais.",
+"fonte": "Portaria 37/MB/MD/2022, arts. 8º, § 1º, I e 10"
+},
+{
+"id": "v5.LEG-01.1-10",
+"disc": "LEG",
+"unidade": "LEG-01",
+"s": "LEG-01.1",
+"p": "a",
+"frente": "Meio ambiente: quem são os Representantes e como se dividem as tarefas?",
+"verso": "Diretor de Portos e Costas e Comandantes dos Distritos Navais. O Diretor faz as normas de prevenção da poluição e julga em última instância os recursos de multas. Os Distritos fiscalizam, autuam e acompanham os incidentes de poluição por óleo.",
+"fonte": "Portaria 37/MB/MD/2022, art. 11"
+},
+{
+"id": "v5.LEG-01.1-11",
+"disc": "LEG",
+"unidade": "LEG-01",
+"s": "LEG-01.1",
+"p": "a",
+"frente": "Bens afundados ou encalhados: quem autoriza a exploração e a remoção?",
+"verso": "Se já passaram ao domínio da União: o Chefe do Estado-Maior da Armada. Se não passaram: os Comandantes dos Distritos Navais. A pesquisa de bens que não estão sob domínio da União é autorizada pelo Diretor de Portos e Costas.",
+"fonte": "Portaria 37/MB/MD/2022, art. 12"
+},
+{
+"id": "v5.LEG-01.1-12",
+"disc": "LEG",
+"unidade": "LEG-01",
+"s": "LEG-01.1",
+"p": "a",
+"frente": "Patrulha Naval e Inspeção Naval: quem faz as normas e quem executa?",
+"verso": "O Comandante de Operações Navais elabora as normas e supervisiona. Os Comandantes dos Distritos Navais promovem a execução. O Comandante em Chefe da Esquadra executa eventualmente e cede meios aos Distritos.",
+"fonte": "Portaria 37/MB/MD/2022, art. 14"
+},
+{
+"id": "v5.LEG-01.1-13",
+"disc": "LEG",
+"unidade": "LEG-01",
+"s": "LEG-01.1",
+"p": "a",
+"frente": "Quem atualiza o valor da Tarifa de Utilização de Faróis?",
+"verso": "O Diretor-Geral de Navegação, por proposta do Diretor de Hidrografia e Navegação.",
+"fonte": "Portaria 37/MB/MD/2022, art. 8º, § 2º, II"
+},
+{
+"id": "v5.LEG-01.1-14",
+"disc": "LEG",
+"unidade": "LEG-01",
+"s": "LEG-01.1",
+"p": "b",
+"frente": "Quais são as cinco atribuições subsidiárias particulares da Marinha?",
+"verso": "Orientar e controlar a Marinha Mercante; prover a segurança da navegação aquaviária; contribuir para as políticas nacionais do mar; implementar e fiscalizar leis e regulamentos no mar e nas águas interiores; e cooperar com órgãos federais na repressão a delitos no uso do mar e de áreas portuárias.",
+"fonte": "LC 97/1999, art. 17"
+},
+{
+"id": "v5.LEG-01.1-15",
+"disc": "LEG",
+"unidade": "LEG-01",
+"s": "LEG-01.1",
+"p": "b",
+"frente": "De onde vem a designação “Autoridade Marítima”?",
+"verso": "Do parágrafo único do art. 17 da LC 97: pela especificidade das atribuições subsidiárias, cabe ao Comandante da Marinha tratar delas, e ele fica designado Autoridade Marítima para esse fim.",
+"fonte": "LC 97/1999, art. 17, parágrafo único"
+},
+{
+"id": "v5.LEG-01.1-16",
+"disc": "LEG",
+"unidade": "LEG-01",
+"s": "LEG-01.1",
+"p": "b",
+"frente": "Qual a atribuição subsidiária geral das Forças Armadas?",
+"verso": "Cooperar com o desenvolvimento nacional e a defesa civil, na forma determinada pelo Presidente da República.",
+"fonte": "LC 97/1999, art. 16"
+},
+{
+"id": "v5.LEG-01.1-17",
+"disc": "LEG",
+"unidade": "LEG-01",
+"s": "LEG-01.1",
+"p": "b",
+"frente": "Contra delitos transfronteiriços e ambientais, que ações as Forças Armadas podem executar, e onde?",
+"verso": "Patrulhamento; revista de pessoas, veículos, embarcações e aeronaves; e prisões em flagrante. Na faixa de fronteira terrestre, no mar e nas águas interiores, preservadas as competências das polícias judiciárias.",
+"fonte": "LC 97/1999, art. 16-A"
+},
+{
+"id": "v5.LEG-01.1-18",
+"disc": "LEG",
+"unidade": "LEG-01",
+"s": "LEG-01.1",
+"p": "b",
+"frente": "Na cooperação com órgãos federais contra delitos, que tipo de apoio a Marinha dá?",
+"verso": "Apoio logístico, de inteligência, de comunicações e de instrução.",
+"fonte": "LC 97/1999, art. 17, V"
+},
+{
+"id": "v5.LEG-02.1-01",
+"disc": "LEG",
+"unidade": "LEG-02",
+"s": "LEG-02.1",
+"p": "a",
+"frente": "A LESTA vale para embarcações brasileiras fora das águas nacionais?",
+"verso": "Sim. As embarcações brasileiras (exceto as de guerra), seus tripulantes, profissionais não tripulantes e passageiros continuam sujeitos a ela, respeitada, em águas estrangeiras, a soberania do Estado costeiro.",
+"fonte": "LESTA (Lei 9.537/1997), art. 1º, § 1º"
+},
+{
+"id": "v5.LEG-02.1-02",
+"disc": "LEG",
+"unidade": "LEG-02",
+"s": "LEG-02.1",
+"p": "a",
+"frente": "Amador e aquaviário: qual a diferença?",
+"verso": "Os dois têm habilitação certificada pela autoridade marítima. O amador opera embarcações de esporte e recreio, em caráter não profissional. O aquaviário opera embarcações em caráter profissional.",
+"fonte": "LESTA (Lei 9.537/1997), art. 2º, I e II"
+},
+{
+"id": "v5.LEG-02.1-03",
+"disc": "LEG",
+"unidade": "LEG-02",
+"s": "LEG-02.1",
+"p": "a",
+"frente": "Armador e proprietário: qual a diferença?",
+"verso": "Armador: quem, em seu nome e sob sua responsabilidade, apresta a embarcação com fins comerciais. Proprietário: aquele em cujo nome a propriedade está inscrita na autoridade marítima e, quando exigido, no Tribunal Marítimo.",
+"fonte": "LESTA (Lei 9.537/1997), art. 2º, III e XVII"
+},
+{
+"id": "v5.LEG-02.1-04",
+"disc": "LEG",
+"unidade": "LEG-02",
+"s": "LEG-02.1",
+"p": "a",
+"frente": "O que a LESTA considera embarcação?",
+"verso": "Qualquer construção sujeita a inscrição na autoridade marítima e capaz de se locomover na água, por meios próprios ou não, transportando pessoas ou cargas. Inclui as plataformas flutuantes e, quando rebocadas, as fixas.",
+"fonte": "LESTA (Lei 9.537/1997), art. 2º, V"
+},
+{
+"id": "v5.LEG-02.1-05",
+"disc": "LEG",
+"unidade": "LEG-02",
+"s": "LEG-02.1",
+"p": "a",
+"frente": "Inspeção Naval e vistoria: qual a diferença?",
+"verso": "Inspeção Naval: atividade administrativa de fiscalizar o cumprimento da lei e das normas, quanto à salvaguarda da vida, segurança da navegação e prevenção da poluição. Vistoria: ação técnico-administrativa, eventual ou periódica, que verifica requisitos de segurança, habitabilidade e prevenção da poluição.",
+"fonte": "LESTA (Lei 9.537/1997), art. 2º, VII e XXI"
+},
+{
+"id": "v5.LEG-02.1-06",
+"disc": "LEG",
+"unidade": "LEG-02",
+"s": "LEG-02.1",
+"p": "a",
+"frente": "Lotação e tripulação de segurança: qual é máximo e qual é mínimo?",
+"verso": "Lotação: quantidade máxima de pessoas autorizadas a embarcar. Tripulação de segurança: quantidade mínima de tripulantes necessária para operar a embarcação com segurança.",
+"fonte": "LESTA (Lei 9.537/1997), art. 2º, IX e XIX"
+},
+{
+"id": "v5.LEG-02.1-07",
+"disc": "LEG",
+"unidade": "LEG-02",
+"s": "LEG-02.1",
+"p": "a",
+"frente": "Prático, tripulante, profissional não tripulante e passageiro: como a LESTA define cada um?",
+"verso": "Prático: aquaviário não tripulante que presta serviços de praticagem embarcado. Tripulante: aquaviário ou amador que exerce funções na operação da embarcação. Profissional não tripulante: presta serviços eventuais a bordo, sem ligação com a operação. Passageiro: é transportado, sem ser nenhum dos outros.",
+"fonte": "LESTA (Lei 9.537/1997), art. 2º, XIII, XV, XVI e XX"
+},
+{
+"id": "v5.LEG-02.1-08",
+"disc": "LEG",
+"unidade": "LEG-02",
+"s": "LEG-02.1",
+"p": "a",
+"frente": "O que é Zona de Praticagem?",
+"verso": "A área geográfica delimitada por peculiaridades locais que dificultam a livre e segura movimentação das embarcações, e que por isso exige serviço de praticagem constituído e permanentemente disponível.",
+"fonte": "LESTA (Lei 9.537/1997), art. 2º, XXII"
+},
+{
+"id": "v5.LEG-02.1-09",
+"disc": "LEG",
+"unidade": "LEG-02",
+"s": "LEG-02.1",
+"p": "a",
+"frente": "Embarcação estrangeira com documentação irregular ou em condições precárias: o que pode ser ordenado a ela?",
+"verso": "Não entrar no porto; não sair do porto; sair das águas jurisdicionais; ou arribar em porto nacional.",
+"fonte": "LESTA (Lei 9.537/1997), art. 5º"
+},
+{
+"id": "v5.LEG-02.1-10",
+"disc": "LEG",
+"unidade": "LEG-02",
+"s": "LEG-02.1",
+"p": "a",
+"frente": "Inscrição da embarcação e Registro de Propriedade: onde se faz cada um?",
+"verso": "Inscrição: cadastro na autoridade marítima, com nome e número de inscrição. Registro de Propriedade: no Tribunal Marítimo, que expede a Provisão de Registro da Propriedade Marítima.",
+"fonte": "LESTA (Lei 9.537/1997), art. 2º, VI e XVIII"
+},
+{
+"id": "v5.LEG-02.1-11",
+"disc": "LEG",
+"unidade": "LEG-02",
+"s": "LEG-02.1",
+"p": "b",
+"frente": "O que o Comandante deve comunicar à autoridade marítima?",
+"verso": "Qualquer alteração nos sinais náuticos e qualquer obstáculo à navegação que encontrar; os acidentes e fatos da navegação ocorridos com a sua embarcação; e as infrações à lei cometidas por outra embarcação.",
+"fonte": "LESTA (Lei 9.537/1997), art. 8º, V"
+},
+{
+"id": "v5.LEG-02.1-12",
+"disc": "LEG",
+"unidade": "LEG-02",
+"s": "LEG-02.1",
+"p": "b",
+"frente": "Para garantir a segurança, o que o Comandante pode fazer?",
+"verso": "Impor sanções disciplinares; ordenar o desembarque de qualquer pessoa; ordenar a detenção de pessoa em camarote ou alojamento, com algemas se necessário; e determinar o alijamento de carga.",
+"fonte": "LESTA (Lei 9.537/1997), art. 10"
+},
+{
+"id": "v5.LEG-02.1-13",
+"disc": "LEG",
+"unidade": "LEG-02",
+"s": "LEG-02.1",
+"p": "b",
+"frente": "Como a LESTA define o serviço de praticagem, e qual a sua natureza?",
+"verso": "É o conjunto de atividades profissionais de assessoria ao Comandante, exigidas por peculiaridades locais que dificultam a movimentação segura da embarcação. É atividade essencial, de natureza privada, e deve estar permanentemente disponível.",
+"fonte": "LESTA (Lei 9.537/1997), art. 12"
+},
+{
+"id": "v5.LEG-02.1-14",
+"disc": "LEG",
+"unidade": "LEG-02",
+"s": "LEG-02.1",
+"p": "b",
+"frente": "O que o serviço de praticagem compreende, e quem responde pela infraestrutura?",
+"verso": "O prático, a lancha de prático e a atalaia. Os práticos respondem pela implantação e manutenção da infraestrutura e dos equipamentos, pelo treinamento dos colaboradores e pela disponibilidade permanente da estrutura.",
+"fonte": "LESTA (Lei 9.537/1997), art. 12-A"
+},
+{
+"id": "v5.LEG-02.1-15",
+"disc": "LEG",
+"unidade": "LEG-02",
+"s": "LEG-02.1",
+"p": "b",
+"frente": "Quem pode executar o serviço de praticagem, e como se obtém a habilitação?",
+"verso": "Exclusivamente práticos habilitados pela autoridade marítima. A habilitação é dada para cada zona de praticagem, depois de aprovação em exame e estágio de qualificação.",
+"fonte": "LESTA (Lei 9.537/1997), art. 13, caput e § 1º"
+},
+{
+"id": "v5.LEG-02.1-16",
+"disc": "LEG",
+"unidade": "LEG-02",
+"s": "LEG-02.1",
+"p": "b",
+"frente": "Do que depende a manutenção da habilitação do prático?",
+"verso": "Da frequência mínima de manobras; dos cursos de aperfeiçoamento determinados pela autoridade marítima; e do cumprimento das recomendações de organismos internacionais reconhecidas por ela.",
+"fonte": "LESTA (Lei 9.537/1997), art. 13, § 2º"
+},
+{
+"id": "v5.LEG-02.1-17",
+"disc": "LEG",
+"unidade": "LEG-02",
+"s": "LEG-02.1",
+"p": "b",
+"frente": "Certificado de Isenção de Praticagem: a quem pode ser concedido?",
+"verso": "Só a Comandantes brasileiros de navios de bandeira brasileira com até 100 m de comprimento e tripulação de pelo menos 2/3 de brasileiros.",
+"fonte": "LESTA (Lei 9.537/1997), art. 13, § 4º"
+},
+{
+"id": "v5.LEG-02.1-18",
+"disc": "LEG",
+"unidade": "LEG-02",
+"s": "LEG-02.1",
+"p": "b",
+"frente": "Que experiência o Comandante precisa cumprir para ter a isenção de praticagem?",
+"verso": "Seis meses de atuação como Comandante do navio na zona de praticagem; depois, seis meses de fainas de praticagem assistido por prático da zona, com no mínimo 12 fainas. A concessão é precedida de análise de risco.",
+"fonte": "LESTA (Lei 9.537/1997), art. 13, § 4º, II e IV"
+},
+{
+"id": "v5.LEG-02.1-19",
+"disc": "LEG",
+"unidade": "LEG-02",
+"s": "LEG-02.1",
+"p": "b",
+"frente": "Para que embarcações a praticagem é obrigatória, e quais as exceções?",
+"verso": "Para embarcações com arqueação bruta superior a 500, em todas as zonas de praticagem. Exceções: as hipóteses do regulamento da autoridade marítima; e embarcações regionais, empurradores, balsas e comboios de bandeira brasileira que operam só na navegação interior.",
+"fonte": "LESTA (Lei 9.537/1997), art. 13, § 6º"
+},
+{
+"id": "v5.LEG-02.1-20",
+"disc": "LEG",
+"unidade": "LEG-02",
+"s": "LEG-02.1",
+"p": "b",
+"frente": "Para garantir que a praticagem não seja interrompida, o que a autoridade marítima pode fazer?",
+"verso": "Estabelecer o número de práticos de cada zona; fixar, em caráter excepcional e temporário, o valor dos serviços; e requisitar o serviço de práticos.",
+"fonte": "LESTA (Lei 9.537/1997), art. 14, parágrafo único"
+},
+{
+"id": "v5.LEG-02.1-21",
+"disc": "LEG",
+"unidade": "LEG-02",
+"s": "LEG-02.1",
+"p": "b",
+"frente": "Como os práticos de uma zona dividem o serviço?",
+"verso": "Por escala de rodízio única, homologada pela autoridade marítima, que garante frequência de manobras suficiente para a proficiência, distribuição equânime e disponibilidade permanente.",
+"fonte": "LESTA (Lei 9.537/1997), art. 13, § 5º"
+},
+{
+"id": "v5.LEG-02.2-01",
+"disc": "LEG",
+"unidade": "LEG-02",
+"s": "LEG-02.2",
+"p": "a",
+"frente": "O prático pode recusar o serviço? Qual a consequência?",
+"verso": "Não. A recusa leva à suspensão do certificado de habilitação e, na reincidência, ao cancelamento.",
+"fonte": "LESTA (Lei 9.537/1997), art. 15"
+},
+{
+"id": "v5.LEG-02.2-02",
+"disc": "LEG",
+"unidade": "LEG-02",
+"s": "LEG-02.2",
+"p": "a",
+"frente": "O que a remuneração da praticagem cobre, e como o preço é definido em situação normal?",
+"verso": "Cobre a operação do prático, a lancha de prático e a atalaia. O preço é livremente negociado entre tomadores e prestadores, reprimido o abuso do poder econômico.",
+"fonte": "LESTA (Lei 9.537/1997), art. 15-A, caput e § 2º"
+},
+{
+"id": "v5.LEG-02.2-03",
+"disc": "LEG",
+"unidade": "LEG-02",
+"s": "LEG-02.2",
+"p": "a",
+"frente": "Quando a autoridade marítima pode fixar o preço da praticagem, e por quanto tempo?",
+"verso": "Em caráter extraordinário, excepcional e temporário, a pedido fundamentado de uma das partes: para garantir a continuidade do serviço, ou quando comprovado abuso de poder econômico ou defasagem dos valores. Por até 12 meses, prorrogáveis por igual período.",
+"fonte": "LESTA (Lei 9.537/1997), art. 15-A, § 3º"
+},
+{
+"id": "v5.LEG-02.2-04",
+"disc": "LEG",
+"unidade": "LEG-02",
+"s": "LEG-02.2",
+"p": "a",
+"frente": "Que comissão opina sobre o preço da praticagem, e em que prazo?",
+"verso": "Comissão temporária, paritária e consultiva, presidida pela autoridade marítima, com representantes da entidade de praticagem, do armador tomador do serviço e da Antaq. Tem até 45 dias para emitir parecer.",
+"fonte": "LESTA (Lei 9.537/1997), art. 15-A, § 5º"
+},
+{
+"id": "v5.LEG-02.2-05",
+"disc": "LEG",
+"unidade": "LEG-02",
+"s": "LEG-02.2",
+"p": "a",
+"frente": "Dentro da zona de praticagem, quem pode orientar o Comandante sobre rumos e velocidades?",
+"verso": "Exclusivamente os práticos.",
+"fonte": "LESTA (Lei 9.537/1997), art. 15-B"
+},
+{
+"id": "v5.LEG-02.2-06",
+"disc": "LEG",
+"unidade": "LEG-02",
+"s": "LEG-02.2",
+"p": "a",
+"frente": "Que parâmetros a autoridade marítima usa para fixar a lotação de práticos de uma zona?",
+"verso": "O número e a duração média das manobras nos 24 meses anteriores; as mudanças no movimento de embarcações; a execução das manobras sem sobrecarga permanente de trabalho; e uma frequência de manobras que mantenha a proficiência de todos.",
+"fonte": "LESTA (Lei 9.537/1997), art. 15-C"
+},
+{
+"id": "v5.LEG-02.2-07",
+"disc": "LEG",
+"unidade": "LEG-02",
+"s": "LEG-02.2",
+"p": "a",
+"frente": "Quais são as medidas administrativas da LESTA?",
+"verso": "Apreensão do certificado de habilitação; apreensão, retirada do tráfego ou impedimento de saída da embarcação; embargo de construção, reparo ou alteração da embarcação; embargo de obra; e embargo de atividade de mineração e de benfeitorias.",
+"fonte": "LESTA (Lei 9.537/1997), art. 16"
+},
+{
+"id": "v5.LEG-02.2-08",
+"disc": "LEG",
+"unidade": "LEG-02",
+"s": "LEG-02.2",
+"p": "a",
+"frente": "Medida administrativa substitui a penalidade? Quando ela termina?",
+"verso": "Não substitui: é complementar à penalidade. É suspensa assim que o motivo for sanado. Para salvaguardar a vida e a segurança da navegação, pode ser aplicada liminarmente.",
+"fonte": "LESTA (Lei 9.537/1997), arts. 16, §§ 1º e 2º, e 21"
+},
+{
+"id": "v5.LEG-02.2-09",
+"disc": "LEG",
+"unidade": "LEG-02",
+"s": "LEG-02.2",
+"p": "a",
+"frente": "Embarcação apreendida: qual o prazo para sanar a irregularidade, e o que acontece depois?",
+"verso": "Noventa dias. Vencido o prazo, a embarcação pode ser leiloada ou incorporada aos bens da União.",
+"fonte": "LESTA (Lei 9.537/1997), art. 17, § 2º"
+},
+{
+"id": "v5.LEG-02.2-10",
+"disc": "LEG",
+"unidade": "LEG-02",
+"s": "LEG-02.2",
+"p": "a",
+"frente": "Processo de infração: prazos para a defesa, a decisão e o recurso.",
+"verso": "Defesa: 15 dias úteis, contados do recebimento do auto. Decisão: 30 dias. Recurso: 5 dias úteis, sem efeito suspensivo.",
+"fonte": "LESTA (Lei 9.537/1997), arts. 23 e 24"
+},
+{
+"id": "v5.LEG-02.2-11",
+"disc": "LEG",
+"unidade": "LEG-02",
+"s": "LEG-02.2",
+"p": "a",
+"frente": "Quais são as penalidades da LESTA, e quais podem ser acumuladas?",
+"verso": "Multa; suspensão do certificado de habilitação; cancelamento do certificado; e demolição de obras e benfeitorias. A multa e a demolição podem ser cumuladas com qualquer das outras.",
+"fonte": "LESTA (Lei 9.537/1997), art. 25"
+},
+{
+"id": "v5.LEG-02.2-12",
+"disc": "LEG",
+"unidade": "LEG-02",
+"s": "LEG-02.2",
+"p": "a",
+"frente": "Qual a duração máxima da suspensão, e quando o infrator com certificado cancelado pode pedir reabilitação?",
+"verso": "A suspensão não passa de 12 meses. A reabilitação pode ser pedida dois anos depois do cancelamento, cumprindo todos os requisitos da habilitação.",
+"fonte": "LESTA (Lei 9.537/1997), arts. 27 e 28"
+},
+{
+"id": "v5.LEG-02.2-13",
+"disc": "LEG",
+"unidade": "LEG-02",
+"s": "LEG-02.2",
+"p": "b",
+"frente": "Quais são as circunstâncias agravantes?",
+"verso": "Reincidência; uso da embarcação na prática de ato ilícito; embriaguez ou uso de substância entorpecente ou tóxica; e grave ameaça à integridade física de pessoas.",
+"fonte": "LESTA (Lei 9.537/1997), art. 30"
+},
+{
+"id": "v5.LEG-02.2-14",
+"disc": "LEG",
+"unidade": "LEG-02",
+"s": "LEG-02.2",
+"p": "b",
+"frente": "Qual o prazo para pagar a multa?",
+"verso": "Quinze dias corridos, contados da intimação.",
+"fonte": "LESTA (Lei 9.537/1997), art. 32"
+},
+{
+"id": "v5.LEG-02.2-15",
+"disc": "LEG",
+"unidade": "LEG-02",
+"s": "LEG-02.2",
+"p": "b",
+"frente": "Como são apurados e julgados os acidentes e fatos da navegação? Pode haver sanção antes do julgamento?",
+"verso": "Por inquérito administrativo instaurado pela autoridade marítima, julgado depois pelo Tribunal Marítimo. É vedado aplicar sanção antes da decisão final do Tribunal, exceto em caso de poluição das águas.",
+"fonte": "LESTA (Lei 9.537/1997), art. 33"
+},
+{
+"id": "v5.LEG-02.2-16",
+"disc": "LEG",
+"unidade": "LEG-02",
+"s": "LEG-02.2",
+"p": "b",
+"frente": "Quem responde, solidária e isoladamente, pelas infrações?",
+"verso": "No caso de embarcação: o proprietário, o armador ou o preposto. O proprietário ou construtor da obra. O dono da jazida ou quem faz pesquisa ou lavra de minerais. E o autor material.",
+"fonte": "LESTA (Lei 9.537/1997), art. 34"
+},
+{
+"id": "v5.LEG-02.2-17",
+"disc": "LEG",
+"unidade": "LEG-02",
+"s": "LEG-02.2",
+"p": "b",
+"frente": "Quem faz a demolição de uma obra irregular, e quem paga?",
+"verso": "O infrator, que também paga a recomposição do local. A autoridade marítima pode fazer a demolição diretamente, por conta do infrator.",
+"fonte": "LESTA (Lei 9.537/1997), art. 29"
+},
+{
+"id": "v5.LEG-02.2-18",
+"disc": "LEG",
+"unidade": "LEG-02",
+"s": "LEG-02.2",
+"p": "b",
+"frente": "Lei 14.813/2024: o que mudou na regra sobre quem executa a praticagem?",
+"verso": "Antes: práticos habilitados, individualmente, em associações ou contratados por empresas. Agora: exclusivamente práticos habilitados pela autoridade marítima.",
+"fonte": "Lei 14.813/2024; LESTA, art. 13"
+},
+{
+"id": "v5.LEG-02.2-19",
+"disc": "LEG",
+"unidade": "LEG-02",
+"s": "LEG-02.2",
+"p": "b",
+"frente": "Lei 14.813/2024: o que mudou no poder de fixar o preço do serviço?",
+"verso": "Antes, a autoridade marítima podia fixar o preço em cada zona. Agora só fixa o valor em caráter excepcional e temporário.",
+"fonte": "Lei 14.813/2024; LESTA, art. 14, II"
+},
+{
+"id": "v5.LEG-02.2-20",
+"disc": "LEG",
+"unidade": "LEG-02",
+"s": "LEG-02.2",
+"p": "b",
+"frente": "Lei 14.813/2024: que exigência para recorrer de multa foi revogada?",
+"verso": "O depósito prévio do valor da multa, que era exigido pelo § 2º do art. 24 da LESTA.",
+"fonte": "Lei 14.813/2024, art. 4º"
+},
+{
+"id": "v5.LEG-02.2-21",
+"disc": "LEG",
+"unidade": "LEG-02",
+"s": "LEG-02.2",
+"p": "b",
+"frente": "Lei 14.813/2024: que nova atribuição a Antaq recebeu?",
+"verso": "Participar da comissão consultiva sobre o preço da praticagem.",
+"fonte": "Lei 14.813/2024, art. 3º"
+}
+]
+}
