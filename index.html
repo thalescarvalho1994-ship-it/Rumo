@@ -413,7 +413,7 @@ function statusOf(s){
 }
 const done=s=>statusOf(s)==='concluido';
 function diaDaTarefa(s){ const r=stRec(s); if(r?.s==='concluido') return r.dia||r.em.slice(0,10);
-  const pf=Object.values(partesFeitas(s)).map(x=>x.dia).filter(Boolean).sort(); if(pf.length){const u=pf[pf.length-1];return u<todayISO()?todayISO():u;}
+  const pf=Object.values(partesFeitas(s)).map(x=>x.dia).filter(Boolean).sort(); if(pf.length){const u=pf[pf.length-1],dp=s.puxada||s.data; if(dp>todayISO()&&u<todayISO()) return dp; return u<todayISO()?todayISO():u;}
   const d0=s.puxada||s.data; return d0<todayISO()?todayISO():d0; }
 function tarefasDoDia(dia,all){ const l=all.filter(s=>diaDaTarefa(s)===dia&&statusOf(s)!=='atrasado'); const out=[];
   const anexo=x=>x.tipo==='ingles'||x.tipo==='rev30';
