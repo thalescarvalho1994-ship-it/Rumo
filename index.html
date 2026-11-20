@@ -392,9 +392,10 @@ const semanaHoje=()=>semanaDe(todayISO());
 function sessoes(){
   if(!C.plano) return [];
   const off=offset(), ag=uget('agenda',{}), rem=ag.remarcacoes||{};
-  return C.plano.cronograma.map((s,i)=>{const h=rem[s.id];const hist=h?Object.values(h).sort((a,b)=>a.em<b.em?-1:1):[];
+  const rj=C.plano.meta?.reajusteEm||'';
+  return C.plano.cronograma.map((s,i)=>({s,i})).filter(({s})=>!s.dispensa||stRec(s)?.s==='concluido').map(({s,i})=>{const h=rem[s.id];const hist=h?Object.values(h).filter(x=>!rj||(x.em||'')>=rj).sort((a,b)=>a.em<b.em?-1:1):[];
     const data=hist.length?hist[hist.length-1].para:addDays(s.data,off);
-    return {...s,ordem:i,dataOrig:addDays(s.data,off),data,semana:semanaDe(addDays(s.data,off)),puxada:ag.puxadas?.[s.id]||null};});
+    return {...s,ordem:i,dataOrig:addDays(s.data,off),data,semana:semanaDe(addDays(s.data,off)),puxada:(p=>p&&(!rj||p>=rj.slice(0,10))?p:null)(ag.puxadas?.[s.id])};});
 }
 const titulo=s=>s.tipo==='ingles'?(s.aula?(s.aula.cod.startsWith('G1 ◆')?'Inglês · '+s.aula.tema:`Inglês · ${s.aula.cod} ${s.aula.tema}`):'Inglês · '+(s.termo||'E1')):s.tipo==='bloco'?(unidade(s.unidade)?.titulo||s.unidade)+(s.meia?' ('+s.meia+')':''):s.titulo;
 const codigoSess=s=>s.tipo==='bloco'?`${s.unidade} · ${s.n}/${s.de}`:s.tipo==='ingles'?`Inglês 30' · ${s.e1&&s.e1.en?s.e1.en+' · ':''}${s.ligaUnidade||''}`:s.tipo==='rev30'?(s.rotulo||`Revisão 30'`):s.id;
