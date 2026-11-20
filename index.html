@@ -315,6 +315,10 @@ label.f{min-width:0;display:flex;flex-direction:column;gap:6px;font-size:13px;fo
 .toast.on{opacity:1}
 .loading{padding:80px 16px;text-align:center;color:var(--muted)}
 .loading img{width:96px;height:96px;border-radius:22px;box-shadow:0 0 30px rgba(0,194,255,.35);margin-bottom:12px}
+.falta{padding:7px 0;border-top:1px solid var(--line2)}.falta:first-of-type{border-top:0}
+.falta .fh{display:flex;align-items:baseline;gap:8px;font-size:13.5px;font-weight:600;margin-bottom:5px}.falta .fhh{margin-left:auto;color:var(--muted);font-weight:500;font-size:12.5px}
+.fchips{display:flex;flex-wrap:wrap;gap:5px}.fchip{font:inherit;font-size:12px;font-family:'JetBrains Mono',ui-monospace,monospace;padding:4px 8px;border-radius:8px;border:1px solid var(--line);background:var(--card2);color:var(--ink)}
+.fchip.late{border-color:var(--late);color:var(--late)}.fchip.rec{border-color:var(--warn);color:var(--warn)}
 </style>
 </head>
 <body>
@@ -790,6 +794,33 @@ function viewFlash(){
 }
 
 /* ---------- PROGRESSO ---------- */
+/* o que falta no mês: tudo numa tela só (para um print ou para copiar como texto) */
+function faltaDados(all){
+  const pend=all.filter(s=>!done(s)), rec=all.filter(aRecuperar);
+  const rest=s=>s.horas-feitoH(s);
+  const rot=s=>{const pf=s.partes?s.partes.filter(p=>partesFeitas(s)[p.k]).length:0;
+    const base=s.tipo==='bloco'?`${s.unidade} ${s.n}/${s.de}${s.meia?' ('+s.meia+')':''}`:s.tipo==='ingles'?(s.aula?.cod||'Inglês')+(String(s.aula?.cod||'').includes('◆')?' '+ddmm(s.data):''):s.tipo==='rev30'?`${(s.rotulo||'Revisão 30\'').replace(/ ·.*$/,'')} ${ddmm(s.data)}`:s.tipo==='revisao'?(s.titulo||s.id).replace(/ —.*$/,''):(s.rotulo||s.titulo||s.id);
+    return base+(pf&&s.partes?` [${pf}/${s.partes.length} partes]`:'');};
+  const grupos=[];
+  DISC_ORDER.filter(d=>d!=='ING').forEach(d=>{const xs=pend.filter(s=>s.tipo==='bloco'&&s.disc===d);if(xs.length)grupos.push({k:d,nome:discNome(d),xs});});
+  const ing=pend.filter(s=>s.tipo==='ingles'); if(ing.length) grupos.push({k:'ING',nome:'Inglês',xs:ing});
+  const rv=pend.filter(s=>s.tipo!=='bloco'&&s.tipo!=='ingles'); if(rv.length) grupos.push({k:'REV',nome:'Revisões e simulado',xs:rv});
+  grupos.forEach(g=>{g.h=g.xs.reduce((a,s)=>a+rest(s),0);g.late=g.xs.filter(s=>['atrasado','vencida'].includes(statusOf(s))).length;});
+  return {grupos,rec,rot,total:grupos.reduce((a,g)=>a+g.h,0),late:pend.filter(s=>['atrasado','vencida'].includes(statusOf(s)))};
+}
+function faltaTexto(){const all=sessoes(),f=faltaDados(all);
+  return `RUMO — o que falta no mês (${ddmm(todayISO())})\nTotal: ${hfmt(f.total)} · atrasadas: ${f.late.length}\n`+
+   f.grupos.map(g=>`${g.nome} (${hfmt(g.h)}): `+g.xs.map(s=>f.rot(s)+(['atrasado','vencida'].includes(statusOf(s))?' (atrasada)':'')).join(', ')).join('\n')+
+   (f.rec.length?`\nPara recuperar: `+f.rec.map(f.rot).join(', '):'');}
+function faltaHTML(all){const f=faltaDados(all);
+  if(!f.grupos.length&&!f.rec.length) return `<div class="sec"><h2>O que falta no mês</h2></div><div class="card empty-state">${ic('circle-check')}<br>Nada pendente no mês. Parabéns!</div>`;
+  return `<div class="sec"><h2>O que falta no mês</h2><button class="act" data-act="copiarFalta">${ic('copy')} Copiar lista</button></div>
+  <div class="card" style="padding:12px 14px">
+   <div style="font-size:14px;margin-bottom:8px">Faltam <b>${hfmt(f.total)}</b>${f.late.length?` · <span style="color:var(--late)">${f.late.length} atrasada${f.late.length>1?'s':''}</span>`:''}${f.rec.length?` · <span style="color:var(--warn)">${f.rec.length} para recuperar</span>`:''}</div>
+   ${f.grupos.map(g=>`<div class="falta"><div class="fh"><span class="mono" style="color:var(--${g.k}-t);font-weight:700">${g.k}</span> <span>${esc(g.nome)}</span><span class="fhh">${hfmt(g.h)}</span></div>
+     <div class="fchips">${g.xs.map(s=>{const lt=['atrasado','vencida'].includes(statusOf(s));return `<button class="fchip ${lt?'late':''}" data-act="open" data-id="${esc(s.id)}">${esc(f.rot(s))}</button>`;}).join('')}</div></div>`).join('')}
+   ${f.rec.length?`<div class="falta"><div class="fh"><span style="color:var(--warn);display:inline-flex">${WARN(15)}</span> <span>Para recuperar</span></div><div class="fchips">${f.rec.map(s=>`<button class="fchip rec" data-act="open" data-id="${esc(s.id)}">${esc(f.rot(s))}</button>`).join('')}</div></div>`:''}
+   <div style="font-size:11.5px;color:var(--muted);margin-top:6px">Vermelho = atrasada · amarelo = para recuperar. Toque num item para abrir.</div></div>`;}
 function viewProgresso(){
   const all=sessoes(),bl=all.filter(s=>s.tipo==='bloco'),hb=horas(bl);
   const rs=respostas().filter(r=>!r.simulado),acc=rs.length?Math.round(100*rs.filter(r=>r.certa).length/rs.length)+'%':'—',ret=retencao();
@@ -808,6 +839,7 @@ function viewProgresso(){
    <div class="card kpi hero"><b>${acc}</b><span>Acerto em questões</span><small>${rs.length} respostas</small></div>
    <div class="card kpi hero"><b>${ret==null?'—':ret+'%'}</b><span>Retenção flashcards</span><small>30 dias</small></div></div>
   <p style="font-size:12px;color:var(--muted);margin:8px 2px 0">Três medidas separadas: concluir uma sessão não é o mesmo que dominar o conteúdo.</p>
+  ${faltaHTML(all)}
   <div class="sec"><h2>Semana ${sem}</h2></div>
   <div class="card" style="padding:14px;font-size:14px;line-height:1.6">Meta da semana: <b>${hfmt(hw.feito)}</b> de ${hfmt(hw.total)} · tempo líquido no cronômetro: <b>${fmtHM(liquidoSemana(todayISO()))}</b> (meta ${settings().horasSemana} h)
    <div class="prog" style="height:8px"><i style="width:${hw.total?Math.min(100,100*hw.feito/hw.total):0}%;background:var(--neonG);box-shadow:var(--glowG)"></i></div></div>
@@ -995,6 +1027,7 @@ document.addEventListener('click',async e=>{
      const patchP={};s.partes.forEach(p=>{patchP[p.k]=pf[p.k]?pf[p.k]:{__delete__:true};});
      await usave('blocos',{partes:{[id]:patchP},recuperar:todas?{}:{[id]:{__delete__:true}},status:{[id]:todas?{s:'concluido',em,dia:todayISO()}:(Object.keys(pf).length?{s:'andamento',em}:{__delete__:true})}});
      render(true); reopenIfSess(id); toast(todas?'Sessão concluída':agora?'Parte concluída':'Parte reaberta'); break;}
+   case 'copiarFalta': {const p=faltaTexto();try{await navigator.clipboard.writeText(p);toast('Lista copiada — cole no Claude');}catch(err){const ta=document.createElement('textarea');ta.value=p;document.body.appendChild(ta);ta.select();try{document.execCommand('copy');toast('Lista copiada — cole no Claude');}catch(e2){toast('Não consegui copiar');}ta.remove();}break;}
    case 'recup': {const s=sessoes().find(x=>x.id===id);if(!s)break;const em=new Date().toISOString();
      if(aRecuperar(s)){await usave('blocos',{recuperar:{[id]:{__delete__:true}}});render(true);reopenIfSess(id);toast('Tirada da recuperação');break;}
      const patch={recuperar:{[id]:{em,dia:todayISO()}},status:{[id]:{s:'concluido',em,dia:todayISO()}}};
